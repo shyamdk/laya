@@ -1,0 +1,4149 @@
+{
+ "chapters": [
+  {
+   "code": "ch1",
+   "number": 1,
+   "title": "A Square and A Cube",
+   "book": "NCERT Ganita Prakash, Grade 8"
+  },
+  {
+   "code": "ch2",
+   "number": 2,
+   "title": "Power Play",
+   "book": "NCERT Ganita Prakash, Grade 8"
+  }
+ ],
+ "skills": [
+  {
+   "id": 1,
+   "name": "Identify a perfect square",
+   "chapter": "ch1",
+   "exams_seen_in": 3,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 2,
+   "name": "Cube roots of decimals",
+   "chapter": "ch1",
+   "exams_seen_in": 2,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 3,
+   "name": "Cube root basics",
+   "chapter": "ch1",
+   "exams_seen_in": 3,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 4,
+   "name": "Make a perfect square (multiply/divide)",
+   "chapter": "ch1",
+   "exams_seen_in": 4,
+   "total_exams": 11,
+   "tier": "**"
+  },
+  {
+   "id": 5,
+   "name": "Properties of cubes",
+   "chapter": "ch1",
+   "exams_seen_in": 1,
+   "total_exams": 11,
+   "tier": "-"
+  },
+  {
+   "id": 6,
+   "name": "Square roots of decimals",
+   "chapter": "ch1",
+   "exams_seen_in": 7,
+   "total_exams": 11,
+   "tier": "***"
+  },
+  {
+   "id": 7,
+   "name": "Properties of squares",
+   "chapter": "ch1",
+   "exams_seen_in": 2,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 8,
+   "name": "Cubes of decimals",
+   "chapter": "ch1",
+   "exams_seen_in": 1,
+   "total_exams": 11,
+   "tier": "-"
+  },
+  {
+   "id": 9,
+   "name": "Pythagorean triplets",
+   "chapter": "ch1",
+   "exams_seen_in": 4,
+   "total_exams": 11,
+   "tier": "**"
+  },
+  {
+   "id": 10,
+   "name": "Square root basics",
+   "chapter": "ch1",
+   "exams_seen_in": 1,
+   "total_exams": 11,
+   "tier": "-"
+  },
+  {
+   "id": 11,
+   "name": "Cube root by estimation",
+   "chapter": "ch1",
+   "exams_seen_in": 7,
+   "total_exams": 11,
+   "tier": "***"
+  },
+  {
+   "id": 12,
+   "name": "Square patterns (odd nos, gaps, digits)",
+   "chapter": "ch1",
+   "exams_seen_in": 4,
+   "total_exams": 11,
+   "tier": "**"
+  },
+  {
+   "id": 13,
+   "name": "Cube = sum of odd numbers",
+   "chapter": "ch1",
+   "exams_seen_in": 1,
+   "total_exams": 11,
+   "tier": "-"
+  },
+  {
+   "id": 14,
+   "name": "Cube root by prime factorisation",
+   "chapter": "ch1",
+   "exams_seen_in": 2,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 15,
+   "name": "Make a perfect cube (multiply/divide)",
+   "chapter": "ch1",
+   "exams_seen_in": 3,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 16,
+   "name": "Nearest perfect square (add/subtract)",
+   "chapter": "ch1",
+   "exams_seen_in": 2,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 17,
+   "name": "Square root by estimation",
+   "chapter": "ch1",
+   "exams_seen_in": 1,
+   "total_exams": 11,
+   "tier": "-"
+  },
+  {
+   "id": 18,
+   "name": "Smallest square/cube divisible by … (LCM)",
+   "chapter": "ch1",
+   "exams_seen_in": 3,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 19,
+   "name": "Ratio + sum of cubes",
+   "chapter": "ch1",
+   "exams_seen_in": 2,
+   "total_exams": 11,
+   "tier": "*"
+  },
+  {
+   "id": 20,
+   "name": "Square arrangement (rows = columns)",
+   "chapter": "ch1",
+   "exams_seen_in": 4,
+   "total_exams": 11,
+   "tier": "**"
+  },
+  {
+   "id": 21,
+   "name": "Square root by prime factorisation",
+   "chapter": "ch1",
+   "exams_seen_in": 1,
+   "total_exams": 11,
+   "tier": "-"
+  },
+  {
+   "id": 22,
+   "name": "Laws of exponents (simplify)",
+   "chapter": "ch2",
+   "exams_seen_in": 8,
+   "total_exams": 9,
+   "tier": "***"
+  },
+  {
+   "id": 23,
+   "name": "Negative exponents",
+   "chapter": "ch2",
+   "exams_seen_in": 5,
+   "total_exams": 9,
+   "tier": "**"
+  },
+  {
+   "id": 24,
+   "name": "Reciprocal / multiplicative inverse",
+   "chapter": "ch2",
+   "exams_seen_in": 2,
+   "total_exams": 9,
+   "tier": "*"
+  },
+  {
+   "id": 25,
+   "name": "Zero exponent",
+   "chapter": "ch2",
+   "exams_seen_in": 2,
+   "total_exams": 9,
+   "tier": "*"
+  },
+  {
+   "id": 26,
+   "name": "Evaluating powers (signs)",
+   "chapter": "ch2",
+   "exams_seen_in": 2,
+   "total_exams": 9,
+   "tier": "*"
+  },
+  {
+   "id": 27,
+   "name": "Standard form (convert)",
+   "chapter": "ch2",
+   "exams_seen_in": 3,
+   "total_exams": 9,
+   "tier": "*"
+  },
+  {
+   "id": 28,
+   "name": "Standard form (arithmetic)",
+   "chapter": "ch2",
+   "exams_seen_in": 6,
+   "total_exams": 9,
+   "tier": "**"
+  },
+  {
+   "id": 29,
+   "name": "Solve for x (same base)",
+   "chapter": "ch2",
+   "exams_seen_in": 7,
+   "total_exams": 9,
+   "tier": "***"
+  },
+  {
+   "id": 30,
+   "name": "Fractional exponents (beyond book)",
+   "chapter": "ch2",
+   "exams_seen_in": 1,
+   "total_exams": 9,
+   "tier": "-"
+  }
+ ],
+ "questions": [
+  {
+   "code": "ch1-q001",
+   "chapter": "ch1",
+   "skill_id": 1,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "Which of the following is a perfect square?",
+   "options_latex": [
+    "6250",
+    "10404",
+    "38943",
+    "12547"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b) 10404, since 10404 = $102^{2}$. (6250, 38943 and 12547 are not perfect squares — note 38943 ends in 3, so it cannot be a square.)",
+   "solution_steps_latex": [
+    "A perfect square can only end in 0, 1, 4, 5, 6 or 9.",
+    "6250 ends in 0 but has an odd number of zeros — a square must end in an even number of zeros. 38943 ends in 3 and 12547 ends in 7, so neither can be a square.",
+    "That leaves 10404. Check: $102^{2}$ = 10404. ✔",
+    "Answer: (b) 10404"
+   ]
+  },
+  {
+   "code": "ch1-q002",
+   "chapter": "ch1",
+   "skill_id": 2,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "If $\\sqrt[3]{636056}$ = 86, then ($\\sqrt[3]{636.056}  \\times  \\sqrt[3]{636056}  \\times  \\sqrt[3]{0.000636056}$) is",
+   "options_latex": [
+    "63.6056",
+    "636.056",
+    "0.636056",
+    "6.36056"
+   ],
+   "correct_option": 0,
+   "answer_latex": "(a) 63.6056. $\\sqrt[3]{636.056}$ = 8.6, $\\sqrt[3]{636056}$ = 86, $\\sqrt[3]{0.000636056}$ = 0.086. Product = 8.6 × 86 × 0.086 = 63.6056",
+   "solution_steps_latex": [
+    "We are told $\\sqrt[3]{636056}$ = 86. The book shows how to CUBE a decimal (p.13); read that backwards — cubing shifts the decimal 3 places, so a cube root shifts it back 1 place for every 3.",
+    "$\\sqrt[3]{636.056}$ = 8.6   (decimal moved 3 places left ⇒ root moved 1 place left)",
+    "$\\sqrt[3]{636056}$ = 86",
+    "$\\sqrt[3]{0.000636056}$ = 0.086   (decimal moved 6 places left ⇒ root moved 2 places left)",
+    "Product = 8.6 × 86 × 0.086 = 63.6056",
+    "Answer: (a) 63.6056"
+   ]
+  },
+  {
+   "code": "ch1-q003",
+   "chapter": "ch1",
+   "skill_id": 3,
+   "source_exam": "2025-26 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "If the cube root of x is 8, then the cube root of 8x is",
+   "options_latex": [
+    "4",
+    "8",
+    "16",
+    "2"
+   ],
+   "correct_option": 2,
+   "answer_latex": "(c) 16. ∛x = 8 ⇒ x = 512, so 8x = 4096 and $\\sqrt[3]{4096}$ = 16.",
+   "solution_steps_latex": [
+    "∛x = 8, so x = $8^{3}$ = 512.",
+    "Then 8x = 8 × 512 = 4096.",
+    "$\\sqrt[3]{4096}$ = 16   (since $16^{3}$ = 4096)",
+    "Answer: (c) 16"
+   ]
+  },
+  {
+   "code": "ch1-q004",
+   "chapter": "ch1",
+   "skill_id": 1,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "Which of the following is a perfect square number?",
+   "options_latex": [
+    "$2^{6}  \\times  3^{3}$",
+    "$2^{5}  \\times  7^{2}$",
+    "3 × 2 × $7^{2}$",
+    "11 × $3^{3}$ × 33"
+   ],
+   "correct_option": 3,
+   "answer_latex": "(d) 11 × $3^{3}$ × 33 = 11 × $3^{3}$ × 3 × 11 = $11^{2}  \\times  3^{4} = \\left(11  \\times  3^{2}\\right)^{2} = 99^{2}$. All prime factors occur in pairs.",
+   "solution_steps_latex": [
+    "For a perfect square, every prime factor must appear an even number of times.",
+    "(a) $2^{6}  \\times  3^{3}$ — the power of 3 is odd. ✘",
+    "(b) $2^{5}  \\times  7^{2}$ — the power of 2 is odd. ✘",
+    "(c) 3 × 2 × $7^{2}$ — the powers of 3 and 2 are odd. ✘",
+    "(d) 11 × $3^{3}$ × 33. Note 33 = 3 × 11, so this is 11 × $3^{3}$ × 3 × 11 = $11^{2}  \\times  3^{4}$. Both powers are even. ✔",
+    "In fact $11^{2}  \\times  3^{4} = \\left(11  \\times  3^{2}\\right)^{2} = 99^{2}$.",
+    "Answer: (d)"
+   ]
+  },
+  {
+   "code": "ch1-q005",
+   "chapter": "ch1",
+   "skill_id": 4,
+   "source_exam": "2024-25 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "The least number by which 486 should be divided to make it a perfect square is",
+   "options_latex": [
+    "6",
+    "3",
+    "5",
+    "7"
+   ],
+   "correct_option": 0,
+   "answer_latex": "(a) 6. 486 = 2 × $3^{5}$. Dividing by 2 × 3 = 6 gives 81 = $9^{2}$.",
+   "solution_steps_latex": [
+    "Prime factorise: 486 = 2 × 243 = 2 × $3^{5}$.",
+    "For a perfect square each prime needs an even power. Here 2 has power 1 (odd) and 3 has power 5 (odd).",
+    "Divide out one 2 and one 3, i.e. divide by 2 × 3 = 6.",
+    "486 ÷ 6 = 81 = $9^{2}$. ✔",
+    "Answer: (a) 6"
+   ]
+  },
+  {
+   "code": "ch1-q006",
+   "chapter": "ch1",
+   "skill_id": 5,
+   "source_exam": "2024-25 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "Which of the following statements is true?",
+   "options_latex": [
+    "There are 5 perfect cubes between 1 and 100",
+    "If $x^{2}$ ends with 5, then $x^{3}$ also ends with 5",
+    "Cube of a one-digit number cannot be a two-digit number",
+    "Cube root of 8 is +2 and -2"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b). If $x^{2}$ ends in 5, then x ends in 5, so $x^{3}$ also ends in 5. (There are only 3 perfect cubes between 1 and 100 — 8, 27, 64; $3^{3}$ = 27 is a two-digit cube; and the cube root of 8 is 2 only.)",
+   "solution_steps_latex": [
+    "Test each statement.",
+    "(a) The perfect cubes below 100 are 1, 8, 27 and 64 — so there are not 5 of them. ✘",
+    "(b) If $x^{2}$ ends in 5, then x itself must end in 5 (only numbers ending in 5 have squares ending in 5). And any number ending in 5, when cubed, still ends in 5. ✔",
+    "(c) $3^{3}$ = 27 is a two-digit cube of a one-digit number. ✘",
+    "(d) The cube root of 8 is 2 only — a cube root has just one value, unlike a square root. ✘",
+    "Answer: (b)"
+   ]
+  },
+  {
+   "code": "ch1-q007",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2023-24 Final",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "If $\\sqrt{11025}$ = x, then $\\sqrt{1.1025}$ = ?",
+   "options_latex": [
+    "x/10",
+    "x",
+    "x/100",
+    "x/1000"
+   ],
+   "correct_option": 2,
+   "answer_latex": "(c) x/100. $\\sqrt{11025}$ = 105, and $\\sqrt{1.1025}$ = 1.05 = $\\frac{105}{100}$ = x/100.",
+   "solution_steps_latex": [
+    "$\\sqrt{11025}$ = x, and in fact $105^{2}$ = 11025, so x = 105.",
+    "Now 1.1025 = 11025 ÷ 10000.",
+    "So $\\sqrt{1.1025} = \\sqrt{11025}  \\div  \\sqrt{10000}$ = 105 ÷ 100.",
+    "That is x/100.",
+    "Answer: (c) x/100"
+   ]
+  },
+  {
+   "code": "ch1-q008",
+   "chapter": "ch1",
+   "skill_id": 7,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "A square number has 5 digits. Its square root is",
+   "options_latex": [
+    "always a 2-digit number",
+    "always a 2-digit number",
+    "always a 3-digit number",
+    "could be a 2- or a 3-digit number"
+   ],
+   "correct_option": 2,
+   "answer_latex": "(c) always a 3-digit number. A 5-digit number lies between 10000 and 99999, so its square root lies between 100 and 316 — always 3 digits. (Options (a) and (b) are identical — a misprint in the original paper.)",
+   "solution_steps_latex": [
+    "The smallest 5-digit number is 10000 and the largest is 99999.",
+    "$\\sqrt{10000}$ = 100 and $\\sqrt{99999}$ ≈ 316.2",
+    "So the square root lies between 100 and 316 — every number in that range has 3 digits.",
+    "(Note: options (a) and (b) are printed identically in the original paper — a misprint.)",
+    "Answer: (c) always a 3-digit number"
+   ]
+  },
+  {
+   "code": "ch1-q009",
+   "chapter": "ch1",
+   "skill_id": 8,
+   "source_exam": "2022-23 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "Cube of 0.3 is",
+   "options_latex": [
+    "0.27",
+    "2.7",
+    "0.0027",
+    "0.027"
+   ],
+   "correct_option": 3,
+   "answer_latex": "(d) 0.027. $\\left(0.3\\right)^{3}$ = 0.3 × 0.3 × 0.3 = 0.027",
+   "solution_steps_latex": [
+    "Cube of 0.3 means $\\left(0.3\\right)^{3}$ = 0.3 × 0.3 × 0.3.",
+    "0.3 × 0.3 = 0.09; then 0.09 × 0.3 = 0.027.",
+    "Shortcut: $3^{3}$ = 27, and there are 3 decimal places in total (1 from each 0.3), so the answer is 0.027.",
+    "Answer: (d) 0.027"
+   ]
+  },
+  {
+   "code": "ch1-q010",
+   "chapter": "ch1",
+   "skill_id": 3,
+   "source_exam": "2021-22 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "25% of which of the following perfect cube numbers is equal to the cube root of that number?",
+   "options_latex": [
+    "125",
+    "64",
+    "8",
+    "343"
+   ],
+   "correct_option": 2,
+   "answer_latex": "(c) 8. 25% of 8 = 2, and $\\sqrt[3]{8}$ = 2.",
+   "solution_steps_latex": [
+    "We need a perfect cube n where 25% of n equals ∛n, i.e. n/4 = ∛n.",
+    "Try each option:",
+    "125: 25% = 31.25, but $\\sqrt[3]{125}$ = 5. ✘",
+    "64: 25% = 16, but $\\sqrt[3]{64}$ = 4. ✘",
+    "8: 25% = 2, and $\\sqrt[3]{8}$ = 2. ✔",
+    "343: 25% = 85.75, but $\\sqrt[3]{343}$ = 7. ✘",
+    "Answer: (c) 8"
+   ]
+  },
+  {
+   "code": "ch1-q011",
+   "chapter": "ch1",
+   "skill_id": 9,
+   "source_exam": "2021-22 PT-2",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "If one member of a Pythagorean triplet is 12, which of these could be the remaining members?",
+   "options_latex": [
+    "35 and 6",
+    "35 and 37",
+    "37 and 36",
+    "36 and 6"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b) 35 and 37. Using 2m = 12 ⇒ m = 6, giving $m^{2}$ - 1 = 35 and $m^{2}$ + 1 = 37. Check: $12^{2} + 35^{2} = 37^{2}$.",
+   "solution_steps_latex": [
+    "⚠ Note: 'Pythagorean triplets' are NOT in your Ganita Prakash chapter. But you can still do this using only squares (which are) plus Pythagoras' theorem from geometry: a triplet is three numbers with $a^{2} + b^{2} = c^{2}$.",
+    "Since it is multiple choice, just test the options with the squares table.",
+    "$12^{2}$ = 144.",
+    "(b) 35 and 37:  144 + $35^{2}$ = 144 + 1225 = 1369.  Is 1369 a square?  $37^{2}$ = 1369 ✔",
+    "So 12, 35, 37 works. (Checking the others: 6, 35, 36 and 36, 37 do not satisfy $a^{2} + b^{2} = c^{2}$.)",
+    "Answer: (b) 35 and 37"
+   ]
+  },
+  {
+   "code": "ch1-q012",
+   "chapter": "ch1",
+   "skill_id": 4,
+   "source_exam": "2021-22 PT-2",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "The prime factorisation of a number is 2 × 3 × 5 × $2^{5}  \\times  5^{2}$. To make the number a perfect square we can\n (i) multiply the number by 2 × 3 × 5 (ii) multiply the number by 5 × 3\n (iii) divide the number by 5 × 3 (iv) divide the number by 2 × 3 × 5\n(a) (i) and (iv) (b) (i) and (iii) (c) (ii) and (iii) (d) (ii) and (iv)",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(c) (ii) and (iii). The number = $2^{6}$ × 3 × $5^{3}$. Multiplying by 3 × 5 gives $2^{6}  \\times  3^{2}  \\times  5^{4}$; dividing by 3 × 5 gives $2^{6}  \\times  5^{2}$. Both are perfect squares.",
+   "solution_steps_latex": [
+    "First tidy the factorisation: 2 × 3 × 5 × $2^{5}  \\times  5^{2} = 2^{6}  \\times  3^{1}  \\times  5^{3}$.",
+    "For a perfect square every power must be even. Here $2^{6}$ is fine, but $3^{1}$ and $5^{3}$ have odd powers.",
+    "Option A — multiply by 3 × 5: gives $2^{6}  \\times  3^{2}  \\times  5^{4}$. All powers even. ✔ (that is statement (ii))",
+    "Option B — divide by 3 × 5: gives $2^{6}  \\times  5^{2}$. All powers even. ✔ (that is statement (iii))",
+    "Answer: (c) (ii) and (iii)"
+   ]
+  },
+  {
+   "code": "ch1-q013",
+   "chapter": "ch1",
+   "skill_id": 7,
+   "source_exam": "2024-25 PT-2",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Which digit will be in the unit's place of the square of 3457?",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "9. The unit digit of 3457 is 7, and $7^{2}$ = 49, so the square ends in 9.",
+   "solution_steps_latex": [
+    "Only the unit digit of the number affects the unit digit of its square.",
+    "The unit digit of 3457 is 7, and $7^{2}$ = 49, which ends in 9.",
+    "Answer: 9"
+   ]
+  },
+  {
+   "code": "ch1-q014",
+   "chapter": "ch1",
+   "skill_id": 10,
+   "source_exam": "2022-23 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "The value of $\\sqrt{128 - \\sqrt{49}}$ is ________.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "11. $\\sqrt{49}$ = 7, so $\\sqrt{128 - 7} = \\sqrt{121}$ = 11.",
+   "solution_steps_latex": [
+    "Work from the inside outwards.",
+    "$\\sqrt{49}$ = 7",
+    "So the expression becomes $\\sqrt{128 - 7} = \\sqrt{121.}$",
+    "$\\sqrt{121}$ = 11",
+    "Answer: 11"
+   ]
+  },
+  {
+   "code": "ch1-q015",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2022-23 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Using estimation, the cube root of 74088 is ________.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "42. 74088 → last group gives unit digit 2; first group 74 lies between $4^{3}$ = 64 and $5^{3}$ = 125 ⇒ tens digit 4. So $\\sqrt[3]{74088}$ = 42.",
+   "solution_steps_latex": [
+    "Split 74088 into groups of three digits from the right: 74 | 088.",
+    "The last group ends in 8. Only $2^{3}$ = 8 ends in 8, so the unit digit of the cube root is 2.",
+    "The first group is 74, which lies between $4^{3}$ = 64 and $5^{3}$ = 125. Take the smaller, so the tens digit is 4.",
+    "So $\\sqrt[3]{74088}$ = 42.",
+    "Answer: 42"
+   ]
+  },
+  {
+   "code": "ch1-q016",
+   "chapter": "ch1",
+   "skill_id": 12,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Evaluate: $\\left(141\\right)^{2} - \\left(140\\right)^{2}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "281. $a^{2} - b^{2}$ = (a + b)(a - b) = (141 + 140)(141 - 140) = 281 × 1 = 281",
+   "solution_steps_latex": [
+    "Use the identity $a^{2} - b^{2}$ = (a + b)(a - b).",
+    "$\\left(141\\right)^{2} - \\left(140\\right)^{2}$ = (141 + 140)(141 - 140)",
+    "= 281 × 1 = 281",
+    "Answer: 281"
+   ]
+  },
+  {
+   "code": "ch1-q017",
+   "chapter": "ch1",
+   "skill_id": 13,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Fill in the boxes with the correct numbers:\n  ___ + 23 + ___ + 27 + ___ = $\\left(\\_\\_\\_\\right)^{3}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "21 + 23 + 25 + 27 + 29 = 125 = $5^{3}$. (The cube of n is the sum of n consecutive odd numbers.)",
+   "solution_steps_latex": [
+    "The pattern here is: the cube of n is the sum of n consecutive odd numbers.",
+    "The paper already gives two of the odd numbers, 23 and 27, with gaps between and around them — so we need 5 consecutive odd numbers: 21, 23, 25, 27, 29.",
+    "Add them: 21 + 23 + 25 + 27 + 29 = 125.",
+    "And 125 = $5^{3}$. ✔",
+    "Answer: 21 + 23 + 25 + 27 + 29 = $5^{3}$"
+   ]
+  },
+  {
+   "code": "ch1-q018",
+   "chapter": "ch1",
+   "skill_id": 14,
+   "source_exam": "2025-26 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "A cubical vessel can hold 9261 cubic cm of water when filled to the brim. What is its height?",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "21 cm. Height = $\\sqrt[3]{9261}$ = 21.",
+   "solution_steps_latex": [
+    "A cube of side a has volume $a^{3}$, so the height is $\\sqrt[3]{9261.}$",
+    "Prime factorise: 9261 = 3 × 3087 = 3 × 3 × 1029 = 3 × 3 × 3 × 343 = $3^{3}  \\times  7^{3}$.",
+    "$\\sqrt[3]{9261}$ = 3 × 7 = 21",
+    "Answer: 21 cm"
+   ]
+  },
+  {
+   "code": "ch1-q019",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2025-26 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Estimate the cube root of 103823.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "47. ($47^{3}$ = 103823)",
+   "solution_steps_latex": [
+    "Group into threes from the right: 103 | 823.",
+    "The last group ends in 3. Only $7^{3}$ = 343 ends in 3, so the unit digit is 7.",
+    "The first group is 103, which lies between $4^{3}$ = 64 and $5^{3}$ = 125. Take the smaller, so the tens digit is 4.",
+    "$\\sqrt[3]{103823}$ = 47",
+    "Answer: 47"
+   ]
+  },
+  {
+   "code": "ch1-q020",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Estimate the length of each side of a cube if its volume is 12167 c$m^{3}$.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "23 cm. Side = $\\sqrt[3]{12167}$ = 23.",
+   "solution_steps_latex": [
+    "Volume of a cube = $\\left(side\\right)^{3}$, so side = $\\sqrt[3]{12167.}$",
+    "Group into threes: 12 | 167. The last group ends in 7, and only $3^{3}$ = 27 ends in 7 ⇒ unit digit 3.",
+    "The first group 12 lies between $2^{3}$ = 8 and $3^{3}$ = 27 ⇒ tens digit 2.",
+    "$\\sqrt[3]{12167}$ = 23",
+    "Answer: 23 cm"
+   ]
+  },
+  {
+   "code": "ch1-q021",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "If $\\sqrt{7396}$ = 86, the value of $\\sqrt{73960000} + \\sqrt{0.007396}$ is ________.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "8600.086. $\\sqrt{73960000}$ = 8600 and $\\sqrt{0.007396}$ = 0.086.",
+   "solution_steps_latex": [
+    "Given $\\sqrt{7396}$ = 86. Squaring a decimal doubles its number of decimal places (p.13), so a square root halves them — always check by squaring your answer back.",
+    "$\\sqrt{73960000}$ = 8600   (73960000 = 7396 × 10000, and $\\sqrt{10000}$ = 100, so 86 × 100)",
+    "$\\sqrt{0.007396}$ = 0.086   (0.007396 = 7396 ÷ $10^{6}$, and $\\sqrt{10^{6}}$ = 1000, so 86 ÷ 1000)",
+    "Sum = 8600 + 0.086 = 8600.086",
+    "Answer: 8600.086"
+   ]
+  },
+  {
+   "code": "ch1-q022",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2023-24 Final",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Estimate the cube root of 13824.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "24. ($24^{3}$ = 13824)",
+   "solution_steps_latex": [
+    "Group into threes from the right: 13 | 824.",
+    "The last group ends in 4. Only $4^{3}$ = 64 ends in 4, so the unit digit is 4.",
+    "The first group 13 lies between $2^{3}$ = 8 and $3^{3}$ = 27 ⇒ tens digit 2.",
+    "$\\sqrt[3]{13824}$ = 24",
+    "Answer: 24"
+   ]
+  },
+  {
+   "code": "ch1-q023",
+   "chapter": "ch1",
+   "skill_id": 1,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Which of the following is definitely NOT a square number? Justify with a suitable reason.\n (a) 1253687  (b) 2318025",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) 1253687 is definitely not a square, because a perfect square can only end in 0, 1, 4, 5, 6 or 9 — never in 2, 3, 7 or 8. This number ends in 7.",
+   "solution_steps_latex": [
+    "A perfect square can only end in 0, 1, 4, 5, 6 or 9 — never in 2, 3, 7 or 8.",
+    "1253687 ends in 7, so it can never be a perfect square. ✔ This is the answer.",
+    "2318025 ends in 5, so the digit test does not rule it out — we cannot call it 'definitely not' a square from the unit digit alone.",
+    "Answer: (a) 1253687, because a perfect square never ends in 7."
+   ]
+  },
+  {
+   "code": "ch1-q024",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2023-24 PT-2",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "The units digit and the tens digit of $\\sqrt[3]{658503}$ are ________ and ________ respectively.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "Units digit 7, tens digit 8 — $\\sqrt[3]{658503}$ = 87.",
+   "solution_steps_latex": [
+    "Group 658503 into threes from the right: 658 | 503.",
+    "The last group ends in 3. Only $7^{3}$ = 343 ends in 3 ⇒ the unit digit of the cube root is 7.",
+    "The first group 658 lies between $8^{3}$ = 512 and $9^{3}$ = 729. Take the smaller ⇒ the tens digit is 8.",
+    "So $\\sqrt[3]{658503}$ = 87.",
+    "Answer: units digit 7, tens digit 8"
+   ]
+  },
+  {
+   "code": "ch1-q025",
+   "chapter": "ch1",
+   "skill_id": 12,
+   "source_exam": "2023-24 PT-2",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Find $23^{2} - 22^{2}$ using a property of square numbers.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "45. For consecutive numbers, $a^{2} - b^{2}$ = a + b when a - b = 1. So $23^{2} - 22^{2}$ = 23 + 22 = 45.",
+   "solution_steps_latex": [
+    "Use $a^{2} - b^{2}$ = (a + b)(a - b).",
+    "$23^{2} - 22^{2}$ = (23 + 22)(23 - 22) = 45 × 1",
+    "In general, for two consecutive numbers the difference of their squares is simply their sum.",
+    "Answer: 45"
+   ]
+  },
+  {
+   "code": "ch1-q026",
+   "chapter": "ch1",
+   "skill_id": 9,
+   "source_exam": "2023-24 PT-2",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Find the Pythagorean triplet whose largest member is 26.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(10, 24, 26). Taking $m^{2}$ + 1 = 26 ⇒ m = 5, so 2m = 10 and $m^{2}$ - 1 = 24. Check: $10^{2} + 24^{2} = 26^{2}$.",
+   "solution_steps_latex": [
+    "⚠ Note: triplets are not in your chapter, but this needs only squares plus $a^{2} + b^{2} = c^{2}$.",
+    "The largest member is the hypotenuse, so $a^{2} + b^{2} = 26^{2}$ = 676.",
+    "Hunt through the squares table for two squares that add to 676:",
+    "676 - $10^{2}$ = 676 - 100 = 576, and 576 = $24^{2}$ ✔",
+    "So the triplet is 10, 24, 26.",
+    "Answer: (10, 24, 26)"
+   ]
+  },
+  {
+   "code": "ch1-q027",
+   "chapter": "ch1",
+   "skill_id": 9,
+   "source_exam": "2024-25 PT-2",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "If the hypotenuse of a right-angled triangle is 17, find the lengths of the other two sides.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "8 and 15. Taking $m^{2}$ + 1 = 17 ⇒ m = 4, so 2m = 8 and $m^{2}$ - 1 = 15. Check: $8^{2} + 15^{2}$ = 289 = $17^{2}$.",
+   "solution_steps_latex": [
+    "⚠ Note: triplets are not in your chapter, but this needs only squares plus $a^{2} + b^{2} = c^{2}$.",
+    "The hypotenuse is the largest side, so $a^{2} + b^{2} = 17^{2}$ = 289.",
+    "Hunt through the squares table for two squares adding to 289:",
+    "289 - $8^{2}$ = 289 - 64 = 225, and 225 = $15^{2}$ ✔",
+    "So the other two sides are 8 and 15.",
+    "Answer: 8 and 15"
+   ]
+  },
+  {
+   "code": "ch1-q028",
+   "chapter": "ch1",
+   "skill_id": 9,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "If one member of a Pythagorean triplet is 65, find the other two members.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "16 and 63. Taking $m^{2}$ + 1 = 65 ⇒ m = 8, so 2m = 16 and $m^{2}$ - 1 = 63. Check: $16^{2} + 63^{2} = 65^{2}$.",
+   "solution_steps_latex": [
+    "⚠ Note: triplets are not in your chapter, but this needs only squares plus $a^{2} + b^{2} = c^{2}$.",
+    "Take 65 as the largest member, so $a^{2} + b^{2} = 65^{2}$ = 4225.",
+    "Hunt for two squares adding to 4225:",
+    "4225 - $16^{2}$ = 4225 - 256 = 3969, and 3969 = $63^{2}$ ✔",
+    "So the other two members are 16 and 63.",
+    "(Curiously 65 belongs to several triplets — (25, 60, 65), (33, 56, 65) and (39, 52, 65) all work too. The one the paper wants is 16 and 63.)",
+    "Answer: 16 and 63"
+   ]
+  },
+  {
+   "code": "ch1-q029",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the cube root of (i) 79507 (using the shortcut method)  (ii) $\\frac{27}{3^{9}}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(i) 43  (ii) $\\frac{27}{3^{9}} = 3^{3}$/$3^{9} = 3^{-6}$, so the cube root is $3^{-2} = \\frac{1}{9}$.",
+   "solution_steps_latex": [
+    "(i) $\\sqrt[3]{79507}$ — group into threes: 79 | 507.",
+    "The last group ends in 7 ⇒ unit digit is 3 (since $3^{3}$ = 27 ends in 7).",
+    "The first group 79 lies between $4^{3}$ = 64 and $5^{3}$ = 125 ⇒ tens digit 4.",
+    "So $\\sqrt[3]{79507}$ = 43.",
+    "(ii) $\\frac{27}{3^{9}}$. Write 27 as $3^{3}$:  $3^{3}$/$3^{9} = 3^{3-9} = 3^{-6}$.",
+    "$\\sqrt[3]{3^{-6}} = 3^{\\frac{-6}{3}} = 3^{-2} = \\frac{1}{9}$",
+    "Answer: (i) 43   (ii) $\\frac{1}{9}$"
+   ]
+  },
+  {
+   "code": "ch1-q030",
+   "chapter": "ch1",
+   "skill_id": 15,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the value of x, if 1323/x is a perfect cube.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = 49. 1323 = $3^{3}  \\times  7^{2}$. Removing $7^{2}$ leaves $3^{3}$ = 27, a perfect cube. So x = 49.",
+   "solution_steps_latex": [
+    "Prime factorise 1323: 1323 = 3 × 441 = 3 × $21^{2}$ = 3 × $3^{2}  \\times  7^{2} = 3^{3}  \\times  7^{2}$.",
+    "For 1323/x to be a perfect cube, every prime power left behind must be a multiple of 3.",
+    "$3^{3}$ is already fine. The $7^{2}$ is the problem — it must be removed entirely.",
+    "So x = $7^{2}$ = 49, leaving $\\frac{1323}{49}$ = 27 = $3^{3}$. ✔",
+    "Answer: x = 49"
+   ]
+  },
+  {
+   "code": "ch1-q031",
+   "chapter": "ch1",
+   "skill_id": 3,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "If x = $\\sqrt[3]{\\left(\\frac{27}{64}\\right)}$ and y = $\\sqrt[3]{\\left(\\frac{-1}{64}\\right)}$, what is x + y?",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{1}{2}$. x = $\\sqrt[3]{\\left(\\frac{27}{64}\\right)} = \\frac{3}{4}$ and y = $\\sqrt[3]{\\left(\\frac{-1}{64}\\right)} = \\frac{-1}{4}$, so x + y = $\\frac{3}{4} - \\frac{1}{4} = \\frac{1}{2}$.",
+   "solution_steps_latex": [
+    "x = $\\sqrt[3]{\\left(\\frac{27}{64}\\right)}$. Since 27 = $3^{3}$ and 64 = $4^{3}$, x = $\\frac{3}{4}$.",
+    "y = $\\sqrt[3]{\\left(\\frac{-1}{64}\\right)}$. Since -1 = $\\left(-1\\right)^{3}$ and 64 = $4^{3}$, y = $\\frac{-1}{4}$.",
+    "(A cube root of a negative number is negative — unlike a square root.)",
+    "x + y = $\\frac{3}{4} + \\left(\\frac{-1}{4}\\right) = \\frac{2}{4} = \\frac{1}{2}$",
+    "Answer: $\\frac{1}{2}$"
+   ]
+  },
+  {
+   "code": "ch1-q032",
+   "chapter": "ch1",
+   "skill_id": 4,
+   "source_exam": "2024-25 PT-2",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "What is the smallest number by which 8820 must be multiplied to make it a perfect square? Also find the square root of the number so obtained.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "Multiply by 5; the square root is 210. 8820 = $2^{2}  \\times  3^{2}$ × 5 × $7^{2}$. Only 5 is unpaired, so multiply by 5 → 44100 = $210^{2}$.",
+   "solution_steps_latex": [
+    "Prime factorise 8820:",
+    "8820 = 2 × 4410 = 2 × 2 × 2205 = 4 × 2205, and 2205 = 5 × 441 = 5 × $21^{2}$.",
+    "So 8820 = $2^{2}  \\times  3^{2}  \\times  5^{1}  \\times  7^{2}$.",
+    "Pair up the factors: $2^{2}$ ✔, $3^{2}$ ✔, $7^{2}$ ✔ — but 5 appears only once.",
+    "So multiply by 5:  8820 × 5 = 44100.",
+    "$\\sqrt{44100}$ = 2 × 3 × 5 × 7 = 210",
+    "Answer: multiply by 5; the square root is 210"
+   ]
+  },
+  {
+   "code": "ch1-q033",
+   "chapter": "ch1",
+   "skill_id": 16,
+   "source_exam": "2023-24 PT-2",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the smallest number which must be subtracted from 5676 to make it a perfect square. Also find the square root of the perfect square so obtained.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "Subtract 51; the square root is 75. $75^{2}$ = 5625 and $76^{2}$ = 5776, so 5676 - 5625 = 51.",
+   "solution_steps_latex": [
+    "Find the largest perfect square below 5676.",
+    "$75^{2}$ = 5625 and $76^{2}$ = 5776 (which is already bigger than 5676).",
+    "So the nearest square below is 5625.",
+    "5676 - 5625 = 51",
+    "Subtracting 51 gives 5625, and $\\sqrt{5625}$ = 75.",
+    "Answer: subtract 51; the square root is 75"
+   ]
+  },
+  {
+   "code": "ch1-q034",
+   "chapter": "ch1",
+   "skill_id": 2,
+   "source_exam": "2023-24 PT-2",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Simplify: ($\\sqrt[3]{343} + \\sqrt[3]{0.343}$) × $\\sqrt[3]{10^{6}}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "770. $\\sqrt[3]{343}$ = 7, $\\sqrt[3]{0.343}$ = 0.7, $\\sqrt[3]{10^{6}}$ = 100. So (7 + 0.7) × 100 = 770.",
+   "solution_steps_latex": [
+    "Take each cube root separately.",
+    "$\\sqrt[3]{343}$ = 7   ($7^{3}$ = 343)",
+    "$\\sqrt[3]{0.343}$ = 0.7   ($0.7^{3}$ = 0.343)",
+    "$\\sqrt[3]{10^{6}} = 10^{\\frac{6}{3}} = 10^{2}$ = 100",
+    "So the expression = (7 + 0.7) × 100 = 7.7 × 100 = 770",
+    "Answer: 770"
+   ]
+  },
+  {
+   "code": "ch1-q035",
+   "chapter": "ch1",
+   "skill_id": 4,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the smallest number by which 2352 must be multiplied to obtain a perfect square. Find the square root of the new number so formed.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "Multiply by 3; the square root is 84. 2352 = $2^{4}$ × 3 × $7^{2}$. Only 3 is unpaired → 2352 × 3 = 7056 = $84^{2}$.",
+   "solution_steps_latex": [
+    "Prime factorise 2352:",
+    "2352 = 2 × 1176 = 4 × 588 = 8 × 294 = 16 × 147, and 147 = 3 × 49.",
+    "So 2352 = $2^{4}  \\times  3^{1}  \\times  7^{2}$.",
+    "Pairs: $2^{4}$ ✔, $7^{2}$ ✔ — but 3 appears only once.",
+    "Multiply by 3:  2352 × 3 = 7056.",
+    "$\\sqrt{7056} = 2^{2}$ × 3 × 7 = 84",
+    "Answer: multiply by 3; the square root is 84"
+   ]
+  },
+  {
+   "code": "ch1-q036",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the value of $\\sqrt{625} + \\sqrt{0.000625} + \\sqrt{0.0625}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "25.275. $\\sqrt{625}$ = 25, $\\sqrt{0.000625}$ = 0.025, $\\sqrt{0.0625}$ = 0.25. Sum = 25.275.",
+   "solution_steps_latex": [
+    "Take each square root separately. Ask: which number, squared, gives this? Then check by squaring it back (p.13).",
+    "$\\sqrt{625}$ = 25",
+    "$\\sqrt{0.000625}$ = 0.025",
+    "$\\sqrt{0.0625}$ = 0.25",
+    "Sum = 25 + 0.025 + 0.25 = 25.275",
+    "Answer: 25.275"
+   ]
+  },
+  {
+   "code": "ch1-q037",
+   "chapter": "ch1",
+   "skill_id": 3,
+   "source_exam": "2021-22 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Find the cube root of $\\left(18\\right)^{3}  \\times  \\left(\\frac{1}{12}\\right)^{3}$.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{3}{2}$ (= 1.5). $\\sqrt[3]{18^{3}  \\times  \\left(\\frac{1}{12}\\right)^{3}}$ = 18 × $\\frac{1}{12} = \\frac{3}{2}$.",
+   "solution_steps_latex": [
+    "Use the rule $\\sqrt[3]{a  \\times  b}$ = ∛a × ∛b.",
+    "∛[$\\left(18\\right)^{3}  \\times  \\left(\\frac{1}{12}\\right)^{3}$] = $\\sqrt[3]{18^{3}}  \\times  \\sqrt[3]{\\left(\\frac{1}{12}\\right)^{3}}$",
+    "= 18 × $\\frac{1}{12}$",
+    "= $\\frac{18}{12} = \\frac{3}{2}$",
+    "Answer: $\\frac{3}{2}$ (= 1.5)"
+   ]
+  },
+  {
+   "code": "ch1-q038",
+   "chapter": "ch1",
+   "skill_id": 11,
+   "source_exam": "2021-22 Annual",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the cube root of 19683 by estimation.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "27. ($27^{3}$ = 19683)",
+   "solution_steps_latex": [
+    "Group 19683 into threes from the right: 19 | 683.",
+    "The last group ends in 3 ⇒ unit digit is 7 ($7^{3}$ = 343 ends in 3).",
+    "The first group 19 lies between $2^{3}$ = 8 and $3^{3}$ = 27 ⇒ tens digit 2.",
+    "$\\sqrt[3]{19683}$ = 27",
+    "Answer: 27"
+   ]
+  },
+  {
+   "code": "ch1-q039",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2021-22 PT-2",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "If $\\sqrt{3844}$ = 62 and $\\sqrt{32.49}$ = 5.7, find the value of $\\sqrt{0.3844} - \\sqrt{0.003249}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "0.563. $\\sqrt{0.3844}$ = 0.62 and $\\sqrt{0.003249}$ = 0.057, so 0.62 - 0.057 = 0.563.",
+   "solution_steps_latex": [
+    "Squaring a decimal doubles its decimal places (p.13), so a square root halves them. Check each by squaring back.",
+    "$\\sqrt{3844}$ = 62, so $\\sqrt{0.3844}$ = 0.62   (decimal moved 4 places left ⇒ root moved 2 places left)",
+    "$\\sqrt{32.49}$ = 5.7, so $\\sqrt{0.003249}$ = 0.057   (decimal moved 4 places left ⇒ root moved 2 places left)",
+    "0.62 - 0.057 = 0.563",
+    "Answer: 0.563"
+   ]
+  },
+  {
+   "code": "ch1-q040",
+   "chapter": "ch1",
+   "skill_id": 14,
+   "source_exam": "2024-25 Annual",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the cube root of 17576 by prime factorisation.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "26. 17576 = $2^{3}  \\times  13^{3}$, so $\\sqrt[3]{17576}$ = 2 × 13 = 26.",
+   "solution_steps_latex": [
+    "Prime factorise 17576 by repeated division by 2:",
+    "17576 ÷ 2 = 8788, ÷ 2 = 4394, ÷ 2 = 2197. And 2197 = 13 × 169 = 13 × 13 × 13.",
+    "So 17576 = $2^{3}  \\times  13^{3}$.",
+    "Group the primes in threes and take one from each group:",
+    "$\\sqrt[3]{17576}$ = 2 × 13 = 26",
+    "Answer: 26"
+   ]
+  },
+  {
+   "code": "ch1-q041",
+   "chapter": "ch1",
+   "skill_id": 17,
+   "source_exam": "2024-25 Annual",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find $\\sqrt{20}$ up to two decimal places.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "4.47. ($4.47^{2}$ = 19.9809, and $4.48^{2}$ = 20.0704)",
+   "solution_steps_latex": [
+    "20 is not a perfect square, so we ESTIMATE by trapping it between squares and narrowing — the method the book uses for $\\sqrt{1936}$ (p.9).",
+    "Step 1: $4^{2}$ = 16 and $5^{2}$ = 25, and 16 < 20 < 25, so $\\sqrt{20}$ lies between 4 and 5.",
+    "Step 2: narrow to one decimal place. $4.4^{2}$ = 19.36 (too small) and $4.5^{2}$ = 20.25 (too big), so $\\sqrt{20}$ lies between 4.4 and 4.5.",
+    "Step 3: narrow to two decimal places. $4.47^{2}$ = 19.9809 (just under 20) and $4.48^{2}$ = 20.0704 (just over 20).",
+    "So 20 lies between them, and 4.47 is the value correct to two decimal places.",
+    "Answer: $\\sqrt{20}$ ≈ 4.47"
+   ]
+  },
+  {
+   "code": "ch1-q042",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Using long division, find $\\sqrt{691.69}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "26.3",
+   "solution_steps_latex": [
+    "⚠ The question asks for LONG DIVISION, which is not taught in your Ganita Prakash chapter. Solved here with a method you do have — if an exam insists on long division, ask your teacher.",
+    "First clear the decimal:  691.69 = $\\frac{69169}{100}$, so $\\sqrt{691.69} = \\sqrt{69169}$ ÷ 10.",
+    "69169 is awkward to prime factorise, so ESTIMATE instead — exactly as the book does for $\\sqrt{1936}$ (p.9).",
+    "Step 1: trap it. $26^{2}$ = 676 and $27^{2}$ = 729, and 676 < 691.69 < 729, so the root lies between 26 and 27.",
+    "Step 2: use the last digit. 691.69 ends in 9, and only $3^{2}$ = 9 and $7^{2}$ = 49 end in 9 — so the root ends in 3 or 7.",
+    "Step 3: the candidates are 26.3 and 26.7. Since 691.69 is much closer to 676 than to 729, try the smaller one.",
+    "Check: $26.3^{2}$ = 691.69 ✔",
+    "Answer: $\\sqrt{691.69}$ = 26.3"
+   ]
+  },
+  {
+   "code": "ch1-q043",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2025-26 Annual",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the square root of 125.44 using the long division method.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "11.2",
+   "solution_steps_latex": [
+    "⚠ The question asks for LONG DIVISION, which is not taught in your Ganita Prakash chapter. Solved here with a method you do have — if an exam insists on long division, ask your teacher.",
+    "First clear the decimal:  125.44 = $\\frac{12544}{100}$, so $\\sqrt{125.44} = \\sqrt{12544}$ ÷ 10.",
+    "Now find $\\sqrt{12544}$ by PRIME FACTORISATION (p.9) — split the factors into two identical groups.",
+    "12544 = 2 × 6272 = 2 × 2 × 3136 = … keep dividing by 2:  12544 = $2^{8}  \\times  7^{2}$",
+    "Split into two identical groups: 12544 = ($2^{4}$ × 7) × ($2^{4}$ × 7) = 112 × 112",
+    "So $\\sqrt{12544}$ = 112, and $\\sqrt{125.44}$ = 112 ÷ 10 = 11.2",
+    "Check: 11.2 × 11.2 = 125.44 ✔",
+    "Answer: $\\sqrt{125.44}$ = 11.2"
+   ]
+  },
+  {
+   "code": "ch1-q044",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the square root of 2079.36.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "45.6",
+   "solution_steps_latex": [
+    "First clear the decimal:  2079.36 = $\\frac{207936}{100}$, so $\\sqrt{2079.36} = \\sqrt{207936}$ ÷ 10.",
+    "Prime factorise 207936 (p.9):  207936 = $2^{6}  \\times  3^{2}  \\times  19^{2}$",
+    "Split into two identical groups: ($2^{3}$ × 3 × 19) × ($2^{3}$ × 3 × 19) = 456 × 456",
+    "So $\\sqrt{207936}$ = 456, and $\\sqrt{2079.36}$ = 456 ÷ 10 = 45.6",
+    "Check by estimation too: $45^{2}$ = 2025 and $46^{2}$ = 2116, so the root is between 45 and 46 ✔, and 2079.36 ends in 6 so the root ends in 4 or 6 ✔",
+    "Answer: $\\sqrt{2079.36}$ = 45.6"
+   ]
+  },
+  {
+   "code": "ch1-q045",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2023-24 PT-2",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "Find the square root of 108.16 by the long division method.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "10.4",
+   "solution_steps_latex": [
+    "⚠ The question asks for LONG DIVISION, which is not taught in your Ganita Prakash chapter. Solved here with a method you do have — if an exam insists on long division, ask your teacher.",
+    "First clear the decimal:  108.16 = $\\frac{10816}{100}$, so $\\sqrt{108.16} = \\sqrt{10816}$ ÷ 10.",
+    "Prime factorise 10816 (p.9):  10816 = $2^{6}  \\times  13^{2}$",
+    "Split into two identical groups: ($2^{3}$ × 13) × ($2^{3}$ × 13) = 104 × 104",
+    "So $\\sqrt{10816}$ = 104, and $\\sqrt{108.16}$ = 104 ÷ 10 = 10.4",
+    "Check: 10.4 × 10.4 = 108.16 ✔",
+    "Answer: $\\sqrt{108.16}$ = 10.4"
+   ]
+  },
+  {
+   "code": "ch1-q046",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2023-24 Final",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find $\\sqrt{54.76}$ using the long division method.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "7.4",
+   "solution_steps_latex": [
+    "⚠ The question asks for LONG DIVISION, which is not taught in your Ganita Prakash chapter. Solved here with a method you do have — if an exam insists on long division, ask your teacher.",
+    "First clear the decimal:  54.76 = $\\frac{5476}{100}$, so $\\sqrt{54.76} = \\sqrt{5476}$ ÷ 10.",
+    "Prime factorise 5476 (p.9):  5476 = $2^{2}  \\times  37^{2}$",
+    "Split into two identical groups: (2 × 37) × (2 × 37) = 74 × 74",
+    "So $\\sqrt{5476}$ = 74, and $\\sqrt{54.76}$ = 74 ÷ 10 = 7.4",
+    "Check: 7.4 × 7.4 = 54.76 ✔",
+    "Answer: $\\sqrt{54.76}$ = 7.4"
+   ]
+  },
+  {
+   "code": "ch1-q047",
+   "chapter": "ch1",
+   "skill_id": 6,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the square root of 8136.04 by long division.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "90.2",
+   "solution_steps_latex": [
+    "⚠ The question asks for LONG DIVISION, which is not taught in your Ganita Prakash chapter. Solved here with a method you do have — if an exam insists on long division, ask your teacher.",
+    "First clear the decimal:  8136.04 = $\\frac{813604}{100}$, so $\\sqrt{8136.04} = \\sqrt{813604}$ ÷ 10.",
+    "Prime factorise 813604 (p.9):  813604 = $2^{2}  \\times  11^{2}  \\times  41^{2}$",
+    "Split into two identical groups: (2 × 11 × 41) × (2 × 11 × 41) = 902 × 902",
+    "So $\\sqrt{813604}$ = 902, and $\\sqrt{8136.04}$ = 902 ÷ 10 = 90.2",
+    "Check by estimation: $90^{2}$ = 8100 and $91^{2}$ = 8281, so the root is between 90 and 91 ✔",
+    "Answer: $\\sqrt{8136.04}$ = 90.2"
+   ]
+  },
+  {
+   "code": "ch1-q048",
+   "chapter": "ch1",
+   "skill_id": 18,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the smallest square number which is divisible by 10, 20 and 28.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "4900 (= $70^{2}$). LCM(10, 20, 28) = 140 = $2^{2}$ × 5 × 7. To make it a square, multiply by 5 × 7 = 35 → 4900.",
+   "solution_steps_latex": [
+    "A number divisible by 10, 20 and 28 must be a multiple of their LCM.",
+    "10 = 2 × 5,  20 = $2^{2}$ × 5,  28 = $2^{2}$ × 7",
+    "LCM = $2^{2}$ × 5 × 7 = 140",
+    "Now 140 = $2^{2}$ × 5 × 7 — the 5 and the 7 are unpaired.",
+    "Multiply by 5 × 7 = 35:  140 × 35 = 4900",
+    "Check: 4900 = $70^{2}$, and 4900 is divisible by 10, 20 and 28. ✔",
+    "Answer: 4900"
+   ]
+  },
+  {
+   "code": "ch1-q049",
+   "chapter": "ch1",
+   "skill_id": 15,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Is 2560 a perfect cube? If not, find the smallest natural number by which 2560 should be multiplied so that the product is a perfect cube.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "No, 2560 is not a perfect cube. 2560 = $2^{9}$ × 5. Multiply by $5^{2}$ = 25 → 64000 = $40^{3}$.",
+   "solution_steps_latex": [
+    "Prime factorise 2560:",
+    "2560 = 256 × 10 = $2^{8}$ × 2 × 5 = $2^{9}$ × 5",
+    "Group in threes: $2^{9} = \\left(2^{3}\\right)^{3}$ ✔, but 5 appears only once — not a group of three.",
+    "So 2560 is NOT a perfect cube.",
+    "To fix it, we need two more 5s: multiply by $5^{2}$ = 25.",
+    "2560 × 25 = 64000 = $2^{9}  \\times  5^{3} = \\left(2^{3}  \\times  5\\right)^{3} = 40^{3}$ ✔",
+    "Answer: not a perfect cube; multiply by 25 (giving 64000 = $40^{3}$)"
+   ]
+  },
+  {
+   "code": "ch1-q050",
+   "chapter": "ch1",
+   "skill_id": 18,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the smallest perfect cube that is divisible by 4, 9 and 10.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "27000 (= $30^{3}$). LCM(4, 9, 10) = 180 = $2^{2}  \\times  3^{2}$ × 5. For a cube each prime needs a power that is a multiple of 3 → $2^{3}  \\times  3^{3}  \\times  5^{3}$ = 27000.",
+   "solution_steps_latex": [
+    "The number must be a multiple of the LCM of 4, 9 and 10.",
+    "4 = $2^{2}$,  9 = $3^{2}$,  10 = 2 × 5",
+    "LCM = $2^{2}  \\times  3^{2}$ × 5 = 180",
+    "For a perfect cube, every prime power must be a multiple of 3. In 180 = $2^{2}  \\times  3^{2}  \\times  5^{1}$ we need to raise each to the power 3.",
+    "Multiply by 2 × 3 × $5^{2}$ = 150:  180 × 150 = 27000 = $2^{3}  \\times  3^{3}  \\times  5^{3}$",
+    "Check: 27000 = $30^{3}$ ✔",
+    "Answer: 27000 (= $30^{3}$)"
+   ]
+  },
+  {
+   "code": "ch1-q051",
+   "chapter": "ch1",
+   "skill_id": 18,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the smallest perfect square number which is exactly divisible by 80, 12, 24 and 36. Also find its square root.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "3600 (= $60^{2}$); square root = 60. LCM(80, 12, 24, 36) = 720 = $2^{4}  \\times  3^{2}$ × 5. Only 5 is unpaired → 720 × 5 = 3600.",
+   "solution_steps_latex": [
+    "Find the LCM of 80, 12, 24 and 36.",
+    "80 = $2^{4}$ × 5,  12 = $2^{2}$ × 3,  24 = $2^{3}$ × 3,  36 = $2^{2}  \\times  3^{2}$",
+    "LCM = $2^{4}  \\times  3^{2}$ × 5 = 720",
+    "For a perfect square every power must be even: $2^{4}$ ✔, $3^{2}$ ✔, but $5^{1}$ is odd.",
+    "Multiply by 5:  720 × 5 = 3600",
+    "$\\sqrt{3600} = 2^{2}$ × 3 × 5 = 60",
+    "Answer: 3600; its square root is 60"
+   ]
+  },
+  {
+   "code": "ch1-q052",
+   "chapter": "ch1",
+   "skill_id": 15,
+   "source_exam": "2022-23 Annual",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the smallest whole number by which 23625 must be divided so that the quotient is a perfect cube. Also find the cube root of the cube number so obtained.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "Divide by 7; the cube root is 15. 23625 = $3^{3}  \\times  5^{3}$ × 7. Removing 7 gives 3375 = $15^{3}$.",
+   "solution_steps_latex": [
+    "Prime factorise 23625.",
+    "23625 ÷ 27 = 875, so 23625 = $3^{3}$ × 875. And 875 = $5^{3}$ × 7.",
+    "So 23625 = $3^{3}  \\times  5^{3}  \\times  7^{1}$.",
+    "For a perfect cube, all powers must be multiples of 3. The 7 has power 1, so it must be removed.",
+    "Divide by 7:  23625 ÷ 7 = 3375 = $3^{3}  \\times  5^{3} = 15^{3}$ ✔",
+    "$\\sqrt[3]{3375}$ = 3 × 5 = 15",
+    "Answer: divide by 7; the cube root is 15"
+   ]
+  },
+  {
+   "code": "ch1-q053",
+   "chapter": "ch1",
+   "skill_id": 16,
+   "source_exam": "2021-22 PT-2",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find (a) the least number which must be subtracted from 7400 so as to get a perfect square, and (b) the least number which must be added to 7400 so as to get a perfect square.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) Subtract 4. $86^{2}$ = 7396, so 7400 - 7396 = 4.\n(b) Add 169. $87^{2}$ = 7569, so 7569 - 7400 = 169.",
+   "solution_steps_latex": [
+    "Find the perfect squares just below and just above 7400.",
+    "$85^{2}$ = 7225,  $86^{2}$ = 7396,  $87^{2}$ = 7569",
+    "(a) The nearest square below 7400 is 7396, so subtract 7400 - 7396 = 4.",
+    "(b) The nearest square above 7400 is 7569, so add 7569 - 7400 = 169.",
+    "Answer: (a) subtract 4   (b) add 169"
+   ]
+  },
+  {
+   "code": "ch1-q054",
+   "chapter": "ch1",
+   "skill_id": 12,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "(a) Between $23^{2}$ and $24^{2}$ there are ________ natural numbers.\n(b) The square root of the number 161728401 will have ________ digits.\n(c) The sum of the first 17 odd natural numbers is ________.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) 46. Between $n^{2}$ and $\\left(n + 1\\right)^{2}$ there are 2n numbers, so 2 × 23 = 46.\n(b) 5 digits. 161728401 has 9 digits, and the square root of an n-digit number has (n + 1)/2 digits when n is odd.\n(c) 289. The sum of the first n odd numbers is $n^{2}$, so $17^{2}$ = 289.",
+   "solution_steps_latex": [
+    "(a) Between $n^{2}$ and $\\left(n + 1\\right)^{2}$ there are exactly 2n natural numbers.",
+    "Here n = 23, so there are 2 × 23 = 46 natural numbers.",
+    "(b) 161728401 has 9 digits. For an n-digit number, the square root has n/2 digits if n is even, and (n + 1)/2 digits if n is odd.",
+    "n = 9 is odd, so the root has (9 + 1)/2 = 5 digits.",
+    "(c) The sum of the first n odd natural numbers is $n^{2}$.",
+    "So the sum of the first 17 odd numbers = $17^{2}$ = 289.",
+    "Answer: (a) 46   (b) 5 digits   (c) 289"
+   ]
+  },
+  {
+   "code": "ch1-q055",
+   "chapter": "ch1",
+   "skill_id": 12,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "(a) Write the Pythagorean triplet whose one of the numbers is 24.\n(b) How many natural numbers lie between $18^{2}$ and $19^{2}$?\n(c) Express 36 as the sum of consecutive odd numbers.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) (24, 143, 145), using 2m = 24 ⇒ m = 12. (The well-known triplet (7, 24, 25) also contains 24.)\n(b) 36. 2 × 18 = 36.\n(c) 36 = 1 + 3 + 5 + 7 + 9 + 11 (the first 6 odd numbers, and $6^{2}$ = 36).",
+   "solution_steps_latex": [
+    "(a) ⚠ Note: triplets are not in your chapter. Using only squares and $a^{2} + b^{2} = c^{2}$:",
+    "Look for a square that, added to $24^{2}$ = 576, gives another square.",
+    "576 + $7^{2}$ = 576 + 49 = 625, and 625 = $25^{2}$ ✔",
+    "So (7, 24, 25) is a Pythagorean triplet. (The larger triplet (24, 143, 145) also contains 24.)",
+    "(b) Between two consecutive squares p and q there are (q - p - 1) numbers  (Ganita Prakash, p.7).",
+    "Here $19^{2} - 18^{2}$ - 1 = 361 - 324 - 1 = 36 numbers.",
+    "(c) The book shows that the sum of the first n odd numbers is $n^{2}$  (p.5).",
+    "36 = $6^{2}$, so it is the sum of the first 6 odd numbers:  36 = 1 + 3 + 5 + 7 + 9 + 11 ✔",
+    "Answer: (a) (7, 24, 25)   (b) 36   (c) 1 + 3 + 5 + 7 + 9 + 11"
+   ]
+  },
+  {
+   "code": "ch1-q056",
+   "chapter": "ch1",
+   "skill_id": 15,
+   "source_exam": "2023-24 Final",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Sakshi makes a cuboid of sides 15 cm × 30 cm × 15 cm. How many such cuboids will she need to form a cube?",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "4 cuboids. Volume of one cuboid = 15 × 30 × 15 = 6750 = 2 × $3^{3}  \\times  5^{3}$. Only 2 is short of a triple, so multiply by $2^{2}$ = 4 → 27000 = $30^{3}$.",
+   "solution_steps_latex": [
+    "Volume of one cuboid = 15 × 30 × 15 = 6750 c$m^{3}$.",
+    "Prime factorise: 15 = 3 × 5, 30 = 2 × 3 × 5, 15 = 3 × 5.",
+    "So 6750 = $2^{1}  \\times  3^{3}  \\times  5^{3}$.",
+    "For the stack to form a cube, every prime power must be a multiple of 3. Here $3^{3}$ ✔ and $5^{3}$ ✔, but 2 has power 1.",
+    "We need two more 2s, i.e. multiply by $2^{2}$ = 4.",
+    "So 4 cuboids are needed. Check: 4 × 6750 = 27000 = $30^{3}$ ✔ (a cube of side 30 cm)",
+    "Answer: 4 cuboids"
+   ]
+  },
+  {
+   "code": "ch1-q057",
+   "chapter": "ch1",
+   "skill_id": 19,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Three friends had some money in the ratio 2 : 3 : 4. If the sum of the cubes of the amounts is ₹792, find how much money each of them had.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "₹4, ₹6 and ₹8. Let the amounts be 2x, 3x, 4x. Then 8$x^{3}$ + 27$x^{3}$ + 64$x^{3}$ = 99$x^{3}$ = 792 ⇒ $x^{3}$ = 8 ⇒ x = 2.",
+   "solution_steps_latex": [
+    "Let the three amounts be 2x, 3x and 4x.",
+    "Sum of their cubes = $\\left(2x\\right)^{3} + \\left(3x\\right)^{3} + \\left(4x\\right)^{3}$ = 8$x^{3}$ + 27$x^{3}$ + 64$x^{3}$ = 99$x^{3}$",
+    "So 99$x^{3}$ = 792",
+    "$x^{3}$ = 792 ÷ 99 = 8   ⇒   x = $\\sqrt[3]{8}$ = 2",
+    "The amounts are 2x = 4, 3x = 6, 4x = 8.",
+    "Answer: ₹4, ₹6 and ₹8"
+   ]
+  },
+  {
+   "code": "ch1-q058",
+   "chapter": "ch1",
+   "skill_id": 19,
+   "source_exam": "2023-24 PT-2",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Three numbers are in the ratio 2 : 3 : 4. If the sum of their cubes is 131769, find the three numbers.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "22, 33 and 44. 99$x^{3}$ = 131769 ⇒ $x^{3}$ = 1331 ⇒ x = 11.",
+   "solution_steps_latex": [
+    "Let the three numbers be 2x, 3x and 4x.",
+    "Sum of cubes = 8$x^{3}$ + 27$x^{3}$ + 64$x^{3}$ = 99$x^{3}$",
+    "99$x^{3}$ = 131769",
+    "$x^{3}$ = 131769 ÷ 99 = 1331   ⇒   x = $\\sqrt[3]{1331}$ = 11",
+    "The numbers are 2x = 22, 3x = 33, 4x = 44.",
+    "Answer: 22, 33 and 44"
+   ]
+  },
+  {
+   "code": "ch1-q059",
+   "chapter": "ch1",
+   "skill_id": 20,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "As part of the Independence Day programme, a group of people were arranged so that the number of rows was equal to the number of columns, forming a square formation. If there were 9450 people, how many more persons are required to make this arrangement possible? Also find the number of persons in each row.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "154 more persons; 98 persons in each row. $97^{2}$ = 9409 and $98^{2}$ = 9604, so 9604 - 9450 = 154.",
+   "solution_steps_latex": [
+    "For a square formation, the total must be a perfect square.",
+    "Find the squares either side of 9450:",
+    "$97^{2}$ = 9409  (too small)   and   $98^{2}$ = 9604  (the next one up)",
+    "Since we must ADD people to complete the square, we go up to 9604.",
+    "People required = 9604 - 9450 = 154",
+    "Number in each row = $\\sqrt{9604}$ = 98",
+    "Answer: 154 more persons; 98 persons in each row"
+   ]
+  },
+  {
+   "code": "ch1-q060",
+   "chapter": "ch1",
+   "skill_id": 20,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "For the Republic Day parade, dancers are to be arranged in a formation such that the number of rows equals the number of columns. There are 2016 dancers in the group.\n(a) What is the minimum number of dancers to be added to make this arrangement?\n(b) Find the number of dancers in each row.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) 9 dancers. $44^{2}$ = 1936 and $45^{2}$ = 2025, so 2025 - 2016 = 9.\n(b) 45 dancers in each row.",
+   "solution_steps_latex": [
+    "The number of dancers must be a perfect square.",
+    "$44^{2}$ = 1936  (too small)   and   $45^{2}$ = 2025",
+    "(a) Dancers to be added = 2025 - 2016 = 9",
+    "(b) Dancers in each row = $\\sqrt{2025}$ = 45",
+    "Answer: (a) 9 dancers   (b) 45 in each row"
+   ]
+  },
+  {
+   "code": "ch1-q061",
+   "chapter": "ch1",
+   "skill_id": 20,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "Daisy is decorating flowers in rows such that the number of flowers in one row is equal to the number of rows. She has 5646 flowers. How many more flowers does she need to make such an arrangement? How many flowers does she place in a row?",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "130 more flowers; 76 flowers in a row. $75^{2}$ = 5625 and $76^{2}$ = 5776, so 5776 - 5646 = 130.",
+   "solution_steps_latex": [
+    "The number of flowers must be a perfect square.",
+    "$75^{2}$ = 5625  (too small)   and   $76^{2}$ = 5776",
+    "Flowers needed = 5776 - 5646 = 130",
+    "Flowers in a row = $\\sqrt{5776}$ = 76",
+    "Answer: 130 more flowers; 76 in a row"
+   ]
+  },
+  {
+   "code": "ch1-q062",
+   "chapter": "ch1",
+   "skill_id": 20,
+   "source_exam": "2022-23 Annual",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "In a meeting hall there are 13695 chairs. The organiser arranged the chairs so that the number of chairs in each row is equal to the number of rows. Find the least number of chairs left out of this arrangement.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "6 chairs. $117^{2}$ = 13689, and 13695 - 13689 = 6.",
+   "solution_steps_latex": [
+    "Here the chairs are LEFT OVER, so we take the largest perfect square below 13695.",
+    "$117^{2}$ = 13689   and   $118^{2}$ = 13924 (too big)",
+    "Chairs left out = 13695 - 13689 = 6",
+    "(The organiser makes a 117 × 117 arrangement and 6 chairs remain unused.)",
+    "Answer: 6 chairs"
+   ]
+  },
+  {
+   "code": "ch1-q063",
+   "chapter": "ch1",
+   "skill_id": 21,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "The area of a square ground is 7056 $m^{2}$. Find the perimeter of the square ground. Also find the cost of fencing it at the rate of ₹12 per metre.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "Perimeter = 336 m; cost = ₹4032. Side = $\\sqrt{7056}$ = 84 m, so perimeter = 4 × 84 = 336 m and cost = 336 × 12 = ₹4032.",
+   "solution_steps_latex": [
+    "Area of a square = $\\left(side\\right)^{2}$, so side = $\\sqrt{7056.}$",
+    "Prime factorise: 7056 = $2^{4}  \\times  3^{2}  \\times  7^{2}$",
+    "$\\sqrt{7056} = 2^{2}$ × 3 × 7 = 84 m",
+    "Perimeter = 4 × side = 4 × 84 = 336 m",
+    "Cost of fencing = 336 × ₹12 = ₹4032",
+    "Answer: perimeter 336 m; cost ₹4032"
+   ]
+  },
+  {
+   "code": "ch2-q001",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2025-26 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "$\\left(-3p^{-3}\\right)^{2}$ = ________",
+   "options_latex": [
+    "-3$p^{-6}$",
+    "9$p^{-6}$",
+    "-9$p^{6}$",
+    "6$p^{6}$"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b) 9$p^{-6}$. $\\left(-3p^{-3}\\right)^{2} = \\left(-3\\right)^{2}  \\times  \\left(p^{-3}\\right)^{2}$ = 9$p^{-6}$.",
+   "solution_steps_latex": [
+    "Apply the power to BOTH factors inside the bracket: $\\left(ab\\right)^{m} = a^{m}$$b^{m}$.",
+    "$\\left(-3p^{-3}\\right)^{2} = \\left(-3\\right)^{2}  \\times  \\left(p^{-3}\\right)^{2}$",
+    "$\\left(-3\\right)^{2}$ = 9   (a negative number squared is positive)",
+    "$\\left(p^{-3}\\right)^{2} = p^{-3  \\times  2} = p^{-6}$   using $\\left(a^{m}\\right)^{n} = a^{mn}$",
+    "So the answer is 9$p^{-6}$.",
+    "Answer: (b) 9$p^{-6}$"
+   ]
+  },
+  {
+   "code": "ch2-q002",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "The value of $\\left(0.03\\right)^{-2}  \\times  \\left(0.000027\\right)^{3}$ is",
+   "options_latex": [
+    "$\\left(0.03\\right)^{5}$",
+    "$\\left(0.03\\right)^{7}$",
+    "0.03",
+    "$\\left(0.3\\right)^{7}$"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b) $\\left(0.03\\right)^{7}$. 0.000027 = $\\left(0.03\\right)^{3}$, so $\\left(0.03\\right)^{-2}  \\times  \\left(0.03\\right)^{9} = \\left(0.03\\right)^{7}$.",
+   "solution_steps_latex": [
+    "Spot that 0.000027 is a power of 0.03:  $\\left(0.03\\right)^{3}$ = 0.000027 ✔",
+    "So $\\left(0.000027\\right)^{3}$ = [$\\left(0.03\\right)^{3}$]^{3} = $\\left(0.03\\right)^{9}$",
+    "Now $\\left(0.03\\right)^{-2}  \\times  \\left(0.03\\right)^{9} = \\left(0.03\\right)^{-2 + 9} = \\left(0.03\\right)^{7}$",
+    "Answer: (b) $\\left(0.03\\right)^{7}$"
+   ]
+  },
+  {
+   "code": "ch2-q003",
+   "chapter": "ch2",
+   "skill_id": 23,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "The value of [ $\\left(\\frac{2}{3}\\right)^{2}  \\times  \\left(\\frac{-1}{3}\\right)^{-2}$ ]^{2} is ________",
+   "options_latex": [
+    "$4^{2}$",
+    "$\\left(\\frac{1}{4}\\right)^{2}$",
+    "$\\left(\\frac{4}{81}\\right)^{2}$",
+    "$\\left(\\frac{81}{4}\\right)^{2}$"
+   ],
+   "correct_option": 0,
+   "answer_latex": "(a) $4^{2}$. $\\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$ and $\\left(\\frac{-1}{3}\\right)^{-2}$ = 9, so the bracket = 4, and $4^{2}$ follows.",
+   "solution_steps_latex": [
+    "Work inside the bracket first.",
+    "$\\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$",
+    "$\\left(\\frac{-1}{3}\\right)^{-2} = \\left(\\frac{-3}{1}\\right)^{2}$ = 9   (a negative index flips the fraction)",
+    "Bracket = $\\frac{4}{9}$ × 9 = 4",
+    "So the whole expression is $4^{2}$.",
+    "Answer: (a) $4^{2}$"
+   ]
+  },
+  {
+   "code": "ch2-q004",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "Which of these is equal to $\\left(10\\right)^{-6}$?",
+   "options_latex": [
+    "$10^{-3}  \\div  10^{9}$",
+    "$10^{3}  \\div  10^{-9}$",
+    "$10^{3}  \\div  10^{9}$",
+    "$10^{-3}  \\div  10^{-9}$"
+   ],
+   "correct_option": 2,
+   "answer_latex": "(c) $10^{3}  \\div  10^{9} = 10^{3-9} = 10^{-6}$.",
+   "solution_steps_latex": [
+    "We want the option that simplifies to $10^{-6}$. Use $a^{m}  \\div  a^{n} = a^{m-n}$.",
+    "(a) $10^{-3}  \\div  10^{9} = 10^{-3-9} = 10^{-12}$ ✘",
+    "(b) $10^{3}  \\div  10^{-9} = 10^{3+9} = 10^{12}$ ✘",
+    "(c) $10^{3}  \\div  10^{9} = 10^{3-9} = 10^{-6}$ ✔",
+    "(d) $10^{-3}  \\div  10^{-9} = 10^{-3+9} = 10^{6}$ ✘",
+    "Answer: (c)"
+   ]
+  },
+  {
+   "code": "ch2-q005",
+   "chapter": "ch2",
+   "skill_id": 24,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "What number comes in the blank to make the number sentence true?",
+   "options_latex": [
+    "$\\left(\\frac{-5}{7}\\right)^{-3}$",
+    "$\\left(\\frac{-7}{5}\\right)^{-3}$",
+    "$\\left(\\frac{5}{7}\\right)^{3}$",
+    "$\\left(\\frac{7}{5}\\right)^{3}$"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b) $\\left(\\frac{-7}{5}\\right)^{-3}$. $\\left(\\frac{7}{-5}\\right)^{3} = \\left(\\frac{-7}{5}\\right)^{3}$, and a number times its reciprocal is 1, so the blank is $\\left(\\frac{-7}{5}\\right)^{-3}$.",
+   "solution_steps_latex": [
+    "If a number times something equals 1, that something is its reciprocal.",
+    "First tidy the base: 7/-5 is the same as $\\frac{-7}{5}$.",
+    "So we need the reciprocal of $\\left(\\frac{-7}{5}\\right)^{3}$, which is $\\left(\\frac{-5}{7}\\right)^{3}$.",
+    "And $\\left(\\frac{-5}{7}\\right)^{3}$ can be written with a negative index as $\\left(\\frac{-7}{5}\\right)^{-3}$.",
+    "Answer: (b) $\\left(\\frac{-7}{5}\\right)^{-3}$"
+   ]
+  },
+  {
+   "code": "ch2-q006",
+   "chapter": "ch2",
+   "skill_id": 25,
+   "source_exam": "2022-23 PT-1",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "The value of $1^{-7} + 1^{7} + 1^{0}$ is",
+   "options_latex": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct_option": 3,
+   "answer_latex": "(d) 3. Any power of 1 is 1, so 1 + 1 + 1 = 3.",
+   "solution_steps_latex": [
+    "Any power of 1 is just 1 — positive, negative or zero index.",
+    "$1^{-7}$ = 1",
+    "$1^{7}$ = 1",
+    "$1^{0}$ = 1",
+    "Sum = 1 + 1 + 1 = 3",
+    "Answer: (d) 3"
+   ]
+  },
+  {
+   "code": "ch2-q007",
+   "chapter": "ch2",
+   "skill_id": 23,
+   "source_exam": "2022-23 PT-1",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "The value of $x^{-1}  \\div  y^{-1}$ is",
+   "options_latex": [
+    "y/x",
+    "x/y",
+    "1/xy",
+    "xy/1"
+   ],
+   "correct_option": 0,
+   "answer_latex": "(a) y/x. $x^{-1}  \\div  y^{-1} = \\left(\\frac{1}{x}\\right)  \\div  \\left(\\frac{1}{y}\\right) = \\left(\\frac{1}{x}\\right)$ × y = y/x.",
+   "solution_steps_latex": [
+    "Rewrite the negative indices as fractions: $a^{-1}$ = 1/a.",
+    "$x^{-1}  \\div  y^{-1} = \\left(\\frac{1}{x}\\right)  \\div  \\left(\\frac{1}{y}\\right)$",
+    "Dividing by a fraction means multiplying by its reciprocal:",
+    "= $\\left(\\frac{1}{x}\\right)  \\times  \\left(\\frac{y}{1}\\right)$ = y/x",
+    "Answer: (a) y/x"
+   ]
+  },
+  {
+   "code": "ch2-q008",
+   "chapter": "ch2",
+   "skill_id": 26,
+   "source_exam": "2021-22 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "($12^{2} - 5^{3}$) × $\\left(-1\\right)^{20}$/19 equals ________",
+   "options_latex": [
+    "0",
+    "1",
+    "-1",
+    "2"
+   ],
+   "correct_option": 1,
+   "answer_latex": "(b) 1. $12^{2} - 5^{3}$ = 144 - 125 = 19, and $\\left(-1\\right)^{20}$ = 1, so 19 × $\\left(\\frac{1}{19}\\right)$ = 1.",
+   "solution_steps_latex": [
+    "Work out each piece.",
+    "$12^{2}$ = 144  and  $5^{3}$ = 125, so $12^{2} - 5^{3}$ = 144 - 125 = 19",
+    "$\\left(-1\\right)^{20}$ = 1   (a negative number to an EVEN power is positive)",
+    "So the expression = 19 × $\\frac{1}{19}$ = 1",
+    "Answer: (b) 1"
+   ]
+  },
+  {
+   "code": "ch2-q009",
+   "chapter": "ch2",
+   "skill_id": 23,
+   "source_exam": "2021-22 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "If x = $\\left(\\frac{5}{8}\\right)^{-2}  \\times  \\left(\\frac{4}{5}\\right)^{-2}$, then the value of $x^{-1}$ is ________",
+   "options_latex": [
+    "$\\frac{1}{4}$",
+    "64",
+    "4",
+    "$\\frac{1}{64}$"
+   ],
+   "correct_option": 0,
+   "answer_latex": "(a) $\\frac{1}{4}$. $\\left(\\frac{5}{8}\\right)^{-2} = \\frac{64}{25}$ and $\\left(\\frac{4}{5}\\right)^{-2} = \\frac{25}{16}$, so x = 4 and $x^{-1} = \\frac{1}{4}$.",
+   "solution_steps_latex": [
+    "A negative index flips the fraction.",
+    "$\\left(\\frac{5}{8}\\right)^{-2} = \\left(\\frac{8}{5}\\right)^{2} = \\frac{64}{25}$",
+    "$\\left(\\frac{4}{5}\\right)^{-2} = \\left(\\frac{5}{4}\\right)^{2} = \\frac{25}{16}$",
+    "x = $\\frac{64}{25}  \\times  \\frac{25}{16} = \\frac{64}{16}$ = 4",
+    "$x^{-1}$ = 1/x = $\\frac{1}{4}$",
+    "Answer: (a) $\\frac{1}{4}$"
+   ]
+  },
+  {
+   "code": "ch2-q010",
+   "chapter": "ch2",
+   "skill_id": 27,
+   "source_exam": "2021-22 PT-1",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "Which of the following statements is true?",
+   "options_latex": [
+    "4.26 × $10^{6}$ = 4260 × $10^{4}$",
+    "4.26 × $10^{5}$ = 42600000",
+    "4.26 × $10^{7}$ = 42600000",
+    "4.26 × $10^{6}$ = 426 × $10^{5}$"
+   ],
+   "correct_option": 2,
+   "answer_latex": "(c). 4.26 × $10^{7}$ = 42600000.",
+   "solution_steps_latex": [
+    "Write each option out in full and compare.",
+    "(a) 4.26 × $10^{6}$ = 4260000, but 4260 × $10^{4}$ = 42600000. ✘",
+    "(b) 4.26 × $10^{5}$ = 426000, not 42600000. ✘",
+    "(c) 4.26 × $10^{7}$ = 42600000. ✔",
+    "(d) 4.26 × $10^{6}$ = 4260000, but 426 × $10^{5}$ = 42600000. ✘",
+    "Answer: (c)"
+   ]
+  },
+  {
+   "code": "ch2-q011",
+   "chapter": "ch2",
+   "skill_id": 24,
+   "source_exam": "2021-22 PT-1",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "mcq",
+   "stem_latex": "The multiplicative inverse of $5^{-2}$ is ________",
+   "options_latex": [
+    "1",
+    "5",
+    "10",
+    "25"
+   ],
+   "correct_option": 3,
+   "answer_latex": "(d) 25. $5^{-2} = \\frac{1}{25}$, whose multiplicative inverse is 25.",
+   "solution_steps_latex": [
+    "The multiplicative inverse of a number is its reciprocal — the number you multiply by to get 1.",
+    "$5^{-2} = \\frac{1}{5^{2}} = \\frac{1}{25}$",
+    "The reciprocal of $\\frac{1}{25}$ is 25.",
+    "(Shortcut: the inverse of $a^{-n}$ is $a^{n}$, so the inverse of $5^{-2}$ is $5^{2}$ = 25.)",
+    "Answer: (d) 25"
+   ]
+  },
+  {
+   "code": "ch2-q012",
+   "chapter": "ch2",
+   "skill_id": 26,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "The value of $\\left(-2\\right)^{0} - \\left(-2\\right)^{1} + \\left(-2\\right)^{2} + \\left(-2\\right)^{3}$ is ________.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "-1. $\\left(-2\\right)^{0} - \\left(-2\\right)^{1} + \\left(-2\\right)^{2} + \\left(-2\\right)^{3}$ = 1 + 2 + 4 - 8 = -1.",
+   "solution_steps_latex": [
+    "Evaluate each term, watching the signs carefully.",
+    "$\\left(-2\\right)^{0}$ = 1   (anything non-zero to the power 0)",
+    "$\\left(-2\\right)^{1}$ = -2, and we are SUBTRACTING it: -(-2) = +2",
+    "$\\left(-2\\right)^{2}$ = +4   (even power ⇒ positive)",
+    "$\\left(-2\\right)^{3}$ = -8   (odd power ⇒ negative)",
+    "Total = 1 + 2 + 4 - 8 = -1",
+    "Answer: -1"
+   ]
+  },
+  {
+   "code": "ch2-q013",
+   "chapter": "ch2",
+   "skill_id": 27,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Write 0.00003412652 in standard form.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "3.412652 × $10^{-5}$",
+   "solution_steps_latex": [
+    "Standard form is k × $10^{n}$ with 1 ≤ k < 10.",
+    "Move the decimal point to just after the first non-zero digit (the 3):",
+    "0.00003412652 → 3.412652",
+    "The point moved 5 places to the RIGHT, so the power of 10 is -5.",
+    "Answer: 3.412652 × $10^{-5}$"
+   ]
+  },
+  {
+   "code": "ch2-q014",
+   "chapter": "ch2",
+   "skill_id": 27,
+   "source_exam": "2021-22 PT-1",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Express 34500000 in standard form.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "3.45 × $10^{7}$",
+   "solution_steps_latex": [
+    "Standard form is k × $10^{n}$ with 1 ≤ k < 10.",
+    "34500000 → put the decimal after the first digit: 3.45",
+    "The point moved 7 places to the LEFT, so the power of 10 is +7.",
+    "Answer: 3.45 × $10^{7}$"
+   ]
+  },
+  {
+   "code": "ch2-q015",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Fill in the blank: ________ ÷ $\\left(\\frac{1}{5}\\right)^{-3} = \\left(\\frac{1}{5}\\right)^{2}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "5. The blank = $\\left(\\frac{1}{5}\\right)^{2}  \\times  \\left(\\frac{1}{5}\\right)^{-3} = \\left(\\frac{1}{5}\\right)^{-1}$ = 5.",
+   "solution_steps_latex": [
+    "Call the missing number N, so N ÷ $\\left(\\frac{1}{5}\\right)^{-3} = \\left(\\frac{1}{5}\\right)^{2}$.",
+    "To get N, multiply both sides by $\\left(\\frac{1}{5}\\right)^{-3}$:",
+    "N = $\\left(\\frac{1}{5}\\right)^{2}  \\times  \\left(\\frac{1}{5}\\right)^{-3}$",
+    "= $\\left(\\frac{1}{5}\\right)^{2 + (-3)} = \\left(\\frac{1}{5}\\right)^{-1}$",
+    "= 5",
+    "Answer: 5"
+   ]
+  },
+  {
+   "code": "ch2-q016",
+   "chapter": "ch2",
+   "skill_id": 23,
+   "source_exam": "2025-26 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Find the value of $\\left(1^{-1} - 3^{-1}\\right)^{-1}$.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{3}{2}$. $1^{-1}$ = 1 and $3^{-1} = \\frac{1}{3}$, so $\\left(1 - \\frac{1}{3}\\right)^{-1} = \\left(\\frac{2}{3}\\right)^{-1} = \\frac{3}{2}$.",
+   "solution_steps_latex": [
+    "Deal with the inside of the bracket first.",
+    "$1^{-1}$ = 1  and  $3^{-1} = \\frac{1}{3}$",
+    "So the bracket = 1 - $\\frac{1}{3} = \\frac{2}{3}$",
+    "Now apply the outer index: $\\left(\\frac{2}{3}\\right)^{-1} = \\frac{3}{2}$   (a negative index flips the fraction)",
+    "Answer: $\\frac{3}{2}$"
+   ]
+  },
+  {
+   "code": "ch2-q017",
+   "chapter": "ch2",
+   "skill_id": 28,
+   "source_exam": "2024-25 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Two steel rods weigh 15 × $10^{3}$ kg and 2.6 × $10^{2}$ kg respectively. Find the total weight of the rods.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "15260 kg (= 1.526 × $10^{4}$ kg). 15 × $10^{3}$ = 15000 and 2.6 × $10^{2}$ = 260.",
+   "solution_steps_latex": [
+    "Write both weights as ordinary numbers.",
+    "15 × $10^{3}$ = 15 × 1000 = 15000 kg",
+    "2.6 × $10^{2}$ = 2.6 × 100 = 260 kg",
+    "Total = 15000 + 260 = 15260 kg",
+    "In standard form: 1.526 × $10^{4}$ kg",
+    "Answer: 15260 kg (= 1.526 × $10^{4}$ kg)"
+   ]
+  },
+  {
+   "code": "ch2-q018",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2024-25 Annual",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "If (5$x^{a}$)(b$x^{2}$) = 35$x^{8}$, find the values of a and b (where a and b are natural numbers).",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "a = 6, b = 7. 5b × $x^{a+2}$ = 35$x^{8}$ ⇒ 5b = 35 ⇒ b = 7, and a + 2 = 8 ⇒ a = 6.",
+   "solution_steps_latex": [
+    "Multiply out the left-hand side, keeping numbers and letters separate.",
+    "(5$x^{a}$)(b$x^{2}$) = (5 × b) × ($x^{a}  \\times  x^{2}$) = 5b × $x^{a+2}$",
+    "Now compare with 35$x^{8}$.",
+    "Numbers: 5b = 35  ⇒  b = 7",
+    "Powers of x: a + 2 = 8  ⇒  a = 6",
+    "Answer: a = 6, b = 7"
+   ]
+  },
+  {
+   "code": "ch2-q019",
+   "chapter": "ch2",
+   "skill_id": 25,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 60,
+   "type": "short",
+   "stem_latex": "Find the value of $5^{-1}$($5^{0} + 6^{0} + 7^{0}$) + $5^{-1}$.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{4}{5}$. Any non-zero number to the power 0 is 1, so $5^{-1}$(1 + 1 + 1) + $5^{-1} = \\frac{3}{5} + \\frac{1}{5} = \\frac{4}{5}$.",
+   "solution_steps_latex": [
+    "Remember that anything (non-zero) to the power 0 is 1.",
+    "$5^{0}$ = 1,  $6^{0}$ = 1,  $7^{0}$ = 1, so the bracket = 1 + 1 + 1 = 3",
+    "$5^{-1} = \\frac{1}{5}$",
+    "So the expression = $\\left(\\frac{1}{5}\\right)$ × 3 + $\\frac{1}{5} = \\frac{3}{5} + \\frac{1}{5}$",
+    "= $\\frac{4}{5}$",
+    "Answer: $\\frac{4}{5}$"
+   ]
+  },
+  {
+   "code": "ch2-q020",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2021-22 PT-1",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Simplify: $\\left(\\frac{24}{3}\\right)^{4}  \\times  \\left(\\frac{3}{8}\\right)^{4}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "81. $\\left(\\frac{24}{3}\\right)$ = 8, so $8^{4}  \\times  \\left(\\frac{3}{8}\\right)^{4} = \\left(8  \\times  \\frac{3}{8}\\right)^{4} = 3^{4}$ = 81.",
+   "solution_steps_latex": [
+    "First simplify the base: $\\frac{24}{3}$ = 8.",
+    "So we have $8^{4}  \\times  \\left(\\frac{3}{8}\\right)^{4}$.",
+    "Both have the same index 4, so use $a^{m}  \\times  b^{m} = \\left(a  \\times  b\\right)^{m}$:",
+    "= $\\left(8  \\times  \\frac{3}{8}\\right)^{4} = 3^{4}$",
+    "= 81",
+    "Answer: 81"
+   ]
+  },
+  {
+   "code": "ch2-q021",
+   "chapter": "ch2",
+   "skill_id": 23,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Simplify: $2^{-5} - 8^{-2} + 2^{-3}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{9}{64}$. $2^{-5} = \\frac{1}{32}$, $8^{-2} = \\frac{1}{64}$, $2^{-3} = \\frac{1}{8}$. So $\\frac{2}{64} - \\frac{1}{64} + \\frac{8}{64} = \\frac{9}{64}$.",
+   "solution_steps_latex": [
+    "Turn each negative index into a fraction.",
+    "$2^{-5} = \\frac{1}{2^{5}} = \\frac{1}{32}$",
+    "$8^{-2} = \\frac{1}{8^{2}} = \\frac{1}{64}$",
+    "$2^{-3} = \\frac{1}{2^{3}} = \\frac{1}{8}$",
+    "Now use a common denominator of 64:",
+    "$\\frac{1}{32} = \\frac{2}{64}$,  $\\frac{1}{8} = \\frac{8}{64}$",
+    "So $\\frac{2}{64} - \\frac{1}{64} + \\frac{8}{64} = \\frac{9}{64}$",
+    "Answer: $\\frac{9}{64}$"
+   ]
+  },
+  {
+   "code": "ch2-q022",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Evaluate: [ $\\left(\\frac{-2}{3}\\right)^{3}  \\times  \\left(\\frac{-2}{3}\\right)$ ] ÷ $\\left(\\frac{4}{9}\\right)^{2}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "1. $\\left(\\frac{-2}{3}\\right)^{3}  \\times  \\left(\\frac{-2}{3}\\right) = \\left(\\frac{-2}{3}\\right)^{4} = \\frac{16}{81}$, and $\\left(\\frac{4}{9}\\right)^{2} = \\frac{16}{81}$. So the quotient is 1.",
+   "solution_steps_latex": [
+    "Simplify the numerator first, using $a^{m}$ × a = $a^{m+1}$.",
+    "$\\left(\\frac{-2}{3}\\right)^{3}  \\times  \\left(\\frac{-2}{3}\\right) = \\left(\\frac{-2}{3}\\right)^{4} = \\frac{16}{81}$   (even power ⇒ positive)",
+    "Now the denominator: $\\left(\\frac{4}{9}\\right)^{2} = \\frac{16}{81}$",
+    "So the expression = $\\left(\\frac{16}{81}\\right)  \\div  \\left(\\frac{16}{81}\\right)$ = 1",
+    "Answer: 1"
+   ]
+  },
+  {
+   "code": "ch2-q023",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2024-25 Annual",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Evaluate: [ $\\left(5^{2}\\right)^{-1}$ × 125 ] ÷ $\\left(\\frac{1}{5}\\right)^{-2}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{1}{5}$. $\\left(5^{2}\\right)^{-1}$ × 125 = $5^{-2}  \\times  5^{3}$ = 5, and $\\left(\\frac{1}{5}\\right)^{-2}$ = 25. So 5 ÷ 25 = $\\frac{1}{5}$.",
+   "solution_steps_latex": [
+    "Simplify the numerator.",
+    "$\\left(5^{2}\\right)^{-1} = 5^{2  \\times  (-1)} = 5^{-2}$",
+    "125 = $5^{3}$, so the numerator = $5^{-2}  \\times  5^{3} = 5^{-2+3} = 5^{1}$ = 5",
+    "Now the denominator: $\\left(\\frac{1}{5}\\right)^{-2} = 5^{2}$ = 25",
+    "So the expression = 5 ÷ 25 = $\\frac{1}{5}$",
+    "Answer: $\\frac{1}{5}$"
+   ]
+  },
+  {
+   "code": "ch2-q024",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Simplify: ($p^{7}$ $q^{2}$ $r^{-4}$) / ($r^{-8}$ $p^{3}$ $q^{-2}$)",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$p^{4}$ $q^{4}$ $r^{4}$. Subtract exponents: $p^{7-3}$ $q^{2-(-2)}$ $r^{-4-(-8)} = p^{4}$ $q^{4}$ $r^{4}$.",
+   "solution_steps_latex": [
+    "Bring every letter to the top by changing the sign of its index, then use $a^{m}  \\div  a^{n} = a^{m-n}$ for each letter separately.",
+    "p:  $p^{7}  \\div  p^{3} = p^{7-3} = p^{4}$",
+    "q:  $q^{2}  \\div  q^{-2} = q^{2-(-2)} = q^{4}$",
+    "r:  $r^{-4}  \\div  r^{-8} = r^{-4-(-8)} = r^{4}$",
+    "Answer: $p^{4}$ $q^{4}$ $r^{4}$"
+   ]
+  },
+  {
+   "code": "ch2-q025",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the value of x:  $5^{-8}  \\times  \\left(5^{3}\\right)^{x} = 25^{3}  \\times  5^{x}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = 7. LHS = $5^{-8+3x}$, RHS = $5^{6+x}$. So -8 + 3x = 6 + x ⇒ 2x = 14 ⇒ x = 7.",
+   "solution_steps_latex": [
+    "Write both sides as a single power of 5.",
+    "Left:  $5^{-8}  \\times  \\left(5^{3}\\right)^{x} = 5^{-8}  \\times  5^{3x} = 5^{-8 + 3x}$",
+    "Right: $25^{3} = \\left(5^{2}\\right)^{3} = 5^{6}$, so the right side = $5^{6}  \\times  5^{x} = 5^{6 + x}$",
+    "The bases match, so the indices must be equal:",
+    "-8 + 3x = 6 + x",
+    "3x - x = 6 + 8  ⇒  2x = 14  ⇒  x = 7",
+    "Answer: x = 7"
+   ]
+  },
+  {
+   "code": "ch2-q026",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the value of p if  $12^{p}  \\times  12^{-3} = \\left(\\frac{1}{12}\\right)^{-5}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "p = 8. $\\left(\\frac{1}{12}\\right)^{-5} = 12^{5}$, so $12^{p-3} = 12^{5}$ ⇒ p = 8.",
+   "solution_steps_latex": [
+    "Make both sides powers of 12.",
+    "Right side: $\\left(\\frac{1}{12}\\right)^{-5} = 12^{5}$",
+    "Left side: $12^{p}  \\times  12^{-3} = 12^{p - 3}$",
+    "So $12^{p - 3} = 12^{5}$",
+    "p - 3 = 5  ⇒  p = 8",
+    "Answer: p = 8"
+   ]
+  },
+  {
+   "code": "ch2-q027",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2022-23 PT-1",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the value of x if  $\\left(\\frac{4}{5}\\right)^{3}  \\div  \\left(\\frac{5}{4}\\right)^{3} = \\left(\\frac{4}{5}\\right)^{3x}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = 2. $\\left(\\frac{5}{4}\\right)^{3} = \\left(\\frac{4}{5}\\right)^{-3}$, so LHS = $\\left(\\frac{4}{5}\\right)^{3-(-3)} = \\left(\\frac{4}{5}\\right)^{6}$. Hence 3x = 6 ⇒ x = 2.",
+   "solution_steps_latex": [
+    "Notice that $\\frac{5}{4}$ is the reciprocal of $\\frac{4}{5}$, so $\\left(\\frac{5}{4}\\right)^{3} = \\left(\\frac{4}{5}\\right)^{-3}$.",
+    "Left side = $\\left(\\frac{4}{5}\\right)^{3}  \\div  \\left(\\frac{4}{5}\\right)^{-3} = \\left(\\frac{4}{5}\\right)^{3 - (-3)} = \\left(\\frac{4}{5}\\right)^{6}$",
+    "So $\\left(\\frac{4}{5}\\right)^{6} = \\left(\\frac{4}{5}\\right)^{3x}$",
+    "The bases match, so 3x = 6  ⇒  x = 2",
+    "Answer: x = 2"
+   ]
+  },
+  {
+   "code": "ch2-q028",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find the value of x:  [ $\\left(\\frac{2}{5}\\right)^{-2}$ ]^{2x} = $\\frac{625}{16}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = 1. $\\left(\\frac{2}{5}\\right)^{-2} = \\frac{25}{4}$, and $\\frac{625}{16} = \\left(\\frac{25}{4}\\right)^{2}$. So 2x = 2 ⇒ x = 1.",
+   "solution_steps_latex": [
+    "Simplify the base first: $\\left(\\frac{2}{5}\\right)^{-2} = \\left(\\frac{5}{2}\\right)^{2} = \\frac{25}{4}$",
+    "So the left side is $\\left(\\frac{25}{4}\\right)^{2x}$.",
+    "Now write the right side with the same base: $\\frac{625}{16} = \\left(\\frac{25}{4}\\right)^{2}$   (since $25^{2}$ = 625 and $4^{2}$ = 16)",
+    "So $\\left(\\frac{25}{4}\\right)^{2x} = \\left(\\frac{25}{4}\\right)^{2}$",
+    "2x = 2  ⇒  x = 1",
+    "Answer: x = 1"
+   ]
+  },
+  {
+   "code": "ch2-q029",
+   "chapter": "ch2",
+   "skill_id": 23,
+   "source_exam": "2021-22 Half Yearly",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "If a/b = $\\left(\\frac{2}{3}\\right)^{-3}  \\times  \\left(\\frac{5}{6}\\right)^{0}$, find the value of $\\left(\\frac{a}{b}\\right)^{-2}$.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\frac{64}{729}$. a/b = $\\left(\\frac{3}{2}\\right)^{3}$ × 1 = $\\frac{27}{8}$, so $\\left(\\frac{a}{b}\\right)^{-2} = \\left(\\frac{8}{27}\\right)^{2} = \\frac{64}{729}$.",
+   "solution_steps_latex": [
+    "Find a/b first.",
+    "$\\left(\\frac{2}{3}\\right)^{-3} = \\left(\\frac{3}{2}\\right)^{3} = \\frac{27}{8}$",
+    "$\\left(\\frac{5}{6}\\right)^{0}$ = 1",
+    "So a/b = $\\frac{27}{8}$ × 1 = $\\frac{27}{8}$",
+    "Now $\\left(\\frac{a}{b}\\right)^{-2} = \\left(\\frac{8}{27}\\right)^{2}$   (negative index flips the fraction)",
+    "= $\\frac{64}{729}$",
+    "Answer: $\\frac{64}{729}$"
+   ]
+  },
+  {
+   "code": "ch2-q030",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2025-26 Annual",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 120,
+   "type": "short",
+   "stem_latex": "Find x, if  $\\left(\\frac{5}{9}\\right)^{2x}  \\times  \\left(\\frac{5}{9}\\right)^{-18} = \\left(\\frac{81}{25}\\right)^{-3}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = 12. $\\left(\\frac{81}{25}\\right)^{-3} = \\left(\\frac{25}{81}\\right)^{3} = \\left(\\frac{5}{9}\\right)^{6}$, and LHS = $\\left(\\frac{5}{9}\\right)^{2x-18}$. So 2x - 18 = 6 ⇒ x = 12.",
+   "solution_steps_latex": [
+    "Write the right-hand side as a power of $\\frac{5}{9}$.",
+    "$\\left(\\frac{81}{25}\\right)^{-3} = \\left(\\frac{25}{81}\\right)^{3}$",
+    "Now $\\frac{25}{81} = 5^{2}$/$9^{2} = \\left(\\frac{5}{9}\\right)^{2}$, so $\\left(\\frac{25}{81}\\right)^{3} = \\left(\\frac{5}{9}\\right)^{6}$",
+    "Left side: $\\left(\\frac{5}{9}\\right)^{2x}  \\times  \\left(\\frac{5}{9}\\right)^{-18} = \\left(\\frac{5}{9}\\right)^{2x - 18}$",
+    "So $\\left(\\frac{5}{9}\\right)^{2x - 18} = \\left(\\frac{5}{9}\\right)^{6}$",
+    "2x - 18 = 6  ⇒  2x = 24  ⇒  x = 12",
+    "Answer: x = 12"
+   ]
+  },
+  {
+   "code": "ch2-q031",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Find the value of x using the laws of exponents:\n [ $\\left(\\frac{9}{16}\\right)^{4}  \\times  \\left(\\frac{4}{3}\\right)^{10}$ ] ÷ $\\left(\\frac{64}{27}\\right) = \\left(\\frac{4}{3}\\right)^{x}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = -1. $\\left(\\frac{9}{16}\\right)^{4} = \\left(\\frac{3}{4}\\right)^{8} = \\left(\\frac{4}{3}\\right)^{-8}$ and $\\frac{64}{27} = \\left(\\frac{4}{3}\\right)^{3}$. So LHS = $\\left(\\frac{4}{3}\\right)^{-8+10-3} = \\left(\\frac{4}{3}\\right)^{-1}$.",
+   "solution_steps_latex": [
+    "Write every term as a power of $\\frac{4}{3}$.",
+    "$\\left(\\frac{9}{16}\\right) = 3^{2}$/$4^{2} = \\left(\\frac{3}{4}\\right)^{2} = \\left(\\frac{4}{3}\\right)^{-2}$, so $\\left(\\frac{9}{16}\\right)^{4} = \\left(\\frac{4}{3}\\right)^{-8}$",
+    "$\\left(\\frac{4}{3}\\right)^{10}$ stays as it is.",
+    "$\\frac{64}{27} = 4^{3}$/$3^{3} = \\left(\\frac{4}{3}\\right)^{3}$",
+    "Now combine: [ $\\left(\\frac{4}{3}\\right)^{-8}  \\times  \\left(\\frac{4}{3}\\right)^{10}$ ] ÷ $\\left(\\frac{4}{3}\\right)^{3} = \\left(\\frac{4}{3}\\right)^{-8 + 10 - 3} = \\left(\\frac{4}{3}\\right)^{-1}$",
+    "So $\\left(\\frac{4}{3}\\right)^{x} = \\left(\\frac{4}{3}\\right)^{-1}$  ⇒  x = -1",
+    "Answer: x = -1"
+   ]
+  },
+  {
+   "code": "ch2-q032",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Simplify using the laws of exponents:  (125 × $6^{6}  \\times  10^{4}$) / ($5^{7}  \\times  9^{3}  \\times  8^{2}$)",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "16. Numerator = $5^{3}  \\times  2^{6}$$3^{6}  \\times  2^{4}$$5^{4} = 2^{10}$ $3^{6}$ $5^{7}$; denominator = $5^{7}  \\times  3^{6}  \\times  2^{6}$. So the result is $2^{4}$ = 16.",
+   "solution_steps_latex": [
+    "Break every number into its prime factors.",
+    "Numerator: 125 = $5^{3}$;  $6^{6} = \\left(2  \\times  3\\right)^{6} = 2^{6}$$3^{6}$;  $10^{4} = \\left(2  \\times  5\\right)^{4} = 2^{4}$$5^{4}$",
+    "So the numerator = $5^{3}  \\times  2^{6}  \\times  3^{6}  \\times  2^{4}  \\times  5^{4} = 2^{10}  \\times  3^{6}  \\times  5^{7}$",
+    "Denominator: $5^{7}$;  $9^{3} = \\left(3^{2}\\right)^{3} = 3^{6}$;  $8^{2} = \\left(2^{3}\\right)^{2} = 2^{6}$",
+    "So the denominator = $2^{6}  \\times  3^{6}  \\times  5^{7}$",
+    "Divide, subtracting indices: $2^{10-6}  \\times  3^{6-6}  \\times  5^{7-7} = 2^{4}  \\times  3^{0}  \\times  5^{0} = 2^{4}$",
+    "= 16",
+    "Answer: 16"
+   ]
+  },
+  {
+   "code": "ch2-q033",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "P = [ $\\left(\\frac{4}{9}\\right)^{-2}  \\times  \\left(\\frac{3}{4}\\right)^{-2}$ ] × $\\frac{1}{3^{-2}}  \\times  \\left(\\frac{17}{39}\\right)^{0}$.\nFind the value of P and also find its reciprocal.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "P = 81; reciprocal = $\\frac{1}{81}$. $\\left(\\frac{4}{9}\\right)^{-2} = \\frac{81}{16}$ and $\\left(\\frac{3}{4}\\right)^{-2} = \\frac{16}{9}$, whose product is 9. Also $\\frac{1}{3^{-2}}$ = 9 and $\\left(\\frac{17}{39}\\right)^{0}$ = 1. So P = 9 × 9 = 81.",
+   "solution_steps_latex": [
+    "Take each bracket in turn.",
+    "$\\left(\\frac{4}{9}\\right)^{-2} = \\left(\\frac{9}{4}\\right)^{2} = \\frac{81}{16}$",
+    "$\\left(\\frac{3}{4}\\right)^{-2} = \\left(\\frac{4}{3}\\right)^{2} = \\frac{16}{9}$",
+    "Their product = $\\frac{81}{16}  \\times  \\frac{16}{9} = \\frac{81}{9}$ = 9",
+    "$\\frac{1}{3^{-2}} = 3^{2}$ = 9",
+    "$\\left(\\frac{17}{39}\\right)^{0}$ = 1",
+    "So P = 9 × 9 × 1 = 81",
+    "Reciprocal of P = $\\frac{1}{81}$",
+    "Answer: P = 81; reciprocal = $\\frac{1}{81}$"
+   ]
+  },
+  {
+   "code": "ch2-q034",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2022-23 PT-1",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Simplify using the laws of exponents and state the laws used:\n [ $\\left(\\frac{1}{3^{2}}\\right)^{-8}  \\times  \\left(\\frac{2}{3}\\right)^{4}  \\times  \\left(\\frac{81}{16}\\right)^{-3}$ ] ÷ $4^{8}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "1. $\\left(\\frac{1}{3^{2}}\\right)^{-8} = 3^{16}$; $\\left(\\frac{2}{3}\\right)^{4} = 2^{4}$$3^{-4}$; $\\left(\\frac{81}{16}\\right)^{-3} = 2^{12}$$3^{-12}$; $4^{8} = 2^{16}$. Numerator = $2^{16}$ $3^{0} = 2^{16}$, so the quotient is 1.\nLaws used: $\\left(a^{m}\\right)^{n} = a^{mn}$, $a^{m}  \\times  a^{n} = a^{m+n}$, $a^{-n}$ = 1/$a^{n}$, $a^{m}  \\div  a^{n} = a^{m-n}$.",
+   "solution_steps_latex": [
+    "Write everything as powers of 2 and 3.",
+    "$\\left(\\frac{1}{3^{2}}\\right)^{-8} = \\left(3^{-2}\\right)^{-8} = 3^{16}$",
+    "$\\left(\\frac{2}{3}\\right)^{4} = 2^{4}  \\times  3^{-4}$",
+    "$\\left(\\frac{81}{16}\\right)^{-3} = \\left(\\frac{16}{81}\\right)^{3} = \\left(2^{4}/3^{4}\\right)^{3} = 2^{12}  \\times  3^{-12}$",
+    "$4^{8} = \\left(2^{2}\\right)^{8} = 2^{16}$",
+    "Numerator = $3^{16}  \\times  2^{4}$$3^{-4}  \\times  2^{12}$$3^{-12} = 2^{4+12}  \\times  3^{16-4-12} = 2^{16}  \\times  3^{0} = 2^{16}$",
+    "Divide by $4^{8} = 2^{16}$:  $2^{16}  \\div  2^{16} = 2^{0}$ = 1",
+    "Laws used: $\\left(a^{m}\\right)^{n} = a^{mn}$,  $a^{m}  \\times  a^{n} = a^{m+n}$,  $a^{m}  \\div  a^{n} = a^{m-n}$,  $a^{-n}$ = 1/$a^{n}$",
+    "Answer: 1"
+   ]
+  },
+  {
+   "code": "ch2-q035",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Simplify using the laws of exponents and state the laws used:\n [ $2^{-3}$ $x^{4}$ $y^{3}$ $z^{-1}  \\times  12^{2}$ $x^{2}$ $y^{2}$ $z^{2}$ ] / [ $9^{2}$ $x^{5}$ $y^{4}$ $z^{-2}$ ]",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "$\\left(\\frac{2}{9}\\right)$ x y $z^{3}$. Coefficients: $2^{-3}$ × 144 ÷ 81 = $\\frac{18}{81} = \\frac{2}{9}$. Then $x^{4+2-5}$ = x, $y^{3+2-4}$ = y, $z^{-1+2+2} = z^{3}$.\nLaws used: $a^{m}  \\times  a^{n} = a^{m+n}$ and $a^{m}  \\div  a^{n} = a^{m-n}$.",
+   "solution_steps_latex": [
+    "Handle the numbers and each letter separately.",
+    "Numbers: $2^{-3}  \\times  12^{2}  \\div  9^{2} = \\left(\\frac{1}{8}\\right)$ × 144 ÷ 81 = 18 ÷ 81 = $\\frac{2}{9}$",
+    "x:  $x^{4}  \\times  x^{2}  \\div  x^{5} = x^{4+2-5} = x^{1}$",
+    "y:  $y^{3}  \\times  y^{2}  \\div  y^{4} = y^{3+2-4} = y^{1}$",
+    "z:  $z^{-1}  \\times  z^{2}  \\div  z^{-2} = z^{-1+2-(-2)} = z^{3}$",
+    "Laws used: $a^{m}  \\times  a^{n} = a^{m+n}$ and $a^{m}  \\div  a^{n} = a^{m-n}$",
+    "Answer: $\\left(\\frac{2}{9}\\right)$ x y $z^{3}$"
+   ]
+  },
+  {
+   "code": "ch2-q036",
+   "chapter": "ch2",
+   "skill_id": 29,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "Simplify using the laws of exponents and find the value of x. Mention the laws used.\n [ $\\left(\\frac{1}{2}\\right)^{3}  \\times  \\left(\\frac{1}{3}\\right)^{5}$ × 9 ] / [ $12^{-1}  \\times  2^{3}  \\times  3^{-6}$ ] = $\\left(\\frac{2}{3}\\right)^{x}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "x = -4. Numerator = $2^{-3}  \\times  3^{-5}  \\times  3^{2} = 2^{-3}$$3^{-3}$. Denominator = $2^{-2}$$3^{-1}  \\times  2^{3}  \\times  3^{-6} = 2^{1}$$3^{-7}$. So LHS = $2^{-4}$$3^{4} = \\left(\\frac{2}{3}\\right)^{-4}$.",
+   "solution_steps_latex": [
+    "Convert everything to powers of 2 and 3.",
+    "Numerator: $\\left(\\frac{1}{2}\\right)^{3} = 2^{-3}$;  $\\left(\\frac{1}{3}\\right)^{5} = 3^{-5}$;  9 = $3^{2}$",
+    "Numerator = $2^{-3}  \\times  3^{-5}  \\times  3^{2} = 2^{-3}  \\times  3^{-3}$",
+    "Denominator: $12^{-1} = \\left(2^{2}  \\times  3\\right)^{-1} = 2^{-2}  \\times  3^{-1}$;  then × $2^{3}  \\times  3^{-6}$",
+    "Denominator = $2^{-2+3}  \\times  3^{-1-6} = 2^{1}  \\times  3^{-7}$",
+    "Divide: $2^{-3-1}  \\times  3^{-3-(-7)} = 2^{-4}  \\times  3^{4}$",
+    "Now $2^{-4}  \\times  3^{4} = \\left(\\frac{2}{3}\\right)^{-4}$   (since $\\left(\\frac{2}{3}\\right)^{-4} = 3^{4}$/$2^{4}$)",
+    "So x = -4",
+    "Laws used: $a^{m}  \\times  a^{n} = a^{m+n}$,  $a^{m}  \\div  a^{n} = a^{m-n}$,  $a^{-n}$ = 1/$a^{n}$",
+    "Answer: x = -4"
+   ]
+  },
+  {
+   "code": "ch2-q037",
+   "chapter": "ch2",
+   "skill_id": 22,
+   "source_exam": "2021-22 PT-1",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "State the law of exponents used in each, and:\n(a) Simplify: $\\left(3^{9}\\right)^{2}  \\times  3^{-15}$\n(b) Find the value of $x^{-12}$, if $\\left(\\frac{2}{3}\\right)^{4}  \\div  \\left(\\frac{2}{3}\\right)^{6} = \\left(\\frac{2}{3}\\right)^{2x}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) 27. $\\left(3^{9}\\right)^{2}  \\times  3^{-15} = 3^{18-15} = 3^{3}$ = 27. Laws: $\\left(a^{m}\\right)^{n} = a^{mn}$ and $a^{m}  \\times  a^{n} = a^{m+n}$.\n(b) 1. $\\left(\\frac{2}{3}\\right)^{4-6} = \\left(\\frac{2}{3}\\right)^{-2}$, so 2x = -2 ⇒ x = -1, and $x^{-12} = \\left(-1\\right)^{-12}$ = 1.",
+   "solution_steps_latex": [
+    "(a) $\\left(3^{9}\\right)^{2}  \\times  3^{-15}$",
+    "$\\left(3^{9}\\right)^{2} = 3^{9  \\times  2} = 3^{18}$   [law: $\\left(a^{m}\\right)^{n} = a^{mn}$]",
+    "$3^{18}  \\times  3^{-15} = 3^{18 - 15} = 3^{3}$   [law: $a^{m}  \\times  a^{n} = a^{m+n}$]",
+    "= 27",
+    "(b) $\\left(\\frac{2}{3}\\right)^{4}  \\div  \\left(\\frac{2}{3}\\right)^{6} = \\left(\\frac{2}{3}\\right)^{4 - 6} = \\left(\\frac{2}{3}\\right)^{-2}$   [law: $a^{m}  \\div  a^{n} = a^{m-n}$]",
+    "So $\\left(\\frac{2}{3}\\right)^{2x} = \\left(\\frac{2}{3}\\right)^{-2}$  ⇒  2x = -2  ⇒  x = -1",
+    "Then $x^{-12} = \\left(-1\\right)^{-12}$ = 1   (even power ⇒ positive)",
+    "Answer: (a) 27   (b) 1"
+   ]
+  },
+  {
+   "code": "ch2-q038",
+   "chapter": "ch2",
+   "skill_id": 30,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "Evaluate:\n(a) $\\left(\\frac{8}{27}\\right)^{2/3}  \\div  \\left(32\\right)^{\\frac{-2}{5}}$\n(b) $2^{4}$ - [ $\\left(\\sqrt{4}\\right)^{0}  \\times  \\left(-2\\right)^{6}$ ] ÷ 4",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) $\\frac{16}{9}$. $\\left(\\frac{8}{27}\\right)^{2/3} = \\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$, and $32^{\\frac{-2}{5}} = 2^{-2} = \\frac{1}{4}$. So $\\left(\\frac{4}{9}\\right)  \\div  \\left(\\frac{1}{4}\\right) = \\frac{16}{9}$.\n(b) 0. $2^{4}$ = 16; $\\left(\\sqrt{4}\\right)^{0}$ = 1 and $\\left(-2\\right)^{6}$ = 64, so [1 × 64] ÷ 4 = 16. Hence 16 - 16 = 0.",
+   "solution_steps_latex": [
+    "⚠ Part (a) uses FRACTIONAL exponents ($\\frac{2}{3}$ and $\\frac{-2}{5}$). Your Power Play chapter only covers exponents that are whole numbers — the Summary (p.46) says the exponent y is an integer. So part (a) is beyond your textbook; it is shown here only in case the question comes up.",
+    "(a) $\\left(\\frac{8}{27}\\right)^{2/3}  \\div  \\left(32\\right)^{\\frac{-2}{5}}$",
+    "A power of $\\frac{2}{3}$ means 'take the cube root, then square' — cube roots you DO know from Chapter 1.",
+    "$\\frac{8}{27} = \\left(\\frac{2}{3}\\right)^{3}$, so $\\left(\\frac{8}{27}\\right)^{2/3} = \\left(\\frac{2}{3}\\right)^{3  \\times  2/3} = \\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$",
+    "32 = $2^{5}$, so $32^{\\frac{-2}{5}} = 2^{5  \\times  \\left(\\frac{-2}{5}\\right)} = 2^{-2} = \\frac{1}{4}$",
+    "Now divide: $\\left(\\frac{4}{9}\\right)  \\div  \\left(\\frac{1}{4}\\right) = \\frac{4}{9}$ × 4 = $\\frac{16}{9}$",
+    "(b) $2^{4}$ - [ $\\left(\\sqrt{4}\\right)^{0}  \\times  \\left(-2\\right)^{6}$ ] ÷ 4",
+    "$2^{4}$ = 16;  $\\left(\\sqrt{4}\\right)^{0}$ = 1 (anything to the power 0);  $\\left(-2\\right)^{6}$ = 64 (even power ⇒ positive)",
+    "So the bracket = 1 × 64 = 64, and 64 ÷ 4 = 16",
+    "16 - 16 = 0",
+    "Answer: (a) $\\frac{16}{9}$   (b) 0"
+   ]
+  },
+  {
+   "code": "ch2-q039",
+   "chapter": "ch2",
+   "skill_id": 28,
+   "source_exam": "2021-22 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "(i) Subtract 1.73 × $10^{11}$ - 5.46 × $10^{8}$ and express the difference in standard form.\n(ii) Find x, if $7^{2x}  \\div  7^{-3} = 7^{23}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(i) 1.72454 × $10^{11}$. 1.73 × $10^{11}$ - 5.46 × $10^{8}$ = (1730 - 5.46) × $10^{8}$ = 1724.54 × $10^{8}$.\n(ii) x = 10. 2x - (-3) = 23 ⇒ 2x = 20 ⇒ x = 10.",
+   "solution_steps_latex": [
+    "(i) To subtract, first make the powers of 10 match.",
+    "1.73 × $10^{11}$ = 1730 × $10^{8}$",
+    "1730 × $10^{8}$ - 5.46 × $10^{8}$ = (1730 - 5.46) × $10^{8}$ = 1724.54 × $10^{8}$",
+    "Convert to standard form: 1724.54 × $10^{8}$ = 1.72454 × $10^{11}$",
+    "(ii) $7^{2x}  \\div  7^{-3} = 7^{2x - (-3)} = 7^{2x + 3}$",
+    "So 2x + 3 = 23  ⇒  2x = 20  ⇒  x = 10",
+    "Answer: (i) 1.72454 × $10^{11}$   (ii) x = 10"
+   ]
+  },
+  {
+   "code": "ch2-q040",
+   "chapter": "ch2",
+   "skill_id": 28,
+   "source_exam": "2023-24 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "Simplify and express in scientific notation:  1.987 × $10^{11}$ - 6.54 × $10^{8}$",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "1.98046 × $10^{11}$. (1987 - 6.54) × $10^{8}$ = 1980.46 × $10^{8}$.",
+   "solution_steps_latex": [
+    "Make the powers of 10 the same before subtracting.",
+    "1.987 × $10^{11}$ = 1987 × $10^{8}$",
+    "1987 × $10^{8}$ - 6.54 × $10^{8}$ = (1987 - 6.54) × $10^{8}$ = 1980.46 × $10^{8}$",
+    "Now write in scientific notation (1 ≤ k < 10):",
+    "1980.46 × $10^{8}$ = 1.98046 × $10^{11}$",
+    "Answer: 1.98046 × $10^{11}$"
+   ]
+  },
+  {
+   "code": "ch2-q041",
+   "chapter": "ch2",
+   "skill_id": 28,
+   "source_exam": "2025-26 Half Yearly",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "The total land area of India is 3.287263 × $10^{12}$ $m^{2}$. If the land area of the southern part of India is 6.3578 × $10^{11}$ $m^{2}$ and the northern part covers 2.3893 × $10^{12}$ $m^{2}$, find the remaining land area in standard form.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "2.62183 × $10^{11}$ $m^{2}$. Southern + northern = 0.63578 × $10^{12}$ + 2.3893 × $10^{12}$ = 3.02508 × $10^{12}$. Remaining = 3.287263 × $10^{12}$ - 3.02508 × $10^{12}$ = 0.262183 × $10^{12}$.",
+   "solution_steps_latex": [
+    "Remaining = total - (southern + northern).",
+    "Make all the powers of 10 match at $10^{12}$:",
+    "Southern = 6.3578 × $10^{11}$ = 0.63578 × $10^{12}$",
+    "Southern + northern = 0.63578 × $10^{12}$ + 2.3893 × $10^{12}$ = 3.02508 × $10^{12}$ $m^{2}$",
+    "Remaining = 3.287263 × $10^{12}$ - 3.02508 × $10^{12}$ = 0.262183 × $10^{12}$ $m^{2}$",
+    "In standard form: 2.62183 × $10^{11}$ $m^{2}$",
+    "Answer: 2.62183 × $10^{11}$ $m^{2}$"
+   ]
+  },
+  {
+   "code": "ch2-q042",
+   "chapter": "ch2",
+   "skill_id": 28,
+   "source_exam": "2024-25 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "(a) The Moon and Mars are at a distance of 3.844 × $10^{5}$ km and 5.45 × $10^{9}$ m from the Earth respectively. Which is farther from the Earth, and by how much?\n(b) The mass of the Earth is 6.512 × $10^{24}$ kg and the mass of the Moon is 7.4 × $10^{22}$ kg approximately. How many times the mass of the Moon is the mass of the Earth?",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) Mars is farther, by 5.0656 × $10^{9}$ m. The Moon is 3.844 × $10^{5}$ km = 3.844 × $10^{8}$ m, so 5.45 × $10^{9}$ - 0.3844 × $10^{9}$ = 5.0656 × $10^{9}$ m.\n(b) About 88 times. (6.512 × $10^{24}$) ÷ (7.4 × $10^{22}$) = 0.88 × $10^{2}$ = 88.",
+   "solution_steps_latex": [
+    "(a) The units are different — convert the Moon's distance to metres first.",
+    "Moon: 3.844 × $10^{5}$ km = 3.844 × $10^{5}  \\times  10^{3}$ m = 3.844 × $10^{8}$ m",
+    "Mars: 5.45 × $10^{9}$ m",
+    "Since $10^{9}$ > $10^{8}$, Mars is farther.",
+    "Difference = 5.45 × $10^{9}$ - 0.3844 × $10^{9}$ = 5.0656 × $10^{9}$ m",
+    "(b) Divide the Earth's mass by the Moon's mass.",
+    "(6.512 × $10^{24}$) ÷ (7.4 × $10^{22}$) = (6.512 ÷ 7.4) × $10^{24-22}$ = 0.88 × $10^{2}$ = 88",
+    "Answer: (a) Mars, by 5.0656 × $10^{9}$ m   (b) about 88 times"
+   ]
+  },
+  {
+   "code": "ch2-q043",
+   "chapter": "ch2",
+   "skill_id": 28,
+   "source_exam": "2025-26 Annual",
+   "marks": 3,
+   "difficulty": "hard",
+   "timer_seconds": 210,
+   "type": "long",
+   "stem_latex": "A particular star is at about 810000000 × $10^{8}$ m away from the Earth. Given that light travels at 3 × $10^{8}$ m per second:\n(a) Express the distance of the star from the Earth in scientific notation.\n(b) Express the speed of light in usual form.\n(c) How long does light take from that star to reach the Earth? Write this in scientific notation.",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) 8.1 × $10^{16}$ m. 810000000 × $10^{8}$ = 8.1 × $10^{8}  \\times  10^{8}$.\n(b) 300000000 m/s.\n(c) 2.7 × $10^{8}$ seconds. Time = distance ÷ speed = (8.1 × $10^{16}$) ÷ (3 × $10^{8}$).",
+   "solution_steps_latex": [
+    "(a) 810000000 × $10^{8}$. First write 810000000 in standard form: 8.1 × $10^{8}$.",
+    "So the distance = 8.1 × $10^{8}  \\times  10^{8}$ = 8.1 × $10^{16}$ m",
+    "(b) Speed of light = 3 × $10^{8}$ m/s. In usual form, move the decimal 8 places right:",
+    "= 300000000 m/s",
+    "(c) Time = distance ÷ speed",
+    "= (8.1 × $10^{16}$) ÷ (3 × $10^{8}$) = (8.1 ÷ 3) × $10^{16-8}$ = 2.7 × $10^{8}$ seconds",
+    "Answer: (a) 8.1 × $10^{16}$ m   (b) 300000000 m/s   (c) 2.7 × $10^{8}$ s"
+   ]
+  },
+  {
+   "code": "ch2-q044",
+   "chapter": "ch2",
+   "skill_id": 27,
+   "source_exam": "2022-23 Half Yearly",
+   "marks": 4,
+   "difficulty": "challenge",
+   "timer_seconds": 300,
+   "type": "long",
+   "stem_latex": "CASE STUDY — John came up with interesting facts about very large and very small objects. Study the data and answer:\n • A strand of human hair — diameter 0.00005 m\n • A water molecule — volume 2.99 × $10^{-23}$ c$m^{3}$\n • Finger nail — rate of growth 9.200 × $10^{-7}$ mm/sec\n • The Sun — diameter 1,391,000000 m\n(a) John converted the diameter of a strand of human hair into cm and expressed it in scientific notation. Which is correct?\n (i) 5 × $10^{-3}$ cm (ii) 0.5 × $10^{-5}$ cm (iii) 5 × $10^{-4}$ cm (iv) 0.5 × $10^{-4}$ cm\n(b) The rate of growth of the nail expressed in usual form is\n (i) 9200 mm/sec (ii) 0.000092 mm/sec (iii) 0.00000092 mm/sec (iv) 9200000 mm/sec\n(c) The volume of 10000 water molecules would be\n (i) 2.99 × $10^{-27}$ c$m^{3}$ (ii) 2.99 × $10^{-28}$ c$m^{3}$ (iii) 2.99 × $10^{-18}$ c$m^{3}$ (iv) 2.99 × $10^{-19}$ c$m^{3}$\n(d) The diameter of the Sun in scientific notation is\n (i) 1.391 × $10^{9}$ m (ii) 1.391 × $10^{6}$ km (iii) 1.391 × $10^{11}$ cm (iv) all options are true",
+   "options_latex": [],
+   "correct_option": null,
+   "answer_latex": "(a) (i) 5 × $10^{-3}$ cm. 0.00005 m = 0.005 cm.\n(b) (iii) 0.00000092 mm/sec.\n(c) (iv) 2.99 × $10^{-19}$ c$m^{3}$. 2.99 × $10^{-23}  \\times  10^{4}$ = 2.99 × $10^{-19}$.\n(d) (iv) all options are true. 1,391,000000 m = 1.391 × $10^{9}$ m = 1.391 × $10^{6}$ km = 1.391 × $10^{11}$ cm.",
+   "solution_steps_latex": [
+    "(a) Convert 0.00005 m into cm. Since 1 m = 100 cm, multiply by 100:",
+    "0.00005 × 100 = 0.005 cm = 5 × $10^{-3}$ cm  ⇒  option (i)",
+    "(b) 9.200 × $10^{-7}$ mm/sec — move the decimal 7 places LEFT:",
+    "= 0.00000092 mm/sec  ⇒  option (iii)",
+    "(c) One molecule is 2.99 × $10^{-23}$ c$m^{3}$, so 10000 = $10^{4}$ molecules take",
+    "2.99 × $10^{-23}  \\times  10^{4}$ = 2.99 × $10^{-23+4}$ = 2.99 × $10^{-19}$ c$m^{3}$  ⇒  option (iv)",
+    "(d) 1,391,000000 m = 1.391 × $10^{9}$ m.",
+    "In km: 1.391 × $10^{9}  \\div  10^{3}$ = 1.391 × $10^{6}$ km. In cm: 1.391 × $10^{9}  \\times  10^{2}$ = 1.391 × $10^{11}$ cm.",
+    "All three statements are correct  ⇒  option (iv) all options are true",
+    "Answer: (a) (i)   (b) (iii)   (c) (iv)   (d) (iv)"
+   ]
+  }
+ ],
+ "concept_sections": [
+  {
+   "chapter": "ch1",
+   "idx": 1,
+   "title": "Start here — what this chapter is really about",
+   "tier": "-",
+   "why": "",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Two ideas, and everything else grows out of them."
+    },
+    {
+     "kind": "p",
+     "text": "SQUARE a number = multiply it by itself.  5 squared = 5 × 5 = 25.  We write it $5^{2}$."
+    },
+    {
+     "kind": "p",
+     "text": "CUBE a number = multiply it by itself three times.  5 cubed = 5 × 5 × 5 = 125.  We write it $5^{3}$."
+    },
+    {
+     "kind": "p",
+     "text": "The names come from shapes. A square tile of side 5 has area 5 × 5 = 25. A cube box of side 5 holds 5 × 5 × 5 = 125 little cubes. That is all the words 'square' and 'cube' mean here."
+    },
+    {
+     "kind": "p",
+     "text": "Most of this chapter is the REVERSE journey: somebody hands you 25 and you must work back to 5. That backwards step is called finding the square root. Same for cubes — from 125 back to 5 is the cube root."
+    },
+    {
+     "kind": "key",
+     "text": "Square → forwards.  Square root → backwards.  That is the whole game."
+    },
+    {
+     "kind": "real",
+     "text": "A Rubik's cube is 3 x 3 x 3 = $3^{3}$ = 27 small cubies. A carrom board is 8 x 8 = $8^{2}$ = 64 squares. You have been using squares and cubes since you could count."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 2,
+   "title": "The squares you should simply know",
+   "tier": "BASICS",
+   "why": "You cannot do anything else without these.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Learn these. Nearly every question becomes easy once you can recognise these numbers on sight."
+    },
+    {
+     "kind": "tbl",
+     "head": [
+      "n",
+      "$n^{2}$",
+      "n",
+      "$n^{2}$",
+      "n",
+      "$n^{2}$"
+     ],
+     "rows": [
+      [
+       "1",
+       "1",
+       "11",
+       "121",
+       "21",
+       "441"
+      ],
+      [
+       "2",
+       "4",
+       "12",
+       "144",
+       "22",
+       "484"
+      ],
+      [
+       "3",
+       "9",
+       "13",
+       "169",
+       "23",
+       "529"
+      ],
+      [
+       "4",
+       "16",
+       "14",
+       "196",
+       "24",
+       "576"
+      ],
+      [
+       "5",
+       "25",
+       "15",
+       "225",
+       "25",
+       "625"
+      ],
+      [
+       "6",
+       "36",
+       "16",
+       "256",
+       "26",
+       "676"
+      ],
+      [
+       "7",
+       "49",
+       "17",
+       "289",
+       "27",
+       "729"
+      ],
+      [
+       "8",
+       "64",
+       "18",
+       "324",
+       "28",
+       "784"
+      ],
+      [
+       "9",
+       "81",
+       "19",
+       "361",
+       "29",
+       "841"
+      ],
+      [
+       "10",
+       "100",
+       "20",
+       "400",
+       "30",
+       "900"
+      ]
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "A number that appears in the $n^{2}$ column — 1, 4, 9, 16, 25, … — is called a PERFECT SQUARE."
+    },
+    {
+     "kind": "real",
+     "text": "Chess and carrom boards are 8 x 8 = 64. A Ludo board's home column, a rangoli grid, floor tiles in your classroom - all squares. If you can spot 64, 144 or 225 instantly, you are already halfway through most questions."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 3,
+   "title": "Trick 1 — spotting a number that CANNOT be a square",
+   "tier": "**",
+   "why": "Identifying / ruling out perfect squares came up in 4 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Look at the last digit of every square: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100…"
+    },
+    {
+     "kind": "p",
+     "text": "They end only in 0, 1, 4, 5, 6 or 9. A square NEVER ends in 2, 3, 7 or 8."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Is 1253687 a perfect square?",
+      "It ends in 7. Squares never end in 7.",
+      "So no — and you knew it in two seconds, without any calculation."
+     ]
+    },
+    {
+     "kind": "warn",
+     "text": "This test only works ONE WAY. If a number ends in 2, 3, 7 or 8 it is definitely not a square. But ending in 6 does NOT make it a square — 26 ends in 6 and is not a square. The test can rule numbers OUT, never rule them IN."
+    },
+    {
+     "kind": "p",
+     "text": "Zeros follow a rule too: a square always ends in an EVEN number of zeros. So 6250 (one zero) cannot be a square, but 4900 (two zeros) can be — it is $70^{2}$."
+    },
+    {
+     "kind": "real",
+     "text": "Your friend says the area of a square badminton court is 8123 sq ft. You can tell her she is wrong in two seconds: a square never ends in 3. This is the fastest 'check my answer' tool you own - use it on your own answers before you hand the paper in."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 4,
+   "title": "Trick 2 — squares are made of odd numbers",
+   "tier": "**",
+   "why": "Odd-number patterns came up in 4 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Add up odd numbers starting from 1 and watch what happens:"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "1 = 1 = $1^{2}$",
+      "1 + 3 = 4 = $2^{2}$",
+      "1 + 3 + 5 = 9 = $3^{2}$",
+      "1 + 3 + 5 + 7 = 16 = $4^{2}$"
+     ]
+    },
+    {
+     "kind": "key",
+     "text": "The sum of the first n odd numbers is exactly $n^{2}$."
+    },
+    {
+     "kind": "p",
+     "text": "This gives a free method: to test if a number is a square, keep SUBTRACTING 1, 3, 5, 7, … If you land exactly on 0, it is a square, and the number of subtractions is the root."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Is 25 a square?",
+      "25 - 1 = 24,  24 - 3 = 21,  21 - 5 = 16,  16 - 7 = 9,  9 - 9 = 0",
+      "We landed on 0 after 5 subtractions, so 25 is a square and $\\sqrt{25}$ = 5."
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "Think of building a square rangoli. To grow a 3 x 3 rangoli into a 4 x 4, you add an L-shaped border of 7 dots. 9 + 7 = 16. Each new border is the next odd number - that is why squares are made of odd numbers."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 5,
+   "title": "How many numbers sit between two squares?",
+   "tier": "**",
+   "why": "'How many numbers between two squares' came up in 4 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Between $3^{2}$ = 9 and $4^{2}$ = 16 the numbers are 10, 11, 12, 13, 14, 15 — that is 6 numbers, and 6 = 2 × 3."
+    },
+    {
+     "kind": "key",
+     "text": "Between $n^{2}$ and $\\left(n+1\\right)^{2}$ there are exactly 2n numbers.  (Or: between two squares p and q, there are q - p - 1 numbers.)"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "How many numbers lie between $18^{2}$ and $19^{2}$?",
+      "2 × 18 = 36 numbers."
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "Between $12^{2}$ = 144 and $13^{2}$ = 169 there is no perfect square at all - just 24 ordinary numbers. So if a shopkeeper claims she has 150 tiles and can lay them in a perfect square, she cannot."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 6,
+   "title": "Square root — the backwards step",
+   "tier": "BASICS",
+   "why": "The idea behind every square-root question.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "$\\sqrt{25}$ = 5 means: what number, multiplied by itself, gives 25?"
+    },
+    {
+     "kind": "p",
+     "text": "Strictly, both 5 and -5 work, because (-5) × (-5) = 25 too. Your book says: in this chapter we only use the POSITIVE one. So $\\sqrt{25}$ = 5."
+    },
+    {
+     "kind": "p",
+     "text": "There are three ways to find a square root. Use whichever suits the number."
+    },
+    {
+     "kind": "real",
+     "text": "Your bedroom floor is square and its area is 144 sq ft. How long is one wall? That is exactly a square root: 12 ft. Area -> side is the single most common real use of square roots."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 7,
+   "title": "Method A — square root by prime factorisation (the workhorse)",
+   "tier": "***",
+   "why": "Prime factorisation is the engine behind decimals, LCM and perfect-square questions.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Break the number into prime factors, then split them into TWO IDENTICAL GROUPS. One group is the answer."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Divide by 2 as long as you can, then 3, then 5, then 7 … until only primes remain.",
+      "2. Pair up identical primes.",
+      "3. Take ONE from each pair and multiply them together."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find $\\sqrt{7056.}$",
+      "7056 = 2 × 3528 = 2 × 2 × 1764 = 2 × 2 × 2 × 882 = 2 × 2 × 2 × 2 × 441",
+      "and 441 = 3 × 147 = 3 × 3 × 49 = 3 × 3 × 7 × 7",
+      "So 7056 = $2^{4}  \\times  3^{2}  \\times  7^{2}$",
+      "Pairs: (2×2) (2×2) (3×3) (7×7)",
+      "Take one from each pair: 2 × 2 × 3 × 7 = 84",
+      "$\\sqrt{7056}$ = 84 ✔"
+     ]
+    },
+    {
+     "kind": "key",
+     "text": "If EVERY prime can be paired up, the number is a perfect square. If one prime is left lonely, it is not."
+    },
+    {
+     "kind": "real",
+     "text": "A square sheet of paper has an area of 7056 sq cm. To cut a border you need its side length - so you need $\\sqrt{7056}$ = 84 cm. Prime factorisation gets you there with no calculator."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 8,
+   "title": "Method B — square root by estimation (when factorising is painful)",
+   "tier": "**",
+   "why": "Estimation rescues you when factorising is ugly.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "This is the method your book uses for $\\sqrt{1936}$ (page 9). Two ideas, used together."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. TRAP it. Find the two whole squares it sits between.",
+      "2. Use the LAST DIGIT to narrow the choice down.",
+      "3. Test the one or two candidates by squaring them."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find $\\sqrt{1936.}$",
+      "Trap: $40^{2}$ = 1600 and $50^{2}$ = 2500, so the root is between 40 and 50.",
+      "Last digit: 1936 ends in 6. Only $4^{2}$ = 16 and $6^{2}$ = 36 end in 6, so the root ends in 4 or 6.",
+      "Candidates: 44 or 46. Test 44: 44 × 44 = 1936 ✔",
+      "$\\sqrt{1936}$ = 44"
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find $\\sqrt{20}$ correct to two decimal places (20 is NOT a perfect square).",
+      "$4^{2}$ = 16, $5^{2}$ = 25 → between 4 and 5.",
+      "$4.4^{2}$ = 19.36 (too small), $4.5^{2}$ = 20.25 (too big) → between 4.4 and 4.5",
+      "$4.47^{2}$ = 19.9809 (just under), $4.48^{2}$ = 20.0704 (just over)",
+      "So $\\sqrt{20}$ ≈ 4.47"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "Your teacher asks for $\\sqrt{1936}$ and there is no calculator in the exam hall. Trapping it between $40^{2}$ and $50^{2}$, then using the last digit, gives you 44 in about fifteen seconds."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 9,
+   "title": "Square roots of decimals — clear the decimal first",
+   "tier": "***",
+   "why": "THE most asked topic — 10 questions across 7 of the 11 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Do not panic at the decimal point. Turn it into a whole number, take the root, then put the point back."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Write the decimal as a fraction over 100 (or 10000, …).",
+      "2. Take the square root of the top and the bottom separately.",
+      "3. $\\sqrt{100}$ = 10, $\\sqrt{10000}$ = 100 — easy."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find $\\sqrt{125.44}$",
+      "125.44 = 12544 / 100",
+      "12544 = $2^{8}  \\times  7^{2}$, so $\\sqrt{12544} = 2^{4}$ × 7 = 112",
+      "$\\sqrt{125.44}$ = 112 / 10 = 11.2",
+      "Always check: 11.2 × 11.2 = 125.44 ✔"
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "Useful shortcut to remember: squaring a decimal DOUBLES the number of decimal places, so a square root HALVES them. $\\sqrt{0.0625}$ = 0.25 (4 places → 2 places)."
+    },
+    {
+     "kind": "real",
+     "text": "A square plot of land measures 125.44 sq m. The fencing contractor needs the side length: $\\sqrt{125.44}$ = 11.2 m. Decimals turn up the moment you leave the textbook and touch real measurements - which is exactly why this is the most-asked topic."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 10,
+   "title": "Making a number into a perfect square",
+   "tier": "**",
+   "why": "Smallest multiplier/divisor came up in 4 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "A very common exam question: 'What is the smallest number to multiply / divide by, to make this a perfect square?'"
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Prime factorise.",
+      "2. Look for the LONELY primes — the ones with no partner.",
+      "3. To MULTIPLY: multiply by exactly those lonely primes (giving each a partner).",
+      "4. To DIVIDE: divide by exactly those lonely primes (throwing the lonely ones away)."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Smallest number to multiply 2352 by, to get a perfect square?",
+      "2352 = $2^{4}$ × 3 × $7^{2}$",
+      "The 2s are paired ✔, the 7s are paired ✔, but 3 is lonely.",
+      "Multiply by 3:  2352 × 3 = 7056 = $84^{2}$ ✔"
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Smallest number to divide 486 by, to get a perfect square?",
+      "486 = 2 × $3^{5}$. The 2 is lonely, and $3^{5}$ has one lonely 3 ($3^{4}$ pairs up, one 3 left over).",
+      "Throw away 2 × 3 = 6:  486 ÷ 6 = 81 = $9^{2}$ ✔"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "You have 2352 square tiles and want to lay them in a perfect square patch with none left over. You cannot - but buy 3 more sets and you get 7056 = 84 x 84. That is what 'smallest number to multiply by' really means."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 11,
+   "title": "Smallest square divisible by several numbers",
+   "tier": "*",
+   "why": "LCM-type square/cube questions came up in 3 exams.",
+   "body": [
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Find the LCM of the given numbers.",
+      "2. Prime factorise the LCM.",
+      "3. Multiply by whatever lonely primes remain, to pair everything up."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Smallest square number divisible by 10, 20 and 28.",
+      "LCM(10, 20, 28) = 140 = $2^{2}$ × 5 × 7",
+      "The 2s pair up ✔. But 5 and 7 are both lonely.",
+      "Multiply by 5 × 7 = 35:  140 × 35 = 4900 = $70^{2}$ ✔"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "You want the smallest square hall that can be split evenly into rooms of 10, 20 and 28 units. Answer: 4900 sq units, i.e. 70 x 70."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 12,
+   "title": "The 'rows = columns' word problems",
+   "tier": "**",
+   "why": "'Rows = columns' word problems came up in 4 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Soldiers in a square parade, chairs in a square hall, flowers in a square bed — the total must be a PERFECT SQUARE. Only one question matters: which squares does the given number sit between?"
+    },
+    {
+     "kind": "warn",
+     "text": "Read the question very carefully. There are two opposite versions and it is the commonest place to lose marks."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "ADDING (how many MORE do we need?) — go UP to the next square.",
+      "9450 people. $97^{2}$ = 9409 (too few), $98^{2}$ = 9604.",
+      "We must reach 9604, so we need 9604 - 9450 = 154 more people, with 98 in each row."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "LEFT OVER (how many are UNUSED?) — stay DOWN at the square below.",
+      "13695 chairs. $117^{2}$ = 13689, $118^{2}$ = 13924 (too many).",
+      "The biggest square we can build is 13689, so 13695 - 13689 = 6 chairs are left over."
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "This is the school assembly, the Republic Day parade, a dance formation, or seats in an auditorium - anything where rows must equal columns. 2016 dancers cannot make a square; add 9 more and you get a perfect 45 x 45."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 13,
+   "title": "Cubes — the same story, one dimension up",
+   "tier": "BASICS",
+   "why": "Needed for every cube question.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "$n^{3}$ = n × n × n. Learn these; they are used constantly."
+    },
+    {
+     "kind": "tbl",
+     "head": [
+      "n",
+      "$n^{3}$",
+      "n",
+      "$n^{3}$"
+     ],
+     "rows": [
+      [
+       "1",
+       "1",
+       "11",
+       "1331"
+      ],
+      [
+       "2",
+       "8",
+       "12",
+       "1728"
+      ],
+      [
+       "3",
+       "27",
+       "13",
+       "2197"
+      ],
+      [
+       "4",
+       "64",
+       "14",
+       "2744"
+      ],
+      [
+       "5",
+       "125",
+       "15",
+       "3375"
+      ],
+      [
+       "6",
+       "216",
+       "16",
+       "4096"
+      ],
+      [
+       "7",
+       "343",
+       "17",
+       "4913"
+      ],
+      [
+       "8",
+       "512",
+       "18",
+       "5832"
+      ],
+      [
+       "9",
+       "729",
+       "19",
+       "6859"
+      ],
+      [
+       "10",
+       "1000",
+       "20",
+       "8000"
+      ]
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "Cubes also come from odd numbers, in blocks:  1 = $1^{3}$;  3 + 5 = 8 = $2^{3}$;  7 + 9 + 11 = 27 = $3^{3}$;  21 + 23 + 25 + 27 + 29 = 125 = $5^{3}$."
+    },
+    {
+     "kind": "key",
+     "text": "The cube of n is the sum of n consecutive odd numbers."
+    },
+    {
+     "kind": "real",
+     "text": "The volume of a cubical water tank, a box of sugar cubes, a dice, a Rubik's cube. If a cube-shaped tank holds 9261 litres, each side is $\\sqrt[3]{9261}$ = 21 units."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 14,
+   "title": "The cube last-digit table — a small piece of magic",
+   "tier": "***",
+   "why": "This table is what makes cube-root guessing work — 7 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "For squares, the last digit was a weak clue. For CUBES it is a perfect fingerprint — every digit gives a different ending:"
+    },
+    {
+     "kind": "tbl",
+     "head": [
+      "last digit of n",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "rows": [
+      [
+       "last digit of $n^{3}$",
+       "0",
+       "1",
+       "8",
+       "7",
+       "4",
+       "5",
+       "6",
+       "3",
+       "2",
+       "9"
+      ]
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "Read it backwards and you can name the last digit of any cube root instantly. A cube ending in 3 must have a root ending in 7. A cube ending in 8 must have a root ending in 2."
+    },
+    {
+     "kind": "real",
+     "text": "Use this as a party trick. Ask someone to cube any two-digit number on a calculator and read out the answer. Because every digit cubes to a different ending, you can name their number back to them in three seconds."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 15,
+   "title": "Cube root — by prime factorisation",
+   "tier": "*",
+   "why": "Cube root by prime factorisation came up in 2 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Same as squares, but group the primes in THREES instead of pairs."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find $\\sqrt[3]{17576.}$",
+      "17576 = 2 × 8788 = 2 × 2 × 4394 = 2 × 2 × 2 × 2197",
+      "and 2197 = 13 × 13 × 13",
+      "So 17576 = $2^{3}  \\times  13^{3}$",
+      "Groups of three: (2 × 2 × 2) and (13 × 13 × 13)",
+      "Take one from each group: 2 × 13 = 26",
+      "$\\sqrt[3]{17576}$ = 26 ✔"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "A cubical shipping carton has a volume of 17576 cubic cm. What is its height? $\\sqrt[3]{17576}$ = 26 cm - so it fits on a 30 cm shelf."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 16,
+   "title": "Cube root — by guessing (fast, and very impressive)",
+   "tier": "***",
+   "why": "Cube root by estimation — 7 questions across 7 of the 11 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "For a 4-, 5- or 6-digit cube you can write the answer down without factorising at all."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Split the number into groups of THREE digits, starting from the right.",
+      "2. The LAST group gives the unit digit of the answer — use the magic table above.",
+      "3. The FIRST group gives the tens digit — find which two cubes it sits between, and take the SMALLER one."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find $\\sqrt[3]{658503.}$",
+      "Split:  658 | 503",
+      "Last group 503 ends in 3 → the root ends in 7 (because $7^{3}$ = 343 ends in 3).",
+      "First group is 658. Now $8^{3}$ = 512 and $9^{3}$ = 729, and 512 < 658 < 729 → take the smaller, 8.",
+      "So the root is 87.  Check: $87^{3}$ = 658503 ✔"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "Same party trick as above, done properly: 658503 - split it 658 | 503, the 3 tells you it ends in 7, and 658 sits between $8^{3}$ and $9^{3}$ so it starts with 8. Answer 87, faster than they can type it."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 17,
+   "title": "Making a number into a perfect cube",
+   "tier": "*",
+   "why": "Making a perfect cube came up in 3 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Exactly like the square version, but now every prime needs to appear in a group of THREE."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Is 2560 a perfect cube? If not, what is the smallest multiplier?",
+      "2560 = $2^{9}$ × 5",
+      "$2^{9}$ is fine (that is three groups of three). But 5 appears once — it needs two more.",
+      "Multiply by $5^{2}$ = 25:  2560 × 25 = 64000 = $40^{3}$ ✔"
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find x if 1323/x is a perfect cube.",
+      "1323 = $3^{3}  \\times  7^{2}$",
+      "$3^{3}$ is a perfect group ✔. The $7^{2}$ can never be completed by dividing, so it must go entirely.",
+      "x = $7^{2}$ = 49, leaving 1323 ÷ 49 = 27 = $3^{3}$ ✔"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "You have boxes of 15 x 30 x 15 cm. How many do you need to stack into a perfect cube? Four - giving a 30 cm cube. Warehouse and packing problems are exactly this."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 18,
+   "title": "Ratio problems with cubes",
+   "tier": "*",
+   "why": "Ratio + sum of cubes came up in 2 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "'Three numbers are in the ratio 2 : 3 : 4 and the sum of their cubes is …' — these look scary and are actually the same two lines every time."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Call the numbers 2x, 3x, 4x.",
+      "2. Cube each: 8$x^{3}$, 27$x^{3}$, 64$x^{3}$. They always add to 99$x^{3}$.",
+      "3. Set 99$x^{3}$ equal to the given total, solve for x, then write out 2x, 3x, 4x."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Sum of cubes is 131769.",
+      "99$x^{3}$ = 131769  ⇒  $x^{3}$ = 1331  ⇒  x = 11",
+      "The numbers are 22, 33 and 44."
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "Three cousins share Diwali money in the ratio 2 : 3 : 4. Once you know the sum of the cubes, one line of algebra (99$x^{3}$) gives everyone's share."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 19,
+   "title": "⚠ Beyond your textbook — Pythagorean triplets",
+   "tier": "**",
+   "why": "Not in your book — yet it still appeared in 4 exams. Worth knowing.",
+   "body": [
+    {
+     "kind": "warn",
+     "text": "This is NOT in your Ganita Prakash chapter, but some old exam papers use it, so here it is."
+    },
+    {
+     "kind": "p",
+     "text": "Three whole numbers form a Pythagorean triplet when $a^{2} + b^{2} = c^{2}$ — the sides of a right-angled triangle."
+    },
+    {
+     "kind": "p",
+     "text": "You can always solve these with just your squares table. If the biggest number is 17, then $a^{2} + b^{2}$ = 289. Now hunt: 289 - 64 = 225, and 225 = $15^{2}$. So the triplet is 8, 15, 17."
+    },
+    {
+     "kind": "p",
+     "text": "Triplets worth recognising on sight: (3,4,5), (5,12,13), (7,24,25), (8,15,17), (9,40,41), (10,24,26), (12,35,37), (16,63,65)."
+    },
+    {
+     "kind": "real",
+     "text": "A ladder leaning on a wall, the diagonal of a TV screen, or the shortest path across a rectangular park. A 'a 32-inch TV' means its diagonal is 32 inches - and its height and width form a triplet with it."
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 20,
+   "title": "Mistakes to avoid",
+   "tier": "-",
+   "why": "",
+   "body": [
+    {
+     "kind": "bullets",
+     "lines": [
+      "Ending in 6 does not make a number a square. The last-digit test can only rule numbers OUT.",
+      "√ and ∛ are not the same as ÷2 and ÷3. $\\sqrt{36}$ = 6, not 18.",
+      "A cube root of a negative number is negative: $\\sqrt[3]{-64}$ = -4. (A square root of a negative number does not exist here.)",
+      "In 'rows = columns' problems, ADDING means go up to the next square; LEFT OVER means stay at the square below.",
+      "When making a perfect square, multiply by the LONELY primes only — not by the whole number.",
+      "Always check your root by squaring (or cubing) it back. It takes five seconds and catches almost every slip."
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "ch1",
+   "idx": 21,
+   "title": "Quick self-test",
+   "tier": "-",
+   "why": "",
+   "body": [
+    {
+     "kind": "check",
+     "items": [
+      {
+       "q": "Is 4728 a perfect square? How do you know instantly?",
+       "a": "No — it ends in 8, and squares never end in 2, 3, 7 or 8."
+      },
+      {
+       "q": "$\\sqrt{7056}$ = ?",
+       "a": "84  (7056 = $2^{4}  \\times  3^{2}  \\times  7^{2}$, so take $2^{2}$ × 3 × 7)"
+      },
+      {
+       "q": "$\\sqrt[3]{9261}$ = ?",
+       "a": "21  (9261 = $3^{3}  \\times  7^{3}$)"
+      },
+      {
+       "q": "How many numbers lie between $12^{2}$ and $13^{2}$?",
+       "a": "2 × 12 = 24"
+      },
+      {
+       "q": "Smallest number to multiply 8820 by, to get a perfect square?",
+       "a": "5.  8820 = $2^{2}  \\times  3^{2}$ × 5 × $7^{2}$ — only the 5 is lonely. The root then is 210."
+      },
+      {
+       "q": "A cube ends in 2. What does its cube root end in?",
+       "a": "8  (because $8^{3}$ = 512 ends in 2)"
+      },
+      {
+       "q": "$\\sqrt{54.76}$ = ?",
+       "a": "7.4  (5476 = $2^{2}  \\times  37^{2}$, so $\\sqrt{5476}$ = 74, then divide by 10)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 1,
+   "title": "Start here — what an exponent actually is",
+   "tier": "-",
+   "why": "",
+   "body": [
+    {
+     "kind": "p",
+     "text": "An exponent is nothing but SHORTHAND for multiplying a number by itself again and again."
+    },
+    {
+     "kind": "p",
+     "text": "Instead of writing 5 × 5 × 5 × 5, we write $5^{4}$. That is all."
+    },
+    {
+     "kind": "p",
+     "text": "In $5^{4}$:  the 5 is the BASE (the number being multiplied), and the 4 is the EXPONENT or POWER (how many times). We read it '5 to the power 4'."
+    },
+    {
+     "kind": "key",
+     "text": "$n^{a}$ means n multiplied by itself a times."
+    },
+    {
+     "kind": "p",
+     "text": "Why bother? Because things that keep doubling or tripling get enormous astonishingly fast. Fold a paper 46 times and — in theory — it reaches the Moon. Exponents are how we write such numbers without a page full of zeros."
+    },
+    {
+     "kind": "real",
+     "text": "You forward a message to 2 friends, they each forward to 2 more, and so on. After 30 rounds that is $2^{30}$ - over a BILLION people. This is exactly why a video 'goes viral', and why a rumour in school spreads by lunch break."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 2,
+   "title": "Powers you should recognise instantly",
+   "tier": "BASICS",
+   "why": "Recognising 32 = 2^5 or 81 = 3^4 unlocks most questions.",
+   "body": [
+    {
+     "kind": "tbl",
+     "head": [
+      "",
+      "^{1}",
+      "^{2}",
+      "^{3}",
+      "^{4}",
+      "^{5}",
+      "^{6}"
+     ],
+     "rows": [
+      [
+       "2",
+       "2",
+       "4",
+       "8",
+       "16",
+       "32",
+       "64"
+      ],
+      [
+       "3",
+       "3",
+       "9",
+       "27",
+       "81",
+       "243",
+       "729"
+      ],
+      [
+       "5",
+       "5",
+       "25",
+       "125",
+       "625",
+       "3125",
+       "15625"
+      ],
+      [
+       "10",
+       "10",
+       "100",
+       "1000",
+       "10000",
+       "100000",
+       "1000000"
+      ]
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "Also handy: $2^{7}$ = 128, $2^{8}$ = 256, $2^{9}$ = 512, $2^{10}$ = 1024."
+    },
+    {
+     "kind": "p",
+     "text": "Spotting that 32 is $2^{5}$, or that 81 is $3^{4}$, is what turns a hard-looking question into an easy one."
+    },
+    {
+     "kind": "real",
+     "text": "Computer memory is built on powers of 2. $2^{10}$ = 1024 = 1 KB. 1 MB is about a thousand KB, 1 GB is about a thousand MB. When your phone says '64 GB', that 64 is $2^{6}$ - the whole device is built out of this table."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 3,
+   "title": "The five laws — and why each one is obvious",
+   "tier": "***",
+   "why": "THE most asked topic — 13 questions across 8 of the 9 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Do not memorise these blindly. Each one is just counting."
+    },
+    {
+     "kind": "p",
+     "text": "LAW 1 — same base, MULTIPLYING → ADD the exponents.   $n^{a}  \\times  n^{b} = n^{a+b}$"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$2^{3}  \\times  2^{2}$ = (2×2×2) × (2×2) = 2×2×2×2×2 = $2^{5}$",
+      "Three 2s and two more 2s make five 2s. That is all 'add the exponents' means."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "LAW 2 — same base, DIVIDING → SUBTRACT the exponents.   $n^{a}  \\div  n^{b} = n^{a-b}$"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$2^{5}  \\div  2^{3}$ = (2×2×2×2×2) / (2×2×2) = 2×2 = $2^{2}$",
+      "Three of the 2s cancel out. Five take away three leaves two."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "LAW 3 — a power OF a power → MULTIPLY the exponents.   $\\left(n^{a}\\right)^{b} = n^{a \\times b}$"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$\\left(2^{3}\\right)^{2} = 2^{3}  \\times  2^{3} = 2^{6}$",
+      "Two lots of three 2s = six 2s."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "LAW 4 — same exponent, different bases → combine the bases.   $n^{a}  \\times  m^{a} = \\left(n  \\times  m\\right)^{a}$   and   $n^{a}  \\div  m^{a} = \\left(n  \\div  m\\right)^{a}$"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$8^{4}  \\times  \\left(\\frac{3}{8}\\right)^{4} = \\left(8  \\times  \\frac{3}{8}\\right)^{4} = 3^{4}$ = 81",
+      "Because the exponents match, you may combine the bases first — which made this collapse to nothing."
+     ]
+    },
+    {
+     "kind": "warn",
+     "text": "Laws 1, 2 and 3 need the SAME BASE. Law 4 needs the SAME EXPONENT. You cannot add exponents of $2^{3}  \\times  3^{2}$ — the bases differ."
+    },
+    {
+     "kind": "real",
+     "text": "Doubling your pocket money for 3 days, then doubling it for 2 more days, is the same as doubling it for 5 days: $2^{3}$ x $2^{2} = 2^{5}$. That is Law 1, and you already knew it."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 4,
+   "title": "The zero exponent — why $n^{0}$ = 1",
+   "tier": "*",
+   "why": "Asked directly twice, but used inside many other questions.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Walk down the powers of 2, dividing by 2 each step:"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$2^{3}$ = 8",
+      "$2^{2}$ = 4",
+      "$2^{1}$ = 2",
+      "$2^{0}$ = 1   ← keep dividing by 2, and 2 ÷ 2 = 1"
+     ]
+    },
+    {
+     "kind": "key",
+     "text": "$n^{0}$ = 1 for any n except 0. Not 0 — ONE."
+    },
+    {
+     "kind": "p",
+     "text": "So $5^{0} + 6^{0} + 7^{0}$ = 1 + 1 + 1 = 3. Free marks, if you remember it."
+    },
+    {
+     "kind": "real",
+     "text": "Anything to the power zero is 1 because you have not multiplied at all - you still have your starting single unit. Zero doublings of Rs 100 leaves you with Rs 100, not Rs 0."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 5,
+   "title": "Negative exponents — just keep walking down",
+   "tier": "**",
+   "why": "Negative exponents came up in 5 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Do not stop at zero. Carry on dividing by 2:"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$2^{1}$ = 2",
+      "$2^{0}$ = 1",
+      "$2^{-1} = \\frac{1}{2}$",
+      "$2^{-2} = \\frac{1}{4}$",
+      "$2^{-3} = \\frac{1}{8}$"
+     ]
+    },
+    {
+     "kind": "key",
+     "text": "$n^{-a}$ = 1/$n^{a}$.  A negative exponent means 'flip it', NOT 'make it negative'."
+    },
+    {
+     "kind": "warn",
+     "text": "This is the single biggest trap in the chapter. $2^{-3} = \\frac{1}{8}$. It is NOT -8, and it is NOT -6."
+    },
+    {
+     "kind": "real",
+     "text": "Negative powers mean HALVING instead of doubling. $2^{-1}$ is half, $2^{-2}$ is a quarter. Zooming OUT on a map, cutting a cake in half again and again, or a medicine dose halving in your blood every few hours."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 6,
+   "title": "Fractions with negative powers — the flip",
+   "tier": "**",
+   "why": "The 'flip the fraction' move appears throughout.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Put those two ideas together and something neat falls out:"
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$\\left(\\frac{2}{3}\\right)^{-1}$ = 1 ÷ $\\left(\\frac{2}{3}\\right) = \\frac{3}{2}$",
+      "So a negative power simply TURNS THE FRACTION UPSIDE DOWN.",
+      "$\\left(\\frac{2}{3}\\right)^{-3} = \\left(\\frac{3}{2}\\right)^{3} = \\frac{27}{8}$",
+      "$\\left(\\frac{5}{8}\\right)^{-2} = \\left(\\frac{8}{5}\\right)^{2} = \\frac{64}{25}$"
+     ]
+    },
+    {
+     "kind": "key",
+     "text": "$\\left(\\frac{a}{b}\\right)^{-n} = \\left(\\frac{b}{a}\\right)^{n}$.  Flip the fraction, and the power becomes positive."
+    },
+    {
+     "kind": "p",
+     "text": "The MULTIPLICATIVE INVERSE (or reciprocal) of a number is what you multiply it by to get 1. Since $n^{a}  \\times  n^{-a} = n^{0}$ = 1, the inverse of $5^{-2}$ is simply $5^{2}$ = 25."
+    },
+    {
+     "kind": "real",
+     "text": "A recipe for 4 people scaled DOWN. Flipping the fraction is what your brain already does when you say 'two-thirds as much' versus 'one-and-a-half times as much'."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 7,
+   "title": "Solving equations with powers",
+   "tier": "***",
+   "why": "'Find x' came up in 8 questions across 7 of the 9 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "Almost every 'find x' question in this chapter is the same one move."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Rewrite BOTH sides so they have the SAME BASE.",
+      "2. Once the bases match, the exponents must match too.",
+      "3. Set the exponents equal and solve the little equation."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find p if $12^{p}  \\times  12^{-3} = \\left(\\frac{1}{12}\\right)^{-5}$",
+      "Left side: same base, multiplying → add:  $12^{p-3}$",
+      "Right side: flip the fraction → $12^{5}$",
+      "So $12^{p-3} = 12^{5}$.  Bases match ⇒ p - 3 = 5 ⇒ p = 8"
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "Find x if $5^{-8}  \\times  \\left(5^{3}\\right)^{x} = 25^{3}  \\times  5^{x}$",
+      "Left: $\\left(5^{3}\\right)^{x} = 5^{3x}$, so the left side is $5^{-8+3x}$",
+      "Right: 25 = $5^{2}$, so $25^{3} = 5^{6}$, and the right side is $5^{6+x}$",
+      "Bases match ⇒ -8 + 3x = 6 + x ⇒ 2x = 14 ⇒ x = 7"
+     ]
+    },
+    {
+     "kind": "warn",
+     "text": "The commonest slip: forgetting to convert 25 into $5^{2}$, or 81 into $3^{4}$. If the bases are not the same, you may NOT compare exponents."
+    },
+    {
+     "kind": "real",
+     "text": "This is just detective work: you know the answer is 81 and the base is 3, so how many 3s were multiplied? Bacteria doubling, money compounding, a rumour spreading - 'how many rounds did it take?' is always this question."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 8,
+   "title": "Standard form — taming huge and tiny numbers",
+   "tier": "*",
+   "why": "Converting to standard form came up in 3 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "The mass of the Earth is about 6512000000000000000000000 kg. Nobody wants to count those zeros."
+    },
+    {
+     "kind": "key",
+     "text": "Standard form (scientific notation): write the number as x × $10^{y}$, where x is between 1 and 10, and y is a whole number."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Put the decimal point just after the FIRST non-zero digit.",
+      "2. Count how many places the point moved.",
+      "3. Moved LEFT (big number) → positive power.  Moved RIGHT (small number) → negative power."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "34500000 → put the point after the 3 → 3.45",
+      "The point moved 7 places LEFT, so:  3.45 × $10^{7}$"
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "0.00003412652 → put the point after the 3 → 3.412652",
+      "The point moved 5 places RIGHT, so:  3.412652 × $10^{-5}$"
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "Going backwards (into 'usual form') just undoes it: 3 × $10^{8}$ = 300000000."
+    },
+    {
+     "kind": "real",
+     "text": "India's population is about 1.4 x $10^{9}$ people. A coronavirus is about 1 x $10^{-7}$ m across. Your phone camera photo is 4 x $10^{6}$ pixels. Nobody writes those zeros out - scientists and engineers use standard form all day."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 9,
+   "title": "Adding and subtracting in standard form",
+   "tier": "**",
+   "why": "Standard-form arithmetic came up in 6 exams.",
+   "body": [
+    {
+     "kind": "warn",
+     "text": "You CANNOT add 1.987 × $10^{11}$ and 6.54 × $10^{8}$ as they stand. The powers of 10 must match first — just like you cannot add halves and thirds until the denominators match."
+    },
+    {
+     "kind": "steps",
+     "lines": [
+      "1. Rewrite the smaller number so it has the SAME power of 10 as the bigger one.",
+      "2. Now add or subtract the front parts.",
+      "3. Tidy the answer back into standard form (front part between 1 and 10)."
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "1.987 × $10^{11}$ - 6.54 × $10^{8}$",
+      "Make both $10^{8}$:  1.987 × $10^{11}$ = 1987 × $10^{8}$",
+      "1987 × $10^{8}$ - 6.54 × $10^{8}$ = (1987 - 6.54) × $10^{8}$ = 1980.46 × $10^{8}$",
+      "Tidy up: 1980.46 × $10^{8}$ = 1.98046 × $10^{11}$"
+     ]
+    },
+    {
+     "kind": "real",
+     "text": "The distance to the Moon is 3.84 x $10^{8}$ m and to the Sun is 1.5 x $10^{11}$ m. To find how much FURTHER the Sun is, you must first line the powers up - just like you cannot add $\\frac{1}{2}$ and $\\frac{1}{3}$ until the denominators match."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 10,
+   "title": "Multiplying, dividing and comparing",
+   "tier": "**",
+   "why": "Standard-form arithmetic came up in 6 exams.",
+   "body": [
+    {
+     "kind": "p",
+     "text": "These are the EASY ones — the powers do not need to match. Just handle the front parts and the powers separately."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "(8.1 × $10^{16}$) ÷ (3 × $10^{8}$)",
+      "Front parts: 8.1 ÷ 3 = 2.7",
+      "Powers: $10^{16}  \\div  10^{8} = 10^{16-8} = 10^{8}$",
+      "Answer: 2.7 × $10^{8}$"
+     ]
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "How many times heavier is the Earth (6.512 × $10^{24}$ kg) than the Moon (7.4 × $10^{22}$ kg)?",
+      "Divide: (6.512 ÷ 7.4) × $10^{24-22}$ = 0.88 × $10^{2}$ = 88 times"
+     ]
+    },
+    {
+     "kind": "warn",
+     "text": "When two quantities are given in different UNITS (km and m, say), convert them first. 3.844 × $10^{5}$ km is 3.844 × $10^{8}$ m — a thousand times bigger than it looks."
+    },
+    {
+     "kind": "real",
+     "text": "'The Earth is 88 times heavier than the Moon.' 'The Sun is 400 times further than the Moon.' Every time a science documentary says 'X times bigger', somebody divided two numbers in standard form."
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 11,
+   "title": "⚠ Beyond your textbook — fractional exponents",
+   "tier": "-",
+   "why": "Beyond your book, and appeared only once.",
+   "body": [
+    {
+     "kind": "warn",
+     "text": "Your book's Summary (p.46) says the exponent is always a whole number. So this is extra — but one old paper uses it."
+    },
+    {
+     "kind": "p",
+     "text": "A fractional power means a ROOT. The bottom of the fraction says which root; the top says which power."
+    },
+    {
+     "kind": "eg",
+     "lines": [
+      "$8^{\\frac{1}{3}} = \\sqrt[3]{8}$ = 2",
+      "$\\left(\\frac{8}{27}\\right)^{2/3}$ = take the cube root, then square it = $\\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$",
+      "$32^{\\frac{-2}{5}}$ = flip, take the 5th root, then square = 1/($2^{2}$) = $\\frac{1}{4}$"
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 12,
+   "title": "Mistakes to avoid",
+   "tier": "-",
+   "why": "",
+   "body": [
+    {
+     "kind": "bullets",
+     "lines": [
+      "$2^{-3}$ means $\\frac{1}{8}$. It does NOT mean -8.",
+      "$n^{0}$ = 1, not 0. Even $\\left(-2\\right)^{0}$ = 1.",
+      "A negative number to an EVEN power is positive: $\\left(-2\\right)^{6}$ = +64. To an ODD power it stays negative: $\\left(-2\\right)^{3}$ = -8.",
+      "You may only add/subtract exponents when the BASES are the same. $2^{3}  \\times  3^{2}$ does not simplify.",
+      "Before comparing exponents, make the bases identical — rewrite 25 as $5^{2}$, 81 as $3^{4}$, 32 as $2^{5}$.",
+      "In standard form the front number must be between 1 and 10. 1980.46 × $10^{8}$ is not finished — it becomes 1.98046 × $10^{11}$.",
+      "To add or subtract in standard form, the powers of 10 must match FIRST."
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "idx": 13,
+   "title": "Quick self-test",
+   "tier": "-",
+   "why": "",
+   "body": [
+    {
+     "kind": "check",
+     "items": [
+      {
+       "q": "Simplify $2^{5}  \\times  2^{-3}$",
+       "a": "$2^{2}$ = 4  (same base, so add: 5 + (-3) = 2)"
+      },
+      {
+       "q": "What is $\\left(-3\\right)^{0} + 3^{-2}$?",
+       "a": "1 + $\\frac{1}{9} = \\frac{10}{9}$"
+      },
+      {
+       "q": "Write $\\left(\\frac{2}{5}\\right)^{-3}$ without a negative power.",
+       "a": "$\\left(\\frac{5}{2}\\right)^{3} = \\frac{125}{8}$  (flip the fraction)"
+      },
+      {
+       "q": "Find x:  $3^{2x}$ = 81",
+       "a": "81 = $3^{4}$, so 2x = 4 and x = 2"
+      },
+      {
+       "q": "Write 0.00047 in standard form.",
+       "a": "4.7 × $10^{-4}$"
+      },
+      {
+       "q": "Simplify $\\left(10^{3}\\right)^{2}  \\div  10^{4}$",
+       "a": "$10^{6}  \\div  10^{4} = 10^{2}$ = 100"
+      },
+      {
+       "q": "(2.5 × $10^{6}$) × (4 × $10^{3}$) = ?",
+       "a": "10 × $10^{9}$ = 1 × $10^{10}$  (tidy it — the front must be under 10)"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
