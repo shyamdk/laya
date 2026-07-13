@@ -1,0 +1,40 @@
+The App is a student learning and testing app
+
+I want to build a flutter app - comptible on android, ios and web as well.
+
+
+We should be able to create accounts for studends, let it be basic login - username/ password
+implement related 
+
+
+Goal: I want to create a student apps which has the following modes
+1. Learn mode - the student should be able to select the chapter, difficulty level, 
+repeat frequently asked
+questions and concepts more often. 
+Give her real life examples for her grade 
+Gvie her self learn test - assess her learning and repeat the concepts. 
+You should be able to provide report on her weak and strong areas.
+
+
+2. Test Mode - the student can select a chapter or a combination of chapters, all answers to the 
+questions should be timed (depending on the difficulty level , set a right time and show the 
+count down). 
+You should be able to provide report on her weak and strong areas.
+Based on the login, everything the student does should be tracked in the backend.
+
+
+
+
+highlight frequently asked questions/ concepts
+it should align to the school text book 
+in the concepts document, provide practical examples that she can related to her grade (8)
+
+Tech Stack ---
+Dart (language)
+Flutter (UI framework)
+Riverpod (state management)
+Supabase (backend)
+PostgreSQL (database)
+Git & GitHub
+REST APIs
+AI integration (OpenAI)

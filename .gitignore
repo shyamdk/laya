@@ -1,0 +1,31 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+*.key
+supabase/.env
+
+# Downloaded school material (copyrighted — personal use only, do not redistribute)
+data/question-papers/
+data/subject/
+
+# Flutter / Dart
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/ios/Pods/
+app/android/.gradle/
+*.iml
+
+# Supabase local
+supabase/.branches/
+supabase/.temp/
+
+# Python (content tooling)
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

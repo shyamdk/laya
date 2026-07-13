@@ -1,0 +1,10 @@
+About: We are developing an application specific to 8th standard
+kumarans question bank.
+
+Goal: We should be able to generate questions and answers similar
+to the question bank in Edchemy (kumarans student/ parent portal)
+
+Tasks: 
+Extract and Ingest questions and answers from the question bank
+Review the relevant chapters, uploaded in the data folder
+Seggregare the questions and answers by chaperts (based on text books in datafolder for each subject)
