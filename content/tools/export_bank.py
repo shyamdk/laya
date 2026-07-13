@@ -84,10 +84,17 @@ def to_latex(s: str) -> str:
     t = re.sub(r"\(([^()]*)\)\^\{([^}]*)\}",
                lambda m: stash(r"\left(%s\right)^{%s}"
                                % (resolve(norm(m[1])), resolve(norm(m[2])))), t)
-    # 10. superscript on a token, number, word char or bracket:  p^{-3}, 0.7^{3}, 2^{6}
-    t = re.sub(BASE + r"\^\{([^}]*)\}",
-               lambda m: stash("%s^{%s}" % (resolve(m.group(0).split("^{")[0]),
-                                            resolve(norm(m[1])))), t)
+    # 10. superscript on a token, number, word or bracket:  p^{-3}, 0.7^{3}, cm^{3}
+    #     A multi-letter base is a UNIT (cm, sq), not a variable — set it upright
+    #     with \text{}, otherwise 'cm^3' renders as an italic c times m-cubed.
+    def _sup(m):
+        base = m.group(0).split("^{")[0]
+        exp = resolve(norm(m[1]))
+        if re.fullmatch(r"[A-Za-z]{2,}", base):
+            return stash(r"\text{%s}^{%s}" % (base, exp))
+        return stash("%s^{%s}" % (resolve(base), exp))
+
+    t = re.sub(r"(?:\x00\d+\x00|[A-Za-z]{2,}|[\d.]+|\w|\))\^\{([^}]*)\}", _sup, t)
 
     # 8. every surviving token becomes a $...$ span; merge ones that are only
     #    separated by an operator so "2^{3} × 2^{2}" is one span, not three.

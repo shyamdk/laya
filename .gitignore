@@ -29,3 +29,8 @@ __pycache__/
 
 # OS
 .DS_Store
+supabase/functions/.env
+
+# Flutter build output
+app/build/
+app/.dart_tool/
