@@ -45,20 +45,23 @@ for code, num, title, book in chapters:
     L.append(f"insert into chapters (code, number, title, book, subject_id) values "
              f"({q(code)}, {num}, {q(title)}, {q(book)}, {SUB});")
 
+def chapter_of(skill_code):
+    for prefix in ("kn-vocab-", "kn-ws-"):
+        if skill_code.startswith(prefix):
+            return skill_code[len(prefix):]
+    return skill_code
+
+
 # ---- skills (ids offset by 100 so they never collide with maths)
 L.append("\n-- skills (tier counted from the 49 real Kannada papers, 2009-2026)")
 for s in BANK["skills"]:
     # a skill belongs to its lesson chapter, or to its own grammar chapter
-    ch = s["code"].replace("kn-vocab-", "") if s["code"].startswith("kn-vocab-") else s["code"]
+    ch = chapter_of(s["code"])
     L.append("insert into skills (id, chapter_id, name, exams_seen_in, total_exams, tier) values "
              f"({100 + s['id']}, (select id from chapters where code={q(ch)}), "
              f"{q(s['name'])}, {s['exams_seen_in']}, {s['total_exams']}, {q(s['tier'])});")
 
 # ---- questions
-def chapter_of(skill_code):
-    return skill_code.replace("kn-vocab-", "") if skill_code.startswith("kn-vocab-") else skill_code
-
-
 skill_by_id = {s["id"]: s for s in BANK["skills"]}
 
 L.append("\n-- MCQ questions")
