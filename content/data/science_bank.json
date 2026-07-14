@@ -92,6 +92,30 @@
    "tier": "***",
    "exams_seen_in": 30,
    "total_exams": 59
+  },
+  {
+   "id": 10,
+   "name": "Textbook fine print (Chemistry)",
+   "chapter": "sci-chem",
+   "tier": "*",
+   "exams_seen_in": 2,
+   "total_exams": 59
+  },
+  {
+   "id": 11,
+   "name": "Textbook fine print (Biology)",
+   "chapter": "sci-bio",
+   "tier": "**",
+   "exams_seen_in": 29,
+   "total_exams": 59
+  },
+  {
+   "id": 12,
+   "name": "Textbook fine print (Physics)",
+   "chapter": "sci-phys",
+   "tier": "***",
+   "exams_seen_in": 30,
+   "total_exams": 59
   }
  ],
  "questions": [
@@ -1372,6 +1396,456 @@
    "difficulty": "medium",
    "marks": 2,
    "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-fp001",
+   "chapter": "sci-chem",
+   "skill_id": 10,
+   "stem": "Who first introduced the concept of Parmanu, which refers to an indivisible particle?",
+   "options": [
+    "Acharya Kanad",
+    "Albert Einstein",
+    "Isaac Newton",
+    "Democritus"
+   ],
+   "correct_option": 0,
+   "explain": "Acharya Kanad is credited with the concept of Parmanu in ancient Indian philosophy.",
+   "evidence": "Acharya Kanad, an ancient Indian philosopher, first spoke about the idea of a Parmanu (atom).",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-fp002",
+   "chapter": "sci-chem",
+   "skill_id": 10,
+   "stem": "What is the name of the work where Acharya Kanad discussed the idea of Parmanu?",
+   "options": [
+    "Vaisheshika Sutras",
+    "Bhagavad Gita",
+    "Arthashastra",
+    "Rigveda"
+   ],
+   "correct_option": 0,
+   "explain": "Vaisheshika Sutras is the work where Acharya Kanad discussed Parmanu.",
+   "evidence": "This idea was written in his work called Vaisheshika Sutras.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-fp009",
+   "chapter": "sci-chem",
+   "skill_id": 10,
+   "stem": "What concept did Acharya Kanad introduce that is similar to the modern concept of an atom?",
+   "options": [
+    "Parmanu",
+    "Molecule",
+    "Electron",
+    "Proton"
+   ],
+   "correct_option": 0,
+   "explain": "Parmanu is akin to the modern concept of an atom.",
+   "evidence": "Acharya Kanad, an ancient Indian philosopher, first spoke about the idea of a Parmanu (atom).",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-fp010",
+   "chapter": "sci-chem",
+   "skill_id": 10,
+   "stem": "What is the primary subject of the Vaisheshika Sutras?",
+   "options": [
+    "The idea of Parmanu",
+    "The laws of motion",
+    "The theory of relativity",
+    "The structure of DNA"
+   ],
+   "correct_option": 0,
+   "explain": "Vaisheshika Sutras discusses the concept of Parmanu.",
+   "evidence": "This idea was written in his work called Vaisheshika Sutras.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-fp001",
+   "chapter": "sci-bio",
+   "skill_id": 11,
+   "stem": "What is the function of chloroplasts in plant cells?",
+   "options": [
+    "They contain chlorophyll and help in photosynthesis.",
+    "They store waste materials.",
+    "They provide structural support to the cell.",
+    "They are involved in cell division."
+   ],
+   "correct_option": 0,
+   "explain": "Chloroplasts contain chlorophyll, which is essential for photosynthesis.",
+   "evidence": "Some plastids, like chloroplasts, contain chlorophyll, which makes them green and helps in photosynthesis.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-fp002",
+   "chapter": "sci-bio",
+   "skill_id": 11,
+   "stem": "What is the primary role of vacuoles in plant cells?",
+   "options": [
+    "To store important substances and maintain cell shape.",
+    "To assist in cell division.",
+    "To produce energy for the cell.",
+    "To transport nutrients across the cell membrane."
+   ],
+   "correct_option": 0,
+   "explain": "Vacuoles store substances and help maintain the shape of plant cells.",
+   "evidence": "This helps the plant cell store important substances, get rid of waste, and maintain the shape of the cell.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-fp003",
+   "chapter": "sci-bio",
+   "skill_id": 11,
+   "stem": "Which structure is typically absent or small in animal cells compared to plant cells?",
+   "options": [
+    "Vacuoles",
+    "Nucleus",
+    "Cell membrane",
+    "Mitochondria"
+   ],
+   "correct_option": 0,
+   "explain": "Animal cells either lack vacuoles or have very small ones compared to plant cells.",
+   "evidence": "In animal cells, vacuoles are usually not present, if present, they are usually small.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-fp006",
+   "chapter": "sci-bio",
+   "skill_id": 11,
+   "stem": "What is the purpose of plastids in non-green parts of plants?",
+   "options": [
+    "To help in the storage of substances.",
+    "To assist in photosynthesis.",
+    "To provide structural support.",
+    "To aid in cell division."
+   ],
+   "correct_option": 0,
+   "explain": "Plastids in non-green parts are involved in storage.",
+   "evidence": "In non-green parts, they help in the storage of substances.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-fp007",
+   "chapter": "sci-bio",
+   "skill_id": 11,
+   "stem": "What is the main function of the large vacuole in plant cells?",
+   "options": [
+    "To store important substances and maintain cell shape.",
+    "To assist in photosynthesis.",
+    "To transport nutrients.",
+    "To produce energy."
+   ],
+   "correct_option": 0,
+   "explain": "The vacuole stores substances and maintains cell shape.",
+   "evidence": "This helps the plant cell store important substances, get rid of waste, and maintain the shape of the cell.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-fp011",
+   "chapter": "sci-bio",
+   "skill_id": 11,
+   "stem": "What is the role of vacuoles in animal cells, if present?",
+   "options": [
+    "To store certain substances dissolved in water.",
+    "To assist in photosynthesis.",
+    "To provide structural support.",
+    "To aid in cell division."
+   ],
+   "correct_option": 0,
+   "explain": "In animal cells, vacuoles store substances dissolved in water.",
+   "evidence": "These small vacuoles store certain substances dissolved in water.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp001",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is the process used to create spherical mirrors?",
+   "options": [
+    "Slicing a hollow glass sphere",
+    "Grinding and polishing a flat glass piece",
+    "Molding molten glass",
+    "Using a 3D printer"
+   ],
+   "correct_option": 1,
+   "explain": "Spherical mirrors are made by grinding and polishing flat glass, not by slicing spheres.",
+   "evidence": "Instead, they are created by grinding and polishing a flat glass piece into a curved surface.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp002",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "Where is the reflective coating applied to form a concave mirror?",
+   "options": [
+    "Outer curved surface",
+    "Inner curved surface",
+    "Both surfaces",
+    "Flat surface"
+   ],
+   "correct_option": 0,
+   "explain": "The coating on the outer surface creates a concave mirror.",
+   "evidence": "If a reflective coating (like a thin layer of aluminium) is applied on the outer curved surface, it forms a concave mirror.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-fp003",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What type of mirror is used in most modern telescopes?",
+   "options": [
+    "Convex mirror",
+    "Concave mirror",
+    "Flat mirror",
+    "Parabolic mirror"
+   ],
+   "correct_option": 1,
+   "explain": "Modern telescopes use concave mirrors as their main mirror.",
+   "evidence": "Most modern telescopes are reflecting telescope that use curved mirrors, with the main mirror being a large concave mirror.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp004",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What type of mirrors are used as side-view mirrors on vehicles?",
+   "options": [
+    "Concave mirrors",
+    "Convex mirrors",
+    "Flat mirrors",
+    "Parabolic mirrors"
+   ],
+   "correct_option": 1,
+   "explain": "Convex mirrors are used in vehicles for a wider field of view.",
+   "evidence": "Look at the side-view mirrors on vehicles (Fig. 10.7a). These mirrors are convex.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-fp005",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is the purpose of solar concentrators?",
+   "options": [
+    "To generate wind energy",
+    "To concentrate sunlight for heating",
+    "To store solar energy",
+    "To convert sunlight into sound"
+   ],
+   "correct_option": 1,
+   "explain": "Solar concentrators focus sunlight to produce heat or electricity.",
+   "evidence": "Devices which concentrate sunlight into a small area, using mirrors and lenses, are called solar concentrators.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp006",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What ancient method did astronomers use to observe stars and planets over 800 years ago?",
+   "options": [
+    "Telescopes",
+    "Shallow bowls of water",
+    "Magnifying glasses",
+    "Convex lenses"
+   ],
+   "correct_option": 1,
+   "explain": "Astronomers used water bowls to observe celestial bodies.",
+   "evidence": "More than 800 years ago, during the time of the great Indian mathematician Bh\u0101skara II, astronomers used shallow bowls of water to observe the stars and planets.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp007",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is the main function of a convex mirror in road safety?",
+   "options": [
+    "To magnify objects",
+    "To form an erect image",
+    "To focus light",
+    "To invert images"
+   ],
+   "correct_option": 1,
+   "explain": "Convex mirrors provide an erect and smaller image for better visibility.",
+   "evidence": "They always form an erect image of the traffic behind and smaller than the actual vehicles.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-fp008",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is the role of the normal in the reflection of light?",
+   "options": [
+    "It divides the incident and reflected rays",
+    "It absorbs light",
+    "It changes the color of light",
+    "It magnifies the light"
+   ],
+   "correct_option": 0,
+   "explain": "The normal helps define the plane of reflection.",
+   "evidence": "However, the direction of the reflected ray is such that the incident ray, the normal at the point of incidence, and the reflected ray all lie in the same plane in both cases.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp009",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is a key feature of the reflected ray in relation to the incident ray and normal?",
+   "options": [
+    "They lie in different planes",
+    "They lie in the same plane",
+    "They are parallel",
+    "They are perpendicular"
+   ],
+   "correct_option": 1,
+   "explain": "The incident ray, normal, and reflected ray lie in the same plane.",
+   "evidence": "...the incident ray, the normal at the point of incidence, and the reflected ray all lie in the same plane in both cases.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp010",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is one use of solar furnaces mentioned in the text?",
+   "options": [
+    "Generating electricity",
+    "Melting steel",
+    "Cooking food",
+    "Heating water"
+   ],
+   "correct_option": 1,
+   "explain": "Solar furnaces can reach high temperatures to melt steel.",
+   "evidence": "Solar furnaces are even used for melting steel!",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp011",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What did ancient astronomers use to measure the positions of stars and planets?",
+   "options": [
+    "Telescopes",
+    "Reflecting telescopes",
+    "Shallow bowls of water",
+    "Concave mirrors"
+   ],
+   "correct_option": 2,
+   "explain": "They used water bowls to reflect and measure celestial positions.",
+   "evidence": "...astronomers used shallow bowls of water to observe the stars and planets.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-fp012",
+   "chapter": "sci-phys",
+   "skill_id": 12,
+   "stem": "What is the main characteristic of the image formed by convex mirrors used in vehicles?",
+   "options": [
+    "Inverted",
+    "Magnified",
+    "Erect and smaller",
+    "Distorted"
+   ],
+   "correct_option": 2,
+   "explain": "Convex mirrors form smaller, erect images for better rear visibility.",
+   "evidence": "They always form an erect image of the traffic behind and smaller than the actual vehicles.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "chapter": "sci-bio",
+   "code": "sci-bio-fp020",
+   "stem": "Robert Hooke described cells in a book he published. What was it called?",
+   "options": [
+    "Micrographia",
+    "Principia Mathematica",
+    "Origin of Species",
+    "Vaisheshika Sutras"
+   ],
+   "correct_option": 0,
+   "difficulty": "medium",
+   "explain": "The chapter shows Hooke's book and his microscope \u2014 the book is Micrographia.",
+   "evidence": "Fig. 2.2: (a) Micrographia book; (b) Microscope of Robert Hooke;",
+   "skill_id": 11,
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "chapter": "sci-bio",
+   "code": "sci-bio-fp021",
+   "stem": "In the schematic drawings of cells, which one is the ANIMAL cell \u2014 the one with no cell wall, no chloroplast and only a tiny vacuole?",
+   "options": [
+    "The animal cell",
+    "The plant cell",
+    "Both look identical",
+    "Neither"
+   ],
+   "correct_option": 0,
+   "difficulty": "easy",
+   "explain": "An animal cell lacks the cell wall, chloroplasts and the large vacuole a plant cell has.",
+   "evidence": "A schematic drawing of (a) An animal cell and (b) A plant",
+   "skill_id": 11,
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "chapter": "sci-chem",
+   "code": "sci-chem-fp020",
+   "stem": "Acharya Kanad believed matter is made of tiny particles that cannot be divided further. What did he call them?",
+   "options": [
+    "Parmanu",
+    "Anu",
+    "Bhuta",
+    "Sutra"
+   ],
+   "correct_option": 0,
+   "difficulty": "easy",
+   "explain": "Kanad called the indivisible, eternal particle a Parmanu \u2014 the ancient Indian idea of the atom.",
+   "evidence": "He believed that matter is made up of tiny, indivisible eternal particles called Parmanu.",
+   "skill_id": 10,
+   "marks": 1,
+   "timer_seconds": 60
   }
  ]
 }

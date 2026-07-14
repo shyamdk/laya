@@ -105,6 +105,24 @@ for code, (title, tier, why, body) in CARDS.items():
              f"((select id from chapters where code={q(code)}), 1, {q(title)}, {q(tier)}, "
              f"{q(why)}, {jb(body)});")
 
+# a card warning her that the school mines the side-boxes
+FINE = [
+  {"kind":"p","text":"The school likes to ask from the FINE PRINT — the small boxes beside the main text, "
+                     "which are easy to skip when revising."},
+  {"kind":"key","text":"Watch the 'A step further' and 'Our scientific heritage' boxes, and the figure captions."},
+  {"kind":"eg","lines":[
+    "Chemistry — Acharya Kanad first spoke of the Parmanu (atom), in his work the Vaisheshika Sutras.",
+    "Biology  — Robert Hooke described cells in his book Micrographia.",
+    "Physics  — A mirror is made by grinding and polishing flat glass, NOT by slicing a sphere. Coat the OUTER curved surface and you get a CONCAVE mirror; coat the INNER surface and you get a CONVEX one.",
+    "Physics  — 800 years ago, in the time of Bhaskara II, astronomers used shallow bowls of water to observe stars by reflection.",
+    "Physics  — Solar furnaces use concave mirrors to concentrate sunlight — hot enough to melt steel."]},
+]
+for code in ("sci-chem", "sci-bio", "sci-phys"):
+    L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
+             f"((select id from chapters where code={q(code)}), 2, "
+             f"{q('Textbook fine print — the bits schools ask about')}, '***', "
+             f"{q('The school usually asks from the textbook fine print.')}, {jb(FINE)});")
+
 L += ["", "commit;"]
 open(OUT, "w").write("\n".join(L) + "\n")
 print(f"wrote {os.path.abspath(OUT)}")
