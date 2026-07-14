@@ -107,10 +107,36 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
               ],
             ),
             const Divider(height: 22),
-            MathText(q.stemLatex, style: theme.textTheme.titleMedium),
+
+            // Kannada questions ask in English and show the Kannada below, so
+            // Laya always knows WHAT is being asked even if the word is new.
+            if (q.stemEn != null && q.stemEn!.isNotEmpty)
+              Text(q.stemEn!,
+                  style: theme.textTheme.bodyMedium
+                      ?.copyWith(color: Colors.grey.shade700)),
+            if (q.stemLatex.isNotEmpty) ...[
+              if (q.stemEn != null && q.stemEn!.isNotEmpty) const SizedBox(height: 8),
+              MathText(q.stemLatex,
+                  style: (theme.textTheme.titleMedium ?? const TextStyle())
+                      .copyWith(fontSize: MathText.hasKannada(q.stemLatex) ? 22 : null)),
+            ],
             const SizedBox(height: 16),
 
-            if (q.isMcq)
+            if (q.isMatch)
+              _MatchGrid(
+                pairs: q.matchPairs,
+                answered: _answered,
+                onDone: (correct) {
+                  if (_answered) return;
+                  setState(() {
+                    _answered = true;
+                    _revealed = true;
+                    _showSolution = true;
+                  });
+                  widget.onAnswered(correct, null, _stopwatch.elapsed.inSeconds, false);
+                },
+              )
+            else if (q.isMcq)
               ...List.generate(q.optionsLatex.length, (i) {
                 final isCorrect = i == q.correctOption;
                 Color? bg;
@@ -147,14 +173,14 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
 
             const SizedBox(height: 14),
 
-            if (!_answered)
+            if (!_answered && !q.isMatch)
               FilledButton(
                 onPressed: _submit,
                 child: Text(q.isMcq ? 'Check answer' : 'Reveal answer'),
               ),
 
             // Written answers: Laya marks herself against the real answer.
-            if (_answered && !q.isMcq) ...[
+            if (_answered && !q.isMcq && !q.isMatch) ...[
               Container(
                 width: double.infinity,
                 padding: const EdgeInsets.all(12),
@@ -202,7 +228,21 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                 ),
               ]),
 
-            if (_showSolution && widget.showSolutionButton) ...[
+            if (_showSolution && q.explainEn != null) ...[
+              const SizedBox(height: 12),
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: Colors.green.withValues(alpha: 0.08),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: MathText(q.explainEn!,
+                    style: const TextStyle(color: Color(0xFF1B5E20), height: 1.45)),
+              ),
+            ],
+
+            if (_showSolution && widget.showSolutionButton && q.explainEn == null) ...[
               const SizedBox(height: 12),
               _Solution(questionId: q.id),
               const SizedBox(height: 8),
@@ -384,6 +424,142 @@ class _AiExplainState extends ConsumerState<_AiExplain> {
             child: MathText(_explanation!, style: const TextStyle(fontSize: 13.5, height: 1.5)),
           ),
       ],
+    );
+  }
+}
+
+/// Tap-to-match: tap a word on the left, then its meaning on the right.
+/// Deliberately no typing — Laya has no Kannada keyboard.
+class _MatchGrid extends StatefulWidget {
+  final List<({String left, String right})> pairs;
+  final bool answered;
+  final void Function(bool allCorrect) onDone;
+
+  const _MatchGrid({
+    required this.pairs,
+    required this.answered,
+    required this.onDone,
+  });
+
+  @override
+  State<_MatchGrid> createState() => _MatchGridState();
+}
+
+class _MatchGridState extends State<_MatchGrid> {
+  late final List<String> _rights =
+      widget.pairs.map((p) => p.right).toList()..shuffle();
+  final Map<String, String> _picked = {};   // left -> right chosen
+  String? _selectedLeft;
+  bool _wrongOnce = false;
+
+  void _tapLeft(String l) {
+    if (widget.answered || _picked.containsKey(l)) return;
+    setState(() => _selectedLeft = l);
+  }
+
+  void _tapRight(String r) {
+    if (widget.answered || _selectedLeft == null) return;
+    if (_picked.containsValue(r)) return;
+
+    final correct = widget.pairs.firstWhere((p) => p.left == _selectedLeft!).right == r;
+    setState(() {
+      _picked[_selectedLeft!] = r;
+      if (!correct) _wrongOnce = true;
+      _selectedLeft = null;
+    });
+
+    if (_picked.length == widget.pairs.length) {
+      // Graded here in the client only to decide right/wrong for THIS widget;
+      // the score itself is still recorded by record_attempt() in Postgres.
+      widget.onDone(!_wrongOnce);
+    }
+  }
+
+  bool _isRight(String l) =>
+      widget.pairs.firstWhere((p) => p.left == l).right == _picked[l];
+
+  @override
+  Widget build(BuildContext context) {
+    Color? tint(String l) {
+      if (!_picked.containsKey(l)) return null;
+      return (_isRight(l) ? Colors.green : Colors.red).withValues(alpha: 0.15);
+    }
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Expanded(
+          child: Column(
+            children: widget.pairs.map((p) {
+              final sel = _selectedLeft == p.left;
+              return _chip(
+                p.left,
+                onTap: () => _tapLeft(p.left),
+                bg: tint(p.left) ??
+                    (sel ? Theme.of(context).colorScheme.primaryContainer : null),
+                border: sel,
+                trailing: _picked.containsKey(p.left)
+                    ? Icon(_isRight(p.left) ? Icons.check : Icons.close,
+                        size: 16,
+                        color: _isRight(p.left) ? Colors.green : Colors.red)
+                    : null,
+              );
+            }).toList(),
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: Column(
+            children: _rights.map((r) {
+              final used = _picked.containsValue(r);
+              return _chip(
+                r,
+                onTap: () => _tapRight(r),
+                bg: used ? Colors.grey.withValues(alpha: 0.12) : null,
+                faded: used,
+              );
+            }).toList(),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _chip(String text,
+      {required VoidCallback onTap,
+      Color? bg,
+      bool border = false,
+      bool faded = false,
+      Widget? trailing}) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(8),
+        child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+          decoration: BoxDecoration(
+            color: bg,
+            borderRadius: BorderRadius.circular(8),
+            border: Border.all(
+              color: border ? Theme.of(context).colorScheme.primary : Colors.grey.shade300,
+              width: border ? 2 : 1,
+            ),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Opacity(
+                  opacity: faded ? 0.4 : 1,
+                  child: MathText(text, style: const TextStyle(fontSize: 15)),
+                ),
+              ),
+              if (trailing != null) trailing,
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

@@ -19,7 +19,8 @@ class _TestSetupScreenState extends ConsumerState<TestSetupScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final chapters = ref.watch(chaptersProvider);
+    final subject = ref.watch(currentSubjectProvider);
+    final chapters = ref.watch(chaptersProvider(subject?.code ?? 'maths'));
 
     return Scaffold(
       appBar: AppBar(title: const Text('Set up a test')),

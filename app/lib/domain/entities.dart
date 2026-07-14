@@ -1,5 +1,15 @@
 /// Domain entities. No Supabase types leak in here (ADR-014).
 
+class Subject {
+  final int id;
+  final String code;      // 'maths' | 'kannada'
+  final String name;
+  final String script;    // 'latin' | 'kannada'
+  const Subject({required this.id, required this.code, required this.name, required this.script});
+
+  bool get isKannada => script == 'kannada';
+}
+
 class Chapter {
   final int id;
   final String code;
@@ -40,7 +50,7 @@ class Skill {
       };
 }
 
-enum QuestionType { mcq, short, long }
+enum QuestionType { mcq, short, long, match }
 
 class Question {
   final int id;
@@ -58,6 +68,17 @@ class Question {
   final int? correctOption;
   final String answerLatex;
 
+  /// Kannada questions carry an English instruction ("What does this word
+  /// mean?") alongside the Kannada being asked about. Null for maths.
+  final String? stemEn;
+
+  /// Why the answer is right, in English. Kannada uses this; maths has
+  /// solution_steps instead.
+  final String? explainEn;
+
+  /// Tap-to-match pairs. No Kannada typing is ever required.
+  final List<({String left, String right})> matchPairs;
+
   const Question({
     required this.id,
     required this.code,
@@ -71,9 +92,13 @@ class Question {
     required this.optionsLatex,
     required this.correctOption,
     required this.answerLatex,
+    this.stemEn,
+    this.explainEn,
+    this.matchPairs = const [],
   });
 
   bool get isMcq => type == QuestionType.mcq;
+  bool get isMatch => type == QuestionType.match;
 
   factory Question.fromMap(Map<String, dynamic> m) => Question(
         id: m['id'] as int,
@@ -89,6 +114,14 @@ class Question {
             (m['options_latex'] as List).map((e) => e as String).toList(),
         correctOption: m['correct_option'] as int?,
         answerLatex: m['answer_latex'] as String,
+        stemEn: m['stem_en'] as String?,
+        explainEn: m['explain_en'] as String?,
+        matchPairs: ((m['match_pairs'] ?? const []) as List)
+            .map((e) => (
+                  left: (e as Map)['left'] as String,
+                  right: e['right'] as String,
+                ))
+            .toList(),
       );
 }
 

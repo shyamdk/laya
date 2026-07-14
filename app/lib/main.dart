@@ -4,7 +4,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'core/providers.dart';
 import 'features/auth/auth_screen.dart';
-import 'features/home/home_screen.dart';
+import 'features/home/subject_picker.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +39,7 @@ class LayaApp extends ConsumerWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1F3A5F)),
         cardTheme: const CardThemeData(elevation: 1),
       ),
-      home: session == null ? const AuthScreen() : const HomeScreen(),
+      home: session == null ? const AuthScreen() : const SubjectPicker(),
     );
   }
 }

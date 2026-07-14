@@ -11,7 +11,8 @@ class LearnChapterPicker extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final chapters = ref.watch(chaptersProvider);
+    final subject = ref.watch(currentSubjectProvider);
+    final chapters = ref.watch(chaptersProvider(subject?.code ?? 'maths'));
     return Scaffold(
       appBar: AppBar(title: const Text('Learn')),
       body: chapters.when(
@@ -260,9 +261,12 @@ class _PracticeState extends ConsumerState<_Practice> {
 
   Future<void> _load() async {
     try {
-      final qs = await ref
-          .read(learningRepoProvider)
-          .nextQuestions(chapterCodes: [widget.code], limit: 10);
+      final subject = ref.read(currentSubjectProvider);
+      final qs = await ref.read(learningRepoProvider).nextQuestions(
+            chapterCodes: [widget.code],
+            subjectCode: subject?.code,
+            limit: 10,
+          );
       if (mounted) setState(() {
             _queue = qs;
             _i = 0;

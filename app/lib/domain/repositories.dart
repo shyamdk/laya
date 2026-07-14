@@ -8,7 +8,8 @@ import 'entities.dart';
 /// nothing else (ADR-014).
 
 abstract class ContentRepository {
-  Future<List<Chapter>> chapters();
+  Future<List<Subject>> subjects();
+  Future<List<Chapter>> chapters(String subjectCode);
   Future<List<Skill>> skills();
   Future<List<ConceptSection>> conceptSections(String chapterCode);
   Future<List<String>> solutionSteps(int questionId);
@@ -26,6 +27,7 @@ abstract class LearningRepository {
   /// skills that come up most often in real exams. Computed in the database.
   Future<List<Question>> nextQuestions({
     List<String>? chapterCodes,
+    String? subjectCode,
     int limit = 10,
   });
 

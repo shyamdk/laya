@@ -17,9 +17,16 @@ class MathText extends StatelessWidget {
 
   const MathText(this.text, {super.key, this.style, this.textAlign = TextAlign.start});
 
+  /// Kannada codepoints (U+0C80..U+0CFF). Flutter's default font has none of
+  /// these glyphs, so any string containing them must be drawn in
+  /// NotoSansKannada or it renders as tofu boxes.
+  static final _kannada = RegExp(r'[\u0C80-\u0CFF]');
+  static bool hasKannada(String s) => _kannada.hasMatch(s);
+
   @override
   Widget build(BuildContext context) {
-    final base = style ?? DefaultTextStyle.of(context).style;
+    var base = style ?? DefaultTextStyle.of(context).style;
+    if (hasKannada(text)) base = base.copyWith(fontFamily: 'NotoSansKannada');
     final spans = <InlineSpan>[];
 
     // Split on $...$, keeping the delimiters out of the payload.

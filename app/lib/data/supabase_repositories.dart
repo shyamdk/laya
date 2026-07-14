@@ -8,8 +8,25 @@ class SupabaseContentRepository implements ContentRepository {
   SupabaseContentRepository(this._db);
 
   @override
-  Future<List<Chapter>> chapters() async {
-    final rows = await _db.from('chapters').select().order('number', ascending: true);
+  Future<List<Subject>> subjects() async {
+    final rows = await _db.from('subjects').select().order('id', ascending: true);
+    return rows
+        .map((m) => Subject(
+              id: m['id'] as int,
+              code: m['code'] as String,
+              name: m['name'] as String,
+              script: m['script'] as String,
+            ))
+        .toList();
+  }
+
+  @override
+  Future<List<Chapter>> chapters(String subjectCode) async {
+    final rows = await _db
+        .from('chapters')
+        .select('*, subjects!inner(code)')
+        .eq('subjects.code', subjectCode)
+        .order('number', ascending: true);
     return rows
         .map((m) => Chapter(
               id: m['id'] as int,
@@ -87,6 +104,7 @@ class SupabaseLearningRepository implements LearningRepository {
   @override
   Future<List<Question>> nextQuestions({
     List<String>? chapterCodes,
+    String? subjectCode,
     int limit = 10,
   }) async {
     // The queue is computed in Postgres, not here: overdue first, then unseen,
@@ -94,6 +112,7 @@ class SupabaseLearningRepository implements LearningRepository {
     final rows = await _db.rpc('next_questions', params: {
       'p_chapters': chapterCodes,
       'p_limit': limit,
+      'p_subject': subjectCode,
     });
     return (rows as List)
         .map((m) => Question.fromMap(m as Map<String, dynamic>))

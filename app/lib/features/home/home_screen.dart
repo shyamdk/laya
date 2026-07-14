@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
+import '../../widgets/math_text.dart';
 import '../dashboard/dashboard_screen.dart';
 import '../learn/learn_screen.dart';
 import '../test/test_setup_screen.dart';
@@ -11,17 +12,19 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final chapters = ref.watch(chaptersProvider);
+    final subject = ref.watch(currentSubjectProvider);
+    if (subject == null) return const SizedBox.shrink();
+    final chapters = ref.watch(chaptersProvider(subject.code));
     final due = ref.watch(dueTodayProvider);
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Laya'),
+        title: Text(subject.name),
         actions: [
           IconButton(
-            tooltip: 'Sign out',
-            icon: const Icon(Icons.logout),
-            onPressed: () => ref.read(supabaseProvider).auth.signOut(),
+            icon: const Icon(Icons.swap_horiz),
+            tooltip: 'Change subject',
+            onPressed: () => Navigator.of(context).pop(),
           ),
         ],
       ),
@@ -83,8 +86,11 @@ class HomeScreen extends ConsumerWidget {
                         style: Theme.of(context).textTheme.titleSmall),
                     const SizedBox(height: 6),
                     for (final c in list)
-                      Text('${c.number}. ${c.title}',
-                          style: TextStyle(color: Colors.grey.shade700)),
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 2),
+                        child: MathText('${c.number}. ${c.title}',
+                            style: TextStyle(color: Colors.grey.shade700)),
+                      ),
                   ],
                 ),
               ),

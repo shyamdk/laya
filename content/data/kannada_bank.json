@@ -1,0 +1,2884 @@
+{
+ "subject": "kannada",
+ "skills": [
+  {
+   "id": 1,
+   "code": "kn-vocab-kn-l1",
+   "name": "ಪದಗಳ ಅರ್ಥ (ಮಗ್ಗದ ಸಾಹೇಬ) — Word meanings — Maggada Saheba",
+   "tier": "***",
+   "exams_seen_in": 33,
+   "total_exams": 49
+  },
+  {
+   "id": 2,
+   "code": "kn-vocab-kn-l5",
+   "name": "ಪದಗಳ ಅರ್ಥ (ಕನ್ನಡಿಗರ ತಾಯಿ) — Word meanings — Kannadigara Tayi",
+   "tier": "***",
+   "exams_seen_in": 33,
+   "total_exams": 49
+  },
+  {
+   "id": 3,
+   "code": "kn-g-varnamale",
+   "name": "ವರ್ಣಮಾಲೆ — Varnamale",
+   "tier": "*",
+   "exams_seen_in": 0,
+   "total_exams": 49
+  },
+  {
+   "id": 4,
+   "code": "kn-g-gunitakshara",
+   "name": "ಗುಣಿತಾಕ್ಷರ — Gunitakshara",
+   "tier": "*",
+   "exams_seen_in": 0,
+   "total_exams": 49
+  },
+  {
+   "id": 5,
+   "code": "kn-g-sandhi",
+   "name": "ಸಂಧಿ — Sandhi",
+   "tier": "***",
+   "exams_seen_in": 41,
+   "total_exams": 49
+  },
+  {
+   "id": 6,
+   "code": "kn-g-samasa",
+   "name": "ಸಮಾಸ — Samasa",
+   "tier": "**",
+   "exams_seen_in": 19,
+   "total_exams": 49
+  },
+  {
+   "id": 7,
+   "code": "kn-g-tatsama",
+   "name": "ತತ್ಸಮ – ತದ್ಭವ — Tatsama",
+   "tier": "***",
+   "exams_seen_in": 27,
+   "total_exams": 49
+  }
+ ],
+ "questions": [
+  {
+   "code": "kn-l1-vm01",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಅಭೀಷ್ಟ",
+   "options": [
+    "ಮೃತ ದೇಹ/ಶರೀರ",
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+    "ಬಯಸಿದ್ದು",
+    "ನಿರ್ಗತಿಕ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಅಭೀಷ್ಟ = ಬಯಸಿದ್ದು  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv01",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಬಯಸಿದ್ದು",
+   "options": [
+    "ಕಳೇಬರ",
+    "ಅಭೀಷ್ಟ",
+    "ಗಣಿಸದೆ",
+    "ಆಧಿಪತ್ಯ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬಯಸಿದ್ದು = ಅಭೀಷ್ಟ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm02",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಆಧಿಪತ್ಯ",
+   "options": [
+    "ಹೊಗಳಿಕೆ",
+    "ಯಜಮಾನಿಕೆ",
+    "ಮೃತ ದೇಹ/ಶರೀರ",
+    "ವಿದೇಶ, ಅನ್ಯದೇಶ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಆಧಿಪತ್ಯ = ಯಜಮಾನಿಕೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv02",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಯಜಮಾನಿಕೆ",
+   "options": [
+    "ಆಚ್ಛಾದಿತ",
+    "ಪ್ರಶಂಸೆ",
+    "ಆಧಿಪತ್ಯ",
+    "ಪರಿವರ್ತನೆ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಯಜಮಾನಿಕೆ = ಆಧಿಪತ್ಯ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm03",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಗಣಿಸದೆ",
+   "options": [
+    "ಯಜಮಾನಿಕೆ",
+    "ಲೆಕ್ಕಿಸದೆ",
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+    "ಮೃತ ದೇಹ/ಶರೀರ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಗಣಿಸದೆ = ಲೆಕ್ಕಿಸದೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv03",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಲೆಕ್ಕಿಸದೆ",
+   "options": [
+    "ಆಚ್ಛಾದಿತ",
+    "ಗೌಪ್ಯ",
+    "ಹಸನ್ಮುಖಿ",
+    "ಗಣಿಸದೆ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಲೆಕ್ಕಿಸದೆ = ಗಣಿಸದೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm04",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಚಿಂದಿ",
+   "options": [
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+    "ಚೂರು",
+    "ಗುಟ್ಟು, ರಹಸ್ಯ",
+    "ನಗುಮುಖ ಉಳ್ಳವನು"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಚಿಂದಿ = ಚೂರು  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv04",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಚೂರು",
+   "options": [
+    "ಕಳೇಬರ",
+    "ಚಿಂದಿ",
+    "ಭಿಕಾರಿ",
+    "ಪ್ರಶಂಸೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಚೂರು = ಚಿಂದಿ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm05",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಪ್ರಶಂಸೆ",
+   "options": [
+    "ಗುಟ್ಟು, ರಹಸ್ಯ",
+    "ಮೃತ ದೇಹ/ಶರೀರ",
+    "ಹೊಗಳಿಕೆ",
+    "ಯಜಮಾನಿಕೆ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಪ್ರಶಂಸೆ = ಹೊಗಳಿಕೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv05",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಹೊಗಳಿಕೆ",
+   "options": [
+    "ಗಣಿಸದೆ",
+    "ಪ್ರಶಂಸೆ",
+    "ವಿಲಾಯತಿ",
+    "ಪರಿವರ್ತನೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಹೊಗಳಿಕೆ = ಪ್ರಶಂಸೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm06",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ವಿಲಾಯತಿ",
+   "options": [
+    "ವಿದೇಶ, ಅನ್ಯದೇಶ",
+    "ನಗುಮುಖ ಉಳ್ಳವನು",
+    "ಚೂರು",
+    "ಲೆಕ್ಕಿಸದೆ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ವಿಲಾಯತಿ = ವಿದೇಶ, ಅನ್ಯದೇಶ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv06",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ವಿದೇಶ, ಅನ್ಯದೇಶ",
+   "options": [
+    "ಪರಿವರ್ತನೆ",
+    "ವಿಲಾಯತಿ",
+    "ಪ್ರಶಂಸೆ",
+    "ಹಸನ್ಮುಖಿ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ವಿದೇಶ, ಅನ್ಯದೇಶ = ವಿಲಾಯತಿ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm07",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಆಚ್ಛಾದಿತ",
+   "options": [
+    "ಬಯಸಿದ್ದು",
+    "ಬದಲಾವಣೆ",
+    "ಲೆಕ್ಕಿಸದೆ",
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಆಚ್ಛಾದಿತ = ಮುಚ್ಚಲ್ಪಟ್ಟ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv07",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+   "options": [
+    "ಅಭೀಷ್ಟ",
+    "ಆಚ್ಛಾದಿತ",
+    "ಚಿಂದಿ",
+    "ಗಣಿಸದೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಮುಚ್ಚಲ್ಪಟ್ಟ = ಆಚ್ಛಾದಿತ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm08",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಕಳೇಬರ",
+   "options": [
+    "ಮೃತ ದೇಹ/ಶರೀರ",
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+    "ಬದಲಾವಣೆ",
+    "ಗುಟ್ಟು, ರಹಸ್ಯ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಕಳೇಬರ = ಮೃತ ದೇಹ/ಶರೀರ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv08",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಮೃತ ದೇಹ/ಶರೀರ",
+   "options": [
+    "ಪರಿವರ್ತನೆ",
+    "ಆಧಿಪತ್ಯ",
+    "ಹಸನ್ಮುಖಿ",
+    "ಕಳೇಬರ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಮೃತ ದೇಹ/ಶರೀರ = ಕಳೇಬರ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm09",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಗೌಪ್ಯ",
+   "options": [
+    "ನಿರ್ಗತಿಕ",
+    "ಬದಲಾವಣೆ",
+    "ಬಯಸಿದ್ದು",
+    "ಗುಟ್ಟು, ರಹಸ್ಯ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಗೌಪ್ಯ = ಗುಟ್ಟು, ರಹಸ್ಯ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv09",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಗುಟ್ಟು, ರಹಸ್ಯ",
+   "options": [
+    "ಆಧಿಪತ್ಯ",
+    "ಪರಿವರ್ತನೆ",
+    "ಗೌಪ್ಯ",
+    "ಚಿಂದಿ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಗುಟ್ಟು, ರಹಸ್ಯ = ಗೌಪ್ಯ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm10",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಪರಿವರ್ತನೆ",
+   "options": [
+    "ವಿದೇಶ, ಅನ್ಯದೇಶ",
+    "ಯಜಮಾನಿಕೆ",
+    "ಬದಲಾವಣೆ",
+    "ಮೃತ ದೇಹ/ಶರೀರ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಪರಿವರ್ತನೆ = ಬದಲಾವಣೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv10",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಬದಲಾವಣೆ",
+   "options": [
+    "ಗಣಿಸದೆ",
+    "ಅಭೀಷ್ಟ",
+    "ಆಚ್ಛಾದಿತ",
+    "ಪರಿವರ್ತನೆ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಬದಲಾವಣೆ = ಪರಿವರ್ತನೆ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm11",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಭಿಕಾರಿ",
+   "options": [
+    "ನಿರ್ಗತಿಕ",
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+    "ಹೊಗಳಿಕೆ",
+    "ಲೆಕ್ಕಿಸದೆ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಭಿಕಾರಿ = ನಿರ್ಗತಿಕ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv11",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ನಿರ್ಗತಿಕ",
+   "options": [
+    "ಆಚ್ಛಾದಿತ",
+    "ವಿಲಾಯತಿ",
+    "ಭಿಕಾರಿ",
+    "ಆಧಿಪತ್ಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ನಿರ್ಗತಿಕ = ಭಿಕಾರಿ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-vm12",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಹಸನ್ಮುಖಿ",
+   "options": [
+    "ನಗುಮುಖ ಉಳ್ಳವನು",
+    "ಚೂರು",
+    "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+    "ಮೃತ ದೇಹ/ಶರೀರ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಹಸನ್ಮುಖಿ = ನಗುಮುಖ ಉಳ್ಳವನು  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l1-mv12",
+   "topic": "vocabulary",
+   "skill_id": 1,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ನಗುಮುಖ ಉಳ್ಳವನು",
+   "options": [
+    "ಪರಿವರ್ತನೆ",
+    "ಅಭೀಷ್ಟ",
+    "ಹಸನ್ಮುಖಿ",
+    "ಗೌಪ್ಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ನಗುಮುಖ ಉಳ್ಳವನು = ಹಸನ್ಮುಖಿ  (ಮಗ್ಗದ ಸಾಹೇಬ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm01",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಆಳ್ವೆ",
+   "options": [
+    "ಗರ್ಭ, ಗರ್ಭಾಶಯ",
+    "ಆಳುವೆ",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು",
+    "ಸುಗಂಧ, ಸುವಾಸನೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಆಳ್ವೆ = ಆಳುವೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv01",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಆಳುವೆ",
+   "options": [
+    "ಆಳ್ವೆ",
+    "ತಾಳ್ವೆ",
+    "ಬಸಿರು",
+    "ಕೆನೆ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಆಳುವೆ = ಆಳ್ವೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm02",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಒಸಗೆ",
+   "options": [
+    "ಆಳುವೆ",
+    "ಗೋವು",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು",
+    "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಒಸಗೆ = ಸಂತೋಷ, ಶುಭವಾರ್ತೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv02",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ",
+   "options": [
+    "ನಗಾಳಿ",
+    "ತೃಷೆ",
+    "ಬೇಲನಾಡು",
+    "ಒಸಗೆ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ = ಒಸಗೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm03",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಕಾರಕಳ",
+   "options": [
+    "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ",
+    "ಸಹಿಸುವೆ",
+    "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಕಾರಕಳ = ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv03",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)",
+   "options": [
+    "ನಂದಿನಿ",
+    "ಆಳ್ವೆ",
+    "ನಗಾಳಿ",
+    "ಕಾರಕಳ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ) = ಕಾರಕಳ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm04",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಕೆನೆ",
+   "options": [
+    "ಬಾಯಾರಿಕೆ",
+    "ಆಕಾಶ",
+    "ಬೇಲೂರು",
+    "ಸಾರ, ತಿರುಳು"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಕೆನೆ = ಸಾರ, ತಿರುಳು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv04",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಸಾರ, ತಿರುಳು",
+   "options": [
+    "ಒಸಗೆ",
+    "ಕೆನೆ",
+    "ನಿಡುಕರು",
+    "ಲತೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಸಾರ, ತಿರುಳು = ಕೆನೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm05",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ತಾಳ್ವೆ",
+   "options": [
+    "ಬಳ್ಳಿ",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು",
+    "ಸಹಿಸುವೆ",
+    "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ತಾಳ್ವೆ = ಸಹಿಸುವೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv05",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಸಹಿಸುವೆ",
+   "options": [
+    "ಒಸಗೆ",
+    "ತಾಳ್ವೆ",
+    "ಬಸಿರು",
+    "ಶರ್ವ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಸಹಿಸುವೆ = ತಾಳ್ವೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm06",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ತೃಷೆ",
+   "options": [
+    "ಬಾಯಾರಿಕೆ",
+    "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ",
+    "ಆಳುವೆ",
+    "ಬಳ್ಳಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ತೃಷೆ = ಬಾಯಾರಿಕೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv06",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಬಾಯಾರಿಕೆ",
+   "options": [
+    "ತಾಳ್ವೆ",
+    "ತೃಷೆ",
+    "ಬಿಳಿಯ ಕೊಳ",
+    "ನಿಡುಕರು"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬಾಯಾರಿಕೆ = ತೃಷೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm07",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ದಿವಂ",
+   "options": [
+    "ಆಕಾಶ",
+    "ಪರ್ವತಗಳ ಸಮೂಹ",
+    "ಬಳ್ಳಿ",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು"
+   ],
+   "correct_option": 0,
+   "explain_en": "ದಿವಂ = ಆಕಾಶ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv07",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಆಕಾಶ",
+   "options": [
+    "ದಿವಂ",
+    "ನಂದಿನಿ",
+    "ತಾಳ್ವೆ",
+    "ಸುರಭಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಆಕಾಶ = ದಿವಂ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm08",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ನಗಾಳಿ",
+   "options": [
+    "ಬೇಲೂರು",
+    "ಪರ್ವತಗಳ ಸಮೂಹ",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು",
+    "ಮುಖ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ನಗಾಳಿ = ಪರ್ವತಗಳ ಸಮೂಹ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv08",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಪರ್ವತಗಳ ಸಮೂಹ",
+   "options": [
+    "ನಗಾಳಿ",
+    "ನಿಡುಕರು",
+    "ಕಾರಕಳ",
+    "ಒಸಗೆ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಪರ್ವತಗಳ ಸಮೂಹ = ನಗಾಳಿ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm09",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ನಿಡುಕರು",
+   "options": [
+    "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ",
+    "ಆಳುವೆ",
+    "ಸಹಿಸುವೆ",
+    "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ನಿಡುಕರು = ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv09",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ",
+   "options": [
+    "ತಾಳ್ವೆ",
+    "ನಗಾಳಿ",
+    "ನಿಡುಕರು",
+    "ಬಿಳಿಯ ಕೊಳ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ = ನಿಡುಕರು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm10",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಬಸಿರು",
+   "options": [
+    "ಬಳ್ಳಿ",
+    "ಗೋವು",
+    "ಗರ್ಭ, ಗರ್ಭಾಶಯ",
+    "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಬಸಿರು = ಗರ್ಭ, ಗರ್ಭಾಶಯ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv10",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಗರ್ಭ, ಗರ್ಭಾಶಯ",
+   "options": [
+    "ತೃಷೆ",
+    "ದಿವಂ",
+    "ನಂದಿನಿ",
+    "ಬಸಿರು"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಗರ್ಭ, ಗರ್ಭಾಶಯ = ಬಸಿರು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm11",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಬಿಳಿಯ ಕೊಳ",
+   "options": [
+    "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)",
+    "ಬೇಲೂರು",
+    "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ",
+    "ಸುಗಂಧ, ಸುವಾಸನೆ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಬಿಳಿಯ ಕೊಳ = ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv11",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ",
+   "options": [
+    "ಆಳ್ವೆ",
+    "ಕೆನೆ",
+    "ಬಿಳಿಯ ಕೊಳ",
+    "ನಿಡುಕರು"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ = ಬಿಳಿಯ ಕೊಳ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm12",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಬೇಲನಾಡು",
+   "options": [
+    "ಸಾರ, ತಿರುಳು",
+    "ಬೇಲೂರು",
+    "ಸಹಿಸುವೆ",
+    "ಪರ್ವತಗಳ ಸಮೂಹ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬೇಲನಾಡು = ಬೇಲೂರು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv12",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಬೇಲೂರು",
+   "options": [
+    "ನಿಡುಕರು",
+    "ತೃಷೆ",
+    "ತಾಳ್ವೆ",
+    "ಬೇಲನಾಡು"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಬೇಲೂರು = ಬೇಲನಾಡು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm13",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಮೊಗ",
+   "options": [
+    "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)",
+    "ಸುಗಂಧ, ಸುವಾಸನೆ",
+    "ಮುಖ",
+    "ಸಹಿಸುವೆ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಮೊಗ = ಮುಖ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv13",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಮುಖ",
+   "options": [
+    "ಬೇಲನಾಡು",
+    "ಒಸಗೆ",
+    "ಮೊಗ",
+    "ನಿಡುಕರು"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಮುಖ = ಮೊಗ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm14",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಲತೆ",
+   "options": [
+    "ಆಳುವೆ",
+    "ಮುಖ",
+    "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ",
+    "ಬಳ್ಳಿ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಲತೆ = ಬಳ್ಳಿ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv14",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಬಳ್ಳಿ",
+   "options": [
+    "ಶರ್ವ",
+    "ಲತೆ",
+    "ಮೊಗ",
+    "ಕಾರಕಳ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬಳ್ಳಿ = ಲತೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm15",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಶರ್ವ",
+   "options": [
+    "ಸಹಿಸುವೆ",
+    "ಮುಖ",
+    "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ",
+    "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಶರ್ವ = ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv15",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು",
+   "options": [
+    "ಕಾರಕಳ",
+    "ಶರ್ವ",
+    "ಸುರಭಿ",
+    "ತಾಳ್ವೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು = ಶರ್ವ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm16",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ಸುರಭಿ",
+   "options": [
+    "ಆಕಾಶ",
+    "ಸಹಿಸುವೆ",
+    "ಸುಗಂಧ, ಸುವಾಸನೆ",
+    "ಗರ್ಭ, ಗರ್ಭಾಶಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಸುರಭಿ = ಸುಗಂಧ, ಸುವಾಸನೆ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv16",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಸುಗಂಧ, ಸುವಾಸನೆ",
+   "options": [
+    "ನಿಡುಕರು",
+    "ಲತೆ",
+    "ಸುರಭಿ",
+    "ಕೆನೆ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಸುಗಂಧ, ಸುವಾಸನೆ = ಸುರಭಿ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-vm17",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "What does this word mean?",
+   "stem_kn": "ನಂದಿನಿ",
+   "options": [
+    "ಸಾರ, ತಿರುಳು",
+    "ಮುಖ",
+    "ಗೋವು",
+    "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ನಂದಿನಿ = ಗೋವು  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-l5-mv17",
+   "topic": "vocabulary",
+   "skill_id": 2,
+   "type": "mcq",
+   "stem_en": "Which word has this meaning?",
+   "stem_kn": "ಗೋವು",
+   "options": [
+    "ಸುರಭಿ",
+    "ಕಾರಕಳ",
+    "ನಂದಿನಿ",
+    "ದಿವಂ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಗೋವು = ನಂದಿನಿ  (ಕನ್ನಡಿಗರ ತಾಯಿ, ಪದಗಳ ಅರ್ಥ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-varnamale-fact01",
+   "topic": "grammar",
+   "skill_id": 3,
+   "type": "mcq",
+   "stem_en": "Letters that can be spoken on their own",
+   "stem_kn": "",
+   "options": [
+    "ಸ್ವರ",
+    "ಯೋಗವಾಹ",
+    "ಗುಣಿತಾಕ್ಷರ",
+    "ವ್ಯಂಜನ"
+   ],
+   "correct_option": 0,
+   "explain_en": "Letters that can be spoken on their own → ಸ್ವರ  (ವರ್ಣಮಾಲೆ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-varnamale-fact02",
+   "topic": "grammar",
+   "skill_id": 3,
+   "type": "mcq",
+   "stem_en": "Letters that need a vowel to be spoken",
+   "stem_kn": "",
+   "options": [
+    "ಸಂಯುಕ್ತಾಕ್ಷರ",
+    "ವ್ಯಂಜನ",
+    "ಯೋಗವಾಹ",
+    "ಸ್ವರ"
+   ],
+   "correct_option": 1,
+   "explain_en": "Letters that need a vowel to be spoken → ವ್ಯಂಜನ  (ವರ್ಣಮಾಲೆ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-varnamale-fact03",
+   "topic": "grammar",
+   "skill_id": 3,
+   "type": "mcq",
+   "stem_en": "Anusvara and visarga are called",
+   "stem_kn": "",
+   "options": [
+    "ಯೋಗವಾಹ",
+    "ವ್ಯಂಜನ",
+    "ಸ್ವರ",
+    "ಸಂಯುಕ್ತಾಕ್ಷರ"
+   ],
+   "correct_option": 0,
+   "explain_en": "Anusvara and visarga are called → ಯೋಗವಾಹ  (ವರ್ಣಮಾಲೆ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-gunitakshara-fact01",
+   "topic": "grammar",
+   "skill_id": 4,
+   "type": "mcq",
+   "stem_en": "A consonant joined to a vowel is called",
+   "stem_kn": "",
+   "options": [
+    "ಗುಣಿತಾಕ್ಷರ",
+    "ಯೋಗವಾಹ",
+    "ವ್ಯಂಜನ",
+    "ಸಂಯುಕ್ತಾಕ್ಷರ"
+   ],
+   "correct_option": 0,
+   "explain_en": "A consonant joined to a vowel is called → ಗುಣಿತಾಕ್ಷರ  (ಗುಣಿತಾಕ್ಷರ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-gunitakshara-fact02",
+   "topic": "grammar",
+   "skill_id": 4,
+   "type": "mcq",
+   "stem_en": "Two or more consonants joined together",
+   "stem_kn": "",
+   "options": [
+    "ಯೋಗವಾಹ",
+    "ಗುಣಿತಾಕ್ಷರ",
+    "ವ್ಯಂಜನ",
+    "ಸಂಯುಕ್ತಾಕ್ಷರ"
+   ],
+   "correct_option": 3,
+   "explain_en": "Two or more consonants joined together → ಸಂಯುಕ್ತಾಕ್ಷರ  (ಗುಣಿತಾಕ್ಷರ)",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-lopa01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಊರು + ಊರು  →  ಊರೂರು",
+   "options": [
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಊರು + ಊರು → ಊರೂರು is ಲೋಪಸಂಧಿ (Lopa - a letter is DROPPED). A vowel meets a vowel, and the first vowel disappears.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-lopa02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಬಲ್ಲನು + ಎಂದು  →  ಬಲ್ಲನೆಂದು",
+   "options": [
+    "ಆಗಮಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಲೋಪಸಂಧಿ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಬಲ್ಲನು + ಎಂದು → ಬಲ್ಲನೆಂದು is ಲೋಪಸಂಧಿ (Lopa - a letter is DROPPED). A vowel meets a vowel, and the first vowel disappears.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-lopa03",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಊರು + ಇಂದ  →  ಊರಿಂದ",
+   "options": [
+    "ಆಗಮಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಊರು + ಇಂದ → ಊರಿಂದ is ಲೋಪಸಂಧಿ (Lopa - a letter is DROPPED). A vowel meets a vowel, and the first vowel disappears.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-agam01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಮನೆ + ಅಲ್ಲಿ  →  ಮನೆಯಲ್ಲಿ",
+   "options": [
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಮನೆ + ಅಲ್ಲಿ → ಮನೆಯಲ್ಲಿ is ಆಗಮಸಂಧಿ (Agama - a letter is ADDED). A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-agam02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಕೈ + ಅನ್ನು  →  ಕೈಯನ್ನು",
+   "options": [
+    "ಆಗಮಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಕೈ + ಅನ್ನು → ಕೈಯನ್ನು is ಆಗಮಸಂಧಿ (Agama - a letter is ADDED). A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-agam03",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಚಳಿ + ಇಂದ  →  ಚಳಿಯಿಂದ",
+   "options": [
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಚಳಿ + ಇಂದ → ಚಳಿಯಿಂದ is ಆಗಮಸಂಧಿ (Agama - a letter is ADDED). A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-agam04",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಗುರು + ಅನ್ನು  →  ಗುರುವನ್ನು",
+   "options": [
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಗುರು + ಅನ್ನು → ಗುರುವನ್ನು is ಆಗಮಸಂಧಿ (Agama - a letter is ADDED). A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-agam05",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಪುಸ್ತಕ + ಅನ್ನು  →  ಪುಸ್ತಕವನ್ನು",
+   "options": [
+    "ಲೋಪಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಪುಸ್ತಕ + ಅನ್ನು → ಪುಸ್ತಕವನ್ನು is ಆಗಮಸಂಧಿ (Agama - a letter is ADDED). A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-ades01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಮಳೆ + ಕಾಲ  →  ಮಳೆಗಾಲ",
+   "options": [
+    "ಆದೇಶಸಂಧಿ",
+    "ಲೋಪಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಮಳೆ + ಕಾಲ → ಮಳೆಗಾಲ is ಆದೇಶಸಂಧಿ (Adesha - a letter is REPLACED). The consonant that starts the second word is swapped for another. ಕ ತ ಪ become ಗ ದ ಬ.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-ades02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಹುಲ್ಲು + ಕಾವಲು  →  ಹುಲ್ಲುಗಾವಲು",
+   "options": [
+    "ಆದೇಶಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ",
+    "ಲೋಪಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಹುಲ್ಲು + ಕಾವಲು → ಹುಲ್ಲುಗಾವಲು is ಆದೇಶಸಂಧಿ (Adesha - a letter is REPLACED). The consonant that starts the second word is swapped for another. ಕ ತ ಪ become ಗ ದ ಬ.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-ades03",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಮೈ + ತೊಳೆ  →  ಮೈದೊಳೆ",
+   "options": [
+    "ಆದೇಶಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಮೈ + ತೊಳೆ → ಮೈದೊಳೆ is ಆದೇಶಸಂಧಿ (Adesha - a letter is REPLACED). The consonant that starts the second word is swapped for another. ಕ ತ ಪ become ಗ ದ ಬ.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-ades04",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಕೆನೆ + ಪಾಲ್  →  ಕೆನೆವಾಲ್",
+   "options": [
+    "ಆದೇಶಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆಗಮಸಂಧಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಕೆನೆ + ಪಾಲ್ → ಕೆನೆವಾಲ್ is ಆದೇಶಸಂಧಿ (Adesha - a letter is REPLACED). The consonant that starts the second word is swapped for another. ಕ ತ ಪ become ಗ ದ ಬ.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-prak01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಅಯ್ಯೋ + ಇದೇನು  →  (stays apart)",
+   "options": [
+    "ಆಗಮಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಅಯ್ಯೋ + ಇದೇನು → (stays apart) is ಪ್ರಕೃತಿಭಾವ (Prakrutibhava - NO sandhi happens). A vowel meets a vowel, but the words refuse to join - because joining them would wreck the meaning.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-prak02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಅಕ್ಕ + ಇತ್ತಬಾ  →  (stays apart)",
+   "options": [
+    "ಆಗಮಸಂಧಿ",
+    "ಆದೇಶಸಂಧಿ",
+    "ಪ್ರಕೃತಿಭಾವ",
+    "ಲೋಪಸಂಧಿ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಅಕ್ಕ + ಇತ್ತಬಾ → (stays apart) is ಪ್ರಕೃತಿಭಾವ (Prakrutibhava - NO sandhi happens). A vowel meets a vowel, but the words refuse to join - because joining them would wreck the meaning.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-sandhi-joinlop01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಊರು + ಊರು",
+   "options": [
+    "ಚಳಿಯಿಂದ",
+    "ಬಲ್ಲನೆಂದು",
+    "ಊರೂರು",
+    "ಹುಲ್ಲುಗಾವಲು"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಊರು + ಊರು → ಊರೂರು  (ಲೋಪಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinlop02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಬಲ್ಲನು + ಎಂದು",
+   "options": [
+    "ಕೈಯನ್ನು",
+    "ಬಲ್ಲನೆಂದು",
+    "ಊರಿಂದ",
+    "ಮನೆಯಲ್ಲಿ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬಲ್ಲನು + ಎಂದು → ಬಲ್ಲನೆಂದು  (ಲೋಪಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinlop03",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಊರು + ಇಂದ",
+   "options": [
+    "ಊರಿಂದ",
+    "ಊರೂರು",
+    "ಕೈಯನ್ನು",
+    "ಹುಲ್ಲುಗಾವಲು"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಊರು + ಇಂದ → ಊರಿಂದ  (ಲೋಪಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinaga01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಮನೆ + ಅಲ್ಲಿ",
+   "options": [
+    "ಕೈಯನ್ನು",
+    "ಮನೆಯಲ್ಲಿ",
+    "ಊರಿಂದ",
+    "ಹುಲ್ಲುಗಾವಲು"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಮನೆ + ಅಲ್ಲಿ → ಮನೆಯಲ್ಲಿ  (ಆಗಮಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinaga02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಕೈ + ಅನ್ನು",
+   "options": [
+    "ಬಲ್ಲನೆಂದು",
+    "ಊರಿಂದ",
+    "ಗುರುವನ್ನು",
+    "ಕೈಯನ್ನು"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಕೈ + ಅನ್ನು → ಕೈಯನ್ನು  (ಆಗಮಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinaga03",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಚಳಿ + ಇಂದ",
+   "options": [
+    "ಮನೆಯಲ್ಲಿ",
+    "ಚಳಿಯಿಂದ",
+    "ಬಲ್ಲನೆಂದು",
+    "ಊರೂರು"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಚಳಿ + ಇಂದ → ಚಳಿಯಿಂದ  (ಆಗಮಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinaga04",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಗುರು + ಅನ್ನು",
+   "options": [
+    "ಊರೂರು",
+    "ಗುರುವನ್ನು",
+    "ಕೆನೆವಾಲ್",
+    "ಪುಸ್ತಕವನ್ನು"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಗುರು + ಅನ್ನು → ಗುರುವನ್ನು  (ಆಗಮಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinaga05",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಪುಸ್ತಕ + ಅನ್ನು",
+   "options": [
+    "ಬಲ್ಲನೆಂದು",
+    "ಕೈಯನ್ನು",
+    "ಗುರುವನ್ನು",
+    "ಪುಸ್ತಕವನ್ನು"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಪುಸ್ತಕ + ಅನ್ನು → ಪುಸ್ತಕವನ್ನು  (ಆಗಮಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinade01",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಮಳೆ + ಕಾಲ",
+   "options": [
+    "ಚಳಿಯಿಂದ",
+    "ಕೆನೆವಾಲ್",
+    "ಮಳೆಗಾಲ",
+    "ಬಲ್ಲನೆಂದು"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಮಳೆ + ಕಾಲ → ಮಳೆಗಾಲ  (ಆದೇಶಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinade02",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಹುಲ್ಲು + ಕಾವಲು",
+   "options": [
+    "ಗುರುವನ್ನು",
+    "ಹುಲ್ಲುಗಾವಲು",
+    "ಮಳೆಗಾಲ",
+    "ಮೈದೊಳೆ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಹುಲ್ಲು + ಕಾವಲು → ಹುಲ್ಲುಗಾವಲು  (ಆದೇಶಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinade03",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಮೈ + ತೊಳೆ",
+   "options": [
+    "ಕೈಯನ್ನು",
+    "ಮಳೆಗಾಲ",
+    "ಮೈದೊಳೆ",
+    "ಪುಸ್ತಕವನ್ನು"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಮೈ + ತೊಳೆ → ಮೈದೊಳೆ  (ಆದೇಶಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-sandhi-joinade04",
+   "topic": "grammar",
+   "skill_id": 5,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಕೆನೆ + ಪಾಲ್",
+   "options": [
+    "ಗುರುವನ್ನು",
+    "ಪುಸ್ತಕವನ್ನು",
+    "ಕೈಯನ್ನು",
+    "ಕೆನೆವಾಲ್"
+   ],
+   "correct_option": 3,
+   "explain_en": "ಕೆನೆ + ಪಾಲ್ → ಕೆನೆವಾಲ್  (ಆದೇಶಸಂಧಿ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-tatp01",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ವಯಸ್ಸಿನಿಂದ + ವೃದ್ಧ  →  ವಯೋವೃದ್ಧ",
+   "options": [
+    "ತತ್ಪುರುಷ ಸಮಾಸ",
+    "ದ್ವಿಗು ಸಮಾಸ",
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ವಯಸ್ಸಿನಿಂದ + ವೃದ್ಧ → ವಯೋವೃದ್ಧ is ತತ್ಪುರುಷ ಸಮಾಸ (Tatpurusha - the SECOND word carries the meaning).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-tatp02",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಹಗಲಿನಲ್ಲಿ + ಕನಸು  →  ಹಗಲುಗನಸು",
+   "options": [
+    "ದ್ವಿಗು ಸಮಾಸ",
+    "ತತ್ಪುರುಷ ಸಮಾಸ",
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಹಗಲಿನಲ್ಲಿ + ಕನಸು → ಹಗಲುಗನಸು is ತತ್ಪುರುಷ ಸಮಾಸ (Tatpurusha - the SECOND word carries the meaning).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-karm01",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಹಿರಿದು + ಮರ  →  ಹೆಮ್ಮರ",
+   "options": [
+    "ತತ್ಪುರುಷ ಸಮಾಸ",
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+    "ದ್ವಿಗು ಸಮಾಸ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಹಿರಿದು + ಮರ → ಹೆಮ್ಮರ is ಕರ್ಮಧಾರಯ ಸಮಾಸ (Karmadharaya - the FIRST word describes the second).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-karm02",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಮೆಲ್ಲಿತು + ನುಡಿ  →  ಮೆಲ್ನುಡಿ",
+   "options": [
+    "ದ್ವಿಗು ಸಮಾಸ",
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+    "ತತ್ಪುರುಷ ಸಮಾಸ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಮೆಲ್ಲಿತು + ನುಡಿ → ಮೆಲ್ನುಡಿ is ಕರ್ಮಧಾರಯ ಸಮಾಸ (Karmadharaya - the FIRST word describes the second).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-karm03",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ದಿವ್ಯವಾದ + ಪ್ರಕಾಶ  →  ದಿವ್ಯಪ್ರಕಾಶ",
+   "options": [
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+    "ದ್ವಿಗು ಸಮಾಸ",
+    "ತತ್ಪುರುಷ ಸಮಾಸ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ದಿವ್ಯವಾದ + ಪ್ರಕಾಶ → ದಿವ್ಯಪ್ರಕಾಶ is ಕರ್ಮಧಾರಯ ಸಮಾಸ (Karmadharaya - the FIRST word describes the second).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-dvig01",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಮೂರು + ಮಡಿ  →  ಮುಮ್ಮಡಿ",
+   "options": [
+    "ತತ್ಪುರುಷ ಸಮಾಸ",
+    "ದ್ವಿಗು ಸಮಾಸ",
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಮೂರು + ಮಡಿ → ಮುಮ್ಮಡಿ is ದ್ವಿಗು ಸಮಾಸ (Dvigu - the FIRST word is a NUMBER).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-dvig02",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ನಾಲ್ಕು + ದೆಸೆ  →  ನಾಲ್ದೆಸೆ",
+   "options": [
+    "ತತ್ಪುರುಷ ಸಮಾಸ",
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+    "ದ್ವಿಗು ಸಮಾಸ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ನಾಲ್ಕು + ದೆಸೆ → ನಾಲ್ದೆಸೆ is ದ್ವಿಗು ಸಮಾಸ (Dvigu - the FIRST word is a NUMBER).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-dvig03",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Which type is this?",
+   "stem_kn": "ಪಂಚಗಳಾದ + ಇಂದ್ರಿಯ  →  ಪಂಚೇಂದ್ರಿಯ",
+   "options": [
+    "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+    "ದ್ವಿಗು ಸಮಾಸ",
+    "ತತ್ಪುರುಷ ಸಮಾಸ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಪಂಚಗಳಾದ + ಇಂದ್ರಿಯ → ಪಂಚೇಂದ್ರಿಯ is ದ್ವಿಗು ಸಮಾಸ (Dvigu - the FIRST word is a NUMBER).",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-samasa-jointat01",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ವಯಸ್ಸಿನಿಂದ + ವೃದ್ಧ",
+   "options": [
+    "ದಿವ್ಯಪ್ರಕಾಶ",
+    "ವಯೋವೃದ್ಧ",
+    "ಮುಮ್ಮಡಿ",
+    "ಹಗಲುಗನಸು"
+   ],
+   "correct_option": 1,
+   "explain_en": "ವಯಸ್ಸಿನಿಂದ + ವೃದ್ಧ → ವಯೋವೃದ್ಧ  (ತತ್ಪುರುಷ ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-jointat02",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಹಗಲಿನಲ್ಲಿ + ಕನಸು",
+   "options": [
+    "ಮೆಲ್ನುಡಿ",
+    "ಪಂಚೇಂದ್ರಿಯ",
+    "ಹಗಲುಗನಸು",
+    "ಮುಮ್ಮಡಿ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಹಗಲಿನಲ್ಲಿ + ಕನಸು → ಹಗಲುಗನಸು  (ತತ್ಪುರುಷ ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-joinkar01",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಹಿರಿದು + ಮರ",
+   "options": [
+    "ಹೆಮ್ಮರ",
+    "ಹಗಲುಗನಸು",
+    "ವಯೋವೃದ್ಧ",
+    "ಮೆಲ್ನುಡಿ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಹಿರಿದು + ಮರ → ಹೆಮ್ಮರ  (ಕರ್ಮಧಾರಯ ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-joinkar02",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಮೆಲ್ಲಿತು + ನುಡಿ",
+   "options": [
+    "ಹೆಮ್ಮರ",
+    "ದಿವ್ಯಪ್ರಕಾಶ",
+    "ಮೆಲ್ನುಡಿ",
+    "ವಯೋವೃದ್ಧ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಮೆಲ್ಲಿತು + ನುಡಿ → ಮೆಲ್ನುಡಿ  (ಕರ್ಮಧಾರಯ ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-joinkar03",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ದಿವ್ಯವಾದ + ಪ್ರಕಾಶ",
+   "options": [
+    "ಮೆಲ್ನುಡಿ",
+    "ಮುಮ್ಮಡಿ",
+    "ನಾಲ್ದೆಸೆ",
+    "ದಿವ್ಯಪ್ರಕಾಶ"
+   ],
+   "correct_option": 3,
+   "explain_en": "ದಿವ್ಯವಾದ + ಪ್ರಕಾಶ → ದಿವ್ಯಪ್ರಕಾಶ  (ಕರ್ಮಧಾರಯ ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-joindvi01",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಮೂರು + ಮಡಿ",
+   "options": [
+    "ಮುಮ್ಮಡಿ",
+    "ಹೆಮ್ಮರ",
+    "ಹಗಲುಗನಸು",
+    "ದಿವ್ಯಪ್ರಕಾಶ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಮೂರು + ಮಡಿ → ಮುಮ್ಮಡಿ  (ದ್ವಿಗು ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-joindvi02",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ನಾಲ್ಕು + ದೆಸೆ",
+   "options": [
+    "ನಾಲ್ದೆಸೆ",
+    "ಮುಮ್ಮಡಿ",
+    "ಮೆಲ್ನುಡಿ",
+    "ಹಗಲುಗನಸು"
+   ],
+   "correct_option": 0,
+   "explain_en": "ನಾಲ್ಕು + ದೆಸೆ → ನಾಲ್ದೆಸೆ  (ದ್ವಿಗು ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-samasa-joindvi03",
+   "topic": "grammar",
+   "skill_id": 6,
+   "type": "mcq",
+   "stem_en": "Join these two words. What do you get?",
+   "stem_kn": "ಪಂಚಗಳಾದ + ಇಂದ್ರಿಯ",
+   "options": [
+    "ಹಗಲುಗನಸು",
+    "ಪಂಚೇಂದ್ರಿಯ",
+    "ದಿವ್ಯಪ್ರಕಾಶ",
+    "ಮೆಲ್ನುಡಿ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಪಂಚಗಳಾದ + ಇಂದ್ರಿಯ → ಪಂಚೇಂದ್ರಿಯ  (ದ್ವಿಗು ಸಮಾಸ)",
+   "marks": 2,
+   "difficulty": "medium",
+   "timer_seconds": 90
+  },
+  {
+   "code": "kn-g-tatsama-tats01",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ರಾಮ",
+   "options": [
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ರಾಮ is ತತ್ಸಮ — Tatsama - came in UNCHANGED.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tats02",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಭೀಮ",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಭೀಮ is ತತ್ಸಮ — Tatsama - came in UNCHANGED.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tats03",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ವಸಂತ",
+   "options": [
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ವಸಂತ is ತತ್ಸಮ — Tatsama - came in UNCHANGED.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tats04",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಚಂದ್ರ",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಚಂದ್ರ is ತತ್ಸಮ — Tatsama - came in UNCHANGED.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tats05",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಸ್ತ್ರೀ",
+   "options": [
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಸ್ತ್ರೀ is ತತ್ಸಮ — Tatsama - came in UNCHANGED.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb01",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಸಿರಿ",
+   "options": [
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಸಿರಿ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb02",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಬಾವಿ",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಬಾವಿ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb03",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ದನಿ",
+   "options": [
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ದನಿ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb04",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಬಸದಿ",
+   "options": [
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬಸದಿ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb05",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಬೇಸಗೆ",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಬೇಸಗೆ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb06",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಕೊಡಲಿ",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಕೊಡಲಿ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-tadb07",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಬಸವ",
+   "options": [
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಬಸವ is ತದ್ಭವ — Tadbhava - CHANGED on the way in.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya01",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಅರ್ಜಿ",
+   "options": [
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಅರ್ಜಿ is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya02",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಕಚೇರಿ",
+   "options": [
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಕಚೇರಿ is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya03",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಕಾರ್ಖಾನೆ",
+   "options": [
+    "ತದ್ಭವ",
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ"
+   ],
+   "correct_option": 1,
+   "explain_en": "ಕಾರ್ಖಾನೆ is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya04",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಕೋರ್ಟು",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತತ್ಸಮ",
+    "ತದ್ಭವ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಕೋರ್ಟು is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya05",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಬ್ಯಾಂಕು",
+   "options": [
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಬ್ಯಾಂಕು is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya06",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಹೋಟೆಲು",
+   "options": [
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಹೋಟೆಲು is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya07",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಅಲಮಾರು",
+   "options": [
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ",
+    "ಅನ್ಯದೇಶ್ಯ"
+   ],
+   "correct_option": 2,
+   "explain_en": "ಅಲಮಾರು is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya08",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಸಾಬೂನು",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಸಾಬೂನು is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  },
+  {
+   "code": "kn-g-tatsama-anya09",
+   "topic": "grammar",
+   "skill_id": 7,
+   "type": "mcq",
+   "stem_en": "Which type of word is this?",
+   "stem_kn": "ಮೇಜು",
+   "options": [
+    "ಅನ್ಯದೇಶ್ಯ",
+    "ತದ್ಭವ",
+    "ತತ್ಸಮ"
+   ],
+   "correct_option": 0,
+   "explain_en": "ಮೇಜು is ಅನ್ಯದೇಶ್ಯ — Anyadeshya - borrowed from ANOTHER language.",
+   "marks": 1,
+   "difficulty": "easy",
+   "timer_seconds": 45
+  }
+ ],
+ "match_sets": [
+  {
+   "code": "kn-l1-match1",
+   "skill_id": 1,
+   "type": "match",
+   "stem_en": "Match each word to its meaning",
+   "pairs": [
+    {
+     "left": "ಅಭೀಷ್ಟ",
+     "right": "ಬಯಸಿದ್ದು"
+    },
+    {
+     "left": "ಆಧಿಪತ್ಯ",
+     "right": "ಯಜಮಾನಿಕೆ"
+    },
+    {
+     "left": "ಗಣಿಸದೆ",
+     "right": "ಲೆಕ್ಕಿಸದೆ"
+    },
+    {
+     "left": "ಚಿಂದಿ",
+     "right": "ಚೂರು"
+    },
+    {
+     "left": "ಪ್ರಶಂಸೆ",
+     "right": "ಹೊಗಳಿಕೆ"
+    }
+   ],
+   "marks": 5,
+   "difficulty": "medium",
+   "timer_seconds": 150
+  },
+  {
+   "code": "kn-l1-match2",
+   "skill_id": 1,
+   "type": "match",
+   "stem_en": "Match each word to its meaning",
+   "pairs": [
+    {
+     "left": "ವಿಲಾಯತಿ",
+     "right": "ವಿದೇಶ, ಅನ್ಯದೇಶ"
+    },
+    {
+     "left": "ಆಚ್ಛಾದಿತ",
+     "right": "ಮುಚ್ಚಲ್ಪಟ್ಟ"
+    },
+    {
+     "left": "ಕಳೇಬರ",
+     "right": "ಮೃತ ದೇಹ/ಶರೀರ"
+    },
+    {
+     "left": "ಗೌಪ್ಯ",
+     "right": "ಗುಟ್ಟು, ರಹಸ್ಯ"
+    },
+    {
+     "left": "ಪರಿವರ್ತನೆ",
+     "right": "ಬದಲಾವಣೆ"
+    }
+   ],
+   "marks": 5,
+   "difficulty": "medium",
+   "timer_seconds": 150
+  },
+  {
+   "code": "kn-l5-match1",
+   "skill_id": 2,
+   "type": "match",
+   "stem_en": "Match each word to its meaning",
+   "pairs": [
+    {
+     "left": "ಆಳ್ವೆ",
+     "right": "ಆಳುವೆ"
+    },
+    {
+     "left": "ಒಸಗೆ",
+     "right": "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ"
+    },
+    {
+     "left": "ಕಾರಕಳ",
+     "right": "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)"
+    },
+    {
+     "left": "ಕೆನೆ",
+     "right": "ಸಾರ, ತಿರುಳು"
+    },
+    {
+     "left": "ತಾಳ್ವೆ",
+     "right": "ಸಹಿಸುವೆ"
+    }
+   ],
+   "marks": 5,
+   "difficulty": "medium",
+   "timer_seconds": 150
+  },
+  {
+   "code": "kn-l5-match2",
+   "skill_id": 2,
+   "type": "match",
+   "stem_en": "Match each word to its meaning",
+   "pairs": [
+    {
+     "left": "ತೃಷೆ",
+     "right": "ಬಾಯಾರಿಕೆ"
+    },
+    {
+     "left": "ದಿವಂ",
+     "right": "ಆಕಾಶ"
+    },
+    {
+     "left": "ನಗಾಳಿ",
+     "right": "ಪರ್ವತಗಳ ಸಮೂಹ"
+    },
+    {
+     "left": "ನಿಡುಕರು",
+     "right": "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ"
+    },
+    {
+     "left": "ಬಸಿರು",
+     "right": "ಗರ್ಭ, ಗರ್ಭಾಶಯ"
+    }
+   ],
+   "marks": 5,
+   "difficulty": "medium",
+   "timer_seconds": 150
+  },
+  {
+   "code": "kn-l5-match3",
+   "skill_id": 2,
+   "type": "match",
+   "stem_en": "Match each word to its meaning",
+   "pairs": [
+    {
+     "left": "ಬಿಳಿಯ ಕೊಳ",
+     "right": "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ"
+    },
+    {
+     "left": "ಬೇಲನಾಡು",
+     "right": "ಬೇಲೂರು"
+    },
+    {
+     "left": "ಮೊಗ",
+     "right": "ಮುಖ"
+    },
+    {
+     "left": "ಲತೆ",
+     "right": "ಬಳ್ಳಿ"
+    },
+    {
+     "left": "ಶರ್ವ",
+     "right": "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು"
+    }
+   ],
+   "marks": 5,
+   "difficulty": "medium",
+   "timer_seconds": 150
+  }
+ ],
+ "lessons": [
+  {
+   "code": "kn-l1",
+   "number": 1,
+   "title_kn": "ಮಗ್ಗದ ಸಾಹೇಬ",
+   "title_en": "Maggada Saheba - The Loom Master",
+   "author_kn": "ಬಾಗಲೋಡಿ ದೇವರಾಯ",
+   "type": "prose"
+  },
+  {
+   "code": "kn-l5",
+   "number": 5,
+   "title_kn": "ಕನ್ನಡಿಗರ ತಾಯಿ",
+   "title_en": "Kannadigara Tayi - Mother of the Kannadigas",
+   "author_kn": "ರಾಷ್ಟ್ರಕವಿ ಎಂ. ಗೋವಿಂದ ಪೈ",
+   "type": "poem"
+  }
+ ],
+ "grammar_topics": [
+  {
+   "code": "kn-g-varnamale",
+   "name_kn": "ವರ್ಣಮಾಲೆ",
+   "name_en": "Varnamale - the alphabet",
+   "explain_en": "Kannada letters fall into three groups. SVARA (ಸ್ವರ) are vowels - they can be spoken on their own. VYANJANA (ವ್ಯಂಜನ) are consonants - they need a vowel before they can be spoken. YOGAVAHA (ಯೋಗವಾಹ) are the two that 'ride along': anusvara (ಅಂ) and visarga.",
+   "types": [],
+   "taught_in": "Part 1, p.8 (with Lesson 1)"
+  },
+  {
+   "code": "kn-g-gunitakshara",
+   "name_kn": "ಗುಣಿತಾಕ್ಷರ",
+   "name_en": "Gunitakshara - consonant + vowel",
+   "explain_en": "A bare consonant cannot form a word. Give it a vowel and you get a GUNITAKSHARA. ದ್ + ಏ = ದೇ, ವ್ + ಅ = ವ, ರ್ + ಉ = ರು, which together make the real word ದೇವರು. Every consonant takes 16 vowels, so it has 16 gunitaksharas. When two or more CONSONANTS join instead (ಅಪ್ಪ, ಅಮ್ಮ, ಅಸ್ತ್ರ) that is a SAMYUKTAKSHARA.",
+   "types": [],
+   "taught_in": "Part 1, p.52 (with Lesson 5)"
+  },
+  {
+   "code": "kn-g-sandhi",
+   "name_kn": "ಸಂಧಿ",
+   "name_en": "Sandhi - joining two words",
+   "explain_en": "When two words are said one after the other with no pause, they merge into a single word. That merging is SANDHI. The meaning of the two words must survive the join. Three things can happen at the seam - a letter is dropped, a letter is added, or a letter is swapped - and the sandhi is named after whichever happened.",
+   "types": [
+    {
+     "name_kn": "ಲೋಪಸಂಧಿ",
+     "name_en": "Lopa - a letter is DROPPED",
+     "rule_en": "A vowel meets a vowel, and the first vowel disappears.",
+     "examples": [
+      {
+       "split": "ಊರು + ಊರು",
+       "joined": "ಊರೂರು"
+      },
+      {
+       "split": "ಬಲ್ಲನು + ಎಂದು",
+       "joined": "ಬಲ್ಲನೆಂದು"
+      },
+      {
+       "split": "ಊರು + ಇಂದ",
+       "joined": "ಊರಿಂದ"
+      }
+     ]
+    },
+    {
+     "name_kn": "ಆಗಮಸಂಧಿ",
+     "name_en": "Agama - a letter is ADDED",
+     "rule_en": "A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+     "examples": [
+      {
+       "split": "ಮನೆ + ಅಲ್ಲಿ",
+       "joined": "ಮನೆಯಲ್ಲಿ"
+      },
+      {
+       "split": "ಕೈ + ಅನ್ನು",
+       "joined": "ಕೈಯನ್ನು"
+      },
+      {
+       "split": "ಚಳಿ + ಇಂದ",
+       "joined": "ಚಳಿಯಿಂದ"
+      },
+      {
+       "split": "ಗುರು + ಅನ್ನು",
+       "joined": "ಗುರುವನ್ನು"
+      },
+      {
+       "split": "ಪುಸ್ತಕ + ಅನ್ನು",
+       "joined": "ಪುಸ್ತಕವನ್ನು"
+      }
+     ]
+    },
+    {
+     "name_kn": "ಆದೇಶಸಂಧಿ",
+     "name_en": "Adesha - a letter is REPLACED",
+     "rule_en": "The consonant that starts the second word is swapped for another. ಕ ತ ಪ become ಗ ದ ಬ.",
+     "examples": [
+      {
+       "split": "ಮಳೆ + ಕಾಲ",
+       "joined": "ಮಳೆಗಾಲ"
+      },
+      {
+       "split": "ಹುಲ್ಲು + ಕಾವಲು",
+       "joined": "ಹುಲ್ಲುಗಾವಲು"
+      },
+      {
+       "split": "ಮೈ + ತೊಳೆ",
+       "joined": "ಮೈದೊಳೆ"
+      },
+      {
+       "split": "ಕೆನೆ + ಪಾಲ್",
+       "joined": "ಕೆನೆವಾಲ್"
+      }
+     ]
+    },
+    {
+     "name_kn": "ಪ್ರಕೃತಿಭಾವ",
+     "name_en": "Prakrutibhava - NO sandhi happens",
+     "rule_en": "A vowel meets a vowel, but the words refuse to join - because joining them would wreck the meaning.",
+     "examples": [
+      {
+       "split": "ಅಯ್ಯೋ + ಇದೇನು",
+       "joined": "(stays apart)"
+      },
+      {
+       "split": "ಅಕ್ಕ + ಇತ್ತಬಾ",
+       "joined": "(stays apart)"
+      }
+     ]
+    }
+   ],
+   "taught_in": "Part 2, p.19-21"
+  },
+  {
+   "code": "kn-g-samasa",
+   "name_kn": "ಸಮಾಸ",
+   "name_en": "Samasa - compound words",
+   "explain_en": "Two or more meaningful words fuse into ONE word, and the case-ending of the first word drops away. Splitting the compound back into its parts is called VIGRAHA VAKYA. Joining a Kannada word to a Sanskrit word is considered a fault, called ARISAMASA.",
+   "types": [
+    {
+     "name_kn": "ತತ್ಪುರುಷ ಸಮಾಸ",
+     "name_en": "Tatpurusha - the SECOND word carries the meaning",
+     "examples": [
+      {
+       "split": "ವಯಸ್ಸಿನಿಂದ + ವೃದ್ಧ",
+       "joined": "ವಯೋವೃದ್ಧ"
+      },
+      {
+       "split": "ಹಗಲಿನಲ್ಲಿ + ಕನಸು",
+       "joined": "ಹಗಲುಗನಸು"
+      }
+     ]
+    },
+    {
+     "name_kn": "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+     "name_en": "Karmadharaya - the FIRST word describes the second",
+     "examples": [
+      {
+       "split": "ಹಿರಿದು + ಮರ",
+       "joined": "ಹೆಮ್ಮರ"
+      },
+      {
+       "split": "ಮೆಲ್ಲಿತು + ನುಡಿ",
+       "joined": "ಮೆಲ್ನುಡಿ"
+      },
+      {
+       "split": "ದಿವ್ಯವಾದ + ಪ್ರಕಾಶ",
+       "joined": "ದಿವ್ಯಪ್ರಕಾಶ"
+      }
+     ]
+    },
+    {
+     "name_kn": "ದ್ವಿಗು ಸಮಾಸ",
+     "name_en": "Dvigu - the FIRST word is a NUMBER",
+     "examples": [
+      {
+       "split": "ಮೂರು + ಮಡಿ",
+       "joined": "ಮುಮ್ಮಡಿ"
+      },
+      {
+       "split": "ನಾಲ್ಕು + ದೆಸೆ",
+       "joined": "ನಾಲ್ದೆಸೆ"
+      },
+      {
+       "split": "ಪಂಚಗಳಾದ + ಇಂದ್ರಿಯ",
+       "joined": "ಪಂಚೇಂದ್ರಿಯ"
+      }
+     ]
+    }
+   ],
+   "taught_in": "Part 2, p.30-31"
+  },
+  {
+   "code": "kn-g-tatsama",
+   "name_kn": "ತತ್ಸಮ – ತದ್ಭವ",
+   "name_en": "Tatsama - Tadbhava (words borrowed from Sanskrit)",
+   "explain_en": "TATSAMA (ತತ್ = 'that', ಸಮ = 'same') are Sanskrit words that entered Kannada UNCHANGED. TADBHAVA (ತತ್ = 'from that', ಭವ = 'born') are Sanskrit words that CHANGED - a little or a lot - on the way in. And words borrowed from other languages entirely (English, Hindustani, Portuguese) are ANYADESHYA.",
+   "types": [
+    {
+     "name_kn": "ತತ್ಸಮ",
+     "name_en": "Tatsama - came in UNCHANGED",
+     "examples": [
+      {
+       "split": "ಸಂಸ್ಕೃತ",
+       "joined": "ರಾಮ"
+      },
+      {
+       "split": "ಸಂಸ್ಕೃತ",
+       "joined": "ಭೀಮ"
+      },
+      {
+       "split": "ಸಂಸ್ಕೃತ",
+       "joined": "ವಸಂತ"
+      },
+      {
+       "split": "ಸಂಸ್ಕೃತ",
+       "joined": "ಚಂದ್ರ"
+      },
+      {
+       "split": "ಸಂಸ್ಕೃತ",
+       "joined": "ಸ್ತ್ರೀ"
+      }
+     ]
+    },
+    {
+     "name_kn": "ತದ್ಭವ",
+     "name_en": "Tadbhava - CHANGED on the way in",
+     "examples": [
+      {
+       "split": "ಸ್ವಲ್ಪ ಬದಲಾವಣೆ",
+       "joined": "ಸಿರಿ"
+      },
+      {
+       "split": "ಸ್ವಲ್ಪ ಬದಲಾವಣೆ",
+       "joined": "ಬಾವಿ"
+      },
+      {
+       "split": "ಸ್ವಲ್ಪ ಬದಲಾವಣೆ",
+       "joined": "ದನಿ"
+      },
+      {
+       "split": "ಪೂರ್ಣ ಬದಲಾವಣೆ",
+       "joined": "ಬಸದಿ"
+      },
+      {
+       "split": "ಪೂರ್ಣ ಬದಲಾವಣೆ",
+       "joined": "ಬೇಸಗೆ"
+      },
+      {
+       "split": "ಪೂರ್ಣ ಬದಲಾವಣೆ",
+       "joined": "ಕೊಡಲಿ"
+      },
+      {
+       "split": "ಪೂರ್ಣ ಬದಲಾವಣೆ",
+       "joined": "ಬಸವ"
+      }
+     ]
+    },
+    {
+     "name_kn": "ಅನ್ಯದೇಶ್ಯ",
+     "name_en": "Anyadeshya - borrowed from ANOTHER language",
+     "examples": [
+      {
+       "split": "ಹಿಂದೂಸ್ತಾನಿ",
+       "joined": "ಅರ್ಜಿ"
+      },
+      {
+       "split": "ಹಿಂದೂಸ್ತಾನಿ",
+       "joined": "ಕಚೇರಿ"
+      },
+      {
+       "split": "ಹಿಂದೂಸ್ತಾನಿ",
+       "joined": "ಕಾರ್ಖಾನೆ"
+      },
+      {
+       "split": "ಇಂಗ್ಲಿಷ್",
+       "joined": "ಕೋರ್ಟು"
+      },
+      {
+       "split": "ಇಂಗ್ಲಿಷ್",
+       "joined": "ಬ್ಯಾಂಕು"
+      },
+      {
+       "split": "ಇಂಗ್ಲಿಷ್",
+       "joined": "ಹೋಟೆಲು"
+      },
+      {
+       "split": "ಪೋರ್ಚುಗೀಸ್",
+       "joined": "ಅಲಮಾರು"
+      },
+      {
+       "split": "ಪೋರ್ಚುಗೀಸ್",
+       "joined": "ಸಾಬೂನು"
+      },
+      {
+       "split": "ಪೋರ್ಚುಗೀಸ್",
+       "joined": "ಮೇಜು"
+      }
+     ]
+    }
+   ],
+   "taught_in": "Part 1, p.45-46"
+  }
+ ]
+}

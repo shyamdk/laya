@@ -28,8 +28,21 @@ final aiRepoProvider = Provider<AiRepository>(
 final authStateProvider = StreamProvider<AuthState>(
     (ref) => ref.watch(supabaseProvider).auth.onAuthStateChange);
 
-final chaptersProvider = FutureProvider<List<Chapter>>(
-    (ref) => ref.watch(contentRepoProvider).chapters());
+final subjectsProvider = FutureProvider<List<Subject>>(
+    (ref) => ref.watch(contentRepoProvider).subjects());
+
+/// Which subject the student is currently in.
+class CurrentSubject extends Notifier<Subject?> {
+  @override
+  Subject? build() => null;
+  void select(Subject s) => state = s;
+}
+
+final currentSubjectProvider =
+    NotifierProvider<CurrentSubject, Subject?>(CurrentSubject.new);
+
+final chaptersProvider = FutureProvider.family<List<Chapter>, String>(
+    (ref, subjectCode) => ref.watch(contentRepoProvider).chapters(subjectCode));
 
 final skillsProvider = FutureProvider<List<Skill>>(
     (ref) => ref.watch(contentRepoProvider).skills());
