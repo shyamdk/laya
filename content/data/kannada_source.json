@@ -1,0 +1,185 @@
+{
+  "_source": "KTBS 'Siri Kannada 8' (8th KANNADA FL Part 1 & 2, 2026-27). Text obtained by OCR (tesseract -l kan) of the rendered pages and checked against the page images. pdftotext is USELESS on these books - they use the Nudi01e legacy font, so extraction yields Latin mojibake with zero Kannada codepoints.",
+  "_warning": "Kannada here must NOT be hand-typed. An earlier hand-typed pass got several words wrong (wrote ಅಭ್ಯಸ್ತ for ಅಭೀಷ್ಟ, ಮ್ರತ for ಮೃತ). Everything below came from OCR of the book page.",
+  "subject": "kannada",
+
+  "lessons": [
+    {
+      "code": "kn-l1",
+      "number": 1,
+      "title_kn": "ಮಗ್ಗದ ಸಾಹೇಬ",
+      "title_en": "Maggada Saheba - The Loom Master",
+      "author_kn": "ಬಾಗಲೋಡಿ ದೇವರಾಯ",
+      "type": "prose",
+      "book": "Part 1, pages 1-8",
+      "own_grammar": "kn-g-varnamale",
+      "word_meanings": [
+        {"word": "ಅಭೀಷ್ಟ",    "meaning": "ಬಯಸಿದ್ದು"},
+        {"word": "ಆಧಿಪತ್ಯ",   "meaning": "ಯಜಮಾನಿಕೆ"},
+        {"word": "ಗಣಿಸದೆ",    "meaning": "ಲೆಕ್ಕಿಸದೆ"},
+        {"word": "ಚಿಂದಿ",      "meaning": "ಚೂರು"},
+        {"word": "ಪ್ರಶಂಸೆ",   "meaning": "ಹೊಗಳಿಕೆ"},
+        {"word": "ವಿಲಾಯತಿ",  "meaning": "ವಿದೇಶ, ಅನ್ಯದೇಶ"},
+        {"word": "ಆಚ್ಛಾದಿತ",  "meaning": "ಮುಚ್ಚಲ್ಪಟ್ಟ"},
+        {"word": "ಕಳೇಬರ",    "meaning": "ಮೃತ ದೇಹ/ಶರೀರ"},
+        {"word": "ಗೌಪ್ಯ",     "meaning": "ಗುಟ್ಟು, ರಹಸ್ಯ"},
+        {"word": "ಪರಿವರ್ತನೆ", "meaning": "ಬದಲಾವಣೆ"},
+        {"word": "ಭಿಕಾರಿ",    "meaning": "ನಿರ್ಗತಿಕ"},
+        {"word": "ಹಸನ್ಮುಖಿ",  "meaning": "ನಗುಮುಖ ಉಳ್ಳವನು"}
+      ],
+      "notes": [
+        {"term": "ಸಾಹೇಬ್ ಬಹಾದ್ದೂರ್", "note": "ಮೊಗಲ್ ರಾಜರ ಆಳ್ವಿಕೆಯ ಸಂದರ್ಭದಲ್ಲಿ ಸಮಾಜದ ಗಣ್ಯ ವ್ಯಕ್ತಿಗಳಿಗೆ ಕೊಡುತ್ತಿದ್ದ ಗೌರವ ಪೂರ್ವಕ ಬಿರುದು"},
+        {"term": "ಉರುಸ್", "note": "ಮಹಮದೀಯ ಸಾಧುಗಳ ಪುಣ್ಯತಿಥಿ ಮತ್ತು ಅಂದು ನಡೆಸುವ ಜಾತ್ರೆ"},
+        {"term": "ಪದ್ಮಭೂಷಣ", "note": "ಕಲೆ, ವಿಜ್ಞಾನ, ಸಮಾಜಸೇವೆ, ಕ್ರೀಡೆ ಮುಂತಾದ ಕ್ಷೇತ್ರದಲ್ಲಿ ವಿಶೇಷ ಸಾಧನೆ ಮಾಡಿದ ಸಾಧಕರಿಗೆ ಭಾರತ ಸರ್ಕಾರ ನೀಡುವ ಮೌಲಿಕ ಪ್ರಶಸ್ತಿ"}
+      ]
+    },
+    {
+      "code": "kn-l5",
+      "number": 5,
+      "title_kn": "ಕನ್ನಡಿಗರ ತಾಯಿ",
+      "title_en": "Kannadigara Tayi - Mother of the Kannadigas",
+      "author_kn": "ರಾಷ್ಟ್ರಕವಿ ಎಂ. ಗೋವಿಂದ ಪೈ",
+      "type": "poem",
+      "book": "Part 1, pages 46-52",
+      "own_grammar": "kn-g-gunitakshara",
+      "word_meanings": [
+        {"word": "ಆಳ್ವೆ",       "meaning": "ಆಳುವೆ"},
+        {"word": "ಒಸಗೆ",       "meaning": "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ"},
+        {"word": "ಕಾರಕಳ",     "meaning": "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)"},
+        {"word": "ಕೆನೆ",        "meaning": "ಸಾರ, ತಿರುಳು"},
+        {"word": "ತಾಳ್ವೆ",      "meaning": "ಸಹಿಸುವೆ"},
+        {"word": "ತೃಷೆ",       "meaning": "ಬಾಯಾರಿಕೆ"},
+        {"word": "ದಿವಂ",       "meaning": "ಆಕಾಶ"},
+        {"word": "ನಗಾಳಿ",      "meaning": "ಪರ್ವತಗಳ ಸಮೂಹ"},
+        {"word": "ನಿಡುಕರು",    "meaning": "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ"},
+        {"word": "ಬಸಿರು",      "meaning": "ಗರ್ಭ, ಗರ್ಭಾಶಯ"},
+        {"word": "ಬಿಳಿಯ ಕೊಳ",  "meaning": "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ"},
+        {"word": "ಬೇಲನಾಡು",   "meaning": "ಬೇಲೂರು"},
+        {"word": "ಮೊಗ",        "meaning": "ಮುಖ"},
+        {"word": "ಲತೆ",        "meaning": "ಬಳ್ಳಿ"},
+        {"word": "ಶರ್ವ",       "meaning": "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು"},
+        {"word": "ಸುರಭಿ",      "meaning": "ಸುಗಂಧ, ಸುವಾಸನೆ"},
+        {"word": "ನಂದಿನಿ",     "meaning": "ಗೋವು"}
+      ],
+      "notes": [
+        {"term": "ಖಗ", "note": "ಖ = ಆಕಾಶ, ಗ = ಗಮಿಸುವುದು; ಆಕಾಶದಲ್ಲಿ ಸಂಚರಿಸುವುದು - ಪಕ್ಷಿ"},
+        {"term": "ನಗಾಳಿ", "note": "ನಗ = ಪರ್ವತ; ಆಳಿ = ಸಮೂಹ; ಪರ್ವತಗಳ ಸಮೂಹ"},
+        {"term": "ಖಗಮೃಗೋರಗಾಳಿ", "note": "ಖಗ = ಪಕ್ಷಿ; ಮೃಗ = ಪ್ರಾಣಿ; ಉರಗ = ಹಾವು; ಆಳಿ = ಸಮೂಹ"}
+      ]
+    }
+  ],
+
+  "grammar_topics": [
+    {
+      "code": "kn-g-varnamale",
+      "name_kn": "ವರ್ಣಮಾಲೆ",
+      "name_en": "Varnamale - the alphabet",
+      "taught_in": "Part 1, p.8 (with Lesson 1)",
+      "explain_en": "Kannada letters fall into three groups. SVARA (ಸ್ವರ) are vowels - they can be spoken on their own. VYANJANA (ವ್ಯಂಜನ) are consonants - they need a vowel before they can be spoken. YOGAVAHA (ಯೋಗವಾಹ) are the two that 'ride along': anusvara (ಅಂ) and visarga.",
+      "drill_facts": [
+        {"q_en": "Letters that can be spoken on their own", "a_kn": "ಸ್ವರ"},
+        {"q_en": "Letters that need a vowel to be spoken", "a_kn": "ವ್ಯಂಜನ"},
+        {"q_en": "Anusvara and visarga are called", "a_kn": "ಯೋಗವಾಹ"}
+      ]
+    },
+    {
+      "code": "kn-g-gunitakshara",
+      "name_kn": "ಗುಣಿತಾಕ್ಷರ",
+      "name_en": "Gunitakshara - consonant + vowel",
+      "taught_in": "Part 1, p.52 (with Lesson 5)",
+      "explain_en": "A bare consonant cannot form a word. Give it a vowel and you get a GUNITAKSHARA. ದ್ + ಏ = ದೇ, ವ್ + ಅ = ವ, ರ್ + ಉ = ರು, which together make the real word ದೇವರು. Every consonant takes 16 vowels, so it has 16 gunitaksharas. When two or more CONSONANTS join instead (ಅಪ್ಪ, ಅಮ್ಮ, ಅಸ್ತ್ರ) that is a SAMYUKTAKSHARA.",
+      "drill_facts": [
+        {"q_en": "A consonant joined to a vowel is called", "a_kn": "ಗುಣಿತಾಕ್ಷರ"},
+        {"q_en": "Two or more consonants joined together", "a_kn": "ಸಂಯುಕ್ತಾಕ್ಷರ"}
+      ]
+    },
+    {
+      "code": "kn-g-sandhi",
+      "name_kn": "ಸಂಧಿ",
+      "name_en": "Sandhi - joining two words",
+      "taught_in": "Part 2, p.19-21",
+      "exam_frequency": "high",
+      "explain_en": "When two words are said one after the other with no pause, they merge into a single word. That merging is SANDHI. The meaning of the two words must survive the join. Three things can happen at the seam - a letter is dropped, a letter is added, or a letter is swapped - and the sandhi is named after whichever happened.",
+      "types": [
+        {
+          "name_kn": "ಲೋಪಸಂಧಿ",
+          "name_en": "Lopa - a letter is DROPPED",
+          "rule_en": "A vowel meets a vowel, and the first vowel disappears.",
+          "examples": [
+            {"split": "ಊರು + ಊರು",     "joined": "ಊರೂರು"},
+            {"split": "ಬಲ್ಲನು + ಎಂದು", "joined": "ಬಲ್ಲನೆಂದು"},
+            {"split": "ಊರು + ಇಂದ",     "joined": "ಊರಿಂದ"}
+          ]
+        },
+        {
+          "name_kn": "ಆಗಮಸಂಧಿ",
+          "name_en": "Agama - a letter is ADDED",
+          "rule_en": "A vowel meets a vowel, and a NEW ಯ್ or ವ್ is slipped in between them.",
+          "examples": [
+            {"split": "ಮನೆ + ಅಲ್ಲಿ",    "joined": "ಮನೆಯಲ್ಲಿ"},
+            {"split": "ಕೈ + ಅನ್ನು",     "joined": "ಕೈಯನ್ನು"},
+            {"split": "ಚಳಿ + ಇಂದ",      "joined": "ಚಳಿಯಿಂದ"},
+            {"split": "ಗುರು + ಅನ್ನು",   "joined": "ಗುರುವನ್ನು"},
+            {"split": "ಪುಸ್ತಕ + ಅನ್ನು", "joined": "ಪುಸ್ತಕವನ್ನು"}
+          ]
+        },
+        {
+          "name_kn": "ಆದೇಶಸಂಧಿ",
+          "name_en": "Adesha - a letter is REPLACED",
+          "rule_en": "The consonant that starts the second word is swapped for another. ಕ ತ ಪ become ಗ ದ ಬ.",
+          "examples": [
+            {"split": "ಮಳೆ + ಕಾಲ",      "joined": "ಮಳೆಗಾಲ"},
+            {"split": "ಹುಲ್ಲು + ಕಾವಲು", "joined": "ಹುಲ್ಲುಗಾವಲು"},
+            {"split": "ಮೈ + ತೊಳೆ",      "joined": "ಮೈದೊಳೆ"},
+            {"split": "ಕೆನೆ + ಪಾಲ್",    "joined": "ಕೆನೆವಾಲ್"}
+          ]
+        },
+        {
+          "name_kn": "ಪ್ರಕೃತಿಭಾವ",
+          "name_en": "Prakrutibhava - NO sandhi happens",
+          "rule_en": "A vowel meets a vowel, but the words refuse to join - because joining them would wreck the meaning.",
+          "examples": [
+            {"split": "ಅಯ್ಯೋ + ಇದೇನು", "joined": "(stays apart)"},
+            {"split": "ಅಕ್ಕ + ಇತ್ತಬಾ",  "joined": "(stays apart)"}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kn-g-samasa",
+      "name_kn": "ಸಮಾಸ",
+      "name_en": "Samasa - compound words",
+      "taught_in": "Part 2, p.30-31",
+      "exam_frequency": "high",
+      "explain_en": "Two or more meaningful words fuse into ONE word, and the case-ending of the first word drops away. Splitting the compound back into its parts is called VIGRAHA VAKYA. Joining a Kannada word to a Sanskrit word is considered a fault, called ARISAMASA.",
+      "types": [
+        {
+          "name_kn": "ತತ್ಪುರುಷ ಸಮಾಸ",
+          "name_en": "Tatpurusha - the SECOND word carries the meaning",
+          "examples": [
+            {"split": "ವಯಸ್ಸಿನಿಂದ + ವೃದ್ಧ", "joined": "ವಯೋವೃದ್ಧ"},
+            {"split": "ಹಗಲಿನಲ್ಲಿ + ಕನಸು",  "joined": "ಹಗಲುಗನಸು"}
+          ]
+        },
+        {
+          "name_kn": "ಕರ್ಮಧಾರಯ ಸಮಾಸ",
+          "name_en": "Karmadharaya - the FIRST word describes the second",
+          "examples": [
+            {"split": "ಹಿರಿದು + ಮರ",        "joined": "ಹೆಮ್ಮರ"},
+            {"split": "ಮೆಲ್ಲಿತು + ನುಡಿ",    "joined": "ಮೆಲ್ನುಡಿ"},
+            {"split": "ದಿವ್ಯವಾದ + ಪ್ರಕಾಶ", "joined": "ದಿವ್ಯಪ್ರಕಾಶ"}
+          ]
+        },
+        {
+          "name_kn": "ದ್ವಿಗು ಸಮಾಸ",
+          "name_en": "Dvigu - the FIRST word is a NUMBER",
+          "examples": [
+            {"split": "ಮೂರು + ಮಡಿ",            "joined": "ಮುಮ್ಮಡಿ"},
+            {"split": "ನಾಲ್ಕು + ದೆಸೆ",         "joined": "ನಾಲ್ದೆಸೆ"},
+            {"split": "ಪಂಚಗಳಾದ + ಇಂದ್ರಿಯ",   "joined": "ಪಂಚೇಂದ್ರಿಯ"}
+          ]
+        }
+      ]
+    }
+  ]
+}
