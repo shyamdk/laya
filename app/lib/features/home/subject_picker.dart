@@ -53,10 +53,23 @@ class _SubjectCard extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final kn = subject.isKannada;
-    final color = kn ? const Color(0xFF00695C) : const Color(0xFF1F3A5F);
-    final blurb = kn
-        ? 'ಮಗ್ಗದ ಸಾಹೇಬ · ಕನ್ನಡಿಗರ ತಾಯಿ · ಸಂಧಿ · ಸಮಾಸ · ತತ್ಸಮ-ತದ್ಭವ'
-        : 'A Square and A Cube · Power Play';
+    final (color, icon, blurb) = switch (subject.code) {
+      'kannada' => (
+          const Color(0xFF00695C),
+          Icons.translate,
+          'ಮಗ್ಗದ ಸಾಹೇಬ · ಕನ್ನಡಿಗರ ತಾಯಿ · ಸಂಧಿ · ಸಮಾಸ · ತತ್ಸಮ-ತದ್ಭವ',
+        ),
+      'science' => (
+          const Color(0xFF6A1B9A),
+          Icons.science_outlined,
+          'Light · The Cell & organelles · Particulate nature of matter',
+        ),
+      _ => (
+          const Color(0xFF1F3A5F),
+          Icons.calculate_outlined,
+          'A Square and A Cube · Power Play',
+        ),
+    };
 
     return Card(
       margin: const EdgeInsets.only(bottom: 14),
@@ -74,8 +87,7 @@ class _SubjectCard extends ConsumerWidget {
               CircleAvatar(
                 radius: 28,
                 backgroundColor: color.withValues(alpha: 0.14),
-                child: Icon(kn ? Icons.translate : Icons.calculate_outlined,
-                    color: color, size: 28),
+                child: Icon(icon, color: color, size: 28),
               ),
               const SizedBox(width: 16),
               Expanded(

@@ -1,0 +1,1377 @@
+{
+ "subject": "science",
+ "chapters": [
+  {
+   "code": "sci-chem",
+   "number": 7,
+   "title": "Chemistry \u2014 Particulate Nature of Matter (7.1\u20137.2)",
+   "book": "NCERT Curiosity, Grade 8"
+  },
+  {
+   "code": "sci-bio",
+   "number": 2,
+   "title": "Biology \u2014 The Invisible Living World \u2014 the Cell",
+   "book": "NCERT Curiosity, Grade 8"
+  },
+  {
+   "code": "sci-phys",
+   "number": 10,
+   "title": "Physics \u2014 Light",
+   "book": "NCERT Curiosity, Grade 8"
+  }
+ ],
+ "skills": [
+  {
+   "id": 1,
+   "name": "Particles of matter",
+   "chapter": "sci-chem",
+   "tier": "*",
+   "exams_seen_in": 2,
+   "total_exams": 59
+  },
+  {
+   "id": 2,
+   "name": "States of matter: solid, liquid, gas",
+   "chapter": "sci-chem",
+   "tier": "*",
+   "exams_seen_in": 2,
+   "total_exams": 59
+  },
+  {
+   "id": 3,
+   "name": "Cell structure",
+   "chapter": "sci-bio",
+   "tier": "**",
+   "exams_seen_in": 29,
+   "total_exams": 59
+  },
+  {
+   "id": 4,
+   "name": "Cell organelles and their functions",
+   "chapter": "sci-bio",
+   "tier": "**",
+   "exams_seen_in": 29,
+   "total_exams": 59
+  },
+  {
+   "id": 5,
+   "name": "Plant cell vs animal cell",
+   "chapter": "sci-bio",
+   "tier": "**",
+   "exams_seen_in": 29,
+   "total_exams": 59
+  },
+  {
+   "id": 6,
+   "name": "Laws of reflection",
+   "chapter": "sci-phys",
+   "tier": "***",
+   "exams_seen_in": 30,
+   "total_exams": 59
+  },
+  {
+   "id": 7,
+   "name": "Spherical mirrors",
+   "chapter": "sci-phys",
+   "tier": "***",
+   "exams_seen_in": 30,
+   "total_exams": 59
+  },
+  {
+   "id": 8,
+   "name": "Lenses",
+   "chapter": "sci-phys",
+   "tier": "***",
+   "exams_seen_in": 30,
+   "total_exams": 59
+  },
+  {
+   "id": 9,
+   "name": "Image characteristics",
+   "chapter": "sci-phys",
+   "tier": "***",
+   "exams_seen_in": 30,
+   "total_exams": 59
+  }
+ ],
+ "questions": [
+  {
+   "code": "sci-chem-q001",
+   "chapter": "sci-chem",
+   "skill_id": 1,
+   "stem": "What are the basic building blocks of chalk called?",
+   "options": [
+    "Constituent particles",
+    "Atoms",
+    "Molecules",
+    "Grains"
+   ],
+   "correct_option": 0,
+   "explain": "Constituent particles are the smallest units that make up chalk.",
+   "evidence": "These units are called constituent particles of chalk.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q002",
+   "chapter": "sci-chem",
+   "skill_id": 1,
+   "stem": "What happens to sugar when it dissolves in water?",
+   "options": [
+    "It changes into a new substance",
+    "It breaks into its constituent particles",
+    "It remains unchanged",
+    "It evaporates"
+   ],
+   "correct_option": 1,
+   "explain": "Sugar breaks into smaller particles that mix with water.",
+   "evidence": "When sugar dissolves in water, it breaks up into its constituent particles which cannot be broken down further.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q003",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "Why do solids have a definite shape?",
+   "options": [
+    "Because their particles are loosely packed",
+    "Because their particles are tightly packed",
+    "Because they have no interparticle forces",
+    "Because they are made of large particles"
+   ],
+   "correct_option": 1,
+   "explain": "Strong forces keep solid particles in fixed positions.",
+   "evidence": "In solids, the particles are tightly packed and the interparticle attractions are very strong.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q005",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "How do liquids differ from solids in terms of shape?",
+   "options": [
+    "Liquids have a fixed shape",
+    "Liquids take the shape of their container",
+    "Liquids have a definite shape",
+    "Liquids cannot change shape"
+   ],
+   "correct_option": 1,
+   "explain": "Liquids flow and adapt to the shape of their container.",
+   "evidence": "Liquids do not have a fixed shape and take the shape of the container they are kept in.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q006",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What happens to the interparticle forces when a solid is heated?",
+   "options": [
+    "They become stronger",
+    "They remain unchanged",
+    "They get weakened",
+    "They disappear completely"
+   ],
+   "correct_option": 2,
+   "explain": "Heating makes particles vibrate more, weakening the forces.",
+   "evidence": "The interparticle forces of attraction get weakened and the solid gets converted into the liquid state.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q007",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "Which of the following states of matter has the weakest interparticle attractions?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Plasma"
+   ],
+   "correct_option": 2,
+   "explain": "Gas particles move freely with very little attraction between them.",
+   "evidence": "In gases, the interparticle attractions are negligible.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q008",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the boiling point of water?",
+   "options": [
+    "0 \u00b0C",
+    "100 \u00b0C",
+    "133 \u00b0C",
+    "1538 \u00b0C"
+   ],
+   "correct_option": 1,
+   "explain": "Water boils at 100 degrees Celsius.",
+   "evidence": "Recall Curiosity, Grade 6 chapter \u2018Temperature and Its Measurement\u2019, where you observed the temperature of boiling water (liquid).",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q009",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "How do gases behave in a container?",
+   "options": [
+    "They have a fixed volume",
+    "They fill the entire available space",
+    "They stay at the bottom",
+    "They form layers"
+   ],
+   "correct_option": 1,
+   "explain": "Gases spread out to fill any container they are in.",
+   "evidence": "The smoke fills the entire space in the Gas Jar B, indicating that gases do not have a fixed volume and tend to occupy the entire available space.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q010",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What happens to the particles of a liquid when it is heated to its boiling point?",
+   "options": [
+    "They move closer together",
+    "They stop moving",
+    "They move apart and form a gas",
+    "They become solid"
+   ],
+   "correct_option": 2,
+   "explain": "Heating causes particles to move faster and spread out into a gas.",
+   "evidence": "The movement of particles becomes so vigorous that they move apart from each other, resulting in a decrease in the interparticle forces of attraction.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q011",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the process called when a liquid turns into a gas at temperatures below its boiling point?",
+   "options": [
+    "Condensation",
+    "Evaporation",
+    "Sublimation",
+    "Freezing"
+   ],
+   "correct_option": 1,
+   "explain": "Evaporation is when a liquid slowly turns into gas at lower temperatures.",
+   "evidence": "This slower process is known as evaporation \u2014 about which you have learnt in earlier grades.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q012",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "Which of the following is true about the particles in a solid?",
+   "options": [
+    "They can move freely past each other",
+    "They are in fixed positions and can only vibrate",
+    "They are far apart from each other",
+    "They have no interparticle attractions"
+   ],
+   "correct_option": 1,
+   "explain": "Solid particles are tightly packed and can only vibrate in place.",
+   "evidence": "The particles can only move to and fro about their positions (vibrate or oscillate) but cannot move past each other.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q013",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What determines the physical state of a substance?",
+   "options": [
+    "The size of its particles",
+    "The color of the substance",
+    "The strength of interparticle attractions",
+    "The temperature of the environment"
+   ],
+   "correct_option": 2,
+   "explain": "The stronger the attractions, the more solid the state.",
+   "evidence": "The strength of these forces ultimately decides the physical state of the substances.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q014",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "Why do gases not have a fixed shape or volume?",
+   "options": [
+    "Because their particles are tightly packed",
+    "Because their particles are loosely packed",
+    "Because their particles are free to move in all directions",
+    "Because they are made of large particles"
+   ],
+   "correct_option": 2,
+   "explain": "Gas particles move freely, so they spread out and fill any space.",
+   "evidence": "The particles in gases move freely in all directions and the interparticle attractions are negligible.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q015",
+   "chapter": "sci-chem",
+   "skill_id": 1,
+   "stem": "What is the smallest unit that makes up a larger piece of a substance or material called?",
+   "options": [
+    "Atom",
+    "Molecule",
+    "Constituent particle",
+    "Grain"
+   ],
+   "correct_option": 2,
+   "explain": "Constituent particles are the building blocks of matter.",
+   "evidence": "A constituent particle is the basic unit that makes up a larger piece of a substance or material.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q016",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What happens to the interparticle forces when a liquid is heated to its boiling point?",
+   "options": [
+    "They become stronger",
+    "They remain unchanged",
+    "They get weakened",
+    "They disappear completely"
+   ],
+   "correct_option": 2,
+   "explain": "Heating makes particles move faster, weakening the forces.",
+   "evidence": "The movement of particles becomes so vigorous that they move apart from each other, resulting in a decrease in the interparticle forces of attraction.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q017",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the process called when a solid turns into a liquid?",
+   "options": [
+    "Freezing",
+    "Melting",
+    "Condensation",
+    "Sublimation"
+   ],
+   "correct_option": 1,
+   "explain": "Melting is when a solid becomes a liquid.",
+   "evidence": "The temperature at which this happens is the melting point of the solid.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q019",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the term for the temperature at which a liquid turns into a gas?",
+   "options": [
+    "Freezing point",
+    "Melting point",
+    "Boiling point",
+    "Sublimation point"
+   ],
+   "correct_option": 2,
+   "explain": "The boiling point is when a liquid becomes a gas.",
+   "evidence": "The temperature at which a liquid boils and turns into vapour at atmospheric pressure is called its boiling point.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q021",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the main reason gases can fill any container they are in?",
+   "options": [
+    "They have strong interparticle attractions",
+    "They have weak interparticle attractions",
+    "They are heavier than liquids",
+    "They are lighter than solids"
+   ],
+   "correct_option": 1,
+   "explain": "Weak attractions allow gas particles to move freely and fill space.",
+   "evidence": "The particles in gases move freely in all directions and the interparticle attractions are negligible.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-chem-q023",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "Which state of matter has particles that can only vibrate in place?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Plasma"
+   ],
+   "correct_option": 0,
+   "explain": "Solid particles are tightly packed and can only vibrate.",
+   "evidence": "The particles can only move to and fro about their positions (vibrate or oscillate) but cannot move past each other.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q024",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the process called when a liquid turns into a gas at its boiling point?",
+   "options": [
+    "Evaporation",
+    "Condensation",
+    "Boiling",
+    "Sublimation"
+   ],
+   "correct_option": 2,
+   "explain": "Boiling is when a liquid rapidly turns into gas at its boiling point.",
+   "evidence": "At the boiling point, the formation of vapour is very fast and occurs not only at the surface but also within the liquid.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-chem-q025",
+   "chapter": "sci-chem",
+   "skill_id": 2,
+   "stem": "What is the main characteristic of gases that distinguishes them from solids and liquids?",
+   "options": [
+    "They have a fixed shape",
+    "They have a fixed volume",
+    "They have no fixed shape or volume",
+    "They have strong interparticle attractions"
+   ],
+   "correct_option": 2,
+   "explain": "Gases spread out to fill any container, unlike solids and liquids.",
+   "evidence": "Gases do not have a fixed shape or volume and tend to occupy the entire available space.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q001",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the primary function of the cell membrane?",
+   "options": [
+    "To enclose the cytoplasm and nucleus",
+    "To provide rigidity and strength",
+    "To store important substances",
+    "To perform photosynthesis"
+   ],
+   "correct_option": 0,
+   "explain": "The cell membrane's main role is to enclose and protect the cell's contents.",
+   "evidence": "The cell membrane encloses the cytoplasm and nucleus.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q002",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "Which organelle is responsible for photosynthesis in plant cells?",
+   "options": [
+    "Nucleus",
+    "Vacuole",
+    "Chloroplast",
+    "Cell wall"
+   ],
+   "correct_option": 2,
+   "explain": "Chloroplasts contain chlorophyll, which is essential for photosynthesis.",
+   "evidence": "Some plastids, like chloroplasts, contain chlorophyll, which makes them green and helps in photosynthesis.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q003",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the role of the vacuole in plant cells?",
+   "options": [
+    "To regulate cell activities",
+    "To store important substances and maintain cell shape",
+    "To perform photosynthesis",
+    "To separate one cell from another"
+   ],
+   "correct_option": 1,
+   "explain": "Vacuoles store substances and help maintain the cell's shape.",
+   "evidence": "This helps the plant cell store important substances, get rid of waste, and maintain the shape of the cell.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q004",
+   "chapter": "sci-bio",
+   "skill_id": 5,
+   "stem": "How do animal cells differ from plant cells in terms of vacuoles?",
+   "options": [
+    "Animal cells have large vacuoles, while plant cells do not",
+    "Animal cells have small vacuoles, if present, while plant cells have large vacuoles",
+    "Animal cells have no vacuoles, while plant cells have small vacuoles",
+    "Animal cells and plant cells have vacuoles of the same size"
+   ],
+   "correct_option": 1,
+   "explain": "Animal cells typically have smaller vacuoles compared to plant cells.",
+   "evidence": "In animal cells, vacuoles are usually not present, if present, they are usually small.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q005",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What structure provides rigidity and strength to plant cells?",
+   "options": [
+    "Cell membrane",
+    "Nucleus",
+    "Cell wall",
+    "Cytoplasm"
+   ],
+   "correct_option": 2,
+   "explain": "The cell wall is a rigid structure that supports plant cells.",
+   "evidence": "The cell wall in the plant cell provides rigidity and strength to plants.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q006",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "Which part of the cell is responsible for regulating all activities within the cell?",
+   "options": [
+    "Cytoplasm",
+    "Cell wall",
+    "Nucleus",
+    "Vacuole"
+   ],
+   "correct_option": 2,
+   "explain": "The nucleus controls the cell's activities and growth.",
+   "evidence": "The nucleus regulates all activities that occur within the cell.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q007",
+   "chapter": "sci-bio",
+   "skill_id": 3,
+   "stem": "What is the main difference in shape between muscle cells and nerve cells?",
+   "options": [
+    "Muscle cells are round, nerve cells are spindle-shaped",
+    "Muscle cells are spindle-shaped, nerve cells are long with branches",
+    "Muscle cells are long with branches, nerve cells are round",
+    "Muscle cells and nerve cells have the same shape"
+   ],
+   "correct_option": 1,
+   "explain": "Muscle cells are spindle-shaped, while nerve cells are long and branched.",
+   "evidence": "A muscle cell (Fig. 2.6a) is shaped like a spindle, while a nerve cell (Fig. 2.6b) is very long and has branches.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q008",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the function of cytoplasm in a cell?",
+   "options": [
+    "To perform photosynthesis",
+    "To regulate cell activities",
+    "To contain other components of the cell and compounds",
+    "To provide rigidity and strength"
+   ],
+   "correct_option": 2,
+   "explain": "Cytoplasm holds the cell's components and is where many life processes occur.",
+   "evidence": "Cytoplasm contains other components of the cell and compounds, such as carbohydrates, proteins, fats, and mineral salts.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q009",
+   "chapter": "sci-bio",
+   "skill_id": 3,
+   "stem": "Which of the following is NOT a basic part of a cell?",
+   "options": [
+    "Cell membrane",
+    "Nucleus",
+    "Cytoplasm",
+    "Chloroplast"
+   ],
+   "correct_option": 3,
+   "explain": "Chloroplasts are not found in all cells, only in plant cells for photosynthesis.",
+   "evidence": "These three \u2014 cell membrane, cytoplasm, and nucleus \u2014 are the basic parts of a cell.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q010",
+   "chapter": "sci-bio",
+   "skill_id": 5,
+   "stem": "Why do plant cells have a cell wall, but animal cells do not?",
+   "options": [
+    "To allow photosynthesis",
+    "To provide rigidity and strength",
+    "To store substances",
+    "To regulate cell activities"
+   ],
+   "correct_option": 1,
+   "explain": "The cell wall gives plant cells their firm structure, which is not needed in animal cells.",
+   "evidence": "The cell wall in the plant cell provides rigidity and strength to plants.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q011",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the primary function of plastids in plant cells?",
+   "options": [
+    "To store waste",
+    "To regulate cell activities",
+    "To perform photosynthesis and store substances",
+    "To separate cells"
+   ],
+   "correct_option": 2,
+   "explain": "Plastids are involved in photosynthesis and storage in plant cells.",
+   "evidence": "Some plastids, like chloroplasts, contain chlorophyll, which makes them green and helps in photosynthesis. In non-green parts, they help in the storage of substances.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q012",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "Which of the following structures is porous and allows the entry and exit of materials?",
+   "options": [
+    "Cell wall",
+    "Nucleus",
+    "Cell membrane",
+    "Vacuole"
+   ],
+   "correct_option": 2,
+   "explain": "The cell membrane controls what enters and leaves the cell.",
+   "evidence": "It is porous and allows the entry of materials essential for life processes and the exit of waste material.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q014",
+   "chapter": "sci-bio",
+   "skill_id": 5,
+   "stem": "Which organelle is typically larger in plant cells compared to animal cells?",
+   "options": [
+    "Nucleus",
+    "Vacuole",
+    "Cytoplasm",
+    "Cell membrane"
+   ],
+   "correct_option": 1,
+   "explain": "Plant cells have larger vacuoles to store substances and maintain shape.",
+   "evidence": "In animal cells, vacuoles are usually not present, if present, they are usually small.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q015",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the role of chlorophyll in chloroplasts?",
+   "options": [
+    "To store waste",
+    "To regulate cell activities",
+    "To perform photosynthesis",
+    "To provide rigidity"
+   ],
+   "correct_option": 2,
+   "explain": "Chlorophyll is essential for capturing light energy for photosynthesis.",
+   "evidence": "Some plastids, like chloroplasts, contain chlorophyll, which makes them green and helps in photosynthesis.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q016",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "Which part of the cell is responsible for separating one cell from another?",
+   "options": [
+    "Nucleus",
+    "Cytoplasm",
+    "Cell wall",
+    "Cell membrane"
+   ],
+   "correct_option": 3,
+   "explain": "The cell membrane acts as a boundary between cells.",
+   "evidence": "The cell membrane separates one cell from another.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q017",
+   "chapter": "sci-bio",
+   "skill_id": 3,
+   "stem": "How do the shapes of muscle and nerve cells relate to their functions?",
+   "options": [
+    "Muscle cells are long for contraction, nerve cells are round for signal transmission",
+    "Muscle cells are spindle-shaped for contraction, nerve cells are long for signal transmission",
+    "Muscle cells are round for contraction, nerve cells are spindle-shaped for signal transmission",
+    "Muscle cells and nerve cells have the same shape for different functions"
+   ],
+   "correct_option": 1,
+   "explain": "The shape of each cell type is suited to its specific function.",
+   "evidence": "A muscle cell (Fig. 2.6a) is shaped like a spindle, while a nerve cell (Fig. 2.6b) is very long and has branches.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q018",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the main function of the cell wall in plant cells?",
+   "options": [
+    "To regulate cell activities",
+    "To perform photosynthesis",
+    "To provide rigidity and strength",
+    "To store substances"
+   ],
+   "correct_option": 2,
+   "explain": "The cell wall supports and protects plant cells.",
+   "evidence": "The cell wall in the plant cell provides rigidity and strength to plants.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q019",
+   "chapter": "sci-bio",
+   "skill_id": 5,
+   "stem": "Which structure is found in plant cells but not typically in animal cells?",
+   "options": [
+    "Nucleus",
+    "Cell membrane",
+    "Chloroplast",
+    "Cytoplasm"
+   ],
+   "correct_option": 2,
+   "explain": "Chloroplasts are unique to plant cells for photosynthesis.",
+   "evidence": "Some plastids, like chloroplasts, contain chlorophyll, which makes them green and helps in photosynthesis.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q020",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the primary role of the nucleus in a cell?",
+   "options": [
+    "To perform photosynthesis",
+    "To store substances",
+    "To regulate all activities within the cell",
+    "To provide rigidity and strength"
+   ],
+   "correct_option": 2,
+   "explain": "The nucleus is the control center of the cell.",
+   "evidence": "The nucleus regulates all activities that occur within the cell.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q021",
+   "chapter": "sci-bio",
+   "skill_id": 5,
+   "stem": "How do plant cells maintain their shape?",
+   "options": [
+    "Through the cell membrane",
+    "Through the nucleus",
+    "Through the vacuole and cell wall",
+    "Through the cytoplasm"
+   ],
+   "correct_option": 2,
+   "explain": "The vacuole and cell wall help maintain the plant cell's shape.",
+   "evidence": "This helps the plant cell store important substances, get rid of waste, and maintain the shape of the cell.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q022",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the primary function of the cytoplasm?",
+   "options": [
+    "To perform photosynthesis",
+    "To regulate cell activities",
+    "To contain other components of the cell and compounds",
+    "To provide rigidity and strength"
+   ],
+   "correct_option": 2,
+   "explain": "Cytoplasm is where most cellular processes occur.",
+   "evidence": "Cytoplasm contains other components of the cell and compounds, such as carbohydrates, proteins, fats, and mineral salts.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q023",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "Which organelle is responsible for storing substances in plant cells?",
+   "options": [
+    "Nucleus",
+    "Vacuole",
+    "Chloroplast",
+    "Cell membrane"
+   ],
+   "correct_option": 1,
+   "explain": "Vacuoles store substances and help maintain cell shape.",
+   "evidence": "This helps the plant cell store important substances, get rid of waste, and maintain the shape of the cell.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q024",
+   "chapter": "sci-bio",
+   "skill_id": 5,
+   "stem": "What is the difference in vacuole size between plant and animal cells?",
+   "options": [
+    "Plant cells have smaller vacuoles than animal cells",
+    "Plant cells have larger vacuoles than animal cells",
+    "Both have the same size vacuoles",
+    "Animal cells have no vacuoles"
+   ],
+   "correct_option": 1,
+   "explain": "Plant cells have larger vacuoles to store more substances.",
+   "evidence": "In animal cells, vacuoles are usually not present, if present, they are usually small.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-bio-q025",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "Which structure is responsible for photosynthesis in plant cells?",
+   "options": [
+    "Nucleus",
+    "Vacuole",
+    "Chloroplast",
+    "Cell wall"
+   ],
+   "correct_option": 2,
+   "explain": "Chloroplasts are essential for photosynthesis in plant cells.",
+   "evidence": "Some plastids, like chloroplasts, contain chlorophyll, which makes them green and helps in photosynthesis.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-bio-q026",
+   "chapter": "sci-bio",
+   "skill_id": 4,
+   "stem": "What is the role of the cell membrane in a cell?",
+   "options": [
+    "To perform photosynthesis",
+    "To regulate cell activities",
+    "To enclose the cytoplasm and nucleus",
+    "To provide rigidity and strength"
+   ],
+   "correct_option": 2,
+   "explain": "The cell membrane protects and contains the cell's contents.",
+   "evidence": "The cell membrane encloses the cytoplasm and nucleus.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q001",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "What is a concave mirror?",
+   "options": [
+    "A mirror with a reflecting surface that curves inwards",
+    "A mirror with a reflecting surface that curves outwards",
+    "A flat mirror",
+    "A mirror with no curvature"
+   ],
+   "correct_option": 0,
+   "explain": "A concave mirror curves inward, like the inside of a spoon.",
+   "evidence": "A spherical mirror, which has a reflecting surface that curves inwards, is called a concave mirror.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q002",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "Which type of mirror is used as a side-view mirror in vehicles?",
+   "options": [
+    "Concave mirror",
+    "Convex mirror",
+    "Plane mirror",
+    "None of the above"
+   ],
+   "correct_option": 1,
+   "explain": "Convex mirrors provide a wider field of view, which is useful for side-view mirrors.",
+   "evidence": "Look at the side-view mirrors on vehicles. These mirrors are convex.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q003",
+   "chapter": "sci-phys",
+   "skill_id": 9,
+   "stem": "What happens to the image when an object is moved away from a concave mirror?",
+   "options": [
+    "The image becomes erect and enlarged",
+    "The image becomes inverted and enlarged",
+    "The image becomes inverted and smaller",
+    "The image remains the same"
+   ],
+   "correct_option": 2,
+   "explain": "As the object moves away, the image inverts and reduces in size.",
+   "evidence": "However, when the object is moved farther away, the image becomes inverted. Initially, the image is enlarged in size and then keeps getting smaller.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q004",
+   "chapter": "sci-phys",
+   "skill_id": 6,
+   "stem": "What is the angle of reflection when a light ray falls along the normal to a mirror?",
+   "options": [
+    "0\u00b0",
+    "45\u00b0",
+    "90\u00b0",
+    "180\u00b0"
+   ],
+   "correct_option": 0,
+   "explain": "When light falls along the normal, it reflects back on the same path, making the angle of reflection 0\u00b0.",
+   "evidence": "Finally, let the incident beam fall on the mirror along the normal and observe the direction of the reflected beam. What would be the angle of incidence and angle of reflection in this case? Both the angles would be zero in this case.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q005",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "Which of the following is true for a convex lens?",
+   "options": [
+    "It diverges light beams",
+    "It converges light beams",
+    "It reflects light beams",
+    "It does not affect light beams"
+   ],
+   "correct_option": 1,
+   "explain": "A convex lens focuses light beams to a point, hence it converges them.",
+   "evidence": "The convex lens converges the light falling on it while the concave lens diverges the light.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q006",
+   "chapter": "sci-phys",
+   "skill_id": 9,
+   "stem": "What type of image does a convex mirror always form?",
+   "options": [
+    "Erect and enlarged",
+    "Erect and diminished",
+    "Inverted and enlarged",
+    "Inverted and diminished"
+   ],
+   "correct_option": 1,
+   "explain": "Convex mirrors always produce smaller, upright images.",
+   "evidence": "In case of a convex mirror, the image is always erect and smaller than the object, that is diminished.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q007",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "Why are convex mirrors used in road safety mirrors?",
+   "options": [
+    "They provide a larger view area",
+    "They provide a smaller view area",
+    "They invert the image",
+    "They enlarge the image"
+   ],
+   "correct_option": 0,
+   "explain": "Convex mirrors give a wider field of view, which helps in seeing more of the road.",
+   "evidence": "Further, such convex mirrors are installed at road intersections or sharp bends to provide drivers from both sides the visibility of the other side and prevent collisions.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q008",
+   "chapter": "sci-phys",
+   "skill_id": 6,
+   "stem": "What happens to parallel light beams when they fall on a concave mirror?",
+   "options": [
+    "They remain parallel",
+    "They diverge",
+    "They converge",
+    "They reflect back"
+   ],
+   "correct_option": 2,
+   "explain": "Concave mirrors focus parallel beams to a point, causing them to converge.",
+   "evidence": "However, when multiple beams of light fall upon a concave mirror, the multiple reflected beams get closer, that is, they converge.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q009",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "What is the main function of a convex lens in optical devices?",
+   "options": [
+    "To diverge light",
+    "To converge light",
+    "To reflect light",
+    "To absorb light"
+   ],
+   "correct_option": 1,
+   "explain": "Convex lenses focus light to a point, which is useful in devices like cameras and glasses.",
+   "evidence": "A convex lens is also called a converging lens while a concave lens is called a diverging lens.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q010",
+   "chapter": "sci-phys",
+   "skill_id": 9,
+   "stem": "Which statement is true about the image formed by a concave lens?",
+   "options": [
+    "It is always erect and enlarged",
+    "It is always erect and diminished",
+    "It is always inverted and enlarged",
+    "It is always inverted and diminished"
+   ],
+   "correct_option": 1,
+   "explain": "Concave lenses always produce smaller, upright images.",
+   "evidence": "An object placed behind a concave lens and seen through the lens, always appears erect and diminished in size.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q011",
+   "chapter": "sci-phys",
+   "skill_id": 9,
+   "stem": "What happens to the image when an object is placed close to a concave mirror?",
+   "options": [
+    "The image is erect and enlarged",
+    "The image is inverted and enlarged",
+    "The image is erect and diminished",
+    "The image is inverted and diminished"
+   ],
+   "correct_option": 0,
+   "explain": "Close objects in concave mirrors appear larger and upright.",
+   "evidence": "In the concave mirror, when the object is placed close to the mirror, the image is erect but larger than the object in size, that is, enlarged.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q013",
+   "chapter": "sci-phys",
+   "skill_id": 9,
+   "stem": "Which of the following is a characteristic of a plane mirror?",
+   "options": [
+    "It forms an inverted image",
+    "It forms an erect image of the same size",
+    "It forms a diminished image",
+    "It forms an enlarged image"
+   ],
+   "correct_option": 1,
+   "explain": "Plane mirrors reflect images that are the same size and orientation as the object.",
+   "evidence": "A plane mirror always forms an erect image of the same size as the object.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q014",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "What is the effect of a convex lens on parallel light beams?",
+   "options": [
+    "It diverges them",
+    "It converges them",
+    "It reflects them",
+    "It absorbs them"
+   ],
+   "correct_option": 1,
+   "explain": "Convex lenses focus parallel beams to a point, converging them.",
+   "evidence": "The convex lens converges the light falling on it while the concave lens diverges the light.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q015",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "Which type of lens is used in a magnifying glass?",
+   "options": [
+    "Concave lens",
+    "Convex lens",
+    "Plane lens",
+    "Bifocal lens"
+   ],
+   "correct_option": 1,
+   "explain": "Magnifying glasses use convex lenses to enlarge images.",
+   "evidence": "Have you seen a magnifying glass as shown in Fig. 10.14? It is also a lens that helps in reading small print by making the letters appear bigger.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q017",
+   "chapter": "sci-phys",
+   "skill_id": 6,
+   "stem": "What is the law of reflection regarding the angle of incidence and reflection?",
+   "options": [
+    "The angle of incidence is always greater than the angle of reflection",
+    "The angle of incidence is always less than the angle of reflection",
+    "The angle of incidence is equal to the angle of reflection",
+    "The angle of incidence is unrelated to the angle of reflection"
+   ],
+   "correct_option": 2,
+   "explain": "The law states that the angle at which light hits a surface equals the angle at which it reflects.",
+   "evidence": "If done carefully, the experiment shows that the angle of incidence (i) is equal to the angle of reflection (r). This is a law of reflection.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q018",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "Which type of mirror is used by dentists to provide an enlarged view of teeth?",
+   "options": [
+    "Plane mirror",
+    "Concave mirror",
+    "Convex mirror",
+    "None of the above"
+   ],
+   "correct_option": 1,
+   "explain": "Concave mirrors enlarge images, useful for detailed views like in dentistry.",
+   "evidence": "It is a concave mirror which provides an enlarged view of teeth when held close to the teeth inside the mouth.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q020",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "What is the shape of a convex lens?",
+   "options": [
+    "Thicker at the edges than the middle",
+    "Thicker at the middle than the edges",
+    "Flat on both sides",
+    "Curved inward on both sides"
+   ],
+   "correct_option": 1,
+   "explain": "Convex lenses bulge outwards, being thicker in the center.",
+   "evidence": "A lens which is thicker at the middle as compared to the edges is called a convex lens.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q021",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "Which type of mirror is used in the headlights of cars?",
+   "options": [
+    "Plane mirror",
+    "Concave mirror",
+    "Convex mirror",
+    "None of the above"
+   ],
+   "correct_option": 1,
+   "explain": "Concave mirrors focus light into a beam, useful for headlights.",
+   "evidence": "The reflectors of torches, headlights of cars and scooters are concave in shape.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q023",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "Which of the following is a characteristic of a concave lens?",
+   "options": [
+    "It converges light beams",
+    "It diverges light beams",
+    "It reflects light beams",
+    "It absorbs light beams"
+   ],
+   "correct_option": 1,
+   "explain": "Concave lenses spread out light beams, causing them to diverge.",
+   "evidence": "The convex lens converges the light falling on it while the concave lens diverges the light.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q024",
+   "chapter": "sci-phys",
+   "skill_id": 6,
+   "stem": "What is the effect of a concave mirror on parallel light beams?",
+   "options": [
+    "They remain parallel",
+    "They diverge",
+    "They converge",
+    "They reflect back"
+   ],
+   "correct_option": 2,
+   "explain": "Concave mirrors focus parallel beams to a point, causing them to converge.",
+   "evidence": "However, when multiple beams of light fall upon a concave mirror, the multiple reflected beams get closer, that is, they converge.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q025",
+   "chapter": "sci-phys",
+   "skill_id": 9,
+   "stem": "What type of image does a concave mirror form when the object is far away?",
+   "options": [
+    "Erect and enlarged",
+    "Inverted and enlarged",
+    "Inverted and diminished",
+    "Erect and diminished"
+   ],
+   "correct_option": 2,
+   "explain": "Far objects in concave mirrors appear smaller and inverted.",
+   "evidence": "However, when the object is moved farther away, the image becomes inverted. Initially, the image is enlarged in size and then keeps getting smaller.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q026",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "Which type of lens is thicker at the edges than at the middle?",
+   "options": [
+    "Convex lens",
+    "Concave lens",
+    "Plane lens",
+    "Bifocal lens"
+   ],
+   "correct_option": 1,
+   "explain": "Concave lenses are thinner in the center, causing them to spread light.",
+   "evidence": "A lens which is thicker at the edges as compared to the middle is called a concave lens.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "sci-phys-q031",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "What is the purpose of using a concave mirror in a solar cooker?",
+   "options": [
+    "To diverge sunlight",
+    "To converge sunlight",
+    "To reflect sunlight",
+    "To absorb sunlight"
+   ],
+   "correct_option": 1,
+   "explain": "Concave mirrors focus sunlight to a point, increasing heat for cooking.",
+   "evidence": "Devices which concentrate sunlight into a small area, using mirrors and lenses, are called solar concentrators.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q033",
+   "chapter": "sci-phys",
+   "skill_id": 8,
+   "stem": "What is the effect of a convex lens on sunlight?",
+   "options": [
+    "It diverges sunlight",
+    "It converges sunlight",
+    "It reflects sunlight",
+    "It absorbs sunlight"
+   ],
+   "correct_option": 1,
+   "explain": "Convex lenses focus sunlight to a point, concentrating heat.",
+   "evidence": "Repeat Activity 10.7 by putting a convex lens in the path of sunrays in place of a concave mirror. Could you burn the paper?",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "sci-phys-q034",
+   "chapter": "sci-phys",
+   "skill_id": 7,
+   "stem": "Which type of mirror is used in telescopes to gather light?",
+   "options": [
+    "Plane mirror",
+    "Concave mirror",
+    "Convex mirror",
+    "None of the above"
+   ],
+   "correct_option": 1,
+   "explain": "Concave mirrors focus light, making them ideal for telescopes.",
+   "evidence": "Most modern telescopes are reflecting telescope that use curved mirrors, with the main mirror being a large concave mirror.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  }
+ ]
+}
