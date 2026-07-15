@@ -89,46 +89,59 @@ for m in BANK["match_sets"]:
         f"'match', {q('')}, {q(m['stem_en'])}, {jb(m['pairs'])}, "
         f"{q('; '.join(p['left'] + ' = ' + p['right'] for p in m['pairs']))});")
 
-# ---- concept cards: English explanation, Kannada term alongside
-L.append("\n-- concept cards (English explanation, Kannada term alongside)")
-idx = 0
+# ---- concept guides: several short sections per topic (English explanation,
+#      Kannada term alongside), instead of one dense card.
+L.append("\n-- concept guides (several sections per topic)")
+
+
+def emit(code, idx, title, tier, why, body):
+    L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
+             f"((select id from chapters where code={q(code)}), {idx}, {q(title)}, "
+             f"{q(tier)}, {q(why)}, {jb(body)});")
+
+
 for g in SRC["grammar_topics"]:
-    idx += 1
-    body = [{"kind": "p", "text": g["explain_en"]}]
-    for t in g.get("types", []):
-        body.append({"kind": "key", "text": f"{t['name_kn']} — {t['name_en']}"})
-        if t.get("rule_en"):
-            body.append({"kind": "p", "text": t["rule_en"]})
-        body.append({"kind": "eg", "lines": [
-            (f"{e['split']}  →  {e['joined']}" if "+" in e["split"] else e["joined"])
-            for e in t["examples"]]})
-    body.append({"kind": "warn",
-                 "text": f"From the textbook: {g['taught_in']}."})
     cnt = SRC["exam_frequency_counts"].get(g["code"])
     tier = cnt["tier"] if cnt else "*"
     why = (f"Appeared in {cnt['papers']} of the {cnt['of']} real Kannada papers."
            if cnt and cnt["papers"] else "Taught with the lesson; rarely asked directly.")
-    L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
-             f"((select id from chapters where code={q(g['code'])}), 1, "
-             f"{q(g['name_kn'] + ' — ' + g['name_en'])}, {q(tier)}, {q(why)}, {jb(body)});")
 
-# vocabulary concept card per lesson
+    # section 1: what this grammar idea IS
+    emit(g["code"], 1, f"{g['name_kn']} — {g['name_en']}", tier, why,
+         [{"kind": "p", "text": g["explain_en"]},
+          {"kind": "warn", "text": f"From the textbook: {g['taught_in']}."}])
+
+    # one section per type — so each is learned on its own
+    for j, t in enumerate(g.get("types", []), 2):
+        body = []
+        if t.get("rule_en"):
+            body.append({"kind": "key", "text": t["rule_en"]})
+        body.append({"kind": "eg", "lines": [
+            (f"{e['split']}  →  {e['joined']}" if "+" in e["split"] else e["joined"])
+            for e in t["examples"]]})
+        emit(g["code"], j, f"{t['name_kn']} — {t['name_en']}", tier,
+             f"Type {j-1} of {g['name_kn']}.", body)
+
+    # for topics with no sub-types, add a quick self-check section
+    if not g.get("types") and g.get("drill_facts"):
+        emit(g["code"], 2, "Quick facts to remember", tier, "The points that get asked.",
+             [{"kind": "eg", "lines": [f"{d['q_en']} → {d['a_kn']}" for d in g["drill_facts"]]}])
+
+# each lesson: word meanings as one section, ಟಿಪ್ಪಣಿ notes as another
 for l in SRC["lessons"]:
     words = l["word_meanings"]
-    body = [
-        {"kind": "p", "text": f"The textbook gives {len(words)} ಪದಗಳ ಅರ್ಥ (word meanings) for this "
-                              f"lesson. Word meanings came up in 33 of the 49 real papers, so these "
-                              f"are worth knowing cold."},
-        {"kind": "tbl", "head": ["ಪದ (word)", "ಅರ್ಥ (meaning)"],
-         "rows": [[w["word"], w["meaning"]] for w in words]},
-    ]
+    emit(l["code"], 1, "ಪದಗಳ ಅರ್ಥ — Word meanings", "***",
+         "Word meanings appeared in 33 of the 49 real Kannada papers.",
+         [{"kind": "p", "text": f"The textbook gives {len(words)} word meanings for "
+                                f"'{l['title_kn']}'. These are worth knowing cold — they are "
+                                f"asked directly, and the wrong options in the paper are usually "
+                                f"the OTHER words from this same list."},
+          {"kind": "tbl", "head": ["ಪದ (word)", "ಅರ್ಥ (meaning)"],
+           "rows": [[w["word"], w["meaning"]] for w in words]}])
     if l.get("notes"):
-        body.append({"kind": "key", "text": "ಟಿಪ್ಪಣಿ — notes"})
-        body.append({"kind": "eg", "lines": [f"{n['term']} : {n['note']}" for n in l["notes"]]})
-    L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
-             f"((select id from chapters where code={q(l['code'])}), 1, "
-             f"{q('ಪದಗಳ ಅರ್ಥ — Word meanings')}, '***', "
-             f"{q('Word meanings appeared in 33 of the 49 real Kannada papers.')}, {jb(body)});")
+        emit(l["code"], 2, "ಟಿಪ್ಪಣಿ — notes", "**",
+             "The named terms the lesson explains.",
+             [{"kind": "eg", "lines": [f"{n['term']} : {n['note']}" for n in l["notes"]]}])
 
 L += ["", "commit;"]
 open(OUT, "w").write("\n".join(L) + "\n")

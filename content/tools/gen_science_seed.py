@@ -59,72 +59,119 @@ for x in BANK["questions"]:
         f"{jb(x['options'])}, {x['correct_option']}, {q(x['options'][x['correct_option']])}, "
         f"{q(x['explain'] + '  ▸ Textbook: ' + x['evidence'][:150])});")
 
-# ---------------- concept cards
-CARDS = {
- "sci-chem": ("Particles of matter, and the three states", "*", "Rarely asked directly (2/59 papers), but it underpins everything else.", [
-   {"kind":"p","text":"All matter is made of very small pieces called CONSTITUENT PARTICLES. Break chalk, grind it, dissolve sugar — you never get a new substance, only smaller and smaller pieces of the same one."},
-   {"kind":"key","text":"What state a substance is in is decided by the strength of the ATTRACTION between its particles."},
-   {"kind":"tbl","head":["State","Particles","Shape","Volume"],
-    "rows":[["Solid","tightly packed, fixed positions, can only vibrate","definite","definite"],
-            ["Liquid","loosely packed, can slide past each other","takes the container's shape","definite"],
-            ["Gas","far apart, free to move in all directions","fills the whole container","no fixed volume"]]},
-   {"kind":"key","text":"Heating WEAKENS the attraction between particles. Solid → (melting point) → liquid → (boiling point) → gas."},
-   {"kind":"warn","text":"Your test stops at book page 106. Interparticle SPACING (section 7.3) is NOT in scope."},
- ]),
- "sci-bio": ("The cell and its organelles", "**", "Cell structure came up in 29 of the 59 real Science papers.", [
-   {"kind":"p","text":"Every living thing is built from cells. A cell has THREE basic parts: the cell membrane, the cytoplasm, and the nucleus. Plant cells add a few more."},
-   {"kind":"tbl","head":["Organelle","What it does"],
-    "rows":[["Cell membrane","Encloses the cytoplasm and nucleus. Separates one cell from another. POROUS — lets useful things in and waste out."],
-            ["Cytoplasm","Fills the space between membrane and nucleus. Holds the other components. MOST life processes happen here."],
-            ["Nucleus","Regulates ALL activities of the cell, and its growth."],
-            ["Cell wall (plants only)","Gives rigidity and strength — which is why plant cells look firm and packed."],
-            ["Chloroplast (a plastid)","Contains chlorophyll → green → does photosynthesis. In non-green parts, plastids store substances."],
-            ["Vacuole","Stores substances, gets rid of waste, keeps the cell's shape. LARGE in plant cells; small or absent in animal cells."]]},
-   {"kind":"key","text":"Plant cell vs animal cell: a plant cell has a CELL WALL, CHLOROPLASTS and a LARGE VACUOLE. An animal cell has none of those (its vacuoles, if any, are small)."},
-   {"kind":"p","text":"A cell's SHAPE follows its job: a muscle cell is spindle-shaped so it can contract; a nerve cell is long with branches so it can carry signals a long way."},
-   {"kind":"warn","text":"Careful — this textbook LABELS mitochondria in Fig 2.5 but never says what it does. If your test asks for its function, that came from class, not this book."},
- ]),
- "sci-phys": ("Light: mirrors, reflection and lenses", "***", "Reflection and mirrors came up in 30 of the 59 real Science papers — the most-asked Science topic.", [
-   {"kind":"key","text":"Law of reflection: the angle of incidence = the angle of reflection. Both are measured from the NORMAL (the line at 90° to the mirror), never from the mirror surface."},
-   {"kind":"p","text":"So if a ray comes straight along the normal, the angle of incidence is 0° — and it reflects straight back."},
-   {"kind":"tbl","head":["","Shape","Effect on parallel rays","Image"],
-    "rows":[["Concave mirror","curves INWARDS","converges them","far object → inverted & smaller; close object → erect & enlarged"],
-            ["Convex mirror","curves OUTWARDS","diverges them","ALWAYS erect and diminished; wider view"],
-            ["Convex lens","thicker in the MIDDLE","converges them","far object → inverted & smaller; close object → erect & enlarged"],
-            ["Concave lens","thicker at the EDGES","diverges them","ALWAYS erect and diminished"]]},
-   {"kind":"key","text":"The pattern to hold on to: CONVEX MIRROR and CONCAVE LENS always give an erect, diminished image. CONCAVE MIRROR and CONVEX LENS depend on how far the object is."},
-   {"kind":"eg","lines":["Convex mirror → vehicle side-view mirrors, road safety mirrors (they show a wide view)",
-                          "Concave mirror → dentist's mirror, car headlights, solar cooker (they converge light)",
-                          "Convex lens → magnifying glass"]},
- ]),
+# ---------------- concept guides
+# Each chapter is taught as SEVERAL short sections (like the Maths guides),
+# not one dense card. Every fact is from the scoped chapter text.
+# Each entry: (title, tier, why, body-blocks)
+GUIDES = {
+ "sci-chem": [
+   ("What is matter made of?", "*", "The idea everything else rests on.", [
+     {"kind":"p","text":"Take a stick of chalk and keep breaking it — snap it, grind it to powder, look at the powder under a lens. Every tiny speck is still chalk. It never turns into something new."},
+     {"kind":"key","text":"All matter is made of very small pieces called CONSTITUENT PARTICLES. Breaking, grinding or dissolving only makes the pieces smaller — it does not change what the substance is."},
+     {"kind":"p","text":"Dissolve sugar in water and it seems to vanish. It hasn't — it has just broken into particles too small to see. Taste the water and the sugar is still there."},
+   ]),
+   ("The three states of matter", "*", "Solid, liquid, gas — the core comparison.", [
+     {"kind":"key","text":"Which state a substance is in is decided by ONE thing: the strength of the ATTRACTION pulling its particles together."},
+     {"kind":"tbl","head":["State","Particles","Shape","Volume"],
+      "rows":[["Solid","tightly packed, fixed positions, can only vibrate","definite","definite"],
+              ["Liquid","loosely packed, can slide past each other","takes the container's shape","definite"],
+              ["Gas","far apart, free to move in all directions","fills the whole container","no fixed volume"]]},
+     {"kind":"eg","lines":["Solid — an ice cube keeps its shape on a plate.",
+                            "Liquid — water becomes the shape of whatever glass you pour it into.",
+                            "Gas — a smell spreads to fill the whole room."]},
+   ]),
+   ("Changing from one state to another", "*", "How heating moves matter between states.", [
+     {"kind":"key","text":"Heating WEAKENS the attraction between particles, so the substance moves to a freer state:  solid → (melting point) → liquid → (boiling point) → gas."},
+     {"kind":"p","text":"MELTING is solid turning to liquid. BOILING is liquid turning to gas at the boiling point. EVAPORATION is a liquid slowly turning to gas even BELOW its boiling point."},
+     {"kind":"warn","text":"Your test stops at book page 106. Interparticle SPACING (section 7.3 onward) is NOT in scope — skip it."},
+   ]),
+ ],
+ "sci-bio": [
+   ("What is a cell?", "**", "Cell structure came up in 29 of the 59 real papers.", [
+     {"kind":"p","text":"Every living thing is built from cells — the smallest unit that can carry out life. Some tiny organisms are a single cell; you are made of billions."},
+     {"kind":"key","text":"Every cell has THREE basic parts: the CELL MEMBRANE (outer layer), the CYTOPLASM (the filling), and the NUCLEUS (the round control centre). Plant cells add a few extra parts."},
+   ]),
+   ("The organelles and what they do", "**", "The heart of this topic — learn each one.", [
+     {"kind":"tbl","head":["Organelle","What it does"],
+      "rows":[["Cell membrane","Encloses the cytoplasm and nucleus. Separates one cell from the next. POROUS — lets useful things in and waste out."],
+              ["Cytoplasm","Fills the space between membrane and nucleus. Holds the cell's other parts. MOST life processes happen here."],
+              ["Nucleus","Regulates ALL the activities of the cell, and its growth."],
+              ["Cell wall (plants only)","Gives rigidity and strength — which is why plant cells look firm and tightly packed."],
+              ["Chloroplast (a plastid)","Holds chlorophyll → green → carries out photosynthesis. In non-green parts, plastids store food."],
+              ["Vacuole","Stores substances, removes waste, keeps the cell's shape. LARGE in plant cells; small or absent in animal cells."]]},
+   ]),
+   ("Plant cell vs animal cell", "**", "A very common exam comparison.", [
+     {"kind":"key","text":"A PLANT cell has three things an ANIMAL cell does not: a CELL WALL, CHLOROPLASTS, and a LARGE VACUOLE."},
+     {"kind":"p","text":"An animal cell has the membrane, cytoplasm and nucleus, but no cell wall and no chloroplasts. If it has vacuoles at all, they are small."},
+   ]),
+   ("A cell's shape follows its job", "*", "Why cells are not all the same shape.", [
+     {"kind":"p","text":"Cells come in different shapes because different jobs need different shapes."},
+     {"kind":"eg","lines":["A MUSCLE cell is spindle-shaped (long and tapered) — good for contracting.",
+                            "A NERVE cell is long with branches — good for carrying signals a long way."]},
+     {"kind":"warn","text":"Careful — this textbook LABELS mitochondria in Fig 2.5 but never says what it does. If your test asks for its function, that came from class, not this book."},
+   ]),
+ ],
+ "sci-phys": [
+   ("The law of reflection", "***", "Reflection is the most-asked Science topic (30/59 papers).", [
+     {"kind":"key","text":"Law of reflection: the angle of incidence = the angle of reflection. BOTH are measured from the NORMAL — the line at 90° to the mirror — never from the mirror surface itself."},
+     {"kind":"p","text":"So if a ray comes straight in ALONG the normal, its angle of incidence is 0°, and it reflects straight back the way it came."},
+     {"kind":"p","text":"The incident ray, the reflected ray and the normal all lie in the SAME plane."},
+   ]),
+   ("Mirrors: concave and convex", "***", "Know which way each one curves and what it does.", [
+     {"kind":"tbl","head":["Mirror","Shape","Parallel rays","Image"],
+      "rows":[["Concave","curves INWARDS","converges (focuses) them","far object → inverted & smaller; close object → erect & enlarged"],
+              ["Convex","curves OUTWARDS","diverges (spreads) them","ALWAYS erect and diminished; gives a wider view"]]},
+     {"kind":"eg","lines":["Convex → vehicle side-view mirrors and road safety mirrors (wide view).",
+                            "Concave → dentist's mirror, car headlights, solar cooker (they focus light)."]},
+   ]),
+   ("Lenses: convex and concave", "**", "Lenses came up in 15 of the 59 papers.", [
+     {"kind":"tbl","head":["Lens","Shape","Parallel rays","Image"],
+      "rows":[["Convex","thicker in the MIDDLE","converges (focuses) them","far object → inverted & smaller; close object → erect & enlarged"],
+              ["Concave","thicker at the EDGES","diverges (spreads) them","ALWAYS erect and diminished"]]},
+     {"kind":"eg","lines":["Convex lens → a magnifying glass; it can focus sunlight to a bright point."]},
+   ]),
+   ("The shortcut to remember", "***", "One pattern that answers most image questions.", [
+     {"kind":"key","text":"CONVEX MIRROR and CONCAVE LENS always give an ERECT, DIMINISHED image — no matter where the object is."},
+     {"kind":"key","text":"CONCAVE MIRROR and CONVEX LENS DEPEND on distance: a far object gives an inverted, smaller image; a close object gives an erect, enlarged one."},
+     {"kind":"p","text":"Notice the pairing: the two that 'spread' light (convex mirror, concave lens) are the predictable ones; the two that 'focus' light (concave mirror, convex lens) are the ones that depend on distance."},
+   ]),
+ ],
 }
 
-L.append("\n-- concept cards")
-for code, (title, tier, why, body) in CARDS.items():
-    L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
-             f"((select id from chapters where code={q(code)}), 1, {q(title)}, {q(tier)}, "
-             f"{q(why)}, {jb(body)});")
+L.append("\n-- concept guides (several short sections per chapter)")
+for code, sections in GUIDES.items():
+    for idx, (title, tier, why, body) in enumerate(sections, 1):
+        L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
+                 f"((select id from chapters where code={q(code)}), {idx}, {q(title)}, "
+                 f"{q(tier)}, {q(why)}, {jb(body)});")
 
-# a card warning her that the school mines the side-boxes
-FINE = [
-  {"kind":"p","text":"The school likes to ask from the FINE PRINT — the small boxes beside the main text, "
-                     "which are easy to skip when revising."},
-  {"kind":"key","text":"Watch the 'A step further' and 'Our scientific heritage' boxes, and the figure captions."},
-  {"kind":"eg","lines":[
-    "Chemistry — Acharya Kanad first spoke of the Parmanu (atom), in his work the Vaisheshika Sutras.",
-    "Biology  — Robert Hooke described cells in his book Micrographia.",
-    "Physics  — A mirror is made by grinding and polishing flat glass, NOT by slicing a sphere. Coat the OUTER curved surface and you get a CONCAVE mirror; coat the INNER surface and you get a CONVEX one.",
-    "Physics  — 800 years ago, in the time of Bhaskara II, astronomers used shallow bowls of water to observe stars by reflection.",
-    "Physics  — Solar furnaces use concave mirrors to concentrate sunlight — hot enough to melt steel."]},
-]
-for code in ("sci-chem", "sci-bio", "sci-phys"):
+# the fine-print section goes LAST in each chapter
+FINE = {
+ "sci-chem": [
+   {"kind":"p","text":"The school likes to ask from the FINE PRINT — the small side-boxes, easy to skip when revising."},
+   {"kind":"key","text":"Acharya Kanad, an ancient Indian philosopher, first spoke of the PARMANU (atom) — a tiny, indivisible, eternal particle. He wrote this in his work, the VAISHESHIKA SUTRAS."},
+ ],
+ "sci-bio": [
+   {"kind":"p","text":"The school likes to ask from the FINE PRINT — the 'A step further' box and the figure captions."},
+   {"kind":"key","text":"Robert Hooke first described cells, in his book MICROGRAPHIA, using his own microscope."},
+   {"kind":"p","text":"PLASTIDS are tiny rod-shaped structures in plant cells. Chloroplasts are the green plastids that do photosynthesis; in non-green parts, plastids store substances."},
+ ],
+ "sci-phys": [
+   {"kind":"p","text":"The school likes to ask from the FINE PRINT — the 'A step further' and 'Our scientific heritage' boxes."},
+   {"kind":"key","text":"A spherical mirror is NOT made by slicing a hollow sphere. It is made by grinding and polishing FLAT glass into a curve. Coat the OUTER curved surface → CONCAVE mirror; coat the INNER surface → CONVEX mirror."},
+   {"kind":"eg","lines":["800 years ago, in the time of Bhaskara II, astronomers used shallow bowls of water to observe stars by reflection.",
+                          "Solar furnaces use concave mirrors to concentrate sunlight — hot enough to melt steel."]},
+ ],
+}
+for code, body in FINE.items():
+    idx = len(GUIDES[code]) + 1
     L.append("insert into concept_sections (chapter_id, idx, title, tier, why, body) values "
-             f"((select id from chapters where code={q(code)}), 2, "
+             f"((select id from chapters where code={q(code)}), {idx}, "
              f"{q('Textbook fine print — the bits schools ask about')}, '***', "
-             f"{q('The school usually asks from the textbook fine print.')}, {jb(FINE)});")
+             f"{q('The school usually asks from the textbook fine print.')}, {jb(body)});")
 
 L += ["", "commit;"]
 open(OUT, "w").write("\n".join(L) + "\n")
 print(f"wrote {os.path.abspath(OUT)}")
 print(f"  {len(BANK['chapters'])} chapters, {len(BANK['skills'])} skills, "
-      f"{len(BANK['questions'])} questions, {len(CARDS)} concept cards")
+      f"{len(BANK['questions'])} questions, {sum(len(v) for v in GUIDES.values())+len(FINE)} concept sections")
