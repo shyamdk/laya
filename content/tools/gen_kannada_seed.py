@@ -136,8 +136,8 @@ for l in SRC["lessons"]:
                                 f"'{l['title_kn']}'. These are worth knowing cold — they are "
                                 f"asked directly, and the wrong options in the paper are usually "
                                 f"the OTHER words from this same list."},
-          {"kind": "tbl", "head": ["ಪದ (word)", "ಅರ್ಥ (meaning)"],
-           "rows": [[w["word"], w["meaning"]] for w in words]}])
+          {"kind": "tbl", "head": ["ಪದ (word)", "ಅರ್ಥ (Kannada)", "English"],
+           "rows": [[w["word"], w["meaning"], w.get("english", "")] for w in words]}])
     if l.get("notes"):
         emit(l["code"], 2, "ಟಿಪ್ಪಣಿ — notes", "**",
              "The named terms the lesson explains.",

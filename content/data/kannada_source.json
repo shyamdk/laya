@@ -15,51 +15,63 @@
    "word_meanings": [
     {
      "word": "ಅಭೀಷ್ಟ",
-     "meaning": "ಬಯಸಿದ್ದು"
+     "meaning": "ಬಯಸಿದ್ದು",
+     "english": "desired"
     },
     {
      "word": "ಆಧಿಪತ್ಯ",
-     "meaning": "ಯಜಮಾನಿಕೆ"
+     "meaning": "ಯಜಮಾನಿಕೆ",
+     "english": "dominion"
     },
     {
      "word": "ಗಣಿಸದೆ",
-     "meaning": "ಲೆಕ್ಕಿಸದೆ"
+     "meaning": "ಲೆಕ್ಕಿಸದೆ",
+     "english": "without regard"
     },
     {
      "word": "ಚಿಂದಿ",
-     "meaning": "ಚೂರು"
+     "meaning": "ಚೂರು",
+     "english": "scrap"
     },
     {
      "word": "ಪ್ರಶಂಸೆ",
-     "meaning": "ಹೊಗಳಿಕೆ"
+     "meaning": "ಹೊಗಳಿಕೆ",
+     "english": "praise"
     },
     {
      "word": "ವಿಲಾಯತಿ",
-     "meaning": "ವಿದೇಶ, ಅನ್ಯದೇಶ"
+     "meaning": "ವಿದೇಶ, ಅನ್ಯದೇಶ",
+     "english": "foreign"
     },
     {
      "word": "ಆಚ್ಛಾದಿತ",
-     "meaning": "ಮುಚ್ಚಲ್ಪಟ್ಟ"
+     "meaning": "ಮುಚ್ಚಲ್ಪಟ್ಟ",
+     "english": "covered"
     },
     {
      "word": "ಕಳೇಬರ",
-     "meaning": "ಮೃತ ದೇಹ/ಶರೀರ"
+     "meaning": "ಮೃತ ದೇಹ/ಶರೀರ",
+     "english": "corpse"
     },
     {
      "word": "ಗೌಪ್ಯ",
-     "meaning": "ಗುಟ್ಟು, ರಹಸ್ಯ"
+     "meaning": "ಗುಟ್ಟು, ರಹಸ್ಯ",
+     "english": "secret"
     },
     {
      "word": "ಪರಿವರ್ತನೆ",
-     "meaning": "ಬದಲಾವಣೆ"
+     "meaning": "ಬದಲಾವಣೆ",
+     "english": "transformation"
     },
     {
      "word": "ಭಿಕಾರಿ",
-     "meaning": "ನಿರ್ಗತಿಕ"
+     "meaning": "ನಿರ್ಗತಿಕ",
+     "english": "beggar"
     },
     {
      "word": "ಹಸನ್ಮುಖಿ",
-     "meaning": "ನಗುಮುಖ ಉಳ್ಳವನು"
+     "meaning": "ನಗುಮುಖ ಉಳ್ಳವನು",
+     "english": "cheerful, smiling"
     }
    ],
    "notes": [
@@ -89,71 +101,88 @@
    "word_meanings": [
     {
      "word": "ಆಳ್ವೆ",
-     "meaning": "ಆಳುವೆ"
+     "meaning": "ಆಳುವೆ",
+     "english": "(I) rule"
     },
     {
      "word": "ಒಸಗೆ",
-     "meaning": "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ"
+     "meaning": "ಸಂತೋಷ, ಶುಭವಾರ್ತೆ",
+     "english": "joy"
     },
     {
      "word": "ಕಾರಕಳ",
-     "meaning": "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)"
+     "meaning": "ಕಾರ್ಕಳ (ಉಡುಪಿ ಜಿಲ್ಲೆಯ ಒಂದು ತಾಲೂಕು ಕೇಂದ್ರ)",
+     "english": "Karkala (place)"
     },
     {
      "word": "ಕೆನೆ",
-     "meaning": "ಸಾರ, ತಿರುಳು"
+     "meaning": "ಸಾರ, ತಿರುಳು",
+     "english": "essence, pith"
     },
     {
      "word": "ತಾಳ್ವೆ",
-     "meaning": "ಸಹಿಸುವೆ"
+     "meaning": "ಸಹಿಸುವೆ",
+     "english": "(I) endure"
     },
     {
      "word": "ತೃಷೆ",
-     "meaning": "ಬಾಯಾರಿಕೆ"
+     "meaning": "ಬಾಯಾರಿಕೆ",
+     "english": "thirst"
     },
     {
      "word": "ದಿವಂ",
-     "meaning": "ಆಕಾಶ"
+     "meaning": "ಆಕಾಶ",
+     "english": "sky"
     },
     {
      "word": "ನಗಾಳಿ",
-     "meaning": "ಪರ್ವತಗಳ ಸಮೂಹ"
+     "meaning": "ಪರ್ವತಗಳ ಸಮೂಹ",
+     "english": "mountain range"
     },
     {
      "word": "ನಿಡುಕರು",
-     "meaning": "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ"
+     "meaning": "ನಿಡಿದಾಗಿ ನಿಂತಿರುವ ಗೊಮ್ಮಟ ಮೂರ್ತಿ",
+     "english": "Gommateshwara statue"
     },
     {
      "word": "ಬಸಿರು",
-     "meaning": "ಗರ್ಭ, ಗರ್ಭಾಶಯ"
+     "meaning": "ಗರ್ಭ, ಗರ್ಭಾಶಯ",
+     "english": "womb"
     },
     {
      "word": "ಬಿಳಿಯ ಕೊಳ",
-     "meaning": "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ"
+     "meaning": "ಬೆಳಗೊಳ, ಶ್ರವಣಬೆಳಗೊಳ",
+     "english": "Shravanabelagola (place)"
     },
     {
      "word": "ಬೇಲನಾಡು",
-     "meaning": "ಬೇಲೂರು"
+     "meaning": "ಬೇಲೂರು",
+     "english": "Belur (place)"
     },
     {
      "word": "ಮೊಗ",
-     "meaning": "ಮುಖ"
+     "meaning": "ಮುಖ",
+     "english": "face"
     },
     {
      "word": "ಲತೆ",
-     "meaning": "ಬಳ್ಳಿ"
+     "meaning": "ಬಳ್ಳಿ",
+     "english": "creeper"
     },
     {
      "word": "ಶರ್ವ",
-     "meaning": "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು"
+     "meaning": "ನೃಪತುಂಗನ ಮತ್ತೊಂದು ಹೆಸರು",
+     "english": "Nripatunga (name)"
     },
     {
      "word": "ಸುರಭಿ",
-     "meaning": "ಸುಗಂಧ, ಸುವಾಸನೆ"
+     "meaning": "ಸುಗಂಧ, ಸುವಾಸನೆ",
+     "english": "fragrance"
     },
     {
      "word": "ನಂದಿನಿ",
-     "meaning": "ಗೋವು"
+     "meaning": "ಗೋವು",
+     "english": "cow"
     }
    ],
    "notes": [
