@@ -64,6 +64,11 @@ class _SubjectCard extends ConsumerWidget {
           Icons.science_outlined,
           'Light · The Cell & organelles · Particulate nature of matter',
         ),
+      'social' => (
+          const Color(0xFFB25E00),
+          Icons.public_outlined,
+          'Natural Resources · Reshaping India\'s Political Map · Universal Franchise',
+        ),
       _ => (
           const Color(0xFF1F3A5F),
           Icons.calculate_outlined,

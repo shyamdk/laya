@@ -1,0 +1,2043 @@
+{
+ "subject": "social",
+ "chapters": [
+  {
+   "code": "soc-geo",
+   "number": 1,
+   "title": "Geography \u2014 Natural Resources and their Uses",
+   "book": "NCERT Social Science, Grade 8"
+  },
+  {
+   "code": "soc-hist",
+   "number": 2,
+   "title": "History \u2014 Reshaping India's Political Map",
+   "book": "NCERT Social Science, Grade 8"
+  },
+  {
+   "code": "soc-civ",
+   "number": 3,
+   "title": "Civics \u2014 Universal Franchise & India's Electoral System",
+   "book": "NCERT Social Science, Grade 8"
+  }
+ ],
+ "skills": [
+  {
+   "id": 1,
+   "name": "Types of natural resources",
+   "chapter": "soc-geo",
+   "tier": "***",
+   "exams_seen_in": 32,
+   "total_exams": 51,
+   "why": "Natural resources appeared in 32 of the 51 real Social papers."
+  },
+  {
+   "id": 2,
+   "name": "Renewable vs non-renewable",
+   "chapter": "soc-geo",
+   "tier": "***",
+   "exams_seen_in": 32,
+   "total_exams": 51,
+   "why": "Natural resources appeared in 32 of the 51 real Social papers."
+  },
+  {
+   "id": 3,
+   "name": "Distribution of resources in India",
+   "chapter": "soc-geo",
+   "tier": "***",
+   "exams_seen_in": 32,
+   "total_exams": 51,
+   "why": "Natural resources appeared in 32 of the 51 real Social papers."
+  },
+  {
+   "id": 4,
+   "name": "Conservation and stewardship",
+   "chapter": "soc-geo",
+   "tier": "***",
+   "exams_seen_in": 32,
+   "total_exams": 51,
+   "why": "Natural resources appeared in 32 of the 51 real Social papers."
+  },
+  {
+   "id": 5,
+   "name": "The Delhi Sultanate",
+   "chapter": "soc-hist",
+   "tier": "**",
+   "exams_seen_in": 11,
+   "total_exams": 51,
+   "why": "NEW to the 2026-27 syllabus \u2014 the old papers did not test it. Marked by textbook emphasis."
+  },
+  {
+   "id": 6,
+   "name": "The Vijayanagara Empire",
+   "chapter": "soc-hist",
+   "tier": "**",
+   "exams_seen_in": 11,
+   "total_exams": 51,
+   "why": "NEW to the 2026-27 syllabus \u2014 the old papers did not test it. Marked by textbook emphasis."
+  },
+  {
+   "id": 7,
+   "name": "The Mughals",
+   "chapter": "soc-hist",
+   "tier": "**",
+   "exams_seen_in": 11,
+   "total_exams": 51,
+   "why": "NEW to the 2026-27 syllabus \u2014 the old papers did not test it. Marked by textbook emphasis."
+  },
+  {
+   "id": 8,
+   "name": "Resistance: Rajputs, Ahoms, Sikhs",
+   "chapter": "soc-hist",
+   "tier": "**",
+   "exams_seen_in": 11,
+   "total_exams": 51,
+   "why": "NEW to the 2026-27 syllabus \u2014 the old papers did not test it. Marked by textbook emphasis."
+  },
+  {
+   "id": 9,
+   "name": "Administration & people's lives",
+   "chapter": "soc-hist",
+   "tier": "**",
+   "exams_seen_in": 11,
+   "total_exams": 51,
+   "why": "NEW to the 2026-27 syllabus \u2014 the old papers did not test it. Marked by textbook emphasis."
+  },
+  {
+   "id": 10,
+   "name": "Universal adult franchise",
+   "chapter": "soc-civ",
+   "tier": "**",
+   "exams_seen_in": 17,
+   "total_exams": 51,
+   "why": "Elections (Lok Sabha / Rajya Sabha) appeared in 17 of the 51 real Social papers."
+  },
+  {
+   "id": 11,
+   "name": "The Election Commission of India",
+   "chapter": "soc-civ",
+   "tier": "**",
+   "exams_seen_in": 17,
+   "total_exams": 51,
+   "why": "Elections (Lok Sabha / Rajya Sabha) appeared in 17 of the 51 real Social papers."
+  },
+  {
+   "id": 12,
+   "name": "EVM, VVPAT and the Model Code",
+   "chapter": "soc-civ",
+   "tier": "**",
+   "exams_seen_in": 17,
+   "total_exams": 51,
+   "why": "Elections (Lok Sabha / Rajya Sabha) appeared in 17 of the 51 real Social papers."
+  },
+  {
+   "id": 13,
+   "name": "Lok Sabha, Rajya Sabha & elections",
+   "chapter": "soc-civ",
+   "tier": "**",
+   "exams_seen_in": 17,
+   "total_exams": 51,
+   "why": "Elections (Lok Sabha / Rajya Sabha) appeared in 17 of the 51 real Social papers."
+  },
+  {
+   "id": 14,
+   "name": "Textbook fine print (Geography)",
+   "chapter": "soc-geo",
+   "tier": "***",
+   "exams_seen_in": 32,
+   "total_exams": 51,
+   "why": "The school asks from the side-boxes, timeline and captions."
+  },
+  {
+   "id": 15,
+   "name": "Textbook fine print (History)",
+   "chapter": "soc-hist",
+   "tier": "**",
+   "exams_seen_in": 11,
+   "total_exams": 51,
+   "why": "The school asks from the side-boxes, timeline and captions."
+  },
+  {
+   "id": 16,
+   "name": "Textbook fine print (Civics)",
+   "chapter": "soc-civ",
+   "tier": "**",
+   "exams_seen_in": 17,
+   "total_exams": 51,
+   "why": "The school asks from the side-boxes, timeline and captions."
+  }
+ ],
+ "questions": [
+  {
+   "code": "soc-geo-q001",
+   "chapter": "soc-geo",
+   "skill_id": 1,
+   "stem": "What are the three categories of natural resources based on their use?",
+   "options": [
+    "Resources essential for life, resources for materials, resources for energy",
+    "Renewable resources, non-renewable resources, and recyclable resources",
+    "Water resources, mineral resources, and biological resources",
+    "Land resources, water resources, and air resources"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter categorizes natural resources based on their use into three types: essential for life, for materials, and for energy.",
+   "evidence": "One of the ways we could categorise natural resources is based on the uses we put them to \u2014 essential for our life, source for materials and sources for energy.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q002",
+   "chapter": "soc-geo",
+   "skill_id": 2,
+   "stem": "Which of the following is a renewable resource?",
+   "options": [
+    "Coal",
+    "Petroleum",
+    "Solar energy",
+    "Natural gas"
+   ],
+   "correct_option": 2,
+   "explain": "Solar energy is renewable because it can be replenished naturally and sustainably.",
+   "evidence": "Solar energy, wind energy, energy from flowing water, timber from forests are renewable resources as long as we are able to manage them in a sustainable manner.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q003",
+   "chapter": "soc-geo",
+   "skill_id": 2,
+   "stem": "What is the main condition for a resource to be considered renewable?",
+   "options": [
+    "It must be economically feasible to extract",
+    "It must be technologically accessible",
+    "The natural rhythm of restoration and regeneration must not be disturbed",
+    "It must be culturally acceptable to use"
+   ],
+   "correct_option": 2,
+   "explain": "Renewable resources must be managed so that their natural cycles of restoration and regeneration are not disrupted.",
+   "evidence": "However, for them to remain renewable there is a condition \u2014 the natural rhythm of restoration and regeneration must not be disturbed.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q004",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "Which state in India is facing a severe groundwater depletion crisis due to overexploitation?",
+   "options": [
+    "Rajasthan",
+    "Punjab",
+    "Kerala",
+    "Tamil Nadu"
+   ],
+   "correct_option": 1,
+   "explain": "Punjab is highlighted in the chapter as facing a groundwater crisis due to overuse.",
+   "evidence": "A crisis has unfolded in the fertile plains of Punjab where groundwater resources have been severely depleted.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q005",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "What is the 'paradox of plenty'?",
+   "options": [
+    "Having abundant resources leads to economic prosperity",
+    "Abundant resources guarantee sustainable development",
+    "Regions rich in resources can experience slower economic growth",
+    "Natural resources are evenly distributed across the world"
+   ],
+   "correct_option": 2,
+   "explain": "The paradox of plenty refers to the situation where resource-rich regions do not necessarily experience economic prosperity.",
+   "evidence": "Some regions rich in natural resources can experience slower economic growth and development \u2014 a phenomenon economists call the \u2018natural resource curse\u2019 or the \u2018paradox of plenty\u2019.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q007",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "What is the primary reason for the uneven distribution of natural resources?",
+   "options": [
+    "Human intervention",
+    "Geographical factors",
+    "Technological advancement",
+    "Cultural practices"
+   ],
+   "correct_option": 1,
+   "explain": "Geographical factors lead to the uneven distribution of resources across different regions.",
+   "evidence": "Natural resources are not evenly distributed across our planet or even within countries.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q008",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "Which practice is an example of conservation and stewardship?",
+   "options": [
+    "Overfishing during spawning season",
+    "Using chemical fertilizers excessively",
+    "Practicing organic farming",
+    "Clearing forests for agriculture"
+   ],
+   "correct_option": 2,
+   "explain": "Organic farming involves using natural methods to conserve resources and maintain ecological balance.",
+   "evidence": "Practices like the use of cow dung and other natural fertilisers, mulching, multi-cropping, and so on, enabled holistic soil management.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q009",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "What is the main implication of unsustainable use of natural resources?",
+   "options": [
+    "Increased biodiversity",
+    "Economic prosperity",
+    "Environmental degradation",
+    "Technological advancement"
+   ],
+   "correct_option": 2,
+   "explain": "Unsustainable use leads to environmental issues like pollution and biodiversity loss.",
+   "evidence": "Scientists studying these aspects have warned that the irresponsible treatment of natural resources has led to pollution, biodiversity loss and climate change, which has been taking place at an increased pace in recent years.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q010",
+   "chapter": "soc-geo",
+   "skill_id": 1,
+   "stem": "Which of the following resources is essential for life?",
+   "options": [
+    "Gold",
+    "Air",
+    "Coal",
+    "Iron"
+   ],
+   "correct_option": 1,
+   "explain": "Air is essential for life as it is necessary for breathing.",
+   "evidence": "Life could not exist on Earth without the air we breathe, the water we drink and the food we eat.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q011",
+   "chapter": "soc-geo",
+   "skill_id": 2,
+   "stem": "What is a key characteristic of non-renewable resources?",
+   "options": [
+    "They can be replenished quickly",
+    "They are abundant in nature",
+    "They are created over long periods",
+    "They are always environmentally friendly"
+   ],
+   "correct_option": 2,
+   "explain": "Non-renewable resources take a long time to form and cannot be quickly replenished.",
+   "evidence": "Non-renewable resources are created over long periods. They cannot be replenished at the rate we use them.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q012",
+   "chapter": "soc-geo",
+   "skill_id": 1,
+   "stem": "Which of the following is an example of a resource for materials?",
+   "options": [
+    "Air",
+    "Water",
+    "Wood",
+    "Sunlight"
+   ],
+   "correct_option": 2,
+   "explain": "Wood is used to create materials like furniture and art.",
+   "evidence": "Human beings create physical objects out of Nature\u2019s gifts. We make them for our utility or to create things of beauty that enrich our lives and those of others \u2015 a piece of wood can be transformed into a chair and also carved into a statuette.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q013",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "What is the role of the Central Pollution Control Board regarding cement factories?",
+   "options": [
+    "To increase production",
+    "To ensure pollution is minimized",
+    "To promote cement exports",
+    "To close down all cement factories"
+   ],
+   "correct_option": 1,
+   "explain": "The board sets guidelines to reduce pollution from cement production.",
+   "evidence": "The Central Pollution Control Board has created guidelines for cement factories to ensure that the pollution is minimised or eliminated.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q014",
+   "chapter": "soc-geo",
+   "skill_id": 1,
+   "stem": "Which natural resource is primarily used for energy?",
+   "options": [
+    "Marble",
+    "Coal",
+    "Gold",
+    "Timber"
+   ],
+   "correct_option": 1,
+   "explain": "Coal is a major source of energy used for electricity and heating.",
+   "evidence": "This energy can come from diverse natural sources: coal, water, petroleum, natural gas, sunlight, wind, etc.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-q015",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "What is the impact of over-pumping groundwater in Punjab?",
+   "options": [
+    "Increased water availability",
+    "Improved soil quality",
+    "Depletion of groundwater resources",
+    "Reduction in agricultural productivity"
+   ],
+   "correct_option": 2,
+   "explain": "Over-pumping has led to a significant depletion of groundwater resources.",
+   "evidence": "Almost 80% of the area of Punjab has been classified as \u2018over-exploited\u2019; in other words, we have drawn water at a rate much greater than at which restoration and rejuvenation of groundwater is possible.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q016",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "Which of the following is a traditional practice that helps in soil management?",
+   "options": [
+    "Using chemical fertilizers",
+    "Monocropping",
+    "Mulching",
+    "Deforestation"
+   ],
+   "correct_option": 2,
+   "explain": "Mulching is a traditional practice that helps retain soil moisture and improve fertility.",
+   "evidence": "Practices like the use of cow dung and other natural fertilisers, mulching, multi-cropping, and so on, enabled holistic soil management.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q017",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "What is the main reason for the 'natural resource curse'?",
+   "options": [
+    "Lack of natural resources",
+    "Over-reliance on resource extraction",
+    "Abundant technological resources",
+    "Equal distribution of resources"
+   ],
+   "correct_option": 1,
+   "explain": "The curse occurs when economies rely too much on resource extraction without developing other industries.",
+   "evidence": "Frequently, economies are unable to develop industries that convert the resources into products of higher value; the chapter \u2018Factors of Production\u2019 in the latter part of this book will give you an understanding of this.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q019",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "What is the primary use of iron ore in India?",
+   "options": [
+    "Jewelry making",
+    "Construction",
+    "Energy production",
+    "Agricultural tools"
+   ],
+   "correct_option": 1,
+   "explain": "Iron ore is primarily used in construction and manufacturing industries.",
+   "evidence": "India\u2019s geographical diversity provides us with a wide variety of natural resources, from wood to marble, and coal to gold.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q020",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "Which of the following practices can help in the conservation of water resources?",
+   "options": [
+    "Over-irrigation",
+    "Rainwater harvesting",
+    "Deforestation",
+    "Chemical pollution"
+   ],
+   "correct_option": 1,
+   "explain": "Rainwater harvesting helps conserve water by collecting and storing rainwater for future use.",
+   "evidence": "Traditional practices of water harvesting, rejuvenation of ponds and tanks, cutting down on wasteful consumption of water, processing and reusing water are some of the strategies attempted.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q021",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "What is the main challenge in managing natural resources sustainably?",
+   "options": [
+    "Lack of technology",
+    "Political boundaries",
+    "Balancing extraction with sustainability",
+    "Abundance of resources"
+   ],
+   "correct_option": 2,
+   "explain": "The main challenge is to extract resources without compromising their sustainability for future generations.",
+   "evidence": "However, the challenge of balancing resource extraction with sustainability remains.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q023",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "What is the significance of the Vr\u0323iks\u0323ha\u0304yurveda in resource management?",
+   "options": [
+    "It promotes chemical fertilizers",
+    "It focuses on sustainable agriculture",
+    "It encourages deforestation",
+    "It supports monocropping"
+   ],
+   "correct_option": 1,
+   "explain": "Vr\u0323iks\u0323ha\u0304yurveda promotes sustainable agricultural practices that maintain ecological balance.",
+   "evidence": "Vr\u0323iks\u0323ha\u0304yurveda is an ancient Indian botanical science that focuses on the study and care of plants and trees.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q025",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "What is the impact of industrial waste on natural resources?",
+   "options": [
+    "Enhances soil fertility",
+    "Increases biodiversity",
+    "Disturbs Nature\u2019s cycle of restoration and regeneration",
+    "Improves water quality"
+   ],
+   "correct_option": 2,
+   "explain": "Industrial waste can disrupt natural cycles, leading to pollution and environmental degradation.",
+   "evidence": "Instead, it leads to a disturbance in Nature\u2019s cycle of restoration and regeneration, leading to a situation where the river becomes poisonous and cannot support life.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q026",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "Which of the following is a traditional method to maintain fish populations?",
+   "options": [
+    "Overfishing",
+    "Fishing during spawning season",
+    "Regulating fishing during spawning season",
+    "Using chemical baits"
+   ],
+   "correct_option": 2,
+   "explain": "Regulating fishing during spawning helps maintain fish populations by allowing them to reproduce.",
+   "evidence": "Traditionally, communities had a system of regulating (or refraining from) fishing during the spawning season to enable the maintenance of the fish population.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q027",
+   "chapter": "soc-geo",
+   "skill_id": 4,
+   "stem": "What is the role of human knowledge in resource management?",
+   "options": [
+    "To exploit resources without limits",
+    "To ensure resources are used sustainably",
+    "To ignore resource distribution",
+    "To prioritize non-renewable resources"
+   ],
+   "correct_option": 1,
+   "explain": "Human knowledge helps in planning and managing resources sustainably for long-term benefits.",
+   "evidence": "Understanding and managing natural resources is a valuable starting point, but human knowledge, good governance, and strategic planning determine whether they become lasting benefits or temporary windfalls.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-q029",
+   "chapter": "soc-geo",
+   "skill_id": 3,
+   "stem": "What is the primary challenge in sharing natural resources across political boundaries?",
+   "options": [
+    "Technological limitations",
+    "Cultural differences",
+    "Tensions and conflicts",
+    "Abundance of resources"
+   ],
+   "correct_option": 2,
+   "explain": "Sharing resources across boundaries can lead to tensions and conflicts due to differing interests.",
+   "evidence": "Nature does not pay attention to political boundaries. This leads to tensions regarding the sharing of natural resources across states as well as countries.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q001",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "When was the Delhi Sultanate established?",
+   "options": [
+    "1206",
+    "1192",
+    "1336",
+    "1526"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter states that the Delhi Sultanate was established in 1206.",
+   "evidence": "1206: Establishment of the Delhi Sultanate",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q002",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "Which dynasty was the last to rule the Delhi Sultanate?",
+   "options": [
+    "Khiljis",
+    "Tughlaqs",
+    "Sayyids",
+    "Lodis"
+   ],
+   "correct_option": 3,
+   "explain": "The Lodis were the final dynasty of the Delhi Sultanate as per the chapter.",
+   "evidence": "...the Lodis emerged and established the last dynasty of the Delhi Sultanate.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q003",
+   "chapter": "soc-hist",
+   "skill_id": 8,
+   "stem": "Which ruler was known for the construction of the S\u016brya temple at Konark?",
+   "options": [
+    "Ala-ud-din Khilji",
+    "Narasimhadeva I",
+    "Muhammad bin Tughlaq",
+    "Krishnadevaraya"
+   ],
+   "correct_option": 1,
+   "explain": "Narasimhadeva I built the S\u016brya temple to commemorate his victories.",
+   "evidence": "Partly to commemorate these victories, he built the famed S\u016brya temple at Konark (present-day Odisha).",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q004",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "What was the outcome of the First Battle of Panipat in 1526?",
+   "options": [
+    "Babur's victory established the Mughal Empire",
+    "The Delhi Sultanate expanded its territory",
+    "The Vijayanagara Empire was defeated",
+    "The Bahmani Sultanate was established"
+   ],
+   "correct_option": 0,
+   "explain": "Babur's victory in this battle led to the establishment of the Mughal Empire.",
+   "evidence": "1526: First Battle of Panipat; Babur\u2019s victory establishes the Mughal Empire",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q005",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "Which battle marked the decisive victory of Akbar in 1556?",
+   "options": [
+    "Battle of Haldighati",
+    "Second Battle of Panipat",
+    "Battle of Talikota",
+    "Battle of Saraighat"
+   ],
+   "correct_option": 1,
+   "explain": "Akbar's decisive victory was at the Second Battle of Panipat in 1556.",
+   "evidence": "1556: Second Battle of Panipat; Akbar\u2019s decisive victory",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q006",
+   "chapter": "soc-hist",
+   "skill_id": 6,
+   "stem": "What was the significance of the Battle of Talikota in 1565?",
+   "options": [
+    "It marked the end of the Bahmani Sultanate",
+    "It led to the destruction of Vijayanagara city",
+    "It was a decisive victory for the Mughals",
+    "It established the Sikh Empire"
+   ],
+   "correct_option": 1,
+   "explain": "The battle led to the destruction of the Vijayanagara city.",
+   "evidence": "1565: Battle of Talikota, destruction of Vijayanagara city",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q007",
+   "chapter": "soc-hist",
+   "skill_id": 6,
+   "stem": "Who was the ruler of the Vijayanagara Empire during its peak in the 16th century?",
+   "options": [
+    "Harihara",
+    "Bukka Raya",
+    "Krishnadevaraya",
+    "Ramaraya"
+   ],
+   "correct_option": 2,
+   "explain": "Krishnadevaraya was the ruler during the empire's peak.",
+   "evidence": "In the 16th century, the Vijayanagara Empire reached its peak under its celebrated ruler, Krishnadevaraya.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q008",
+   "chapter": "soc-hist",
+   "skill_id": 8,
+   "stem": "Which battle did Maharana Pratap fight against the Mughals?",
+   "options": [
+    "Battle of Panipat",
+    "Battle of Haldighati",
+    "Battle of Talikota",
+    "Battle of Saraighat"
+   ],
+   "correct_option": 1,
+   "explain": "Maharana Pratap fought the Battle of Haldighati against the Mughals.",
+   "evidence": "1576: Battle of Haldighati; Maharana Pratap forced to retreat",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q010",
+   "chapter": "soc-hist",
+   "skill_id": 8,
+   "stem": "Who established the Khalsa in 1699?",
+   "options": [
+    "Guru Nanak",
+    "Guru Gobind Singh",
+    "Guru Arjan Dev",
+    "Guru Tegh Bahadur"
+   ],
+   "correct_option": 1,
+   "explain": "Guru Gobind Singh established the Khalsa in 1699.",
+   "evidence": "1699: Formation of the Khalsa by Guru Gobind Singh",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q011",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "Which ruler moved the capital from Delhi to Daulatabad?",
+   "options": [
+    "Ala-ud-din Khilji",
+    "Muhammad bin Tughlaq",
+    "Ibrahim Lodi",
+    "Babur"
+   ],
+   "correct_option": 1,
+   "explain": "Muhammad bin Tughlaq moved the capital to Daulatabad.",
+   "evidence": "Muhammad bin Tughlaq had ambitious schemes, but they were often poorly executed. One such was moving his capital from Delhi to Daulatabad...",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q012",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "What was the primary reason for Babur's interest in India?",
+   "options": [
+    "To spread Islam",
+    "To escape from Samarkand",
+    "India's wealth",
+    "To form alliances with Indian rulers"
+   ],
+   "correct_option": 2,
+   "explain": "Babur was interested in India's wealth.",
+   "evidence": "Perhaps for the last reasons, especially India\u2019s wealth, he decided to stay and build his empire in India rather than return to Central Asia.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q013",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "Which empire did Sher Shah Suri establish after defeating Humayun?",
+   "options": [
+    "Mughal Empire",
+    "Sur Empire",
+    "Delhi Sultanate",
+    "Vijayanagara Empire"
+   ],
+   "correct_option": 1,
+   "explain": "Sher Shah Suri established the Sur Empire.",
+   "evidence": "Sher Shah Suri, a powerful Afghan leader, established the Sur Empire over large parts of north India...",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q014",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "What was the impact of Timur's invasion of Delhi?",
+   "options": [
+    "It strengthened the Delhi Sultanate",
+    "It led to the establishment of the Mughal Empire",
+    "It left the city in ruins",
+    "It resulted in the formation of the Sikh Empire"
+   ],
+   "correct_option": 2,
+   "explain": "Timur's invasion left Delhi in ruins.",
+   "evidence": "Large numbers were killed or enslaved, and the city was left in ruins.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q015",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "Which ruler was known for his ambitious but poorly executed schemes?",
+   "options": [
+    "Ala-ud-din Khilji",
+    "Muhammad bin Tughlaq",
+    "Krishnadevaraya",
+    "Babur"
+   ],
+   "correct_option": 1,
+   "explain": "Muhammad bin Tughlaq was known for poorly executed schemes.",
+   "evidence": "Muhammad bin Tughlaq had ambitious schemes, but they were often poorly executed.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q017",
+   "chapter": "soc-hist",
+   "skill_id": 6,
+   "stem": "Which ruler expanded the Vijayanagara Empire's dominance over the Deccan?",
+   "options": [
+    "Harihara",
+    "Bukka Raya",
+    "Krishnadevaraya",
+    "Ramaraya"
+   ],
+   "correct_option": 2,
+   "explain": "Krishnadevaraya expanded the empire's dominance.",
+   "evidence": "In the 16th century, the Vijayanagara Empire reached its peak under its celebrated ruler, Krishnadevaraya, who expanded and secured the empire\u2019s dominance over the Deccan.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q018",
+   "chapter": "soc-hist",
+   "skill_id": 6,
+   "stem": "What was the main reason for the decline of the Vijayanagara Empire?",
+   "options": [
+    "Invasion by the Mughals",
+    "Internal conflicts",
+    "Defeat at the Battle of Talikota",
+    "Economic decline"
+   ],
+   "correct_option": 2,
+   "explain": "The defeat at the Battle of Talikota led to the empire's decline.",
+   "evidence": "In 1565, the Deccan Sultanates formed a coalition and defeated the Vijayanagara forces led by Ramaraya, Krishnadevaraya\u2019s son-in-law, at the Battle of Talikota.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q019",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "Which Mughal ruler was known for his autobiography, Baburnama?",
+   "options": [
+    "Akbar",
+    "Humayun",
+    "Babur",
+    "Aurangzeb"
+   ],
+   "correct_option": 2,
+   "explain": "Babur wrote the Baburnama.",
+   "evidence": "Babur left a candid autobiography of great historical value, Baburnama (\u2018Babur\u2019s Memoirs\u2019).",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q020",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "What was the purpose of the jizya tax imposed by some sultans?",
+   "options": [
+    "To fund military campaigns",
+    "To grant protection and exemption from military service to non-Muslims",
+    "To encourage trade",
+    "To build infrastructure"
+   ],
+   "correct_option": 1,
+   "explain": "The jizya was a tax for protection and exemption from military service.",
+   "evidence": "Some of the sultans also imposed the jizya, a tax on non-Muslim subjects to grant them protection and exemption from military service.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q021",
+   "chapter": "soc-hist",
+   "skill_id": 8,
+   "stem": "Who was the ruler of the Mewar kingdom who resisted invasions in the 15th century?",
+   "options": [
+    "Maharana Pratap",
+    "Rana Kumbha",
+    "Rana Sanga",
+    "Rana Udai Singh"
+   ],
+   "correct_option": 1,
+   "explain": "Rana Kumbha resisted invasions in the 15th century.",
+   "evidence": "In the 15th century, it faced stiff resistance from Rana Kumbha, the ruler of the Mewar kingdom, who also successfully repelled invasions from these later sultanates.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q023",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "What was the main reason for Muhammad bin Tughlaq's capital relocation to Daulatabad?",
+   "options": [
+    "To escape Mongol invasions",
+    "To centralize control over the empire",
+    "To establish a new trade route",
+    "To build a new palace"
+   ],
+   "correct_option": 1,
+   "explain": "The relocation was intended to centralize control.",
+   "evidence": "...perhaps he thought its more central location would offer better control of the empire.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q024",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "Which empire did Babur establish after defeating Ibrahim Lodi?",
+   "options": [
+    "Delhi Sultanate",
+    "Vijayanagara Empire",
+    "Mughal Empire",
+    "Sur Empire"
+   ],
+   "correct_option": 2,
+   "explain": "Babur established the Mughal Empire.",
+   "evidence": "...Babur\u2019s victory establishes the Mughal Empire",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-q026",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "Which ruler's military campaigns expanded the Delhi Sultanate's reach southward?",
+   "options": [
+    "Ala-ud-din Khilji",
+    "Muhammad bin Tughlaq",
+    "Ibrahim Lodi",
+    "Babur"
+   ],
+   "correct_option": 0,
+   "explain": "Ala-ud-din Khilji's campaigns expanded the Sultanate southward.",
+   "evidence": "His slave-general Malik Kafur expanded the Sultanate\u2019s reach southward, conquering several kingdoms on the way...",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q028",
+   "chapter": "soc-hist",
+   "skill_id": 7,
+   "stem": "Which ruler was known for his brutal and ruthless conquests, including erecting 'towers of skulls'?",
+   "options": [
+    "Akbar",
+    "Babur",
+    "Ala-ud-din Khilji",
+    "Muhammad bin Tughlaq"
+   ],
+   "correct_option": 1,
+   "explain": "Babur was known for his brutal conquests.",
+   "evidence": "But he was also a brutal and ruthless conqueror, slaughtering entire populations of cities, enslaving women and children, and taking pride in erecting \u2018towers of skulls\u2019 made from the slaughtered people of plundered cities.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-q031",
+   "chapter": "soc-hist",
+   "skill_id": 5,
+   "stem": "Which ruler's military campaigns were repelled by Ala-ud-din Khilji?",
+   "options": [
+    "Mongol forces",
+    "Rajput forces",
+    "Vijayanagara forces",
+    "Bahmani Sultanate forces"
+   ],
+   "correct_option": 0,
+   "explain": "Ala-ud-din Khilji repelled Mongol invasions.",
+   "evidence": "...he also repelled several invasions by Mongol forces, who were trying to add India to the vast Mongol Empire...",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q001",
+   "chapter": "soc-civ",
+   "skill_id": 10,
+   "stem": "What is the minimum age for voting in India as per the universal adult franchise?",
+   "options": [
+    "18 years",
+    "21 years",
+    "16 years",
+    "25 years"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter states that the voting age was changed to 18 in 1988.",
+   "evidence": "India changed the minimum age for voting from 21 to 18 in 1988.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q002",
+   "chapter": "soc-civ",
+   "skill_id": 10,
+   "stem": "Which article of the Indian Constitution is related to universal adult franchise?",
+   "options": [
+    "Article 326",
+    "Article 370",
+    "Article 21",
+    "Article 51"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter explicitly mentions Article 326 in relation to universal franchise.",
+   "evidence": "Elections to the Lok Sabha, the legislative assembly of every state and union territory, and all the local elections in villages and cities are based on universal franchise (Article 326 of the Constitution).",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q003",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "Who is responsible for conducting elections to the Lok Sabha and State Legislative Assemblies in India?",
+   "options": [
+    "Election Commission of India",
+    "Supreme Court of India",
+    "President of India",
+    "Parliament of India"
+   ],
+   "correct_option": 0,
+   "explain": "The ECI is mentioned as the body responsible for conducting elections.",
+   "evidence": "The Election Commission of India (ECI) is an independent constitutional body responsible for conducting free and fair elections.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q004",
+   "chapter": "soc-civ",
+   "skill_id": 10,
+   "stem": "What innovative measure was introduced in 2024 to help elderly and disabled voters in India?",
+   "options": [
+    "Postal voting",
+    "Online voting",
+    "Proxy voting",
+    "Compulsory voting"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter describes postal voting as a new measure for accessibility.",
+   "evidence": "In 2024, for the first time, the elderly and people with disabilities could cast their votes from home, and the postal voting option was available for a specific category of voters.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q005",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "Who was the first Chief Election Commissioner to bring significant reforms in Indian elections?",
+   "options": [
+    "T.N. Seshan",
+    "Sukumar Sen",
+    "Sunil Arora",
+    "S.Y. Quraishi"
+   ],
+   "correct_option": 0,
+   "explain": "T.N. Seshan is credited with major electoral reforms.",
+   "evidence": "T.N. Seshan became the Chief Election Commissioner in 1990. He brought in reforms to ensure free and fair elections.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q006",
+   "chapter": "soc-civ",
+   "skill_id": 12,
+   "stem": "What is the purpose of the Model Code of Conduct during elections?",
+   "options": [
+    "To ensure free and fair elections",
+    "To increase voter turnout",
+    "To promote political parties",
+    "To regulate media coverage"
+   ],
+   "correct_option": 0,
+   "explain": "The Model Code of Conduct is designed to ensure fair elections.",
+   "evidence": "The code is followed to ensure free and fair elections, listing the dos and don\u2019ts for leaders, political parties, and candidates that must be adhered to.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q007",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "How are Members of the Rajya Sabha elected?",
+   "options": [
+    "Indirect elections by state legislative assemblies",
+    "Direct elections by the public",
+    "Nominated by the President",
+    "Elected by Lok Sabha members"
+   ],
+   "correct_option": 0,
+   "explain": "Rajya Sabha members are elected indirectly by state assemblies.",
+   "evidence": "The candidates elected to the Rajya Sabha are also known as Members of Parliament (MPs), but they are chosen through indirect elections.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q008",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "What is the term length for a member of the Rajya Sabha?",
+   "options": [
+    "6 years",
+    "5 years",
+    "4 years",
+    "3 years"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter states that Rajya Sabha members serve for six years.",
+   "evidence": "A member of the Rajya Sabha has a six-year term.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q009",
+   "chapter": "soc-civ",
+   "skill_id": 12,
+   "stem": "What does VVPAT stand for in the context of Indian elections?",
+   "options": [
+    "Voter Verifiable Paper Audit Trail",
+    "Voter Verification and Polling Audit Technology",
+    "Voting Verification and Paper Audit Trail",
+    "Voter Verification and Paper Audit Technology"
+   ],
+   "correct_option": 0,
+   "explain": "VVPAT is a system for verifying electronic votes with a paper trail.",
+   "evidence": "VVPAT is a system that produces a physical paper record, allowing voters to verify that their electronic votes were cast correctly.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q010",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "Which system is used for voting in the Lok Sabha elections?",
+   "options": [
+    "First-Past-the-Post",
+    "Proportional Representation",
+    "Single Transferable Vote",
+    "Mixed-Member Proportional"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter mentions the First-Past-the-Post system for Lok Sabha elections.",
+   "evidence": "India uses the \u2018First-Past-the-Post\u2019 electoral system, wherein the candidate receiving the most votes in a constituency wins.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q011",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "What is the role of the Returning Officer in Indian elections?",
+   "options": [
+    "Conducts elections",
+    "Registers political parties",
+    "Sets election dates",
+    "Oversees the entire electoral process"
+   ],
+   "correct_option": 0,
+   "explain": "The Returning Officer is responsible for conducting elections.",
+   "evidence": "Returning Officer (RO) (conducts elections)",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q012",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "How many Lok Sabha constituencies are there in India?",
+   "options": [
+    "543",
+    "545",
+    "550",
+    "540"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter states there are 543 Lok Sabha constituencies.",
+   "evidence": "Over 968 million voters were eligible to exercise their franchise for the 543 constituencies of the Lok Sabha.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q014",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "Which body manages elections to gram panchayats and urban local bodies?",
+   "options": [
+    "State Election Commissions",
+    "Election Commission of India",
+    "Ministry of Home Affairs",
+    "Local Government Bodies"
+   ],
+   "correct_option": 0,
+   "explain": "State Election Commissions handle local body elections.",
+   "evidence": "The State Election Commissions manage these.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q015",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "What is the primary function of the Chief Election Commissioner?",
+   "options": [
+    "Oversees the entire electoral process",
+    "Registers political parties",
+    "Sets election dates",
+    "Conducts elections"
+   ],
+   "correct_option": 0,
+   "explain": "The Chief Election Commissioner oversees the electoral process.",
+   "evidence": "The Election Commission of India (ECI) is an independent constitutional body responsible for conducting free and fair elections.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q016",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "Which of the following is NOT a task performed by the Election Commission of India?",
+   "options": [
+    "Conducting elections to the Lok Sabha",
+    "Registering political parties",
+    "Enforcing the Model Code of Conduct",
+    "Appointing the Prime Minister"
+   ],
+   "correct_option": 3,
+   "explain": "The ECI does not appoint the Prime Minister.",
+   "evidence": "The Election Commission of India (ECI) is an independent constitutional body responsible for conducting free and fair elections.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q018",
+   "chapter": "soc-civ",
+   "skill_id": 12,
+   "stem": "Which of the following is a violation of the Model Code of Conduct?",
+   "options": [
+    "Distributing gifts to influence voters",
+    "Holding public rallies",
+    "Using social media for campaigns",
+    "Announcing election dates"
+   ],
+   "correct_option": 0,
+   "explain": "Distributing gifts to influence voters is against the Model Code.",
+   "evidence": "Influencing voters through gifts in return for votes is punishable.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q019",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "What is the role of the Chief Electoral Officer at the state level?",
+   "options": [
+    "Oversees elections in the state",
+    "Registers political parties",
+    "Sets national election dates",
+    "Conducts elections for the President"
+   ],
+   "correct_option": 0,
+   "explain": "The Chief Electoral Officer oversees state elections.",
+   "evidence": "Chief Electoral Officer",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q020",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "How many members of the Rajya Sabha are nominated by the President of India?",
+   "options": [
+    "12",
+    "10",
+    "15",
+    "20"
+   ],
+   "correct_option": 0,
+   "explain": "The President nominates 12 members to the Rajya Sabha.",
+   "evidence": "Of the 245 members of the Rajya Sabha, 233 are elected by the elected members of the state legislative assemblies (MLAs), while the President of India nominates 12.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q021",
+   "chapter": "soc-civ",
+   "skill_id": 12,
+   "stem": "What is the primary purpose of the VVPAT system?",
+   "options": [
+    "To provide a paper trail for electronic votes",
+    "To register political parties",
+    "To announce election results",
+    "To conduct online voting"
+   ],
+   "correct_option": 0,
+   "explain": "VVPAT provides a paper trail for verification of electronic votes.",
+   "evidence": "VVPAT is a system that produces a physical paper record, allowing voters to verify that their electronic votes were cast correctly.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q022",
+   "chapter": "soc-civ",
+   "skill_id": 10,
+   "stem": "What is the term used for the right to vote in elections?",
+   "options": [
+    "Franchise",
+    "Mandate",
+    "Referendum",
+    "Plebiscite"
+   ],
+   "correct_option": 0,
+   "explain": "The term 'franchise' refers to the right to vote.",
+   "evidence": "Franchise: A right granted by the constitution or government.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q023",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "Which electoral system is used for Rajya Sabha elections?",
+   "options": [
+    "Single transferable vote system",
+    "First-Past-the-Post",
+    "Proportional Representation",
+    "Mixed-Member Proportional"
+   ],
+   "correct_option": 0,
+   "explain": "The Rajya Sabha uses the single transferable vote system.",
+   "evidence": "There is a difference, however, in the voting process. It uses what is called a \u2018single transferable vote system\u2019.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q024",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "What is the role of the District Election Officer?",
+   "options": [
+    "Oversees elections at the district level",
+    "Registers political parties",
+    "Sets national election dates",
+    "Conducts elections for the President"
+   ],
+   "correct_option": 0,
+   "explain": "The District Election Officer manages elections at the district level.",
+   "evidence": "District Election Officer",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q025",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "How many seats are reserved for Scheduled Castes in the Lok Sabha?",
+   "options": [
+    "84",
+    "47",
+    "100",
+    "50"
+   ],
+   "correct_option": 0,
+   "explain": "The chapter states 84 seats are reserved for Scheduled Castes.",
+   "evidence": "84 of the Lok Sabha constituencies are reserved for persons from the scheduled castes.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-q026",
+   "chapter": "soc-civ",
+   "skill_id": 11,
+   "stem": "What is the primary function of the Electoral Registration Officer?",
+   "options": [
+    "Manages voter list",
+    "Registers political parties",
+    "Sets election dates",
+    "Conducts elections"
+   ],
+   "correct_option": 0,
+   "explain": "The Electoral Registration Officer manages the voter list.",
+   "evidence": "Electoral Registration Officer (ERO) (manages voter list)",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-q027",
+   "chapter": "soc-civ",
+   "skill_id": 13,
+   "stem": "What is the significance of the 'First-Past-the-Post' system?",
+   "options": [
+    "Candidate with most votes wins",
+    "Proportional representation",
+    "Single transferable vote",
+    "Mixed-Member Proportional"
+   ],
+   "correct_option": 0,
+   "explain": "In this system, the candidate with the most votes wins.",
+   "evidence": "India uses the \u2018First-Past-the-Post\u2019 electoral system, wherein the candidate receiving the most votes in a constituency wins.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-fp001",
+   "chapter": "soc-geo",
+   "skill_id": 14,
+   "stem": "In many indigenous traditions, how is Nature viewed?",
+   "options": [
+    "As a sacred entity",
+    "As a resource to exploit",
+    "As a scientific phenomenon",
+    "As an economic asset"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print mentions that Nature is considered sacred in many indigenous traditions.",
+   "evidence": "In many indigenous traditions of the world, Nature is considered sacred.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-geo-fp002",
+   "chapter": "soc-geo",
+   "skill_id": 14,
+   "stem": "What is an example of an ecosystem service?",
+   "options": [
+    "Trees producing oxygen",
+    "Animals migrating",
+    "Rivers flowing",
+    "Mountains forming"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print explains that trees producing oxygen is an example of an ecosystem service.",
+   "evidence": "For example, trees naturally produce oxygen. When these natural processes benefit humans, we call them \u2018ecosystem services\u2019.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-fp004",
+   "chapter": "soc-geo",
+   "skill_id": 14,
+   "stem": "Which river is the Mettur dam in Tamil Nadu built on?",
+   "options": [
+    "Kaveri river",
+    "Ganga river",
+    "Yamuna river",
+    "Godavari river"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print specifies that the Mettur dam is built on the Kaveri river.",
+   "evidence": "Fig. 1.13. Mettur dam in Tamil Nadu built on the Kaveri river",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-geo-fp009",
+   "chapter": "soc-geo",
+   "skill_id": 14,
+   "stem": "What does the fine print suggest about the origin of things around us?",
+   "options": [
+    "They all lead to Nature",
+    "They are man-made",
+    "They are from outer space",
+    "They are eternal"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print suggests that everything ultimately originates from Nature.",
+   "evidence": "At some point they all lead to Nature; even the plastic button on your shirt.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-fp001",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "Which term is used in English to refer to statues used for worship in temples or homes, as it is considered neutral?",
+   "options": [
+    "Idol",
+    "Icon",
+    "Image",
+    "M\u016brti"
+   ],
+   "correct_option": 2,
+   "explain": "The term 'image' is used because 'idol' and 'icon' are considered pejorative in certain religious contexts.",
+   "evidence": "In English, \u2018image\u2019 is a neutral term.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp002",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "Who were the Telugu chieftains that rallied over 75 more chieftains to form a confederacy against the Delhi Sultanate?",
+   "options": [
+    "Hoysalas",
+    "Musunuri Nayakas",
+    "Eastern Gangas",
+    "Vijayanagara Kings"
+   ],
+   "correct_option": 1,
+   "explain": "The Musunuri Nayakas were key figures in resisting the Delhi Sultanate's forces.",
+   "evidence": "During the time of the Tughlaqs, the Musunuri Nayakas, Telugu chieftains, rallied over 75 more chieftains of the region.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp003",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "What remarkable sight did Harihara and Bukka witness at Hampi according to popular folklore?",
+   "options": [
+    "A lion chasing a deer",
+    "A hare turning around and chasing a pack of hounds",
+    "An eagle catching a snake",
+    "A tiger swimming across a river"
+   ],
+   "correct_option": 1,
+   "explain": "This sight was interpreted as a symbol of resilience and bravery.",
+   "evidence": "According to popular folklore, Harihara and Bukka witnessed a remarkable sight at Hampi (in present-day Karnataka) \u2014 a hare turning around and chasing a pack of hounds.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-fp004",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "Which Portuguese traveller left a detailed record of his stay in the Vijayanagara capital?",
+   "options": [
+    "Vasco da Gama",
+    "Ferdinand Magellan",
+    "Domingo Paes",
+    "Christopher Columbus"
+   ],
+   "correct_option": 2,
+   "explain": "Domingo Paes documented his observations of the Vijayanagara Empire.",
+   "evidence": "One of them, Domingo Paes, left a long and detailed record of his stay in the Vijayanagara capital.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp005",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "What does the term 'pati' mean in titles like 'Gajapati'?",
+   "options": [
+    "Warrior",
+    "Priest",
+    "Lord",
+    "Merchant"
+   ],
+   "correct_option": 2,
+   "explain": "'Pati' signifies authority and leadership in titles.",
+   "evidence": "Pati means \u2018lord\u2019 or \u2018master\u2019 and was commonly used by many ruling dynasties of this period to signify power and stature.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-fp006",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "Which Sikh Guru was beheaded by Aurangzeb in 1675 at the site marked by Gurudwara Sis Ganj Sahib?",
+   "options": [
+    "Guru Nanak",
+    "Guru Gobind Singh",
+    "Guru Tegh Bahadur",
+    "Guru Arjan Dev"
+   ],
+   "correct_option": 2,
+   "explain": "Guru Tegh Bahadur's sacrifice is commemorated at this site.",
+   "evidence": "This one marks the site where Guru Tegh Bahadur, the ninth Sikh Guru, was beheaded by Aurangzeb in 1675.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp007",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "What was the primary function of a 'hundi' in historical trade networks?",
+   "options": [
+    "To transport goods",
+    "To serve as a currency",
+    "To make payment instructions",
+    "To record trade agreements"
+   ],
+   "correct_option": 2,
+   "explain": "Hundis facilitated financial transactions across borders without physical currency.",
+   "evidence": "A hundi was a written instruction to make payment to an individual.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp009",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "What was the role of the Mir Bakhshi in the Mughal administration?",
+   "options": [
+    "In charge of public works",
+    "Looked after military matters",
+    "Managed trade and industry",
+    "Oversaw agriculture"
+   ],
+   "correct_option": 1,
+   "explain": "The Mir Bakhshi was responsible for military affairs in the Mughal administration.",
+   "evidence": "while the Mir Bakhshi looked after military matters",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp010",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "What does the Gurudwara Sis Ganj Sahib in Chandni Chowk signify?",
+   "options": [
+    "The birth of Guru Nanak",
+    "The martyrdom of Guru Arjan Dev",
+    "The beheading of Guru Tegh Bahadur",
+    "The establishment of the Khalsa"
+   ],
+   "correct_option": 2,
+   "explain": "The Gurudwara commemorates the sacrifice of Guru Tegh Bahadur.",
+   "evidence": "This one marks the site where Guru Tegh Bahadur, the ninth Sikh Guru, was beheaded by Aurangzeb in 1675.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-fp011",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "Which empire's capital did Harihara and Bukka establish at Hampi?",
+   "options": [
+    "Mughal Empire",
+    "Vijayanagara Empire",
+    "Maratha Empire",
+    "Delhi Sultanate"
+   ],
+   "correct_option": 1,
+   "explain": "Hampi became the capital of the Vijayanagara Empire.",
+   "evidence": "advised them to establish their capital at that very spot.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-fp012",
+   "chapter": "soc-hist",
+   "skill_id": 15,
+   "stem": "What was the primary reason Portuguese travellers were well treated in Vijayanagara?",
+   "options": [
+    "They brought precious spices",
+    "They were allies in warfare",
+    "They sold horses",
+    "They introduced new technologies"
+   ],
+   "correct_option": 2,
+   "explain": "The king valued the horses for military purposes and wanted to prevent them from reaching enemies.",
+   "evidence": "Portuguese travellers, in particular, were very well treated, as they came to sell horses and the king did not want them to go and sell those precious horses to enemy kingdoms!",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-fp001",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "How many elected representatives does India have in local government bodies?",
+   "options": [
+    "3.1 million",
+    "2.5 million",
+    "1.3 million",
+    "4 million"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print mentions the total number of elected representatives in local government bodies.",
+   "evidence": "India has 3.1 million elected representatives (1.3 million of them women) in more than 250,000 local government bodies across India.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-fp002",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "What unique method was used in the 10th century for selecting representatives according to the Uttaramerur inscriptions?",
+   "options": [
+    "Drawing lots from a pot",
+    "Voting by raising hands",
+    "Secret ballot",
+    "Voice vote"
+   ],
+   "correct_option": 0,
+   "explain": "The method involved drawing lots from a pot as described in the inscriptions.",
+   "evidence": "The Uttaramerur inscriptions from the 10th century describe a transparent process for the selection of representatives. Eligible candidates\u2019 names were written on fragments of palm leaves and placed in a pot, which was then sealed.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-fp003",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "How many Lok Sabha constituencies are reserved for Scheduled Tribes (ST)?",
+   "options": [
+    "47",
+    "84",
+    "100",
+    "65"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print specifies the number of constituencies reserved for STs.",
+   "evidence": "47 are reserved for scheduled tribes.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-fp004",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "Who became the Chief Election Commissioner of India in 1990 and introduced significant electoral reforms?",
+   "options": [
+    "T.N. Seshan",
+    "Sukumar Sen",
+    "Sunil Arora",
+    "Nasim Zaidi"
+   ],
+   "correct_option": 0,
+   "explain": "T.N. Seshan is noted for his reforms in the electoral process.",
+   "evidence": "T.N. Seshan became the Chief Election Commissioner in 1990.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-fp005",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "What is the term used for the legislative assembly in some regional languages?",
+   "options": [
+    "Vidhan Sabha",
+    "Lok Sabha",
+    "Rajya Sabha",
+    "Panchayat"
+   ],
+   "correct_option": 0,
+   "explain": "The fine print provides examples of regional names for the legislative assembly.",
+   "evidence": "The legislative assembly is called by several names in regional languages, for example, Vidhan Sabha and Niyama Sabha.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-fp006",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "What option is available on the ballot for voters who do not wish to vote for any candidate?",
+   "options": [
+    "NOTA",
+    "Blank Vote",
+    "Abstain",
+    "Void"
+   ],
+   "correct_option": 0,
+   "explain": "NOTA allows voters to express disapproval of all candidates.",
+   "evidence": "NOTA (None Of The Above) option is also available.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-fp007",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "What was one of the reforms introduced by T.N. Seshan to ensure free and fair elections?",
+   "options": [
+    "Voter IDs to eliminate proxy voting",
+    "Online voting system",
+    "Extended voting hours",
+    "Mandatory voting"
+   ],
+   "correct_option": 0,
+   "explain": "Voter IDs were introduced to prevent proxy voting.",
+   "evidence": "T.N. Seshan brought in reforms to ensure free and fair elections, among them: campaigning to follow precise rules, voter IDs to eliminate proxy voting.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-civ-fp008",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "What is the cornerstone of Indian democracy?",
+   "options": [
+    "Universal adult franchise",
+    "Judicial independence",
+    "Federal structure",
+    "Economic equality"
+   ],
+   "correct_option": 0,
+   "explain": "The right to vote for all adults is fundamental to Indian democracy.",
+   "evidence": "Universal adult franchise is the cornerstone of Indian democracy.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-civ-fp011",
+   "chapter": "soc-civ",
+   "skill_id": 16,
+   "stem": "What is the significance of the year 1913?",
+   "options": [
+    "Women's suffrage parade in the USA",
+    "First Indian general election",
+    "Formation of the Election Commission of India",
+    "Introduction of electronic voting machines"
+   ],
+   "correct_option": 0,
+   "explain": "The year marks an important event in the women's suffrage movement.",
+   "evidence": "Fig. 5.3. Women\u2019s suffrage parade, USA, 1913",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-adm001",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "Who was responsible for the translation of major Sanskrit texts into Persian during the Mughal period?",
+   "options": [
+    "Akbar",
+    "Babur",
+    "Aurangzeb",
+    "Shah Jahan"
+   ],
+   "correct_option": 0,
+   "explain": "Akbar was keen on cultural integration and promoted the translation of important texts to bridge cultural gaps.",
+   "evidence": "He established a \u2018house of translation\u2019 at Fatehpur Sikri where he had major Sanskrit texts translated into Persian, including the Mah\u0101bh\u0101rata (Razmnama in Persian, or the \u2018Book of War\u2019), the R\u0101m\u0101ya\u1e47a (with 176 beautiful miniature paintings), the Bhagavad G\u012bt\u0101, and the Pa\u00f1chatantra.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-adm002",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "What was the primary reason Babur decided to stay and build his empire in India?",
+   "options": [
+    "India's wealth",
+    "Fertile lands",
+    "Strategic location",
+    "Cultural diversity"
+   ],
+   "correct_option": 0,
+   "explain": "Babur was attracted by the wealth of India, which influenced his decision to establish his empire there.",
+   "evidence": "Perhaps for the last reasons, especially India\u2019s wealth, he decided to stay and build his empire in India rather than return to Central Asia.",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  },
+  {
+   "code": "soc-hist-adm003",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "Which tax did Akbar abolish as part of his policy of religious tolerance?",
+   "options": [
+    "Jizya",
+    "Land revenue",
+    "Trade tax",
+    "Military tax"
+   ],
+   "correct_option": 0,
+   "explain": "The abolition of the jizya was a significant step towards religious tolerance under Akbar's rule.",
+   "evidence": "...abolished the jizya, and promoted the doctrine of sulh-i-kul \u2014 literally, \u2018peace with all\u2019 or tolerance of all faiths.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-adm004",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "What was the impact of Aurangzeb's military campaigns on the Mughal Empire's treasury?",
+   "options": [
+    "Depleted the treasury",
+    "Increased wealth",
+    "Had no impact",
+    "Led to economic growth"
+   ],
+   "correct_option": 0,
+   "explain": "Aurangzeb's extensive military campaigns were financially draining, contributing to the empire's decline.",
+   "evidence": "Maintaining large armies for those campaigns depleted the empire\u2019s treasury and put a great strain on the administration; indeed, this is often considered one of key factors in the rapid decline of Mughal power after Aurangzeb\u2019s death in 1707.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-adm006",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "How did Akbar's approach to governance differ from earlier rulers of Delhi?",
+   "options": [
+    "He employed political strategies",
+    "He relied solely on military might",
+    "He avoided any conquests",
+    "He isolated his empire"
+   ],
+   "correct_option": 0,
+   "explain": "Akbar used a combination of political alliances and military strategies to expand and stabilize his empire.",
+   "evidence": "As his empire grew, he increasingly used political strategies to stabilise it; he entered into marriage alliances with princesses of neighbouring kingdoms, welcomed Rajput and regional leaders into his court...",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-adm007",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "What was one of the reasons for the frequent rebellions against the Mughal administration?",
+   "options": [
+    "Harsh exploitation",
+    "Religious tolerance",
+    "Cultural diversity",
+    "Economic prosperity"
+   ],
+   "correct_option": 0,
+   "explain": "The oppressive policies and exploitation by the Mughal administration led to frequent rebellions.",
+   "evidence": "Over the centuries, many peasant communities rebelled against harsh exploitation.",
+   "difficulty": "medium",
+   "marks": 2,
+   "timer_seconds": 120
+  },
+  {
+   "code": "soc-hist-adm008",
+   "chapter": "soc-hist",
+   "skill_id": 9,
+   "stem": "What was the role of Abul Fazl in Akbar's court?",
+   "options": [
+    "Court historian and biographer",
+    "Military commander",
+    "Religious leader",
+    "Architect"
+   ],
+   "correct_option": 0,
+   "explain": "Abul Fazl was a key figure in documenting Akbar's reign and policies.",
+   "evidence": "His court historian and biographer Abul Fazl recorded him as stating...",
+   "difficulty": "easy",
+   "marks": 1,
+   "timer_seconds": 60
+  }
+ ]
+}
