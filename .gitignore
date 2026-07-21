@@ -9,6 +9,9 @@ supabase/.env
 data/question-papers/
 data/subject/
 
+# Generated drill worksheets (local practice material, regenerate anytime)
+data/drills/
+
 # Flutter / Dart
 app/build/
 app/.dart_tool/

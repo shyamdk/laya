@@ -1,0 +1,93 @@
+{
+  "strands": [
+    {
+      "code": "addition",
+      "name": "Addition",
+      "levels": [
+        {"code": "ADD-1", "seq": 1, "title": "Single digits, sums to 10",
+         "gen": {"type": "add", "a": [0, 9], "b": [0, 9], "max_sum": 10, "digits_a": 1, "digits_b": 1}},
+        {"code": "ADD-2", "seq": 2, "title": "Single digits, sums 11-18",
+         "gen": {"type": "add", "a": [2, 9], "b": [2, 9], "min_sum": 11, "max_sum": 18, "digits_a": 1, "digits_b": 1}},
+        {"code": "ADD-3", "seq": 3, "title": "2-digit + 1-digit, no carrying",
+         "gen": {"type": "add", "digits_a": 2, "digits_b": 1, "carry": false}},
+        {"code": "ADD-4", "seq": 4, "title": "2-digit + 2-digit, no carrying",
+         "gen": {"type": "add", "digits_a": 2, "digits_b": 2, "carry": false}},
+        {"code": "ADD-5", "seq": 5, "title": "2-digit + 2-digit, with carrying",
+         "gen": {"type": "add", "digits_a": 2, "digits_b": 2, "carry": true}},
+        {"code": "ADD-6", "seq": 6, "title": "3-digit + 3-digit, with carrying",
+         "gen": {"type": "add", "digits_a": 3, "digits_b": 3, "carry": true}},
+        {"code": "ADD-7", "seq": 7, "title": "Column addition of 3 numbers (2-digit)",
+         "gen": {"type": "add_column", "digits": 2, "count": 3}}
+      ]
+    },
+    {
+      "code": "subtraction",
+      "name": "Subtraction",
+      "levels": [
+        {"code": "SUB-1", "seq": 1, "title": "Single digits, no borrowing",
+         "gen": {"type": "sub", "digits_a": 1, "digits_b": 1, "borrow": false}},
+        {"code": "SUB-2", "seq": 2, "title": "2-digit - 1-digit, no borrowing",
+         "gen": {"type": "sub", "digits_a": 2, "digits_b": 1, "borrow": false}},
+        {"code": "SUB-3", "seq": 3, "title": "2-digit - 2-digit, no borrowing",
+         "gen": {"type": "sub", "digits_a": 2, "digits_b": 2, "borrow": false}},
+        {"code": "SUB-4", "seq": 4, "title": "2-digit - 2-digit, with borrowing",
+         "gen": {"type": "sub", "digits_a": 2, "digits_b": 2, "borrow": true}},
+        {"code": "SUB-5", "seq": 5, "title": "3-digit - 3-digit, with borrowing",
+         "gen": {"type": "sub", "digits_a": 3, "digits_b": 3, "borrow": true}},
+        {"code": "SUB-6", "seq": 6, "title": "3-digit - 3-digit, with zeros (e.g. 500 - 237)",
+         "gen": {"type": "sub", "digits_a": 3, "digits_b": 3, "borrow": true, "zeros": true}}
+      ]
+    },
+    {
+      "code": "mult_tables",
+      "name": "Multiplication Tables",
+      "levels": [
+        {"code": "MT-2",  "seq": 1,  "title": "×2 table",  "gen": {"type": "table", "table": 2,  "range": [1, 12]}},
+        {"code": "MT-3",  "seq": 2,  "title": "×3 table",  "gen": {"type": "table", "table": 3,  "range": [1, 12]}},
+        {"code": "MT-4",  "seq": 3,  "title": "×4 table",  "gen": {"type": "table", "table": 4,  "range": [1, 12]}},
+        {"code": "MT-5",  "seq": 4,  "title": "×5 table",  "gen": {"type": "table", "table": 5,  "range": [1, 12]}},
+        {"code": "MT-10", "seq": 5,  "title": "×10 table", "gen": {"type": "table", "table": 10, "range": [1, 12]}},
+        {"code": "MT-6",  "seq": 6,  "title": "×6 table",  "gen": {"type": "table", "table": 6,  "range": [1, 12]}},
+        {"code": "MT-7",  "seq": 7,  "title": "×7 table",  "gen": {"type": "table", "table": 7,  "range": [1, 12]}},
+        {"code": "MT-8",  "seq": 8,  "title": "×8 table",  "gen": {"type": "table", "table": 8,  "range": [1, 12]}},
+        {"code": "MT-9",  "seq": 9,  "title": "×9 table",  "gen": {"type": "table", "table": 9,  "range": [1, 12]}},
+        {"code": "MT-11", "seq": 10, "title": "×11 table", "gen": {"type": "table", "table": 11, "range": [1, 12]}},
+        {"code": "MT-12", "seq": 11, "title": "×12 table", "gen": {"type": "table", "table": 12, "range": [1, 12]}},
+        {"code": "MT-MIX", "seq": 12, "title": "All tables 2-12, mixed and shuffled",
+         "gen": {"type": "table_mixed", "tables": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "range": [1, 12]}}
+      ]
+    },
+    {
+      "code": "multiplication",
+      "name": "Multiplication (multi-digit)",
+      "levels": [
+        {"code": "MUL-1", "seq": 1, "title": "2-digit × 1-digit, no carrying",
+         "gen": {"type": "mul", "digits_a": 2, "digits_b": 1, "carry": false}},
+        {"code": "MUL-2", "seq": 2, "title": "2-digit × 1-digit, with carrying",
+         "gen": {"type": "mul", "digits_a": 2, "digits_b": 1, "carry": true}},
+        {"code": "MUL-3", "seq": 3, "title": "3-digit × 1-digit",
+         "gen": {"type": "mul", "digits_a": 3, "digits_b": 1, "carry": true}},
+        {"code": "MUL-4", "seq": 4, "title": "2-digit × 2-digit",
+         "gen": {"type": "mul", "digits_a": 2, "digits_b": 2, "carry": true}},
+        {"code": "MUL-5", "seq": 5, "title": "3-digit × 2-digit",
+         "gen": {"type": "mul", "digits_a": 3, "digits_b": 2, "carry": true}}
+      ]
+    },
+    {
+      "code": "division",
+      "name": "Division",
+      "levels": [
+        {"code": "DIV-1", "seq": 1, "title": "Division facts within tables (exact)",
+         "gen": {"type": "div_fact", "range": [2, 12]}},
+        {"code": "DIV-2", "seq": 2, "title": "2-digit ÷ 1-digit, exact, no remainder",
+         "gen": {"type": "div", "digits_dividend": 2, "divisor": [2, 9], "remainder": false}},
+        {"code": "DIV-3", "seq": 3, "title": "2-digit ÷ 1-digit, with remainder",
+         "gen": {"type": "div", "digits_dividend": 2, "divisor": [2, 9], "remainder": true}},
+        {"code": "DIV-4", "seq": 4, "title": "3-digit ÷ 1-digit, with remainder",
+         "gen": {"type": "div", "digits_dividend": 3, "divisor": [2, 9], "remainder": true}},
+        {"code": "DIV-5", "seq": 5, "title": "3-digit ÷ 2-digit",
+         "gen": {"type": "div", "digits_dividend": 3, "divisor": [10, 30], "remainder": true}}
+      ]
+    }
+  ]
+}
