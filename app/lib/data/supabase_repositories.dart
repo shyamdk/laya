@@ -194,3 +194,88 @@ class EdgeAiRepository implements AiRepository {
     return data['explanation'] as String;
   }
 }
+
+class SupabaseDrillRepository implements DrillRepository {
+  final SupabaseClient _db;
+  SupabaseDrillRepository(this._db);
+
+  @override
+  Future<List<DrillStrand>> strands() async {
+    final rows = await _db.from('drill_strands').select().order('seq', ascending: true);
+    return rows
+        .map((m) => DrillStrand(id: m['id'] as int, code: m['code'] as String, name: m['name'] as String))
+        .toList();
+  }
+
+  @override
+  Future<List<DrillLevel>> levels(String strandCode) async {
+    final rows = await _db
+        .from('drill_levels')
+        .select('*, drill_strands!inner(code)')
+        .eq('drill_strands.code', strandCode)
+        .order('seq', ascending: true);
+    return rows
+        .map((m) => DrillLevel(
+              id: m['id'] as int,
+              strandId: m['strand_id'] as int,
+              code: m['code'] as String,
+              seq: m['seq'] as int,
+              title: m['title'] as String,
+              gen: (m['gen'] as Map).cast<String, dynamic>(),
+            ))
+        .toList();
+  }
+
+  @override
+  Future<Map<int, DrillProgress>> progress(String strandCode) async {
+    final rows = await _db
+        .from('drill_progress')
+        .select('level_id, status, baseline_seconds, best_seconds, consecutive_passes, '
+            'attempts_count, drill_levels!inner(strand_id, drill_strands!inner(code))')
+        .eq('drill_levels.drill_strands.code', strandCode);
+    return {
+      for (final m in rows)
+        m['level_id'] as int: DrillProgress(
+          status: m['status'] as String,
+          baselineSeconds: m['baseline_seconds'] as num?,
+          bestSeconds: m['best_seconds'] as num?,
+          consecutivePasses: m['consecutive_passes'] as int,
+          attemptsCount: m['attempts_count'] as int,
+        ),
+    };
+  }
+
+  @override
+  Future<DrillAttemptResult> recordAttempt({
+    required int levelId,
+    required int total,
+    required int correct,
+    required num secondsTaken,
+  }) async {
+    // The ONLY write path — mirrors record_attempt() for the MCQ engine.
+    // There is no INSERT policy on drill_attempts/drill_progress.
+    final res = await _db.rpc('record_drill_attempt', params: {
+      'p_level_id': levelId,
+      'p_total': total,
+      'p_correct': correct,
+      'p_seconds_taken': secondsTaken,
+    }) as Map<String, dynamic>;
+
+    return DrillAttemptResult(
+      passed: res['passed'] as bool,
+      mastered: res['mastered'] as bool,
+      isFirst: res['is_first'] as bool,
+      baselineSeconds: res['baseline_seconds'] as num,
+      targetSeconds: res['target_seconds'] as num,
+      consecutivePasses: res['consecutive_passes'] as int,
+    );
+  }
+
+  @override
+  Future<void> setPlacement({required String strandCode, required String levelCode}) async {
+    await _db.rpc('set_drill_placement', params: {
+      'p_strand': strandCode,
+      'p_level_code': levelCode,
+    });
+  }
+}

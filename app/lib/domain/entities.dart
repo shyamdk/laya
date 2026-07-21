@@ -174,3 +174,75 @@ class SkillMastery {
     required this.mastery,
   });
 }
+
+/// Speed & accuracy drills — a Kumon-style track, separate from the Leitner
+/// question banks above. A strand is an operation (Addition, Times Tables...);
+/// a level is one single-step skill within it (see content/data/drill_levels.json).
+class DrillStrand {
+  final int id;
+  final String code;
+  final String name;
+  const DrillStrand({required this.id, required this.code, required this.name});
+}
+
+class DrillLevel {
+  final int id;
+  final int strandId;
+  final String code; // 'ADD-3'
+  final int seq;
+  final String title;
+
+  /// The procedural generation spec — fed straight into [buildSheet].
+  final Map<String, dynamic> gen;
+
+  const DrillLevel({
+    required this.id,
+    required this.strandId,
+    required this.code,
+    required this.seq,
+    required this.title,
+    required this.gen,
+  });
+}
+
+/// A student's progress on one level. Absent (no row yet) means she hasn't
+/// touched it — the UI treats the first level of a strand as active and
+/// everything after it as locked in that case (see [effectiveDrillStatus]).
+class DrillProgress {
+  final String status; // 'locked' | 'active' | 'mastered'
+  final num? baselineSeconds;
+  final num? bestSeconds;
+  final int consecutivePasses;
+  final int attemptsCount;
+
+  const DrillProgress({
+    required this.status,
+    required this.consecutivePasses,
+    required this.attemptsCount,
+    this.baselineSeconds,
+    this.bestSeconds,
+  });
+}
+
+String effectiveDrillStatus(int seq, DrillProgress? p) =>
+    p?.status ?? (seq == 1 ? 'active' : 'locked');
+
+/// What record_drill_attempt() decided — the client never grades speed or
+/// accuracy itself (same rule as [AttemptResult] for the MCQ engine).
+class DrillAttemptResult {
+  final bool passed;
+  final bool mastered;
+  final bool isFirst; // true if this attempt set the baseline time
+  final num baselineSeconds;
+  final num targetSeconds;
+  final int consecutivePasses;
+
+  const DrillAttemptResult({
+    required this.passed,
+    required this.mastered,
+    required this.isFirst,
+    required this.baselineSeconds,
+    required this.targetSeconds,
+    required this.consecutivePasses,
+  });
+}

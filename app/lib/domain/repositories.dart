@@ -55,3 +55,25 @@ abstract class AiRepository {
     String? studentQuestion,
   });
 }
+
+abstract class DrillRepository {
+  Future<List<DrillStrand>> strands();
+  Future<List<DrillLevel>> levels(String strandCode);
+
+  /// Keyed by level id. A level with no entry hasn't been attempted yet.
+  Future<Map<int, DrillProgress>> progress(String strandCode);
+
+  /// Records a worksheet attempt. The database — not the client — decides
+  /// pass/fail and whether the next level unlocks (ADR-008 applies to a
+  /// stopwatch just as much as to a Leitner box).
+  Future<DrillAttemptResult> recordAttempt({
+    required int levelId,
+    required int total,
+    required int correct,
+    required num secondsTaken,
+  });
+
+  /// Placement diagnostic: marks everything before [levelCode] as mastered
+  /// (already fluent, skip it) and unlocks [levelCode] itself.
+  Future<void> setPlacement({required String strandCode, required String levelCode});
+}

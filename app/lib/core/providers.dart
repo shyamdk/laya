@@ -24,6 +24,8 @@ final learningRepoProvider = Provider<LearningRepository>(
     (ref) => SupabaseLearningRepository(ref.watch(supabaseProvider)));
 final aiRepoProvider = Provider<AiRepository>(
     (ref) => EdgeAiRepository(ref.watch(supabaseProvider)));
+final drillRepoProvider = Provider<DrillRepository>(
+    (ref) => SupabaseDrillRepository(ref.watch(supabaseProvider)));
 
 final authStateProvider = StreamProvider<AuthState>(
     (ref) => ref.watch(supabaseProvider).auth.onAuthStateChange);
@@ -58,3 +60,12 @@ final masteryProvider = FutureProvider<List<SkillMastery>>(
 
 final dueTodayProvider = FutureProvider<int>(
     (ref) => ref.watch(learningRepoProvider).dueTodayCount());
+
+final drillStrandsProvider = FutureProvider<List<DrillStrand>>(
+    (ref) => ref.watch(drillRepoProvider).strands());
+
+final drillLevelsProvider = FutureProvider.family<List<DrillLevel>, String>(
+    (ref, strandCode) => ref.watch(drillRepoProvider).levels(strandCode));
+
+final drillProgressProvider = FutureProvider.family<Map<int, DrillProgress>, String>(
+    (ref, strandCode) => ref.watch(drillRepoProvider).progress(strandCode));

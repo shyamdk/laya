@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/providers.dart';
 import '../../widgets/math_text.dart';
 import '../dashboard/dashboard_screen.dart';
+import '../drills/drills_home_screen.dart';
 import '../learn/learn_screen.dart';
 import '../test/test_setup_screen.dart';
 
@@ -75,6 +76,16 @@ class HomeScreen extends ConsumerWidget {
                 onTap: () => Navigator.of(context).push(
                     MaterialPageRoute(builder: (_) => const DashboardScreen())),
               ),
+              if (subject.code == 'maths')
+                _ModeCard(
+                  icon: Icons.speed_outlined,
+                  title: 'Speed Drills',
+                  subtitle:
+                      'Short, timed worksheets — addition to division, mastered one small step at a time.',
+                  color: Colors.deepPurple,
+                  onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const DrillsHomeScreen())),
+                ),
               const SizedBox(height: 20),
               chapters.when(
                 loading: () => const Center(child: CircularProgressIndicator()),
