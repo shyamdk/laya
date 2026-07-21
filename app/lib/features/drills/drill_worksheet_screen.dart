@@ -69,6 +69,7 @@ class _DrillWorksheetScreenState extends ConsumerState<DrillWorksheetScreen> {
             secondsTaken: seconds,
           );
       ref.invalidate(drillProgressProvider(widget.strandCode));
+      ref.invalidate(drillAttemptsProvider(widget.level.id));
       if (!mounted) return;
       await showDialog(
         context: context,

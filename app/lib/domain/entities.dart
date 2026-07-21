@@ -246,3 +246,69 @@ class DrillAttemptResult {
     required this.consecutivePasses,
   });
 }
+
+/// One past worksheet attempt on a level — the raw material for the "last
+/// few runs" / best-average-worst history shown on the ladder.
+class DrillAttemptRecord {
+  final num secondsTaken;
+  final int correct;
+  final int total;
+  final bool passed;
+  final DateTime createdAt;
+
+  const DrillAttemptRecord({
+    required this.secondsTaken,
+    required this.correct,
+    required this.total,
+    required this.passed,
+    required this.createdAt,
+  });
+}
+
+/// One row from admin_activity_log() — who opened what, and when. Visible
+/// only to the parent/admin account (ADR: no client can read another
+/// student's rows directly; the database enforces that, not this class).
+class AccessLogEntry {
+  final String userEmail;
+  final String displayName;
+  final String module;
+  final String? subjectCode;
+  final String? chapterCode;
+  final String? drillStrandCode;
+  final String? drillLevelCode;
+  final DateTime createdAt;
+
+  const AccessLogEntry({
+    required this.userEmail,
+    required this.displayName,
+    required this.module,
+    required this.createdAt,
+    this.subjectCode,
+    this.chapterCode,
+    this.drillStrandCode,
+    this.drillLevelCode,
+  });
+
+  /// A short human label, e.g. "Maths → Test (ch1, ch2)" or
+  /// "Drills → Addition → ADD-3".
+  String get label {
+    switch (module) {
+      case 'subject_home':
+        return 'Opened ${subjectCode ?? 'a subject'}';
+      case 'learn_chapter':
+        return 'Learn → ${subjectCode ?? ''} → ${chapterCode ?? ''}';
+      case 'test_run':
+        return 'Test → ${subjectCode ?? ''} → ${chapterCode ?? ''}';
+      case 'progress':
+        return 'Progress → ${subjectCode ?? ''}';
+      case 'drills_home':
+        return 'Speed Drills';
+      case 'drills_strand':
+        return 'Drills → ${drillStrandCode ?? ''}';
+      case 'drills_worksheet':
+        return 'Drills → ${drillStrandCode ?? ''} → ${drillLevelCode ?? ''}';
+      default:
+        return module;
+    }
+  }
+}

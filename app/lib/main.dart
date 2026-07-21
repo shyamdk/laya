@@ -4,6 +4,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'core/providers.dart';
 import 'features/auth/auth_screen.dart';
+import 'features/auth/reset_password_screen.dart';
 import 'features/home/subject_picker.dart';
 
 Future<void> main() async {
@@ -27,8 +28,17 @@ class LayaApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // Rebuild on sign-in / sign-out.
+    // Rebuild on sign-in / sign-out, and catch the one-off password-recovery
+    // event fired when a reset-password email link is clicked.
+    ref.listen(authStateProvider, (_, next) {
+      next.whenData((state) {
+        if (state.event == AuthChangeEvent.passwordRecovery) {
+          ref.read(passwordRecoveryProvider.notifier).set(true);
+        }
+      });
+    });
     ref.watch(authStateProvider);
+    final recovering = ref.watch(passwordRecoveryProvider);
     final session = Supabase.instance.client.auth.currentSession;
 
     return MaterialApp(
@@ -39,7 +49,9 @@ class LayaApp extends ConsumerWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1F3A5F)),
         cardTheme: const CardThemeData(elevation: 1),
       ),
-      home: session == null ? const AuthScreen() : const SubjectPicker(),
+      home: recovering
+          ? const ResetPasswordScreen()
+          : (session == null ? const AuthScreen() : const SubjectPicker()),
     );
   }
 }

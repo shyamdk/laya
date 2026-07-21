@@ -73,8 +73,12 @@ class _StrandCard extends ConsumerWidget {
       margin: const EdgeInsets.only(bottom: 12),
       child: InkWell(
         borderRadius: BorderRadius.circular(12),
-        onTap: () => Navigator.of(context)
-            .push(MaterialPageRoute(builder: (_) => DrillStrandScreen(strand: strand))),
+        onTap: () {
+          ref.read(trackingRepoProvider).logAccess(
+              module: 'drills_strand', drillStrandCode: strand.code);
+          Navigator.of(context)
+              .push(MaterialPageRoute(builder: (_) => DrillStrandScreen(strand: strand)));
+        },
         child: Padding(
           padding: const EdgeInsets.all(18),
           child: Row(

@@ -26,9 +26,33 @@ final aiRepoProvider = Provider<AiRepository>(
     (ref) => EdgeAiRepository(ref.watch(supabaseProvider)));
 final drillRepoProvider = Provider<DrillRepository>(
     (ref) => SupabaseDrillRepository(ref.watch(supabaseProvider)));
+final trackingRepoProvider = Provider<TrackingRepository>(
+    (ref) => SupabaseTrackingRepository(ref.watch(supabaseProvider)));
 
 final authStateProvider = StreamProvider<AuthState>(
     (ref) => ref.watch(supabaseProvider).auth.onAuthStateChange);
+
+/// Flipped true when Supabase reports AuthChangeEvent.passwordRecovery (the
+/// student clicked a reset-password email link). LayaApp shows
+/// ResetPasswordScreen instead of the normal home while this is true.
+class PasswordRecoveryFlag extends Notifier<bool> {
+  @override
+  bool build() => false;
+  void set(bool v) => state = v;
+}
+
+final passwordRecoveryProvider =
+    NotifierProvider<PasswordRecoveryFlag, bool>(PasswordRecoveryFlag.new);
+
+/// Whether the signed-in user is the parent/admin account — gates the
+/// Activity screen. False (not an error) if not signed in or the query fails.
+final isAdminProvider = FutureProvider<bool>((ref) async {
+  final db = ref.watch(supabaseProvider);
+  final uid = db.auth.currentUser?.id;
+  if (uid == null) return false;
+  final row = await db.from('profiles').select('is_admin').eq('id', uid).maybeSingle();
+  return row?['is_admin'] as bool? ?? false;
+});
 
 final subjectsProvider = FutureProvider<List<Subject>>(
     (ref) => ref.watch(contentRepoProvider).subjects());
@@ -69,3 +93,9 @@ final drillLevelsProvider = FutureProvider.family<List<DrillLevel>, String>(
 
 final drillProgressProvider = FutureProvider.family<Map<int, DrillProgress>, String>(
     (ref, strandCode) => ref.watch(drillRepoProvider).progress(strandCode));
+
+final drillAttemptsProvider = FutureProvider.family<List<DrillAttemptRecord>, int>(
+    (ref, levelId) => ref.watch(drillRepoProvider).recentAttempts(levelId));
+
+final activityLogProvider = FutureProvider<List<AccessLogEntry>>(
+    (ref) => ref.watch(trackingRepoProvider).activity());

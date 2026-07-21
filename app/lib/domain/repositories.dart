@@ -76,4 +76,25 @@ abstract class DrillRepository {
   /// Placement diagnostic: marks everything before [levelCode] as mastered
   /// (already fluent, skip it) and unlocks [levelCode] itself.
   Future<void> setPlacement({required String strandCode, required String levelCode});
+
+  /// Recent worksheet attempts on a level, newest first — the "last few
+  /// runs" / best-average-worst history shown on the ladder.
+  Future<List<DrillAttemptRecord>> recentAttempts(int levelId, {int limit = 10});
+}
+
+abstract class TrackingRepository {
+  /// Fire-and-forget: records that this user opened a module, down to the
+  /// chapter/drill-level, for the parent's activity view. Never blocks or
+  /// surfaces errors to the student — it's telemetry, not a feature.
+  Future<void> logAccess({
+    required String module,
+    String? subjectCode,
+    String? chapterCode,
+    String? drillStrandCode,
+    String? drillLevelCode,
+  });
+
+  /// Every user's activity, newest first. Only resolves for the admin
+  /// account — the database rejects anyone else (see admin_activity_log()).
+  Future<List<AccessLogEntry>> activity({int limit = 200});
 }

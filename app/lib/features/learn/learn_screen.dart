@@ -31,9 +31,15 @@ class LearnChapterPicker extends ConsumerWidget {
                       title: Text(c.title),
                       subtitle: const Text('Concepts, then practice'),
                       trailing: const Icon(Icons.chevron_right),
-                      onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                        builder: (_) => LearnChapterScreen(chapter: c),
-                      )),
+                      onTap: () {
+                        ref.read(trackingRepoProvider).logAccess(
+                            module: 'learn_chapter',
+                            subjectCode: subject?.code,
+                            chapterCode: c.code);
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (_) => LearnChapterScreen(chapter: c),
+                        ));
+                      },
                     ),
                   ),
               ],

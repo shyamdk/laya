@@ -73,8 +73,13 @@ class HomeScreen extends ConsumerWidget {
                 title: 'Progress',
                 subtitle: 'Mastery by skill — see what to work on next.',
                 color: Colors.teal,
-                onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute(builder: (_) => const DashboardScreen())),
+                onTap: () {
+                  ref
+                      .read(trackingRepoProvider)
+                      .logAccess(module: 'progress', subjectCode: subject.code);
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const DashboardScreen()));
+                },
               ),
               if (subject.code == 'maths')
                 _ModeCard(
@@ -83,8 +88,11 @@ class HomeScreen extends ConsumerWidget {
                   subtitle:
                       'Short, timed worksheets — addition to division, mastered one small step at a time.',
                   color: Colors.deepPurple,
-                  onTap: () => Navigator.of(context).push(
-                      MaterialPageRoute(builder: (_) => const DrillsHomeScreen())),
+                  onTap: () {
+                    ref.read(trackingRepoProvider).logAccess(module: 'drills_home');
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => const DrillsHomeScreen()));
+                  },
                 ),
               const SizedBox(height: 20),
               chapters.when(

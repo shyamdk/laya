@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/auth_errors.dart';
 import '../../core/providers.dart';
 
 class AuthScreen extends ConsumerStatefulWidget {
@@ -15,6 +16,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
   final _password = TextEditingController();
   bool _signUp = false;
   bool _busy = false;
+  bool _touchedEmail = false;
   String? _error;
 
   @override
@@ -23,6 +25,14 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
     _password.dispose();
     super.dispose();
   }
+
+  String? get _emailError {
+    if (!_touchedEmail || _email.text.isEmpty) return null;
+    return isValidEmail(_email.text) ? null : 'Enter a valid email address';
+  }
+
+  bool get _canSubmit =>
+      isValidEmail(_email.text) && _password.text.length >= 6 && !_busy;
 
   Future<void> _go() async {
     setState(() {
@@ -38,9 +48,56 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
             email: _email.text.trim(), password: _password.text);
       }
     } catch (e) {
-      if (mounted) setState(() => _error = '$e');
+      if (mounted) setState(() => _error = friendlyAuthError(e));
     } finally {
       if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  Future<void> _forgotPassword() async {
+    final controller = TextEditingController(text: _email.text.trim());
+    final email = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Reset your password'),
+        content: TextField(
+          controller: controller,
+          keyboardType: TextInputType.emailAddress,
+          autofocus: true,
+          decoration: const InputDecoration(
+              labelText: 'Email', border: OutlineInputBorder()),
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('Cancel')),
+          FilledButton(
+            onPressed: () => Navigator.pop(ctx, controller.text.trim()),
+            child: const Text('Send reset link'),
+          ),
+        ],
+      ),
+    );
+    if (email == null || email.isEmpty) return;
+    if (!isValidEmail(email)) {
+      if (mounted) {
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('Enter a valid email address')));
+      }
+      return;
+    }
+    try {
+      await ref.read(supabaseProvider).auth.resetPasswordForEmail(
+            email,
+            redirectTo: Uri.base.origin,
+          );
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+            content: Text('If that email is registered, a reset link has been sent.')));
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context)
+            .showSnackBar(SnackBar(content: Text(friendlyAuthError(e))));
+      }
     }
   }
 
@@ -67,25 +124,41 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                 TextField(
                   controller: _email,
                   keyboardType: TextInputType.emailAddress,
-                  decoration: const InputDecoration(
-                      labelText: 'Email', border: OutlineInputBorder()),
+                  onChanged: (_) => setState(() => _touchedEmail = true),
+                  decoration: InputDecoration(
+                    labelText: 'Email',
+                    border: const OutlineInputBorder(),
+                    errorText: _emailError,
+                  ),
                 ),
                 const SizedBox(height: 12),
                 TextField(
                   controller: _password,
                   obscureText: true,
-                  onSubmitted: (_) => _go(),
+                  onChanged: (_) => setState(() {}),
+                  onSubmitted: (_) => _canSubmit ? _go() : null,
                   decoration: const InputDecoration(
-                      labelText: 'Password', border: OutlineInputBorder()),
+                    labelText: 'Password',
+                    helperText: 'At least 6 characters',
+                    border: OutlineInputBorder(),
+                  ),
                 ),
+                if (!_signUp)
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                      onPressed: _busy ? null : _forgotPassword,
+                      child: const Text('Forgot password?'),
+                    ),
+                  ),
                 if (_error != null) ...[
                   const SizedBox(height: 12),
                   Text(_error!,
                       style: const TextStyle(color: Colors.red, fontSize: 12.5)),
                 ],
-                const SizedBox(height: 18),
+                const SizedBox(height: 8),
                 FilledButton(
-                  onPressed: _busy ? null : _go,
+                  onPressed: _canSubmit ? _go : null,
                   child: _busy
                       ? const SizedBox(
                           height: 18,
@@ -94,7 +167,10 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                       : Text(_signUp ? 'Create account' : 'Sign in'),
                 ),
                 TextButton(
-                  onPressed: () => setState(() => _signUp = !_signUp),
+                  onPressed: () => setState(() {
+                    _signUp = !_signUp;
+                    _error = null;
+                  }),
                   child: Text(_signUp
                       ? 'I already have an account'
                       : 'Create an account'),

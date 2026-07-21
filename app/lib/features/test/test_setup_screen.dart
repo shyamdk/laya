@@ -84,13 +84,19 @@ class _TestSetupScreenState extends ConsumerState<TestSetupScreen> {
               FilledButton.icon(
                 onPressed: _chapters.isEmpty
                     ? null
-                    : () => Navigator.of(context).push(MaterialPageRoute(
+                    : () {
+                        ref.read(trackingRepoProvider).logAccess(
+                            module: 'test_run',
+                            subjectCode: subject?.code,
+                            chapterCode: _chapters.join(','));
+                        Navigator.of(context).push(MaterialPageRoute(
                           builder: (_) => TestRunScreen(
                             chapters: _chapters.toList(),
                             difficulty: _difficulty,
                             count: _count,
                           ),
-                        )),
+                        ));
+                      },
                 icon: const Icon(Icons.play_arrow),
                 label: const Text('Start test'),
               ),

@@ -278,4 +278,66 @@ class SupabaseDrillRepository implements DrillRepository {
       'p_level_code': levelCode,
     });
   }
+
+  @override
+  Future<List<DrillAttemptRecord>> recentAttempts(int levelId, {int limit = 10}) async {
+    final rows = await _db
+        .from('drill_attempts')
+        .select('seconds_taken, correct, total, passed, created_at')
+        .eq('level_id', levelId)
+        .order('created_at', ascending: false)
+        .limit(limit);
+    return rows
+        .map((m) => DrillAttemptRecord(
+              secondsTaken: m['seconds_taken'] as num,
+              correct: m['correct'] as int,
+              total: m['total'] as int,
+              passed: m['passed'] as bool,
+              createdAt: DateTime.parse(m['created_at'] as String),
+            ))
+        .toList();
+  }
+}
+
+class SupabaseTrackingRepository implements TrackingRepository {
+  final SupabaseClient _db;
+  SupabaseTrackingRepository(this._db);
+
+  @override
+  Future<void> logAccess({
+    required String module,
+    String? subjectCode,
+    String? chapterCode,
+    String? drillStrandCode,
+    String? drillLevelCode,
+  }) async {
+    try {
+      await _db.rpc('log_access', params: {
+        'p_module': module,
+        'p_subject_code': subjectCode,
+        'p_chapter_code': chapterCode,
+        'p_drill_strand_code': drillStrandCode,
+        'p_drill_level_code': drillLevelCode,
+      });
+    } catch (_) {
+      // Telemetry only — never let a logging hiccup block navigation.
+    }
+  }
+
+  @override
+  Future<List<AccessLogEntry>> activity({int limit = 200}) async {
+    final rows = await _db.rpc('admin_activity_log', params: {'p_limit': limit}) as List;
+    return rows
+        .map((m) => AccessLogEntry(
+              userEmail: m['user_email'] as String,
+              displayName: m['display_name'] as String,
+              module: m['module'] as String,
+              subjectCode: m['subject_code'] as String?,
+              chapterCode: m['chapter_code'] as String?,
+              drillStrandCode: m['drill_strand_code'] as String?,
+              drillLevelCode: m['drill_level_code'] as String?,
+              createdAt: DateTime.parse(m['created_at'] as String),
+            ))
+        .toList();
+  }
 }

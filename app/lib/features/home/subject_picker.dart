@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
 import '../../domain/entities.dart';
+import '../admin/activity_screen.dart';
 import 'home_screen.dart';
 
 /// First screen after sign-in: pick a subject.
@@ -12,11 +13,19 @@ class SubjectPicker extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final subjects = ref.watch(subjectsProvider);
+    final isAdmin = ref.watch(isAdminProvider).maybeWhen(data: (v) => v, orElse: () => false);
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Laya'),
         actions: [
+          if (isAdmin)
+            IconButton(
+              tooltip: 'Activity',
+              icon: const Icon(Icons.history),
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const ActivityScreen())),
+            ),
           IconButton(
             tooltip: 'Sign out',
             icon: const Icon(Icons.logout),
@@ -82,6 +91,8 @@ class _SubjectCard extends ConsumerWidget {
         borderRadius: BorderRadius.circular(12),
         onTap: () {
           ref.read(currentSubjectProvider.notifier).select(subject);
+          ref.read(trackingRepoProvider).logAccess(
+              module: 'subject_home', subjectCode: subject.code);
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (_) => const HomeScreen()));
         },

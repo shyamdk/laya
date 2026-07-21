@@ -61,7 +61,7 @@ class DrillStrandScreen extends ConsumerWidget {
   }
 }
 
-class _LevelTile extends StatelessWidget {
+class _LevelTile extends ConsumerWidget {
   final DrillLevel level;
   final String status;
   final DrillProgress? progressRow;
@@ -75,7 +75,7 @@ class _LevelTile extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final locked = status == 'locked';
     final mastered = status == 'mastered';
 
@@ -96,19 +96,72 @@ class _LevelTile extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.only(bottom: 8),
       color: mastered ? Colors.green.withValues(alpha: 0.05) : null,
-      child: ListTile(
-        enabled: !locked,
-        leading: Icon(icon, color: locked ? Colors.grey.shade400 : color),
-        title: Text(level.title,
-            style: TextStyle(fontWeight: FontWeight.w600, color: locked ? Colors.grey.shade500 : null)),
-        subtitle: Text('${level.code}${subtitle != null ? '  ·  $subtitle' : ''}',
-            style: TextStyle(color: locked ? Colors.grey.shade400 : Colors.grey.shade600)),
-        trailing: locked ? null : const Icon(Icons.chevron_right),
-        onTap: locked
-            ? null
-            : () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (_) => DrillWorksheetScreen(level: level, strandCode: strandCode))),
+      child: Column(
+        children: [
+          ListTile(
+            enabled: !locked,
+            leading: Icon(icon, color: locked ? Colors.grey.shade400 : color),
+            title: Text(level.title,
+                style: TextStyle(
+                    fontWeight: FontWeight.w600, color: locked ? Colors.grey.shade500 : null)),
+            subtitle: Text('${level.code}${subtitle != null ? '  ·  $subtitle' : ''}',
+                style: TextStyle(color: locked ? Colors.grey.shade400 : Colors.grey.shade600)),
+            trailing: locked ? null : const Icon(Icons.chevron_right),
+            onTap: locked
+                ? null
+                : () {
+                    ref.read(trackingRepoProvider).logAccess(
+                        module: 'drills_worksheet',
+                        drillStrandCode: strandCode,
+                        drillLevelCode: level.code);
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (_) => DrillWorksheetScreen(level: level, strandCode: strandCode)));
+                  },
+          ),
+          if (!locked) _RunHistory(levelId: level.id),
+        ],
       ),
+    );
+  }
+}
+
+/// "Save the time for every run, show the last few plus best/avg/worst" —
+/// pulled straight from drill_attempts, newest first.
+class _RunHistory extends ConsumerWidget {
+  final int levelId;
+  const _RunHistory({required this.levelId});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final attempts = ref.watch(drillAttemptsProvider(levelId));
+    return attempts.when(
+      loading: () => const SizedBox.shrink(),
+      error: (_, __) => const SizedBox.shrink(),
+      data: (list) {
+        if (list.isEmpty) return const SizedBox.shrink();
+        final times = list.map((a) => a.secondsTaken.toDouble()).toList();
+        final last3 = times.take(3).map((t) => '${t.toStringAsFixed(1)}s').join(', ');
+        final best = times.reduce((a, b) => a < b ? a : b);
+        final worst = times.reduce((a, b) => a > b ? a : b);
+        final avg = times.reduce((a, b) => a + b) / times.length;
+
+        return Padding(
+          padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Last runs: $last3',
+                  style: TextStyle(fontSize: 11.5, color: Colors.grey.shade600)),
+              Text(
+                'Best ${best.toStringAsFixed(1)}s  ·  '
+                'Avg ${avg.toStringAsFixed(1)}s  ·  '
+                'Worst ${worst.toStringAsFixed(1)}s',
+                style: TextStyle(fontSize: 11.5, color: Colors.grey.shade600),
+              ),
+            ],
+          ),
+        );
+      },
     );
   }
 }

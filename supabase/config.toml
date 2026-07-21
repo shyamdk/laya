@@ -156,11 +156,17 @@ max_indexes = 5
 enabled = true
 # The base URL of your website. Used as an allow-list for redirects and for constructing URLs used
 # in emails.
-site_url = "http://127.0.0.1:3000"
+site_url = "http://127.0.0.1:8099"
 # The public URL that Auth serves on. Defaults to the API external URL with `/auth/v1` appended.
 # external_url = ""
 # A list of *exact* URLs that auth providers are permitted to redirect to post authentication.
-additional_redirect_urls = ["https://127.0.0.1:3000"]
+# Local dev app has been served from both of these ports depending on how it's launched
+# (`flutter run` vs a static build) — both are allow-listed for the password-reset redirect.
+additional_redirect_urls = [
+  "https://127.0.0.1:3000",
+  "http://127.0.0.1:8099", "http://localhost:8099",
+  "http://127.0.0.1:3000", "http://localhost:3000",
+]
 # How long tokens are valid for, in seconds. Defaults to 3600 (1 hour), maximum 604,800 (1 week).
 jwt_expiry = 3600
 # JWT issuer URL. If not set, defaults to auth.external_url.
@@ -233,14 +239,17 @@ otp_length = 6
 # Number of seconds before the email OTP expires (defaults to 1 hour).
 otp_expiry = 3600
 
-# Use a production-ready SMTP server
-# [auth.email.smtp]
-# enabled = true
-# host = "smtp.sendgrid.net"
-# port = 587
-# user = "apikey"
-# pass = "env(SENDGRID_API_KEY)"
-# admin_email = "admin@email.com"
+# Real SMTP so password-reset (etc.) emails actually get delivered instead of
+# only landing in the local Inbucket catcher. Values come from supabase/.env
+# (gitignored) via env() — see that file for SMTP_USER/SMTP_PASSWORD/NOTIFY_EMAIL.
+[auth.email.smtp]
+enabled = true
+host = "smtp.gmail.com"
+port = 587
+user = "env(SMTP_USER)"
+pass = "env(SMTP_PASSWORD)"
+admin_email = "env(NOTIFY_EMAIL)"
+sender_name = "Laya"
 # sender_name = "Admin"
 
 # Uncomment to customize email template
